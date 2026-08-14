@@ -1,0 +1,8 @@
+{
+     "transactionDate": "27 July 2026",
+     "transactionAmount": 1000.00,
+     "paymentTypeId": 1,
+     "dateFormat": "dd MMMM yyyy",
+     "locale": "en"
+   }
+

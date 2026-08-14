@@ -1,0 +1,97 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/header/div/div/div/a/img
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - index
+   rhs:
+      type: text
+      value: Cart icon
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section/h3
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickCarticon_2
+   rhs:
+      type: text
+      value: Your shopping cart is empty!
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/header/nav/div/div/a/img
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - Home
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section/h3
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - Cart
+   rhs:
+      type: text
+      value: Your shopping cart is empty!

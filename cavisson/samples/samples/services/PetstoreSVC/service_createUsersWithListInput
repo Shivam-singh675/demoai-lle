@@ -1,0 +1,20 @@
+{
+    "code": 200,
+    "type": "success",
+    "message": "Users created successfully",
+    "data": [
+        {
+            "id": 1001,
+            "username": "johndoe",
+            "userStatus": 1,
+            "apiKey": "abc4578xyz456"
+        },
+        {
+            "id": 1002,
+            "username": "janedoe",
+            "userStatus": 1,
+            "apiKey": "abc123plm456"
+            
+        }
+    ]
+}

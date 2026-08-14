@@ -1,0 +1,36 @@
+POST /fineract-provider/api/v1/authentication HTTP/1.1
+
+POST /fineract-provider/api/v1/clients HTTP/1.1
+
+POST /fineract-provider/api/v1/clients HTTP/1.1
+
+POST /fineract-provider/api/v1/clients HTTP/1.1
+
+GET / HTTP/1.1
+
+GET / HTTP/1.1
+
+GET / HTTP/1.1
+
+POST /fineract-provider/api/v1/authentication HTTP/1.1
+
+POST /fineract-provider/api/v1/authentication HTTP/1.1
+
+POST /fineract-provider/api/v1/clients HTTP/1.1
+
+POST /fineract-provider/api/v1/clients HTTP/1.1
+
+OPTIONS /fineract-provider/actuator/info HTTP/1.1
+
+GET /fineract-provider/actuator/info HTTP/1.1
+
+POST /fineract-provider/api/v1/clients HTTP/1.1
+
+POST /fineract-provider/api/v1/authentication HTTP/1.1
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+
+POST /fineract-provider/api/v1/savingsaccounts/2?command=approve HTTP/1.1
+
+POST /fineract-provider/api/v1/savingsproducts HTTP/1.1
+

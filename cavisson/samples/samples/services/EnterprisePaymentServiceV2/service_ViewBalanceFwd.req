@@ -1,0 +1,12 @@
+{
+    "RequestType": "ViewBalance",
+    "Version": "V5",
+    "AssociateAccount": [
+        {
+            "accId": "1234567",
+            "encryptedsecuritycode": "Z3loZDIzNjdibg==",
+            "phonenum": "9877654321",
+            "originator": "cavisson"
+        }
+    ]
+}

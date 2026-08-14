@@ -1,0 +1,29 @@
+{
+    "fromOfficeId": 1,
+    "fromClientId": {userIdParam},
+    "fromAccountType": 2,
+    "fromAccountId": {savingsIdParam},
+
+    "toOfficeId": 1,
+    "toClientId": 1,
+    "toAccountType": 2,
+    "toAccountId": 2,
+
+    "transferAmount": 100,
+    "transferDate": "{transferDateParam}",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+

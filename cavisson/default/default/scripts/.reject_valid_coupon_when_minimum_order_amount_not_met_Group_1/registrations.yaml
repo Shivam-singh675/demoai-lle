@@ -1,0 +1,99 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist_visible
+   errorMsg: Landing page did not load successfully because the currency selector
+      is not visible
+   target: main
+   locators:
+      xpath: //*[@id='currency_code']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@id='currency_code']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - goToHomePage
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Selected product is not shown in cart
+   target: main
+   locators:
+      xpath: //a[contains(@aria-label,'View product details for Bamboo Glass Jar')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickShoppingCartLink
+   rhs:
+      type: text
+      value: Bamboo Glass Jar
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon minimum-order rejection message was not shown
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.), 'requires an order of at least $200')][not(.//*[contains(normalize-space(.),
+         'requires an order of at least $200')])]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickPlaceOrderButton
+   rhs:
+      type: text
+      value: requires an order of at least $200
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon field does not retain SAVE50 after validation
+   target: main
+   locators:
+      id: coupon_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: value
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickPlaceOrderButton
+   rhs:
+      type: text
+      value: SAVE50

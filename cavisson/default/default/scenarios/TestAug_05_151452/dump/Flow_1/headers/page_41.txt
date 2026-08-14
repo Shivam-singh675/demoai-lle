@@ -1,0 +1,34 @@
+--Request 
+POST https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=1143583505.1785923160&dt=Stream%20NCAA%20College%20Sports%20Live%20on%20DIRECTV&tid=DC-12050451&en=page_view&dl=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&dr=https%3A%2F%2Fwww.directv.com%2F&scrsrc=www.googletagmanager.com&rnd=2139383364.1785923166&navt=n&npa=0&gdid=dYmQxMT&gtm=45fe6831v9172137160za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117227716~118131808~118395334~118897920~118897930~119896802&tft=1785923167572&tfd=3177&tids=DC-12050451&fmt=8
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: text/plain
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+pragma: no-cache
+cache-control: no-cache, no-store, must-revalidate
+date: Wed, 05 Aug 2026 09:46:07 GMT
+vary: Origin
+vary: X-Origin
+vary: Referer
+server: scaffolding on HTTPServer2
+content-length: 0
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

@@ -1,0 +1,9 @@
+{
+    "code": 200,
+    "type": "success",
+    "message": "Image uploaded successfully",
+    "data": {
+        "petId": {RP_petId},
+        "url": "https://petstore.example.com/images/{SP_ImgFileName}"
+    }
+}

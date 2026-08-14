@@ -1,0 +1,1384 @@
+{
+  "id": "154b8acb-2556-46ec-af39-5b05c1a84402",
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/complete_purchase_journey_from_login_to_order_success"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Group_1": {
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "order": 0,
+          "steps": [
+            {
+              "enable": true,
+              "stepName": "openHttpsWwwSaucedemoCom",
+              "type": "go",
+              "url": "https://www.saucedemo.com/",
+              "tagName": "",
+              "value": "",
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": "SauceDemo Homepage"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[@id='user-name']"
+                  },
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {
+                    "xpath": "//*[@id='login-button']"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "enterUsername",
+              "type": "input",
+              "url": "https://www.saucedemo.com/",
+              "tagName": "INPUT",
+              "value": "standard_user",
+              "locators": {
+                "xpath": "//*[@id='user-name']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div[2]/div/div/div/form/div/input",
+                "xpath1": "//INPUT[@placeholder=\"Username\"][@name=\"user-name\"][@data-test=\"username\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div[2]/div[1]/div/div/form/div[1]/input",
+                "id": "user-name",
+                "class": "input_error form_input",
+                "ai_locator": "Username Input"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "enterPassword",
+              "type": "input",
+              "url": "https://www.saucedemo.com/",
+              "tagName": "INPUT",
+              "value": "secret_sauce",
+              "locators": {
+                "xpath": "//*[@id='password']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div[2]/div/div/div/form/div[2]/input",
+                "xpath1": "//INPUT[@placeholder=\"Password\"][@name=\"password\"][@data-test=\"password\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div[2]/div[1]/div/div/form/div[2]/input",
+                "id": "password",
+                "class": "input_error form_input",
+                "ai_locator": "Password Input"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickLoginButton",
+              "type": "click",
+              "url": "https://www.saucedemo.com/inventory.html",
+              "tagName": "INPUT",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='login-button']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div[2]/div/div/div/form/input",
+                "xpath1": "//INPUT[@value=\"Login\"][@name=\"login-button\"][@data-test=\"login-button\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div[2]/div[1]/div/div/form/input",
+                "id": "login-button",
+                "class": "submit-button btn_action",
+                "ai_locator": "Login Button"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[@id='shopping_cart_container']/ancestor::div[@id='root']"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickAddBackpackToCart",
+              "type": "click",
+              "url": "https://www.saucedemo.com/inventory.html",
+              "tagName": "BUTTON",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='add-to-cart-sauce-labs-backpack']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/button",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Add to cart\"][@name=\"add-to-cart-sauce-labs-backpack\"][@data-test=\"add-to-cart-sauce-labs-backpack\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/button",
+                "id": "add-to-cart-sauce-labs-backpack",
+                "class": "btn btn_primary btn_small btn_inventory",
+                "ai_locator": "Add Backpack Button"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {},
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickShoppingCart",
+              "type": "click",
+              "url": "https://www.saucedemo.com/inventory.html",
+              "tagName": "DIV",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='shopping_cart_container']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div/div/div[3]",
+                "xpath1": "//A[@data-test=\"shopping-cart-link\"]/..",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div/div[1]/div[1]/div[3]",
+                "id": "shopping_cart_container",
+                "class": "shopping_cart_container",
+                "ai_locator": "Shopping Cart"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickCheckoutButton",
+              "type": "click",
+              "url": "https://www.saucedemo.com/checkout-step-one.html",
+              "tagName": "BUTTON",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='checkout']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div[2]/div/div[2]/button[2]",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Checkout\"][@name=\"checkout\"][@data-test=\"checkout\"]",
+                "domstring": "",
+                "xpath3": "html/body/div[1]/div/div/div[2]/div/div[2]/button[2]",
+                "id": "checkout",
+                "class": "btn btn_action btn_medium checkout_button",
+                "ai_locator": "Checkout Button"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[@id='root']"
+                  },
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {
+                    "xpath": "//*[@id='first-name']"
+                  },
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {
+                    "xpath": "//*[@id='postal-code']"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "enterFirstName",
+              "type": "input",
+              "url": "https://www.saucedemo.com/checkout-step-one.html",
+              "tagName": "INPUT",
+              "value": "John",
+              "locators": {
+                "xpath": "//*[@id='first-name']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div[2]/div/form/div/div/input",
+                "xpath1": "//INPUT[@placeholder=\"First Name\"][@name=\"firstName\"][@data-test=\"firstName\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div/div[2]/div/form/div[1]/div[1]/input",
+                "id": "first-name",
+                "class": "input_error form_input",
+                "ai_locator": "First Name Input"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "enterLastName",
+              "type": "input",
+              "url": "https://www.saucedemo.com/checkout-step-one.html",
+              "tagName": "INPUT",
+              "value": "Doe",
+              "locators": {
+                "xpath": "//*[@id='last-name']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div[2]/div/form/div/div[2]/input",
+                "xpath1": "//INPUT[@placeholder=\"Last Name\"][@name=\"lastName\"][@data-test=\"lastName\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div/div[2]/div/form/div[1]/div[2]/input",
+                "id": "last-name",
+                "class": "input_error form_input",
+                "ai_locator": "Last Name Input"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "enterPostalCode",
+              "type": "input",
+              "url": "https://www.saucedemo.com/checkout-step-one.html",
+              "tagName": "INPUT",
+              "value": "751001",
+              "locators": {
+                "xpath": "//*[@id='postal-code']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div[2]/div/form/div/div[3]/input",
+                "xpath1": "//INPUT[@placeholder=\"Zip/Postal Code\"][@name=\"postalCode\"][@data-test=\"postalCode\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div/div[2]/div/form/div[1]/div[3]/input",
+                "id": "postal-code",
+                "class": "input_error form_input",
+                "ai_locator": "Postal Code Input"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickContinueButton",
+              "type": "click",
+              "url": "https://www.saucedemo.com/checkout-step-two.html",
+              "tagName": "INPUT",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='continue']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div[2]/div/form/div[2]/input",
+                "xpath1": "//INPUT[@value=\"Continue\"][@name=\"continue\"][@data-test=\"continue\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div/div[2]/div/form/div[2]/input",
+                "id": "continue",
+                "class": "submit-button btn btn_primary cart_button btn_action",
+                "ai_locator": "Continue Button"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {},
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickFinishButton",
+              "type": "click",
+              "url": "https://www.saucedemo.com/checkout-complete.html",
+              "tagName": "BUTTON",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='finish']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/div/div/div/div[2]/div/div[2]/div[9]/button[2]",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Finish\"][@name=\"finish\"][@data-test=\"finish\"]",
+                "domstring": "",
+                "xpath3": "html/body/div/div/div/div[2]/div/div[2]/div[9]/button[2]",
+                "id": "finish",
+                "class": "btn btn_action btn_medium cart_button",
+                "ai_locator": "Finish Button"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[contains(normalize-space(.),'Thank you for your order!')][not(.//*[contains(normalize-space(.),'Thank you for your order!')])]"
+                  },
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {
+                    "xpath": "//*[contains(normalize-space(.),'Your order has been dispatched')][not(.//*[contains(normalize-space(.),'Your order has been dispatched')])]"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            }
+          ],
+          "enable": true
+        }
+      },
+      "scriptType": "",
+      "scriptMode": "visual",
+      "type": "Browser",
+      "order": 0,
+      "genCapacity": 0,
+      "assertionsV2": [
+        {
+          "inlineURLPattern": "",
+          "operator": "exist_visible",
+          "errorMsg": "Username input is not visible on the login page",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[@id='user-name']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "//*[@id='user-name']",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "openHttpsWwwSaucedemoCom"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist_visible",
+          "errorMsg": "Login button is not visible on the login page",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[@id='login-button']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "//*[@id='login-button']",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "openHttpsWwwSaucedemoCom"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Products page text is not visible after login",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[@id='shopping_cart_container']/ancestor::div[@id='root']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickLoginButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Products"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {},
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "title",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickAddBackpackToCart"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Swag Labs"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Checkout information heading is not visible",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[@id='root']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickCheckoutButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Checkout: Your Information"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist_visible",
+          "errorMsg": "First Name field is not visible",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[@id='first-name']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "//*[@id='first-name']",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickCheckoutButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist_visible",
+          "errorMsg": "Postal code field is not visible",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[@id='postal-code']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "//*[@id='postal-code']",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickCheckoutButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {},
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "title",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickContinueButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Swag Labs"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Order completion message was not displayed",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[contains(normalize-space(.),'Thank you for your order!')][not(.//*[contains(normalize-space(.),'Thank you for your order!')])]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickFinishButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Thank you for your order!"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Order dispatch confirmation text is missing",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[contains(normalize-space(.),'Your order has been dispatched')][not(.//*[contains(normalize-space(.),'Your order has been dispatched')])]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickFinishButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Your order has been dispatched"
+          }
+        }
+      ],
+      "runlogic": [],
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.complete_purchase_journey_from_login_to_order_success_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "Feature=Checkout End-to-End Purchase, SubFeature=Successful Login To Order Confirmation, Navigation=true, CartUpdate=true, Source=GHERKIN, SourceRef=SauceDemo_5_E2E_Scenarios.feature, UserStory=Complete purchase journey from login to order success, PRDName=SauceDemo_5_E2E_Scenarios.feature, testsuite=saucedemo_positive_end_to_end_scenarios_07_29_2026_11_43_18, AIGenerated=true"
+        ]
+      ]
+    }
+  },
+  "description": "Validate the SauceDemo positive end-to-end scenarios flow by launching the SauceDemo application, logging in with standard_user and secret_sauce, adding Sauce Labs Backpack to the cart, completing checkout with John Doe and postal code 751001, and confirming successful order completion.",
+  "priority": "critical",
+  "preTest": [],
+  "postTest": [],
+  "agenticInfo": {
+    "applicationConfig": {
+      "authentication_prompt": "",
+      "applicationUrl": "https://www.saucedemo.com/",
+      "uploadDirectories": []
+    },
+    "uploadId": "03656485-2b98-4f2e-b321-b4515a6f0aa0",
+    "automationSteps": [
+      {
+        "step_number": 1.0,
+        "classifier": "action",
+        "action": "Navigate to https://www.saucedemo.com/",
+        "expected_outcome": "The SauceDemo application opens and the user is on the login page."
+      },
+      {
+        "step_number": 2.0,
+        "classifier": "action",
+        "action": "Enter valid username-standard_user and password-secret_sauce and click the login button",
+        "expected_outcome": "Login is successful and the user is redirected to the products page."
+      },
+      {
+        "step_number": 3.0,
+        "classifier": "action",
+        "action": "From inventory page, add product \"Sauce Labs Backpack\" to the cart",
+        "expected_outcome": "The product is added successfully and the cart badge should show \"1\"."
+      },
+      {
+        "step_number": 4.0,
+        "classifier": "action",
+        "action": "Open the cart and click the checkout button",
+        "expected_outcome": "The checkout information page is displayed for entering customer details."
+      },
+      {
+        "step_number": 5.0,
+        "classifier": "action",
+        "action": "Enter first name \"John\", last name \"Doe\", postal code \"751001\", and click the continue button",
+        "expected_outcome": "The checkout overview page should be displayed."
+      },
+      {
+        "step_number": 6.0,
+        "classifier": "action",
+        "action": "Click the finish button",
+        "expected_outcome": "The order is completed successfully and the order confirmation message should be displayed for Complete purchase journey from login to order success in SauceDemo positive end-to-end scenarios."
+      }
+    ],
+    "source": {
+      "fileName": "SauceDemo_5_E2E_Scenarios.feature",
+      "summary_id": "5ae0a5d6-955a-4a44-a2cd-656a670e1afb",
+      "origin": "GHERKIN"
+    },
+    "priority": "critical",
+    "tags": [
+      "Feature=Checkout End-to-End Purchase",
+      "SubFeature=Successful Login To Order Confirmation",
+      "Navigation=true",
+      "CartUpdate=true",
+      "Source=GHERKIN",
+      "SourceRef=SauceDemo_5_E2E_Scenarios.feature",
+      "UserStory=Complete purchase journey from login to order success",
+      "PRDName=SauceDemo_5_E2E_Scenarios.feature",
+      "testsuite=saucedemo_positive_end_to_end_scenarios_07_29_2026_11_43_18",
+      "AIGenerated=true"
+    ],
+    "desc": "Validate the SauceDemo positive end-to-end scenarios flow by launching the SauceDemo application, logging in with standard_user and secret_sauce, adding Sauce Labs Backpack to the cart, completing checkout with John Doe and postal code 751001, and confirming successful order completion."
+  }
+}

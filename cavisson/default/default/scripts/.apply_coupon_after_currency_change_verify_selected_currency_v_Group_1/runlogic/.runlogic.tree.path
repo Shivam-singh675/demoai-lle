@@ -1,0 +1,10 @@
+0:Start
+1:Start|Flow_1
+2:Start|Flow_1|goToHomePage
+3:Start|Flow_1|clickCurrencyDropdown
+4:Start|Flow_1|selectEuroCurrency
+5:Start|Flow_1|clickWatchDetails
+6:Start|Flow_1|clickQuantityDropdown
+7:Start|Flow_1|selectQuantity2
+8:Start|Flow_1|clickAddWatchToCartButton
+9:Start|Flow_1|enterSave10CouponCode

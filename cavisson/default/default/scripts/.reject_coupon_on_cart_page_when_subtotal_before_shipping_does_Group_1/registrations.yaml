@@ -1,0 +1,101 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Page title does not indicate Online Boutique home page
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - goToBoutiqueHomePage
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - clickAddTankTopToCart2
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - clickAddTankTopToCart2
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon rejection message for SAVE10 was not shown on the Cart page
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.), 'Coupon code "SAVE10" requires an order
+         of at least $50. Please try again.')][not(.//*[contains(normalize-space(.),
+         'Coupon code "SAVE10" requires an order of at least $50. Please try again.')])]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickApplyCouponButton
+   rhs:
+      type: text
+      value: SAVE10

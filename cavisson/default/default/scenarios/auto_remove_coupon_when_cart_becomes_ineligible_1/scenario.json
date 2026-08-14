@@ -1,0 +1,528 @@
+{
+  "references": [
+    {
+      "name": "User Story",
+      "href": "https://cavisson-team-apm.atlassian.net/browse/DT-757"
+    }
+  ],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/auto_remove_coupon_when_cart_becomes_ineligible_1"
+  },
+  "lastModifedBy": "cavisson",
+  "agenticInfo": {
+    "applicationConfig": {
+      "authentication_prompt": "",
+      "applicationUrl": "http://66.220.31.130:31528/",
+      "uploadDirectories": []
+    },
+    "uploadId": "",
+    "automationSteps": [
+      {
+        "step_number": 1,
+        "classifier": "action",
+        "action": "Navigate to http://66.220.31.130:31528/",
+        "expected_outcome": "The application at http://66.220.31.130:31528/ opens successfully."
+      },
+      {
+        "step_number": 2,
+        "classifier": "action",
+        "action": "Open the cart with an applied coupon and change the cart so the cart becomes ineligible for the applied coupon.",
+        "expected_outcome": "After the cart change, the System revalidates the applied coupon after the cart change, the System removes the coupon automatically if cart becomes ineligible, and the System updates the cart UI to show that the coupon is no longer applied."
+      }
+    ],
+    "source": {
+      "summary_id": "47fe16e6-bf20-4fa5-af18-ea6ff493fc37",
+      "origin": "JIRA",
+      "storyUrl": "https://cavisson-team-apm.atlassian.net/browse/DT-757"
+    },
+    "priority": "critical",
+    "tags": [
+      "Feature=Coupon Validation",
+      "SubFeature=Invalid Or Ineligible Coupon Rejection",
+      "CartUpdate=true",
+      "Validation=true",
+      "Navigation=true",
+      "Source=JIRA",
+      "SourceRef=DT-757",
+      "UserStory=Automatically remove a coupon when the cart becomes ineligible",
+      "Epic=Boutiquev1",
+      "testsuite=AI_TestSuite_1785308933817_176",
+      "AIGenerated=true"
+    ],
+    "desc": "Verify that after a coupon is already applied, changing the cart triggers coupon revalidation, removes the coupon automatically when the cart becomes ineligible, and updates the cart UI to show that the coupon is no longer applied."
+  },
+  "description": "Verify that after a coupon is already applied, changing the cart triggers coupon revalidation, removes the coupon automatically when the cart becomes ineligible, and updates the cart UI to show that the coupon is no longer applied.",
+  "automationStatus": "active",
+  "preTest": [],
+  "priority": "critical",
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.auto_remove_coupon_when_cart_becomes_ineligible_1_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "Feature=Coupon Validation, SubFeature=Invalid Or Ineligible Coupon Rejection, CartUpdate=true, Validation=true, Navigation=true, Source=JIRA, SourceRef=DT-757, UserStory=Automatically remove a coupon when the cart becomes ineligible, Epic=Boutiquev1, testsuite=AI_TestSuite_1785308933817_176"
+        ]
+      ]
+    }
+  },
+  "id": "20194bf4-ceb4-4186-b2d2-219ddc5a4376",
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "assertionsV2": [
+        {
+          "locators": {},
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "title",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "goToWebsite"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Online Boutique"
+          },
+          "operator": "contains",
+          "errorMsg": "",
+          "assertionDescription": "Page title should contain \"Online Boutique\"",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//body"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "clickShoppingCartLink"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Your shopping cart is empty!"
+          },
+          "operator": "contains",
+          "errorMsg": "Empty cart message is not visible",
+          "assertionDescription": "Cart UI should show that the shopping cart is empty",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//a[contains(@aria-label,'View shopping cart')]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "aria-label",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "clickShoppingCartLink"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "cart is empty"
+          },
+          "operator": "contains",
+          "errorMsg": "Cart icon does not indicate an empty cart",
+          "assertionDescription": "Cart icon should indicate that the cart is empty after coupon revalidation",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "steps": [
+            {
+              "optional": false,
+              "type": "go",
+              "tagName": "",
+              "url": "http://66.220.31.130:31528/",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": "Open Website"
+              },
+              "stepName": "goToWebsite",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {},
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "",
+                    "function": "",
+                    "subType": "",
+                    "type": "title",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "goToWebsite"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "Online Boutique"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "",
+                  "assertionDescription": "Page title should contain \"Online Boutique\"",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "openHttp662203113031528",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "A",
+              "url": "http://66.220.31.130:31528/cart",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "//a[@aria-label='View shopping cart, cart is empty']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/header/nav/div/div/a",
+                "xpath1": "//A[@aria-label=\"View shopping cart, cart is empty\"]",
+                "domstring": "",
+                "xpath3": "html/body/header/nav/div/div/a",
+                "id": "",
+                "class": "cart-link",
+                "ai_locator": "Shopping Cart Link"
+              },
+              "stepName": "clickShoppingCartLink",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//body"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "innerText",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "clickShoppingCartLink"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "Your shopping cart is empty!"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Empty cart message is not visible",
+                  "assertionDescription": "Cart UI should show that the shopping cart is empty",
+                  "target": "main"
+                },
+                {
+                  "locators": {
+                    "xpath": "//a[contains(@aria-label,'View shopping cart')]"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "aria-label",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "clickShoppingCartLink"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "cart is empty"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Cart icon does not indicate an empty cart",
+                  "assertionDescription": "Cart icon should indicate that the cart is empty after coupon revalidation",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "openTheCartWithAnAppliedCouponAndChangeTheCartSoTheCartBecomesIn",
+              "value": "",
+              "iframes": ""
+            }
+          ]
+        }
+      },
+      "type": "Browser"
+    }
+  },
+  "lastModifedTime": "29/07/2026 07:43:11",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

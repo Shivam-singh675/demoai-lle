@@ -1,0 +1,28 @@
+--Request 
+POST https://ingest.quantummetric.com/horizon/dtv?T=B&u=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&t=1785923178139&v=1785923185348&H=6b06736a191f4fc087eebaac&s=15ee8da754a44c11862cb214234d6b3a&N=2&Q=2&S=1343&b=68&z=1
+Host: ingest.quantummetric.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ x����0�]�F`���WQ*�Qv�݋�ZMGv��5��\�T�F����=��,�$7*���
+--Response 
+HTTP/1.1 200
+content-type: application/json
+access-control-allow-credentials: true
+date: Wed, 05 Aug 2026 09:46:26 GMT
+content-length: 0
+via: 1.1 google
+access-control-expose-headers: Date
+strict-transport-security: max-age=31536000; includeSubDomains
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

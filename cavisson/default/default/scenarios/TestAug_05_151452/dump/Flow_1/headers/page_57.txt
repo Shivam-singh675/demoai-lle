@@ -1,0 +1,36 @@
+--Request 
+POST https://cloud3.zineone.com/c3/api/v1/event
+Host: cloud3.zineone.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain
+apikey: cloud3@f259e6b6-692e-4da3-a5c9-d4abcdda5b5fZ11777582274462901317
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ [{"cart":"[]","logged_in":"N","category":"sports/college-sports","time":1785923168711,"event":"view_category","_z1_referrer":"https://www.directv.com/","z1_profile":{"device_id":"9dc3e61d-880d-4788-b837-707c75d68a6b","_z1_origin":"9e300d34-d3c4-46ac-aef7-74c49fe16ac5","os":"html5","os_version":"Unknown","platform_os":"Linux","language":"en","tz":"America/Chicago","devicetype":"desktop","browser":"Chrome","browserversion":"Chrome:135.0.0.0","resolution":"1897x1108","_z1_pagename":"college-sports","_z1_pagepath":"/sports/college-sports/","_z1_session_id":"421d2739-ed88-420f-f538-4f38218032b7","z1SessionTrackingId":"b18130f7-c32c-4684-b705-a5fced49d989"},"profileId":"b18130f7-c32c-4684-b705-a5fced49d989","z1SDKVersion":"2023.4.5.3","wstoken":"directv_com:-544792770","_z1_qsp":{}}]
+--Response 
+HTTP/1.1 200
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: DENY
+content-security-policy: default-src 'self';
+cache-control: no-store
+pragma: no-cache
+content-type: text/plain;charset=utf-8
+access-control-allow-origin: *
+access-control-allow-headers: apikey, accesstoken
+content-length: 0
+via: 1.1 google
+date: Wed, 05 Aug 2026 09:46:08 GMT
+alt-svc: h3=\":443\"; ma=2592000
+----
+

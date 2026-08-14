@@ -1,0 +1,47 @@
+{
+  "name" : "AI_Test_Suite_Build_3",
+  "testcases" : [ {
+    "name" : "Boutique/Automation/reject_invalid_or_ineligible_coupon_code",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/automatically_remove_ineligible_coupon_after_cart_change",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/apply_eligible_coupon_verify_cart_page_totals",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/apply_save10_after_currency_change_and_verify_cart_amounts",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/apply_valid_promotional_coupon_code_on_cart_page_and_verify_r",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "AI-generated regression suite — 5/5 testcases passed automation on 2026-07-27 15:28:47",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

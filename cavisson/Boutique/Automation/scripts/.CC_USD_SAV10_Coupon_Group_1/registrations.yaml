@@ -1,0 +1,49 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section/div/div[2]/form/fieldset[3]/div[1]
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickPlaceOrder_2
+   rhs:
+      type: text
+      value: Invalid coupon code
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section/div/div[2]/form/fieldset[3]/div[1]
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - PlaceOrder
+   rhs:
+      type: text
+      value: Invalid coupon code

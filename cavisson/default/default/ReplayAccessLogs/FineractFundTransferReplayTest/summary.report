@@ -1,0 +1,69 @@
+Scenario name: FineractFundTransferReplayTest
+Replay settings: 
+	Access log type = APACHE
+	Inline Object mode = As per log
+	Auto redirection = On
+	Session creation key = Cookie
+	Cookie Name = JSESSIONID
+	Number of NVM = 16
+
+Input files detail:
+	Total input files: 1
+
+	Input file name: /home/cavisson/work/fineract-replay-logs/access_log.2026-08-10.log
+	File type: HTTP
+	Total requests: 452
+	Invalid requests: 18
+	Time filtered requests: 0
+	Filter requests: 0
+	Inline requests: 0
+	Uncategorized requests: 0
+	Main requests: 434
+
+Total request detail from all files:
+
+	Total requests: 452
+	Total Invalid requests: 18
+	Total Time filtered requests: 0
+	Total Filter requests: 0
+	Total Inline requests: 0
+	Total Uncategorized requests: 0
+	Total Main requests: 434
+
+URL patterns Detail:
+	Filter Url Patterns: 0
+
+	Inline Url Patterns: 0
+
+	Main Url(transaction) Patterns: 6
+	#    	Transaction Name                        	Method      Host                    	Pattern
+	1    	AccountTransferTxn                      	POST        10.10.70.138:8443       	/fineract-provider/api/v1/accounttransfers
+	2    	AuthTxn                                 	POST        10.10.70.138:8443       	/fineract-provider/api/v1/authentication
+	3    	savingsaccountsTxn_GET_10_10_70_138_8443	GET         10.10.70.138:8443       	/fineract-provider/api/v1/savingsaccounts/*
+	4    	savingsaccountsTxn_POST_10_10_70_138_844	POST        10.10.70.138:8443       	/fineract-provider/api/v1/savingsaccounts/*
+	5    	default_txn_10_10_70_138_8443           	GET         10.10.70.138:8443       	/.*
+	6    	default_txn_127_0_0_1                   	GET         127.0.0.1               	/.*
+
+Request Details per Transaction:
+
+	#    	Transaction Name                                	Total request
+	1    	AccountTransferTxn                              	75        
+	2    	AuthTxn                                         	100       
+	3    	savingsaccountsTxn_GET_10_10_70_138_8443        	150       
+	4    	savingsaccountsTxn_POST_10_10_70_138_8443       	100       
+	5    	default_txn_10_10_70_138_8443                   	9         
+	6    	default_txn_127_0_0_1                           	0         
+
+Final Report:
+
+	Request Details:
+	Total request to process = 434
+	Total request to replay = 434
+	Total request ignored because of auto redirection = 0
+	Total non-session requests = 0
+	Total non-session requests with secondary cookie=0
+	Total invalid requests = 18
+	Session Details:
+	Total session = 3
+	Total non grouped session = 0
+	Max request per session = 325

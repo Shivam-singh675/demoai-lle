@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 60 60"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     transform="translate(-7395 -13895)"
+     data-name="Volume Off"
+     id="g1">
+    <rect
+       transform="translate(7395 13895)"
+       width="60"
+       height="60"
+       fill="none"
+       data-name="Rectangle 4"
+       id="rect1"
+       clip-path="none" />
+    <path
+       transform="translate(7402.3 13902)"
+       d="M45.35,41.8l-3.525,3.525L36.7,40.2a22.351,22.351,0,0,1-9.025,4.375v-5.15a16.777,16.777,0,0,0,5.45-2.775L22.675,26.2V42.675l-12.5-12.5h-10v-15h10l.725-.75L0,3.525,3.525,0ZM17.675,21.2,14.45,17.975l-2.2,2.2H5.175v5H12.25L17.675,30.6Zm10-15.3V.75a22.46,22.46,0,0,1,15.3,31.6L39.15,28.525A17.449,17.449,0,0,0,27.675,5.9Zm-5,6.175-4.7-4.7,4.7-4.7Zm11.2,11.2-6.2-6.2V12.6a11.251,11.251,0,0,1,6.25,10.075A4.855,4.855,0,0,1,33.875,23.275Z"
+       fill="#fff"
+       id="path1"
+       clip-path="none" />
+  </g>
+</svg>

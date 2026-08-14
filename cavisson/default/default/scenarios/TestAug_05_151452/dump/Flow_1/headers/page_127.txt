@@ -1,0 +1,39 @@
+--Request 
+GET https://ct.pinterest.com/user/?event=PageVisit&ed=%7B%22event_id%22%3A%220692987134882304%22%7D&tid=2612953088789&cb=1785923178165&dep=5%2CEVENT_TAGS_ABSENT
+Host: ct.pinterest.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+access-control-expose-headers: Epik,Pin-Unauth
+pin-unauth: dWlkPVpUYzRaamd6WmpFdE5XSTBOaTAwT1RjMExUazFZVGd0TkRCbFlXVmpabVV6WmpVeQ
+cache-control: no-cache,no-store,must-revalidate,max-age=0
+pragma: no-cache
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+content-length: 219
+x-envoy-upstream-service-time: 1
+pinterest-version: 9a09dd6f766fc7c4653fe61029c058719c15db64
+referrer-policy: origin
+x-pinterest-rid: 5121653010066970
+x-pinterest-rid-128bit: b7abfe28acc8562b4713c446e7da1823
+date: Wed, 05 Aug 2026 09:46:18 GMT
+vary: Accept-Encoding
+akamai-grn: 0.a6014017.1785923178.80bc678a
+x-cdn: akamai
+strict-transport-security: max-age=31536000 ; includeSubDomains ; preload
+----
+

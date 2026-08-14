@@ -1,0 +1,9 @@
+0:Start
+1:Start|Flow_1
+2:Start|Flow_1|goToHomePage
+3:Start|Flow_1|clickViewSunglassesDetails
+4:Start|Flow_1|clickAddSunglassesToCart
+5:Start|Flow_1|enterCouponCode
+6:Start|Flow_1|goBackFromApplyCouponPage
+7:Start|Flow_1|enterCouponCodeAgain
+8:Start|Flow_1|clickApplyCouponButton

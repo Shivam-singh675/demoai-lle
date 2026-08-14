@@ -1,0 +1,289 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "samples/DNS/ProtoDNS"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "samples/DNS/.ProtoDNS_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "2",
+          "1000"
+        ]
+      ]
+    },
+    "FAVORITE": {
+      "_G": [
+        [
+          "DNSDefault"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [
+        {
+          "isDefault": true,
+          "system": true,
+          "name": "runlogic"
+        }
+      ],
+      "type": "API",
+      "assertionsV2": [],
+      "protocol": {
+        "type": "DNS"
+      },
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_Request_1.text",
+              "dns": {
+                "protocol": "TCP",
+                "domain": "example.com",
+                "dnsServer": "8.8.8.8",
+                "type": "A",
+                "recursive": 1
+              },
+              "label": "Request_1",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_Request_1.text",
+              "label": "Request_1",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "parameters": {},
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "20/02/2026 12:34:41",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

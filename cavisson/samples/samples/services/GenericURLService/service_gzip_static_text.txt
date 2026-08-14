@@ -1,0 +1,6 @@
+This response message is for template "gzip_static_text" for "gzip" compression type with text type.This is needed to checki if "gzip" compression type is working fine.
+GZIP is a compression technology frequently used for transferring data quickly over the internet. “GZIP” refers to a compression method, software used to compress files with this method, and the file format that results from GZIP 
+compression (usually indicated by the file extension .gz).GZIP is effective, but it’s not the only compression method out there. In fact, it’s not even the best method in terms of size reduction.The main reason is that GZIP tends to be 
+faster than comparable methods. It compresses files in a fraction of the time that other methods take. This speed is crucial for data transfers over the web. For a file transfer to work with GZIP, two things must happen. First, the web 
+browser tells the web server that it can accept GZIP-compressed files. This is accomplished by including the Accept-Encoding HTTP header in the browser’s request.
+End of the Response message.

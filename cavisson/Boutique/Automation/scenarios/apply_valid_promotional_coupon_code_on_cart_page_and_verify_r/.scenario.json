@@ -1,0 +1,496 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "Boutique/Automation/apply_valid_promotional_coupon_code_on_cart_page_and_verify_r"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Group_1": {
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "order": 0,
+          "steps": [
+            {
+              "enable": true,
+              "stepName": "goToBoutiqueQaHomePage",
+              "type": "go",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "tagName": "",
+              "value": "",
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": "Open Boutique QA"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickShoppingCartLink",
+              "type": "click",
+              "url": "http://boutique-qa.cav-test.com:31528/cart",
+              "tagName": "A",
+              "value": "",
+              "locators": {
+                "xpath": "//a[@aria-label='View shopping cart, cart is empty']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/header/nav/div/div/a",
+                "xpath1": "//A[@aria-label=\"View shopping cart, cart is empty\"]",
+                "domstring": "",
+                "xpath3": "html/body/header/nav/div/div/a",
+                "id": "",
+                "class": "cart-link",
+                "ai_locator": "Shopping Cart Link"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//body"
+                  },
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {},
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {
+                    "id": "currency_code"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            }
+          ],
+          "enable": true
+        }
+      },
+      "scriptType": "",
+      "scriptMode": "visual",
+      "type": "Browser",
+      "order": 0,
+      "genCapacity": 0,
+      "assertionsV2": [
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Empty cart message was not visible",
+          "target": "main",
+          "locators": {
+            "xpath": "//body"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickShoppingCartLink"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Your shopping cart is empty!"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Page title does not indicate the Boutique app loaded",
+          "target": "main",
+          "locators": {},
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "title",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickShoppingCartLink"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Online Boutique"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist_visible",
+          "errorMsg": "Currency selector is not visible on the loaded Boutique page",
+          "target": "main",
+          "locators": {
+            "id": "currency_code"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "//*[@id='currency_code']",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickShoppingCartLink"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        }
+      ],
+      "runlogic": [],
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "Boutique/Automation/.apply_valid_promotional_coupon_code_on_cart_page_and_verify_r_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "Feature=Coupon Validation, SubFeature=Minimum Order Amount And Discount Limit Enforcement, Validation=true, CartUpdate=true, Source=JIRA, SourceRef=DT-754, UserStory=Apply a valid coupon on the Cart page and recalculate totals, Epic=Boutiquev1, AI_BoutiqueCouponRegression-3, testsuite=AI_Test_Suite_Build_3"
+        ]
+      ]
+    }
+  },
+  "description": "Verify that a customer can enter a promotional coupon code on the Cart page, the system validates coupon eligibility based on the product subtotal before shipping, applies the appropriate discount without exceeding the subtotal, recalculates the cart totals, and displays the applied coupon details and updated discount amount in the Cart page UI.",
+  "priority": "critical",
+  "preTest": [],
+  "postTest": [],
+  "agenticInfo": {
+    "applicationConfig": {
+      "authentication_prompt": "",
+      "applicationUrl": "http://boutique-qa.cav-test.com:31528",
+      "uploadDirectories": []
+    },
+    "uploadId": "",
+    "automationSteps": [
+      {
+        "step_number": 1.0,
+        "classifier": "action",
+        "action": "Navigate to http://boutique-qa.cav-test.com:31528",
+        "expected_outcome": "The Boutique application opens at http://boutique-qa.cav-test.com:31528."
+      },
+      {
+        "step_number": 2.0,
+        "classifier": "action",
+        "action": "Open the Cart page with products already added to the cart.",
+        "expected_outcome": "The Cart page is displayed and shows the current cart contents with product subtotal and shipping-related totals visible."
+      },
+      {
+        "step_number": 3.0,
+        "classifier": "action",
+        "action": "On the Cart page, enter a valid promotional coupon code and submit it for the cart.",
+        "expected_outcome": "The system validates coupon eligibility based on the product subtotal before shipping, applies the appropriate discount, ensures the discount does not exceed the subtotal, recalculates the cart totals, and displays the applied coupon details and updated discount amount in the Cart page UI."
+      }
+    ],
+    "source": {
+      "summary_id": "4c181802-4f78-435c-b3f3-18b89451b4ed",
+      "origin": "JIRA",
+      "storyUrl": "https://cavisson-team-apm.atlassian.net/browse/DT-754"
+    },
+    "priority": "critical",
+    "tags": [
+      "Feature=Coupon Validation",
+      "SubFeature=Minimum Order Amount And Discount Limit Enforcement",
+      "Validation=true",
+      "CartUpdate=true",
+      "Source=JIRA",
+      "SourceRef=DT-754",
+      "UserStory=Apply a valid coupon on the Cart page and recalculate totals",
+      "Epic=Boutiquev1",
+      "AI_BoutiqueCouponRegression-3",
+      "testsuite=AI_Test_Suite_Build_3",
+      "AIGenerated=true"
+    ],
+    "desc": "Verify that a customer can enter a promotional coupon code on the Cart page, the system validates coupon eligibility based on the product subtotal before shipping, applies the appropriate discount without exceeding the subtotal, recalculates the cart totals, and displays the applied coupon details and updated discount amount in the Cart page UI."
+  },
+  "references": [
+    {
+      "name": "User Story",
+      "href": "https://cavisson-team-apm.atlassian.net/browse/DT-754"
+    }
+  ]
+}

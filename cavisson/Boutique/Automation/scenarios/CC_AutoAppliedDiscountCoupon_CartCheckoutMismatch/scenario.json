@@ -1,0 +1,1197 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "Boutique/Automation/CC_AutoAppliedDiscountCoupon_CartCheckoutMismatch"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "User compares product, total price on cart page is equal to total price in checkout",
+  "priority": "medium",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [
+    "couponboutique"
+  ],
+  "defaultScriptType": "",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          1
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "Boutique/Automation/.CC_AutoAppliedDiscountCoupon_CartCheckoutMismatch_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Start",
+          "START",
+          "IMMEDIATELY"
+        ],
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "RATE",
+          "120",
+          "M",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "0"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "IMMEDIATELY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "couponboutique"
+        ]
+      ]
+    }
+  },
+  "id": "255b903852ec405e81f9ed1d0654b91d",
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [],
+      "recordingProfile": "default.prof",
+      "type": "Browser",
+      "assertionsV2": [
+        {
+          "locators": {
+            "xpath": "/html/body/main/section[1]/div[6]/div[2]"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "textContent",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "PlaceOrder"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "11.00"
+          },
+          "operator": "contains",
+          "errorMsg": "Cart total mismatch with Place order total",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "Origin": "http://66.220.31.130:30741",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_0.text",
+                  "label": "",
+                  "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Storage-Access": "none",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_1.text",
+                  "label": "",
+                  "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Storage-Access": "none",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_2.text",
+                  "label": "",
+                  "url": "https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_3.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/styles/styles.css"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_4.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/styles/cart.css"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_5.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/styles/order.css"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_6.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/styles/bot.css"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_7.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/icons/Hipster_NavLogo.svg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_8.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/icons/Hipster_DownArrow.svg"
+                },
+                {
+                  "headers": {
+                    "Origin": "http://66.220.31.130:30741",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "script",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_9.text",
+                  "label": "",
+                  "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_10.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/icons/Hipster_CartIcon.svg"
+                },
+                {
+                  "headers": {
+                    "Origin": "http://66.220.31.130:30741",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "font",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_11.text",
+                  "label": "",
+                  "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_12.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/sunglasses.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_13.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/tank-top.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_14.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/watch.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_15.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/loafers.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_16.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/hairdryer.jpg"
+                },
+                {
+                  "headers": {
+                    "Origin": "http://66.220.31.130:30741",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "font",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_17.text",
+                  "label": "",
+                  "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_18.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/salt-and-pepper-shakers.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_19.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/mug.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_20.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/candle-holder.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_21.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/bamboo-glass-jar.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_22.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_index.text",
+              "label": "index",
+              "url": "http://66.220.31.130:30741/"
+            },
+            {
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_XSIQT8TOJO_0.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_XSIQT8TOJO.text",
+              "label": "XSIQT8TOJO",
+              "url": "http://66.220.31.130:30741/product/9SIQT8TOJO"
+            },
+            {
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Origin": "http://66.220.31.130:30741",
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "Upgrade-Insecure-Requests": "1",
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_cart_0.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/cart"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_cart_1.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "body_cart_main_2_0.urlencoded",
+              "label": "cart",
+              "url": "http://66.220.31.130:30741/cart"
+            },
+            {
+              "headers": {
+                "Origin": "http://66.220.31.130:30741",
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Origin": "http://66.220.31.130:30741",
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_checkout_0.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/tank-top.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_checkout_1.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "body_checkout_main_3_0.urlencoded",
+              "label": "checkout",
+              "url": "http://66.220.31.130:30741/cart/checkout"
+            },
+            {
+              "headers": {
+                "Origin": "http://66.220.31.130:30741",
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_2_0.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/watch.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_2_1.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/hairdryer.jpg"
+                },
+                {
+                  "headers": {
+                    "Accept-Language": "en-US,en;q=0.9"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_2_2.text",
+                  "label": "",
+                  "url": "http://66.220.31.130:30741/static/img/products/salt-and-pepper-shakers.jpg"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_index_2.text",
+              "label": "index_2",
+              "url": "http://66.220.31.130:30741/"
+            },
+            {
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "Accept-Language": "en-US,en;q=0.9"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "go",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "",
+              "navigation": true,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "Home",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [],
+              "id": "",
+              "value": "",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "go",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "url": "http://10.10.70.138:31456/",
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 9.284,
+              "preStep": {
+                "inline": ""
+              },
+              "attributes": "",
+              "subType": "RBU",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "webpage_1782972846977.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "",
+              "locators": {
+                "xpath": "//IMG[@alt=\"Product image of Bamboo Glass Jar\"]/../DIV[1]",
+                "csspath": "[href=\"\\\\/product\\\\/9SIQT8TOJO\"] div",
+                "xpath1": "HTML/BODY[1]/MAIN[1]/DIV[2]/DIV[1]/DIV[1]/SECTION[1]/UL[1]/LI[8]/A[1]/DIV[1]",
+                "class": "hot-product-card-img-overlay"
+              },
+              "navigation": false,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "PDP",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [],
+              "id": "",
+              "value": "",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "DIV",
+              "steps": 0,
+              "url": "http://66.220.31.130:30741/",
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 10.536,
+              "preStep": {
+                "inline": ""
+              },
+              "attributes": "{aria-hidden=true, class=hot-product-card-img-overlay}",
+              "subType": "RBU",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "webpage_1782972856086.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "",
+              "locators": {
+                "xpath": "//BUTTON[normalize-space(text())=\"Add To Cart\"]",
+                "csspath": "button",
+                "xpath2": "HTML/BODY[1]/MAIN[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/FORM[1]/BUTTON[1]",
+                "xpath1": "//LABEL[normalize-space(text())=\"Select quantity\"]/../../BUTTON[1]",
+                "class": "cymbal-button-primary"
+              },
+              "navigation": true,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "AddToCart",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [],
+              "id": "",
+              "value": "",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "BUTTON",
+              "steps": 0,
+              "url": "http://66.220.31.130:30741/product/9SIQT8TOJO",
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 24.158,
+              "preStep": {
+                "inline": ""
+              },
+              "attributes": "{type=submit, class=cymbal-button-primary, aria-label=Add Bamboo Glass Jar to shopping cart}",
+              "subType": "RBU",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "webpage_1782972867062.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "",
+              "locators": {
+                "xpath": "//BUTTON[normalize-space(text())=\"Place Order\"]",
+                "csspath": "[aria-label=\"Place\\\\ your\\\\ order\\\\ and\\\\ proceed\\\\ to\\\\ payment\"]",
+                "xpath1": "HTML/BODY[1]/MAIN[1]/SECTION[1]/DIV[1]/DIV[2]/FORM[1]/DIV[1]/DIV[1]/BUTTON[1]",
+                "class": "cymbal-button-primary"
+              },
+              "navigation": true,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "PlaceOrder",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [],
+              "id": "",
+              "value": "",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "BUTTON",
+              "steps": 0,
+              "url": "http://66.220.31.130:30741/cart",
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 3.514,
+              "preStep": {
+                "inline": ""
+              },
+              "attributes": "{class=cymbal-button-primary, type=submit, aria-label=Place your order and proceed to payment}",
+              "subType": "RBU",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "webpage_1782972892227.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "",
+              "locators": {
+                "xpath": "//A[normalize-space(text())=\"Continue Shopping\"]",
+                "csspath": "[role=\"button\"]",
+                "xpath2": "HTML/BODY[1]/MAIN[1]/SECTION[1]/DIV[7]/DIV[1]/A[1]",
+                "xpath1": "//DIV[normalize-space(text())=\"Total\"]/../../DIV[7]/DIV[1]/A[@role=\"button\"][1]",
+                "class": "cymbal-button-primary"
+              },
+              "navigation": true,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "ContinueShopping",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [],
+              "id": "",
+              "value": "",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "A",
+              "steps": 0,
+              "url": "http://66.220.31.130:30741/cart/checkout",
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 3.25,
+              "preStep": {
+                "inline": ""
+              },
+              "attributes": "{href=/, aria-label=Continue shopping, return to home page, role=button, class=cymbal-button-primary}",
+              "subType": "RBU",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "webpage_1782972897011.png",
+              "iframes": "",
+              "ordinal": ""
+            }
+          ],
+          "order": 0
+        }
+      },
+      "scriptType": "",
+      "assertions": [],
+      "state": "RECORDED",
+      "parameters": {},
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "24/07/2026 10:28:37",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

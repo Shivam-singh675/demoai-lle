@@ -1,0 +1,31 @@
+{
+  "name" : "saucedemo_positive_end_to_end_scenarios_07_29_2026_11_43_18",
+  "testcases" : [ {
+    "name" : "default/default/complete_purchase_journey_from_login_to_order_success",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "Validate the SauceDemo positive end-to-end scenarios flow by launching the SauceDemo application, logging in with standard_user and secret_sauce, adding Sauce Labs Backpack to the cart, completing checkout with John Doe and postal code 751001, and confirming successful order completion.",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

@@ -1,0 +1,26 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist_visible
+   errorMsg: Application did not load successfully because the currency selector is
+      not visible
+   target: main
+   locators:
+      id: currency_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@id='currency_code']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - goToHomePage
+   rhs:
+      type: text
+      value: ''

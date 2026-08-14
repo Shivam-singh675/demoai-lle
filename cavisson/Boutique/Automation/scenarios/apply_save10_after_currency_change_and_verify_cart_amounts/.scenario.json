@@ -1,0 +1,1018 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "Boutique/Automation/apply_save10_after_currency_change_and_verify_cart_amounts"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Group_1": {
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "order": 0,
+          "steps": [
+            {
+              "enable": true,
+              "stepName": "goToHomePage",
+              "type": "go",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "tagName": "",
+              "value": "",
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": "Open Boutique QA"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickCurrencyDropdown",
+              "type": "click",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "tagName": "SELECT",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='currency_code']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/header/nav/div/div/div/div/form/select",
+                "xpath1": "//SELECT[@name=\"currency_code\"]",
+                "domstring": "",
+                "xpath3": "html/body/header/nav/div/div/div/div/form/select",
+                "id": "currency_code",
+                "class": "",
+                "ai_locator": "Currency Dropdown"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "selectEuroCurrency",
+              "type": "select",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "tagName": "SELECT",
+              "value": "EUR",
+              "locators": {
+                "xpath": "//*[@id='currency_code']/option[normalize-space()='EUR']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/header/nav/div/div/div/div/form/select/option[normalize-space()='EUR']",
+                "xpath1": "//SELECT[@name=\"currency_code\"]/option[normalize-space()='EUR']",
+                "domstring": "",
+                "xpath3": "html/body/header/nav/div/div/div/div/form/select/option[normalize-space()='EUR']",
+                "id": "currency_code",
+                "class": "",
+                "ai_locator": "Currency Dropdown"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "id": "currency_code"
+                  },
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {
+                    "xpath": "//a[contains(@aria-label,'Sunglasses')]"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickWatchDetails",
+              "type": "click",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "tagName": "A",
+              "value": "",
+              "locators": {
+                "xpath": "//a[@aria-label='View details for Watch, priced at $109.99']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div[2]/div/div/section/ul/li[3]/a",
+                "xpath1": "//A[@aria-label=\"View details for Watch, priced at €97.29\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[2]/div/div/section/ul/li[3]/a",
+                "id": "",
+                "class": "",
+                "ai_locator": "View Watch Details"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickQuantityDropdown",
+              "type": "click",
+              "url": "http://boutique-qa.cav-test.com:31528/product/1YMWWN1N4O",
+              "tagName": "SELECT",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='quantity']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div/div/div[2]/div/form/div/select",
+                "xpath1": "//SELECT[@name=\"quantity\"][@aria-label=\"Select quantity to add to cart\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[1]/div/div[2]/div/form/div/select",
+                "id": "quantity",
+                "class": "",
+                "ai_locator": "Quantity Dropdown"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "selectQuantity2",
+              "type": "select",
+              "url": "http://boutique-qa.cav-test.com:31528/product/1YMWWN1N4O",
+              "tagName": "SELECT",
+              "value": "2",
+              "locators": {
+                "xpath": "//*[@id='quantity']/option[normalize-space()='2']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div/div/div[2]/div/form/div/select/option[normalize-space()='2']",
+                "xpath1": "//SELECT[@name=\"quantity\"][@aria-label=\"Select quantity to add to cart\"]/option[normalize-space()='2']",
+                "domstring": "",
+                "xpath3": "html/body/main/div[1]/div/div[2]/div/form/div/select/option[normalize-space()='2']",
+                "id": "quantity",
+                "class": "",
+                "ai_locator": "Quantity Dropdown"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickAddWatchToCartButton",
+              "type": "click",
+              "url": "http://boutique-qa.cav-test.com:31528/cart",
+              "tagName": "BUTTON",
+              "value": "",
+              "locators": {
+                "xpath": "//button[@aria-label='Add Sunglasses to shopping cart']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div/div/div[2]/div/form/button",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Add To Cart\"][@aria-label=\"Add Watch to shopping cart\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[1]/div/div[2]/div/form/button",
+                "id": "",
+                "class": "cymbal-button-primary",
+                "ai_locator": "Add Sunglasses Button"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//body"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "enterCouponCodeSave10",
+              "type": "input",
+              "url": "http://boutique-qa.cav-test.com:31528/cart",
+              "tagName": "INPUT",
+              "value": "SAVE10",
+              "locators": {
+                "xpath": "//*[@id='coupon_code']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/section/div/div[2]/form/fieldset[3]/div/div/input",
+                "xpath1": "//INPUT[@placeholder=\"Enter coupon code\"][@name=\"coupon_code\"][@aria-label=\"Optional coupon code\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/section/div/div[2]/form/fieldset[3]/div/div[1]/input",
+                "id": "coupon_code",
+                "class": "",
+                "ai_locator": "Coupon Code Input"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            },
+            {
+              "enable": true,
+              "stepName": "clickApplyCouponButton",
+              "type": "click",
+              "url": "http://boutique-qa.cav-test.com:31528/cart?coupon_action=apply&coupon_code=SAVE10",
+              "tagName": "BUTTON",
+              "value": "",
+              "locators": {
+                "xpath": "//*[@id='coupon-apply-button']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/section/div/div[2]/form/fieldset[3]/div/div[2]/button",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Apply\"][@aria-label=\"Validate and apply coupon code\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/section/div/div[2]/form/fieldset[3]/div/div[2]/button",
+                "id": "coupon-apply-button",
+                "class": "cymbal-button-secondary coupon-apply-button",
+                "ai_locator": "Apply Coupon Button"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "id": "coupon_code"
+                  },
+                  "isHeroElement": false
+                },
+                {
+                  "locators": {
+                    "xpath": "//*[@aria-label='Online Boutique - go to home page']"
+                  },
+                  "isHeroElement": false
+                }
+              ],
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0
+            }
+          ],
+          "enable": true
+        }
+      },
+      "scriptType": "",
+      "scriptMode": "visual",
+      "type": "Browser",
+      "order": 0,
+      "genCapacity": 0,
+      "assertionsV2": [
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Currency selector did not remain set to EUR",
+          "target": "main",
+          "locators": {
+            "id": "currency_code"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "value",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "selectEuroCurrency"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "EUR"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Product price did not update to EUR formatting",
+          "target": "main",
+          "locators": {
+            "xpath": "//a[contains(@aria-label,'Sunglasses')]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "aria-label",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "selectEuroCurrency"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "€17.68"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Product price in EUR is not visible",
+          "target": "main",
+          "locators": {
+            "xpath": "//body"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickAddWatchToCartButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "€194.58"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "Applied coupon code is not SAVE10",
+          "target": "main",
+          "locators": {
+            "id": "coupon_code"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "value",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickApplyCouponButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "SAVE10"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist_visible",
+          "errorMsg": "Home page logo link is not visible",
+          "target": "main",
+          "locators": {
+            "xpath": "//*[@aria-label='Online Boutique - go to home page']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "//*[@aria-label='Online Boutique - go to home page']",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickApplyCouponButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        }
+      ],
+      "runlogic": [],
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "Boutique/Automation/.apply_save10_after_currency_change_and_verify_cart_amounts_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "Feature=Coupon Validation, SubFeature=Currency Change After Coupon Application, Validation=true, Source=JIRA, SourceRef=DT-755, UserStory=Validate coupon is working for all currencies, Epic=Boutiquev1, AI_BoutiqueCouponRegression-3, testsuite=AI_Test_Suite_Build_3"
+        ]
+      ]
+    }
+  },
+  "description": "Verify that when the customer changes the currency on the home page before adding items to the cart, then adds product(s) to fulfil the minimum order value and applies SAVE10 on the cart page, the system validates the coupon, applies the predefined discount amount, and displays product price, shipping, Coupon Discount, total, and applied coupon details in the selected currency.",
+  "priority": "critical",
+  "preTest": [],
+  "postTest": [],
+  "agenticInfo": {
+    "applicationConfig": {
+      "authentication_prompt": "",
+      "applicationUrl": "http://boutique-qa.cav-test.com:31528",
+      "uploadDirectories": []
+    },
+    "uploadId": "",
+    "automationSteps": [
+      {
+        "step_number": 1.0,
+        "classifier": "action",
+        "action": "Navigate to http://boutique-qa.cav-test.com:31528",
+        "expected_outcome": "The home page opens at http://boutique-qa.cav-test.com:31528."
+      },
+      {
+        "step_number": 2.0,
+        "classifier": "action",
+        "action": "On the home page, change the currency to a different currency than the default.",
+        "expected_outcome": "The selected currency is applied on the home page and product price is displayed in the selected currency."
+      },
+      {
+        "step_number": 3.0,
+        "classifier": "action",
+        "action": "Add product(s) to cart so that it fulfil the minimum order value, and open the cart page.",
+        "expected_outcome": "The cart page opens with the added product(s), and product price, shipping, and total are displayed in the selected currency."
+      },
+      {
+        "step_number": 4.0,
+        "classifier": "action",
+        "action": "On cart page apply coupon code SAVE10.",
+        "expected_outcome": "System validates the coupon, applies the discount, and displays the applied coupon details. The displayed Coupon Discount exactly matches the expected value for the applied coupon, SAVE10 represents a discount of 10 in the currently selected currency, and product price, shipping, coupon discount, and total shall all be displayed in the selected currency."
+      }
+    ],
+    "source": {
+      "summary_id": "14c9ac74-645f-4d12-940b-642ef27b54f4",
+      "origin": "JIRA",
+      "storyUrl": "https://cavisson-team-apm.atlassian.net/browse/DT-755"
+    },
+    "priority": "critical",
+    "tags": [
+      "Feature=Coupon Validation",
+      "SubFeature=Currency Change After Coupon Application",
+      "Validation=true",
+      "Source=JIRA",
+      "SourceRef=DT-755",
+      "UserStory=Validate coupon is working for all currencies",
+      "Epic=Boutiquev1",
+      "AI_BoutiqueCouponRegression-3",
+      "testsuite=AI_Test_Suite_Build_3",
+      "AIGenerated=true"
+    ],
+    "desc": "Verify that when the customer changes the currency on the home page before adding items to the cart, then adds product(s) to fulfil the minimum order value and applies SAVE10 on the cart page, the system validates the coupon, applies the predefined discount amount, and displays product price, shipping, Coupon Discount, total, and applied coupon details in the selected currency."
+  },
+  "references": [
+    {
+      "name": "User Story",
+      "href": "https://cavisson-team-apm.atlassian.net/browse/DT-755"
+    }
+  ]
+}

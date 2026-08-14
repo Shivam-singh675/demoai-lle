@@ -1,0 +1,60 @@
+Scenario name: TestJul_29_121453
+Replay settings: 
+	Access log type = APACHE
+	Inline Object mode = As per log
+	Auto redirection = On
+	Session creation key = Client IP
+	Number of NVM = 16
+
+Input files detail:
+	Total input files: 1
+
+	Input file name: /home/cavisson/work/access_log.2026-07-29.log
+	File type: HTTP
+	Total requests: 528
+	Invalid requests: 471
+	Time filtered requests: 0
+	Filter requests: 0
+	Inline requests: 0
+	Uncategorized requests: 0
+	Main requests: 57
+
+Total request detail from all files:
+
+	Total requests: 528
+	Total Invalid requests: 471
+	Total Time filtered requests: 0
+	Total Filter requests: 0
+	Total Inline requests: 0
+	Total Uncategorized requests: 0
+	Total Main requests: 57
+
+URL patterns Detail:
+	Filter Url Patterns: 0
+
+	Inline Url Patterns: 0
+
+	Main Url(transaction) Patterns: 2
+	#    	Transaction Name                        	Method      Host                    	Pattern
+	1    	default_txn_NA                          	GET         NA                      	/.*
+	2    	default_txn_127_0_0_1                   	GET         127.0.0.1               	/.*
+
+Request Details per Transaction:
+
+	#    	Transaction Name                                	Total request
+	1    	default_txn_NA                                  	0         
+	2    	default_txn_127_0_0_1                           	57        
+
+Final Report:
+
+	Request Details:
+	Total request to process = 57
+	Total request to replay = 57
+	Total request ignored because of auto redirection = 0
+	Total non-session requests = 0
+	Total non-session requests with secondary cookie=0
+	Total invalid requests = 471
+	Session Details:
+	Total session = 6
+	Total non grouped session = 0
+	Max request per session = 18

@@ -1,0 +1,35 @@
+{
+  "name" : "TestJul_24_151911",
+  "testcases" : [ {
+    "name" : "Boutique/Automation/CC_AutoAppliedDiscountCoupon_CartCheckoutMismatch",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_Cart_onHome_cart_page",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "Basic regression test suite for sample project",
+  "run_config" : {
+    "concurrency" : 2
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : "",
+    "cc" : null,
+    "bcc" : null,
+    "body" : "",
+    "subject" : "Testsuite $TESTSUITE_NAME is completed  with status  $STATUS",
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ ],
+  "operationTypeList" : null,
+  "testProfile" : ""
+}

@@ -1,0 +1,377 @@
+--Request 
+GET https://c.amazon-adsystem.com/aat/allowlist/allowlist.json
+Host: c.amazon-adsystem.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/json
+content-length: 95
+last-modified: Wed, 05 Aug 2026 00:27:42 GMT
+x-amz-server-side-encryption: AES256
+x-amz-version-id: fKDWqoHQzt5oQ_3Yqdi8CIVlz0_O1Rq6
+accept-ranges: bytes
+server: AmazonS3
+access-control-allow-origin: *
+via: 1.1 7b657a8eea509a1c9da1cd9f245d3862.cloudfront.net (CloudFront), 1.1 d66c5425c72752c26019e1f62ad8457e.cloudfront.net (CloudFront)
+date: Wed, 05 Aug 2026 09:27:51 GMT
+etag: \"bdafe3982e2d77e022c52be9dc6904f8\"
+vary: Accept-Encoding
+age: 1099
+access-control-allow-methods: GET, HEAD, OPTIONS
+access-control-expose-headers: x-viewer-country
+x-viewer-country: IN
+x-amz-cf-pop: DEL51-P5
+x-amz-cf-pop: DEL51-P3
+x-cache: RefreshHit from cloudfront
+x-amz-cf-id: yJbeqBRUEchywmW1GX_MGyjX6IWtn7cMZHuZPY50Ln8snToaOnImFQ==
+----
+--Request 
+GET https://cdn.cookielaw.org/scripttemplates/202606.1.0/otGPP.js
+Host: cdn.cookielaw.org
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+content-md5: pwblQr7bhMnD4K+yMD1EHg==
+last-modified: Tue, 23 Jun 2026 18:27:02 GMT
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+server: cloudflare
+x-ms-request-id: 93999b18-401e-004f-72dd-035792000000
+x-ms-version: 2009-09-19
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding
+access-control-allow-origin: *
+x-content-type-options: nosniff
+cross-origin-resource-policy: cross-origin
+age: 5725
+cache-control: max-age=86400
+cf-cache-status: HIT
+content-encoding: gzip
+cf-ray: a264df777b7054a7-DEL
+----
+--Request 
+GET https://12050451.fls.doubleclick.net/activityi;dc_pre=CMHAlKCaiZYDFVXEhAAd-lQaOA;src=12050451;type=direc005;cat=dv3600;rcb=18;ord=2177336688228;npa=0;auiddc=1143583505.1785923160;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0;uamb=0;uam=;uap=Linux;uapv=6.8.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6831v9172137160za200zb848825936zd848825936xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=115938465~115938469~117227716~118131808~118395334~118897920~118897930~119896802;epver=2;~oref=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F?
+Host: 12050451.fls.doubleclick.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:08 GMT
+expires: Wed, 05 Aug 2026 09:46:08 GMT
+cache-control: private, max-age=0
+strict-transport-security: max-age=21600
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+content-encoding: br
+server: cafe
+content-length: 570
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Wed, 05-Aug-2026 10:01:08 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://12050451.fls.doubleclick.net/activityi;dc_pre=CJ3blKCaiZYDFR_OhAAdDloCEg;src=12050451;type=strea0;cat=strea016;rcb=18;ord=1;num=3979895407679;npa=0;auiddc=1143583505.1785923160;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0;uamb=0;uam=;uap=Linux;uapv=6.8.0;uaw=0;pscdl=noapi;frm=0;_tu=AJA;gtm=45fe6831v9172137160za200zb848825936zd848825936xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=115938465~115938469~117227716~118131808~118395334~118897920~118897930~119896802;epver=2;~oref=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F?
+Host: 12050451.fls.doubleclick.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:08 GMT
+expires: Wed, 05 Aug 2026 09:46:08 GMT
+cache-control: private, max-age=0
+strict-transport-security: max-age=21600
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+content-encoding: br
+server: cafe
+content-length: 567
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Wed, 05-Aug-2026 10:01:08 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/129.fe865cd4ba5b51cf9432.chunk.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=dtvresearch
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 560253
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"3c97-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df77beca91a9-DEL
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/305.d4dcba7e4049e6a7e76a.chunk.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=dtvresearch
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 560252
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"4fad-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df77becd91a9-DEL
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/948.d6b81f4d8748fbbef855.chunk.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=dtvresearch
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 560252
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"6db5-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df77bed091a9-DEL
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/994.53653390ff50e4841591.chunk.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=dtvresearch
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 560252
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"5fd3-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df77bed191a9-DEL
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/179.1c20a30d47822898af46.chunk.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=dtvresearch
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 557441
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"521e-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df77bed291a9-DEL
+----
+--Request 
+GET https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10837652692/?random=1785923168075&cv=11&fst=1785923168075&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6831v889747108za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117227716~118131808~118897920~118897930~119896802&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&ref=https%3A%2F%2Fwww.directv.com%2F&rcb=19&frm=0&tiba=Stream%20NCAA%20College%20Sports%20Live%20on%20DIRECTV&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&data=event%3Dgtag.config%3Benable_event_matching_conversions%3Dfalse&ept=9&rfmt=3&fmt=4
+Host: googleads.g.doubleclick.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:08 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+content-type: text/javascript; charset=UTF-8
+x-content-type-options: nosniff
+content-disposition: attachment; filename=\"f.txt\"
+content-encoding: br
+server: cafe
+content-length: 2692
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Wed, 05-Aug-2026 10:01:08 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

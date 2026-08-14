@@ -1,0 +1,249 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/Accesslogs_fineract"
+  },
+  "lastModifedBy": "Shivam",
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "schedule": [],
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "TestJul_29_121453": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "AUTO_REDIRECT": {
+      "_G": [
+        [
+          "20"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        [
+          0
+        ]
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test_TestJul_29_121453"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "REPLAY_LOG_FILE": {
+      "_G": [
+        [
+          "/home/cavisson/work/access_log.2026-07-29.log",
+          34,
+          "528",
+          "HTTP"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "REPLAY_FILE": {
+      "_G": [
+        [
+          2
+        ]
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "REPLAY_PROFILE": {
+      "_G": [
+        [
+          "default/default/Accesslogs_fineract"
+        ]
+      ]
+    },
+    "PAGE_AS_TRANSACTION": {
+      "_G": [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "REPLAY_ACCESS_LOGS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "TestJul_29_121453",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/TestJul_29_121453",
+          "100.00",
+          "",
+          ""
+        ]
+      ]
+    },
+    "REPLAY_PERIOD": {},
+    "REPLAY_FACTOR": {
+      "_G": [
+        [
+          "100",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "PCT"
+        ]
+      ]
+    }
+  },
+  "id": "10884526-a885-49ca-9df7-2b536559e3e0",
+  "scripts": {},
+  "lastModifedTime": "30/07/2026 07:19:41",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

@@ -1,0 +1,11 @@
+{
+"body": [
+{$CAVREPEAT_BLOCK_START, sep(,), Count(SkuIdSP)}{
+"status": 200,
+"message": "Success",
+"body": {
+"Availabilitystatus": "{Status}|{SkuIdSP}",
+}
+}{$CAVREPEAT_BLOCK_END},
+],
+}

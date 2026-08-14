@@ -1,0 +1,733 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/download_thread_dump_without_existing_entry"
+  },
+  "lastModifedBy": "cavisson",
+  "agenticInfo": {
+    "applicationConfig": {
+      "authentication_prompt": "Login Username Lavi Password Lavi@123",
+      "applicationUrl": "https://10.10.60.82:4444/",
+      "uploadDirectories": []
+    },
+    "uploadId": "c4557651-336e-4e0a-be16-43bcebe47e2c",
+    "automationSteps": [
+      {
+        "step_number": 1,
+        "classifier": "action",
+        "action": "Navigate to https://10.10.60.82:4444/",
+        "expected_outcome": "The application at https://10.10.60.82:4444/ opens."
+      },
+      {
+        "step_number": 2,
+        "classifier": "action",
+        "action": "Enter valid Username-Lavi and Password-Lavi@123 and submit login form",
+        "expected_outcome": "The user is logged in successfully and can access the application."
+      },
+      {
+        "step_number": 3,
+        "classifier": "action",
+        "action": "Go to the area where thread dump entries are listed and look for an existing entry with Action icon",
+        "expected_outcome": "No existing thread dump entry is available, so the user cannot proceed with Action icon and cannot click 'Download'."
+      }
+    ],
+    "source": {
+      "summary_id": "4b33e43f-5889-45af-88d2-fa434fad1a71",
+      "origin": "JIRA",
+      "storyUrl": "https://lavi-jira-1.atlassian.net/browse/MON-32"
+    },
+    "priority": "high",
+    "tags": [
+      "Feature=Thread Dump Validation",
+      "SubFeature=Required Selection Enforcement Before Thread Dump",
+      "Negative=true",
+      "Validation=true",
+      "ErrorHandling=true",
+      "Source=JIRA",
+      "SourceRef=MON-32",
+      "UserStory=Download a thread dump",
+      "Epic=Thread Dump",
+      "testsuite=download_a_thread_dump_08_12_2026_17_31_40",
+      "AIGenerated=true"
+    ],
+    "desc": "Verify that the download flow cannot be completed when a thread dump entry does not exist, because the acceptance criteria require an existing entry."
+  },
+  "description": "Verify that the download flow cannot be completed when a thread dump entry does not exist, because the acceptance criteria require an existing entry.",
+  "automationStatus": "active",
+  "preTest": [],
+  "priority": "high",
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.download_thread_dump_without_existing_entry_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Verify that the download flow cannot be completed when a thread dump entry does not exist, because the acceptance criteria require an existing entry."
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "Feature=Thread Dump Validation, SubFeature=Required Selection Enforcement Before Thread Dump, Negative=true, Validation=true, ErrorHandling=true, Source=JIRA, SourceRef=MON-32, UserStory=Download a thread dump, Epic=Thread Dump, testsuite=download_a_thread_dump_08_12_2026_17_31_40, AIGenerated=true"
+        ]
+      ]
+    }
+  },
+  "id": "19791895-9ff5-4139-894d-064c8c1a7cf4",
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "assertionsV2": [
+        {
+          "locators": {
+            "xpath": "//*[@placeholder='Username']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "placeholder",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "openHttps101060824444UnifiedDashboardLogin"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Username"
+          },
+          "operator": "contains",
+          "errorMsg": "Username field is not visible on the opened application page",
+          "assertionDescription": "Opened application should show the Username field on the login page",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//*[contains(normalize-space(.),'SIGN IN') and not(.//*[contains(normalize-space(.),'SIGN IN')])]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "openHttps101060824444UnifiedDashboardLogin"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "SIGN IN"
+          },
+          "operator": "contains",
+          "errorMsg": "Sign in control is not visible on the opened application page",
+          "assertionDescription": "Opened application should display the SIGN IN control",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//a[contains(normalize-space(.),'DASHBOARD')]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "submitLoginForm"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "DASHBOARD"
+          },
+          "operator": "contains",
+          "errorMsg": "Dashboard navigation tab is not visible after login",
+          "assertionDescription": "Authenticated application navigation should show the Dashboard tab",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//body"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "clickLogsLink"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Download"
+          },
+          "operator": "does_not_contain",
+          "errorMsg": "Download option is unexpectedly visible",
+          "assertionDescription": "Current page should not show Download because no existing thread dump entry is available",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "steps": [
+            {
+              "optional": false,
+              "type": "go",
+              "tagName": "",
+              "url": "https://10.10.60.82:4444/UnifiedDashboard/#/login",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "pre_navigateToHttps101060824444.png",
+              "navigation": true,
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": "Open Login Page"
+              },
+              "stepName": "openHttps101060824444UnifiedDashboardLogin",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "pageSource": "post_navigateToHttps101060824444.html",
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[@placeholder='Username']"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "placeholder",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "openHttps101060824444UnifiedDashboardLogin"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "Username"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Username field is not visible on the opened application page",
+                  "assertionDescription": "Opened application should show the Username field on the login page",
+                  "target": "main"
+                },
+                {
+                  "locators": {
+                    "xpath": "//*[contains(normalize-space(.),'SIGN IN') and not(.//*[contains(normalize-space(.),'SIGN IN')])]"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "innerText",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "openHttps101060824444UnifiedDashboardLogin"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "SIGN IN"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Sign in control is not visible on the opened application page",
+                  "assertionDescription": "Opened application should display the SIGN IN control",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "openHttps101060824444UnifiedDashboardLogin",
+              "value": "",
+              "snapshot": "post_navigateToHttps101060824444.png",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "input",
+              "tagName": "INPUT",
+              "url": "https://10.10.60.82:4444/UnifiedDashboard/#/login",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "pre_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png",
+              "navigation": false,
+              "locators": {
+                "xpath": "//INPUT[@placeholder=\"Username\"]",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/app-root/app-login/div/div/div/div[2]/div/form/div/div/input",
+                "xpath1": "//INPUT[@placeholder=\"Password\"]/../../../DIV[1]/DIV[1]/INPUT[1]",
+                "domstring": "",
+                "xpath3": "html/body/app-root/app-login/div/div/div/div[2]/div/form/div[1]/div/input",
+                "id": "",
+                "class": "w-100-p input-lg ui-inputtext ui-corner-all ui-state-default ui-widget ng-untouched ng-pristine ng-invalid",
+                "ai_locator": "Username Input"
+              },
+              "stepName": "enterUsername",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "pageSource": "post_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.html",
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm",
+              "value": "Lavi",
+              "snapshot": "post_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "input",
+              "tagName": "INPUT",
+              "url": "https://10.10.60.82:4444/UnifiedDashboard/#/login",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": false,
+              "locators": {
+                "xpath": "//INPUT[@placeholder=\"Password\"]",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/app-root/app-login/div/div/div/div[2]/div/form/div[2]/div/input",
+                "xpath1": "//SPAN[normalize-space(.)=\"SIGN IN\"]/../../../DIV[2]/DIV[1]/INPUT[1]",
+                "domstring": "",
+                "xpath3": "html/body/app-root/app-login/div/div/div/div[2]/div/form/div[2]/div/input",
+                "id": "",
+                "class": "w-100-p pl-6 pr-25 input-lg ui-inputtext ui-corner-all ui-state-default ui-widget ng-untouched ng-pristine ng-invalid",
+                "ai_locator": "Password Input"
+              },
+              "stepName": "enterPassword",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm2",
+              "value": "Lavi@123",
+              "snapshot": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "sendkeys",
+              "tagName": "",
+              "url": "https://10.10.60.82:4444/UnifiedDashboard/#/home/dashboard",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": ""
+              },
+              "stepName": "submitLoginForm",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//a[contains(normalize-space(.),'DASHBOARD')]"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "innerText",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "submitLoginForm"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "DASHBOARD"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Dashboard navigation tab is not visible after login",
+                  "assertionDescription": "Authenticated application navigation should show the Dashboard tab",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm3",
+              "value": "Enter",
+              "snapshot": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "A",
+              "url": "https://10.10.60.82:4444/UnifiedDashboard/#/home/logs",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "pre_goToTheAreaWhereThreadDumpEntriesAreListedAndLookForAnExistingEn.png",
+              "navigation": true,
+              "locators": {
+                "xpath": "//A[normalize-space(.)=\"LOGS\"]",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/app-root/div/cav-nav-bar/div/div[3]/nav/div[2]/div/div/div[4]/a",
+                "xpath1": "//A[normalize-space(.)=\"CHAOS\"]/../../DIV[4]/A[1]",
+                "domstring": "",
+                "xpath3": "html/body/app-root/div/cav-nav-bar/div/div[3]/nav/div[2]/div/div/div[4]/a",
+                "id": "",
+                "class": "categories-item-drag",
+                "ai_locator": "Logs Link"
+              },
+              "stepName": "clickLogsLink",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "pageSource": "post_goToTheAreaWhereThreadDumpEntriesAreListedAndLookForAnExistingEn.html",
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//body"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "innerText",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "clickLogsLink"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "Download"
+                  },
+                  "operator": "does_not_contain",
+                  "errorMsg": "Download option is unexpectedly visible",
+                  "assertionDescription": "Current page should not show Download because no existing thread dump entry is available",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "goToTheAreaWhereThreadDumpEntriesAreListedAndLookForAnExistingEn",
+              "value": "",
+              "snapshot": "post_goToTheAreaWhereThreadDumpEntriesAreListedAndLookForAnExistingEn.png",
+              "iframes": ""
+            }
+          ]
+        }
+      },
+      "type": "Browser"
+    }
+  },
+  "lastModifedTime": "12/08/2026 12:05:07",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

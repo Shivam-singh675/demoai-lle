@@ -1,0 +1,43 @@
+--Request 
+GET https://cdn.cookielaw.org/consent/c37345a0-f820-4777-9d9d-dfc31170677a/c37345a0-f820-4777-9d9d-dfc31170677a.json
+Host: cdn.cookielaw.org
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/json
+cf-ray: a264df6e982754a7-DEL
+cf-cache-status: HIT
+accept-ranges: bytes
+access-control-allow-origin: *
+cache-control: public, max-age=86400
+content-encoding: gzip
+etag: 0x8DEEBFC005EF899
+expires: Thu, 06 Aug 2026 09:46:06 GMT
+last-modified: Mon, 27 Jul 2026 16:27:50 GMT
+server: cloudflare
+vary: accept-encoding
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding
+access-control-expose-headers: X-OneTrust-IsBot
+content-md5: YwJjfDwRyjra/Mmu3aKipw==
+cross-origin-resource-policy: cross-origin
+cross-origin-resource-policy: cross-origin
+x-content-type-options: nosniff
+x-onetrust-isbot: false
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 888e1b15-f01e-00b8-73e5-1d7179000000
+x-ms-version: 2009-09-19
+----
+

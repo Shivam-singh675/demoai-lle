@@ -1,0 +1,98 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Username field is not visible on the opened application page
+   target: main
+   locators:
+      xpath: //*[@placeholder='Username']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: placeholder
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - openHttps101060824444UnifiedDashboardLogin
+   rhs:
+      type: text
+      value: Username
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Sign in control is not visible on the opened application page
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.),'SIGN IN') and not(.//*[contains(normalize-space(.),'SIGN
+         IN')])]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - openHttps101060824444UnifiedDashboardLogin
+   rhs:
+      type: text
+      value: SIGN IN
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Dashboard navigation tab is not visible after login
+   target: main
+   locators:
+      xpath: //a[contains(normalize-space(.),'DASHBOARD')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - submitLoginForm
+   rhs:
+      type: text
+      value: DASHBOARD
+-  refId: null
+   inlineURLPattern: ''
+   operator: does_not_contain
+   errorMsg: Download option is unexpectedly visible
+   target: main
+   locators:
+      xpath: //body
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickLogsLink
+   rhs:
+      type: text
+      value: Download

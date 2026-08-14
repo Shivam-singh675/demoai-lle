@@ -1,0 +1,2066 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "Boutique/Automation/Multiple_product_cart"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Group_1": {
+      "parameters": {},
+      "assertions": [],
+      "flows": {
+        "Flow_1": {
+          "requests": [
+            {
+              "url": "https://cymbal-shops.retail.cymbal.dev/",
+              "label": "index",
+              "method": "GET",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "none",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_index.text",
+              "thinkTime": "",
+              "inlineRequests": [
+                {
+                  "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_0.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Storage-Access": "none",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_1.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Storage-Access": "none",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_2.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/styles/styles.css",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_3.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/styles/cart.css",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_4.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/styles/order.css",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_5.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/styles/bot.css",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "style",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_6.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/icons/Hipster_NavLogo.svg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_7.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/icons/Hipster_DownArrow.svg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_8.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/icons/Hipster_CartIcon.svg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_9.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "script",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_10.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "font",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_11.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/sunglasses.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_12.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/tank-top.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_13.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/watch.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_14.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/loafers.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_15.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/hairdryer.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_16.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/candle-holder.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_17.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/salt-and-pepper-shakers.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_18.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/bamboo-glass-jar.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_19.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/mug.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_20.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Sec-Fetch-Dest": "font",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_21.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/favicon.ico",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_22.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                }
+              ],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "none",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "https://cymbal-shops.retail.cymbal.dev/product/1YMWWN1N4O",
+              "label": "XYMWWN1N4O",
+              "method": "GET",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_XYMWWN1N4O.text",
+              "thinkTime": "",
+              "inlineRequests": [
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/favicon.ico",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_XYMWWN1N4O_0.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                }
+              ],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "https://cymbal-shops.retail.cymbal.dev/cart",
+              "label": "cart",
+              "method": "POST",
+              "headers": {
+                "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "body_cart_main_2_0.urlencoded",
+              "thinkTime": "",
+              "inlineRequests": [
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/cart",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Upgrade-Insecure-Requests": "1",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "document",
+                    "Sec-Fetch-User": "?1",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "navigate"
+                  },
+                  "bodyFile": "Group_1_Flow_1_cart_0.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/favicon.ico",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_cart_1.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                }
+              ],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "",
+              "headers": {
+                "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "https://cymbal-shops.retail.cymbal.dev/",
+              "label": "index_2",
+              "method": "GET",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_index_2.text",
+              "thinkTime": "",
+              "inlineRequests": [
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/favicon.ico",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_index_2_0.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                }
+              ],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "https://cymbal-shops.retail.cymbal.dev/product/OLJCESPC7Z",
+              "label": "OLJCESPC7Z",
+              "method": "GET",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_OLJCESPC7Z.text",
+              "thinkTime": "",
+              "inlineRequests": [
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/favicon.ico",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_OLJCESPC7Z_0.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                }
+              ],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "",
+              "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "https://cymbal-shops.retail.cymbal.dev/cart",
+              "label": "cart_2",
+              "method": "POST",
+              "headers": {
+                "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "body_cart_2_main_5_0.urlencoded",
+              "thinkTime": "",
+              "inlineRequests": [
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/cart",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Upgrade-Insecure-Requests": "1",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "document",
+                    "Sec-Fetch-User": "?1",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "navigate"
+                  },
+                  "bodyFile": "Group_1_Flow_1_cart_2_0.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/loafers.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_cart_2_1.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/tank-top.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_cart_2_2.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                },
+                {
+                  "url": "https://cymbal-shops.retail.cymbal.dev/static/img/products/bamboo-glass-jar.jpg",
+                  "label": "",
+                  "method": "GET",
+                  "headers": {
+                    "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "bodyFile": "Group_1_Flow_1_cart_2_3.text",
+                  "thinkTime": "",
+                  "repeatInline": "",
+                  "enable": true
+                }
+              ],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "",
+              "headers": {
+                "Origin": "https://cymbal-shops.retail.cymbal.dev",
+                "sec-ch-ua": "\"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"",
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "bodyFile": "Group_1_Flow_1_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            }
+          ],
+          "order": 0,
+          "steps": [
+            {
+              "enable": true,
+              "stepName": "Home",
+              "label": "go",
+              "type": "go",
+              "url": "http://10.10.70.138:31456/",
+              "tagName": "",
+              "value": "",
+              "attributes": "",
+              "assertions": [],
+              "snapshot": "webpage_1782790180830.png",
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 10.133,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "PDP",
+              "label": "click",
+              "type": "click",
+              "url": "https://cymbal-shops.retail.cymbal.dev/",
+              "tagName": "DIV",
+              "value": "",
+              "locators": {
+                "xpath": "//DIV[normalize-space(text())=\"Watch\"]/../../A[1]/DIV[1]",
+                "csspath": "[href=\"\\\\/product\\\\/1YMWWN1N4O\"] div",
+                "xpath2": "HTML/BODY[1]/MAIN[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/A[1]/DIV[1]",
+                "xpath1": "//DIV[normalize-space(text())=\"$109.99\"]/../../A[1]/DIV[1]",
+                "class": "hot-product-card-img-overlay"
+              },
+              "attributes": "{class=hot-product-card-img-overlay}",
+              "assertions": [],
+              "snapshot": "webpage_1782790190786.png",
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 4.897,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "AddToCart",
+              "label": "click",
+              "type": "click",
+              "url": "https://cymbal-shops.retail.cymbal.dev/product/1YMWWN1N4O",
+              "tagName": "BUTTON",
+              "value": "",
+              "locators": {
+                "xpath": "//BUTTON[normalize-space(text())=\"Add To Cart\"]",
+                "csspath": "button",
+                "xpath1": "HTML/BODY[1]/MAIN[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/FORM[1]/BUTTON[1]",
+                "class": "cymbal-button-primary"
+              },
+              "attributes": "{type=submit, class=cymbal-button-primary}",
+              "assertions": [],
+              "snapshot": "webpage_1782790196170.png",
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 8.815,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "ContinueShopping",
+              "label": "click",
+              "type": "click",
+              "url": "https://cymbal-shops.retail.cymbal.dev/cart",
+              "tagName": "A",
+              "value": "",
+              "locators": {
+                "xpath": "//A[normalize-space(text())=\"Continue Shopping\"]",
+                "csspath": "[role=\"button\"]",
+                "xpath2": "HTML/BODY[1]/MAIN[1]/SECTION[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/A[1]",
+                "xpath1": "//H4[normalize-space(text())=\"Watch\"]/../../../../../DIV[1]/DIV[2]/FORM[1]/A[@role=\"button\"][1]",
+                "class": "cymbal-button-primary"
+              },
+              "attributes": "{role=button, class=cymbal-button-primary, href=/}",
+              "assertions": [],
+              "snapshot": "webpage_1782790205798.png",
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 2.321,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "PDP_2",
+              "label": "click",
+              "type": "click",
+              "url": "https://cymbal-shops.retail.cymbal.dev/",
+              "tagName": "DIV",
+              "value": "",
+              "locators": {
+                "xpath": "//DIV[normalize-space(text())=\"Sunglasses\"]/../../A[1]/DIV[1]",
+                "csspath": "[href=\"\\\\/product\\\\/OLJCESPC7Z\"] div",
+                "xpath2": "HTML/BODY[1]/MAIN[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/A[1]/DIV[1]",
+                "xpath1": "//DIV[normalize-space(text())=\"$19.99\"]/../../A[1]/DIV[1]",
+                "class": "hot-product-card-img-overlay"
+              },
+              "attributes": "{class=hot-product-card-img-overlay}",
+              "assertions": [],
+              "snapshot": "webpage_1782790208474.png",
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 4.212,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "AddToCart_2",
+              "label": "click",
+              "type": "click",
+              "url": "https://cymbal-shops.retail.cymbal.dev/product/OLJCESPC7Z",
+              "tagName": "BUTTON",
+              "value": "",
+              "locators": {
+                "xpath": "//BUTTON[normalize-space(text())=\"Add To Cart\"]",
+                "csspath": "button",
+                "xpath1": "HTML/BODY[1]/MAIN[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/FORM[1]/BUTTON[1]",
+                "class": "cymbal-button-primary"
+              },
+              "attributes": "{class=cymbal-button-primary, type=submit}",
+              "assertions": [],
+              "snapshot": "webpage_1782790213031.png",
+              "preSnapshot": "",
+              "subType": "RBU",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 22.78,
+              "tabIndex": 0,
+              "navigation": true,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            }
+          ],
+          "enable": true
+        }
+      },
+      "scriptType": "",
+      "scriptMode": "visual",
+      "type": "Browser",
+      "order": 0,
+      "genCapacity": 0,
+      "assertionsV2": [
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "xpath": "/html/body/main/section/div/div[1]/div[1]/div[1]/h3"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "textContent",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickAddToCart_2"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Cart (1)"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "xpath": "/html/body/main/section/div/div[1]/div[1]/div[1]/h3"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "textContent",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickAddToCart_4"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Cart (2)"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "xpath": "/html/body/main/div[2]/div/div/div[1]/div[1]/h3"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "textContent",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "clickContinueShopping_2"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Hot Products"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "id": "//*[@id=\"hot-products-heading\"]"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "textContent",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "page": [
+            "Home"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Hot Products"
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "xpath": "/html/body/main/div[1]/div/div[1]/img"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "PDP"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "xpath": "/html/body/main/div[1]/div/div[2]/div/form/button"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "PDP"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "xpath": "/html/body/main/div[1]/div/div[1]/img"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "PDP_2"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        },
+        {
+          "inlineURLPattern": "",
+          "operator": "exist",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {
+            "xpath": "/html/body/main/div[1]/div/div[2]/div/form/button"
+          },
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": ""
+          },
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "page": [
+            "PDP_2"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          }
+        }
+      ],
+      "runlogic": [],
+      "state": "RECORDED",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "G_RBU_SCREEN_SIZE_SIM": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "RBU_ENABLE_CSV": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "G_RBU_SETTINGS": {
+      "ALL": [
+        []
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Start",
+          "START",
+          "IMMEDIATELY"
+        ],
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "RATE",
+          "120",
+          "M",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "0"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "IMMEDIATELY"
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RBU_MARK_MEASURE_MATRIX": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "G_RBU_USER_AGENT": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_RBU_ADD_ND_FPI": {
+      "ALL": [
+        [
+          "2",
+          "1"
+        ]
+      ]
+    },
+    "G_RBU_CPU_THROTTLING": {
+      "ALL": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "RBU_ENABLE_DUMMY_PAGE": {
+      "_G": [
+        [
+          "1",
+          ""
+        ]
+      ]
+    },
+    "G_RBU_CACHE_DOMAIN": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "Boutique/Automation/.Multiple_product_cart_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU_ADD_HEADER": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "5"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "RBU_BROWSER_COM_SETTINGS": {
+      "_G": [
+        [
+          "1",
+          "30",
+          "1000"
+        ]
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "org_boutique"
+        ]
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_RBU_CAPTURE_CLIPS": {
+      "ALL": [
+        [
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "G_RBU_ENABLE_TTI_MATRIX": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "RBU_POST_PROC": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_OVERRIDE_RECORDED_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "G_RBU_BLOCK_URL_LIST": {
+      "ALL": [
+        [
+          "NA"
+        ]
+      ]
+    },
+    "RBU_ORIGIN_DOMAIN": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "G_RBU_CAPTURE_PERFORMANCE_TRACE": {
+      "ALL": [
+        []
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "G_RBU_PAGE_LOADED_TIMEOUT": {
+      "ALL": [
+        [
+          "1500"
+        ]
+      ]
+    },
+    "G_RBU_BROWSER_SETTING": {
+      "ALL": [
+        [
+          "1",
+          "/home/cavisson/thirdparty/browsers/chromium_headless",
+          "--disable-gpu --no-sandbox --disable-setuid-sandbox --disable-site-isolation-trials --disable-features=IsolateOrigins,site-per-process --disable-web-security"
+        ]
+      ]
+    },
+    "G_RBU_LIGHTHOUSE_SETTING": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "G_RBU_RM_PROF_SUB_DIR": {
+      "ALL": [
+        [
+          "0",
+          "-"
+        ]
+      ]
+    },
+    "G_RBU_THROTTLING_SETTING": {
+      "ALL": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "RBU_DOMAIN_STAT": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_RBU_CACHE_SETTING": {
+      "ALL": [
+        [
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "G_RBU_CLEAN_UP_PROF_ON_SESSION_START": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_RBU_HAR_TIMEOUT": {
+      "ALL": [
+        [
+          "60"
+        ]
+      ]
+    },
+    "G_RBU_HAR_SETTING": {
+      "ALL": [
+        [
+          "1",
+          "0",
+          "0",
+          "1",
+          "0",
+          "1000",
+          "1500"
+        ]
+      ]
+    },
+    "G_RBU_ALERT_SETTING": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_RBU_DOMAIN_IGNORE_LIST": {
+      "ALL": [
+        [
+          "NA"
+        ]
+      ]
+    },
+    "RBU_ALERT_POLICY": {
+      "_G": [
+        [
+          "1",
+          "0:undefined"
+        ]
+      ]
+    },
+    "G_RBU_PAGE_SPEED": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    }
+  },
+  "description": "User validates multiple product added in the cart or not.",
+  "priority": "low",
+  "preTest": [],
+  "postTest": [],
+  "references": []
+}

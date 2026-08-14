@@ -1,0 +1,7 @@
+0:Start
+1:Start|Flow_1
+2:Start|Flow_1|Home
+3:Start|Flow_1|PDP
+4:Start|Flow_1|AddToCart
+5:Start|Flow_1|PlaceOrder
+6:Start|Flow_1|ContinueShopping

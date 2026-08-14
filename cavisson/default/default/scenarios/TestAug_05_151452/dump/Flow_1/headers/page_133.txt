@@ -1,0 +1,106 @@
+--Request 
+GET https://people.api.zetaglobal.net/identify/resolve?data=eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e30sImV4dGVybmFsX2lkcyI6eyJ6eW5jIjoiMTE5YjliMDEtMDQ1ZS00YWU2LWIzMzQtMjEwY2Y1ZjY0YzBiOjE3ODU5MjMxNzcuNjQ3NDg0In19&site_id=directv-com
+Host: people.api.zetaglobal.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:19 GMT
+content-type: application/json
+content-length: 248
+server: gunicorn/19.10.0
+access-control-allow-origin: *
+access-control-allow-headers: X-Requested-With,Content-Type,Authorization,x-app-id
+access-control-allow-methods: GET,PUT,POST,DELETE
+----
+
+--Response 
+HTTP/1.1 200 OK
+Date: Tue, 04 Aug 2026 12:10:29 GMT
+Last-Modified: Sun, 02 Aug 2026 12:07:04 GMT
+x-amz-server-side-encryption: AES256
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 7cea0c438b17b3fb24548503d32d145c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL51-P3
+X-Amz-Cf-Id: GbV6_cBpHJRbyX44JwVH5Yybx24o9qebhp_8ro6DbPWOLJVHir1fVQ==
+Age: 77750
+Content-Type: application/javascript
+Content-Length: 482
+ETag: \"3c2902a9e6adcb33745963459cecb356\"
+Accept-Ranges: bytes
+----
+--Request 
+GET https://ct.pinterest.com/static/ct/token_create.js
+Host: ct.pinterest.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+etag: \"4bd959dc68e07085d4fe0a30e3ef0216\"
+x-amz-server-side-encryption: AES256
+content-type: application/javascript
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=7200
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-length: 2053
+akamai-grn: 0.a6014017.1785923168.80bb943c
+x-cdn: akamai
+----
+--Request 
+GET https://ct.pinterest.com/ct.html
+Host: ct.pinterest.com
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+cache-control: max-age=86400
+content-type: text/html; charset=utf-8
+content-encoding: gzip
+content-length: 326
+x-envoy-upstream-service-time: 2
+pinterest-version: 9a09dd6f766fc7c4653fe61029c058719c15db64
+referrer-policy: origin
+x-pinterest-rid: 3975934744333784
+x-pinterest-rid-128bit: 5a614b1f5305b29805848928909d6865
+date: Wed, 05 Aug 2026 09:46:09 GMT
+alt-svc: h3=\":443\"; ma=604800
+vary: Accept-Encoding
+akamai-grn: 0.a6014017.1785923168.80bb94ff
+x-cdn: akamai
+----
+

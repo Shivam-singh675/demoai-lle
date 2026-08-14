@@ -1,0 +1,4 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+AccountTransferTxn|Main|0|http://10.10.70.138:8443/fineract-provider/api/v1/accounttransfers|10.10.70.138_8443/fineract-provider/api/v1/accounttransfers|NA|0|NA|10.10.70.138:8443|/fineract-provider/api/v1/|./../../../|0|0|0|-1|POST|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA

@@ -1,0 +1,13 @@
+X-Payment-experimentation: V3
+{
+    "RequestType": "Association",
+    "Version": "V3",
+    "AssociateAccount": [
+        {
+            "accId": "5936291",
+            "encryptedsecuritycode": "XRPCw134n//wh+hdkjWR/",
+            "phonenum": "8285771111",
+            "originator": "cavisson"
+        }
+    ]
+}

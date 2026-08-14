@@ -1,0 +1,14 @@
+#This is auto generated scenario configuration file created by UI from JSON file. You should not manually edit this file as this gets replaced by UI when any change done from UI.
+#lastModifedTime: 08/08/2026 11:10:28
+#lastModifiedBy: cavisson
+PROF_PCT_MODE NUM
+SGRP Apache_Fineract_REST_API NA NA Internet 0 default/default/.FineractAccountCreation_Apache_Fineract_REST_API 50
+G_TRACING ALL 4 1 1 0 0 1 100 100
+SCHEDULE ALL RampUp RAMP_UP ALL TIME 00:01:00 LINEARLY
+SCHEDULE ALL Stabilize STABILIZATION TIME 00:01:00
+SCHEDULE ALL Duration DURATION SESSIONS 100 0
+SCHEDULE ALL RampDown RAMP_DOWN ALL TIME 00:01:00 LINEARLY
+TNAME Test_FineractAccountCreation
+G_SESSION_PACING ALL 2 0 1000
+G_CONTINUE_ON_PAGE_ERROR ALL ALL 1
+ENABLE_VUSER_STACK_GUARD 1

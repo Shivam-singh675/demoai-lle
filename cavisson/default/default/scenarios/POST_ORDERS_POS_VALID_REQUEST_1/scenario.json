@@ -1,0 +1,367 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/POST_ORDERS_POS_VALID_REQUEST_1"
+  },
+  "lastModifedBy": "chinmaya",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.POST_ORDERS_POS_VALID_REQUEST_1_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "id": "d2f9f2e2-ccf3-4337-b677-9faa2f4ed2ca",
+  "scripts": {
+    "Group_1": {
+      "scriptMode": "visual",
+      "assertionsV2": [
+        {
+          "locators": {},
+          "assertOnErrorCodes": "all",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "statuscode"
+          },
+          "inlineURLPattern": ".*",
+          "page": [
+            "*"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "^2[0-9]{2}$"
+          },
+          "operator": "match_regex",
+          "errorMsg": "Status code validation failed",
+          "assertionDescription": "Response status code should be a 2xx success code",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "headers": {},
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "x-requestid": "{dynamic_x_requestid}",
+                "Content-Type": "application/json"
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "enable": true,
+              "inlineRequests": [],
+              "label": "index",
+              "body": "{\"userId\":\"{dynamic_post_userId}\",\"userName\":\"{dynamic_post_userName}\",\"city\":\"{dynamic_post_city}\",\"street\":\"{dynamic_post_street}\",\"state\":\"{dynamic_post_state}\",\"country\":\"{dynamic_post_country}\",\"zipCode\":\"{dynamic_post_zipCode}\",\"cardNumber\":\"{dynamic_post_cardNumber}\",\"cardHolderName\":\"{dynamic_post_cardHolderName}\",\"cardExpiration\":\"{dynamic_post_cardExpiration}\",\"cardSecurityNumber\":\"{dynamic_post_cardSecurityNumber}\",\"cardTypeId\":\"{dynamic_post_cardTypeId}\",\"buyer\":\"{dynamic_post_buyer}\",\"items\":[{\"id\":\"{dynamic_post_item_id}\",\"productId\":\"{dynamic_post_item_productId}\",\"productName\":\"{dynamic_post_item_productName}\",\"unitPrice\":\"{dynamic_post_item_unitPrice}\",\"oldUnitPrice\":\"{dynamic_post_item_oldUnitPrice}\",\"quantity\":\"{dynamic_post_item_quantity}\",\"pictureUrl\":\"{dynamic_post_item_pictureUrl}\"}]}",
+              "url": "{BASE_URL}/api/orders"
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "type": "API",
+      "parameters": {
+        "scratch": [
+          {
+            "parameter-name": "BASE_URL",
+            "defaultValue": "http://localhost:8080",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(BASE_URL,DefaultValue=\"http://localhost:8080\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_userId",
+            "defaultValue": "dynamic_post_userId",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_userId,DefaultValue=\"dynamic_post_userId\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_userName",
+            "defaultValue": "dynamic_post_userName",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_userName,DefaultValue=\"dynamic_post_userName\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_city",
+            "defaultValue": "dynamic_post_city",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_city,DefaultValue=\"dynamic_post_city\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_street",
+            "defaultValue": "dynamic_post_street",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_street,DefaultValue=\"dynamic_post_street\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_state",
+            "defaultValue": "dynamic_post_state",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_state,DefaultValue=\"dynamic_post_state\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_country",
+            "defaultValue": "dynamic_post_country",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_country,DefaultValue=\"dynamic_post_country\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_zipCode",
+            "defaultValue": "dynamic_post_zipCode",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_zipCode,DefaultValue=\"dynamic_post_zipCode\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_cardNumber",
+            "defaultValue": "dynamic_post_cardNumber",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_cardNumber,DefaultValue=\"dynamic_post_cardNumber\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_cardHolderName",
+            "defaultValue": "dynamic_post_cardHolderName",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_cardHolderName,DefaultValue=\"dynamic_post_cardHolderName\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_cardExpiration",
+            "defaultValue": "dynamic_post_cardExpiration",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_cardExpiration,DefaultValue=\"dynamic_post_cardExpiration\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_cardSecurityNumber",
+            "defaultValue": "dynamic_post_cardSecurityNumber",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_cardSecurityNumber,DefaultValue=\"dynamic_post_cardSecurityNumber\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_cardTypeId",
+            "defaultValue": "dynamic_post_cardTypeId",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_cardTypeId,DefaultValue=\"dynamic_post_cardTypeId\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_buyer",
+            "defaultValue": "dynamic_post_buyer",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_buyer,DefaultValue=\"dynamic_post_buyer\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_item_id",
+            "defaultValue": "dynamic_post_item_id",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_item_id,DefaultValue=\"dynamic_post_item_id\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_item_productId",
+            "defaultValue": "dynamic_post_item_productId",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_item_productId,DefaultValue=\"dynamic_post_item_productId\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_item_productName",
+            "defaultValue": "dynamic_post_item_productName",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_item_productName,DefaultValue=\"dynamic_post_item_productName\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_item_unitPrice",
+            "defaultValue": "dynamic_post_item_unitPrice",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_item_unitPrice,DefaultValue=\"dynamic_post_item_unitPrice\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_item_oldUnitPrice",
+            "defaultValue": "dynamic_post_item_oldUnitPrice",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_item_oldUnitPrice,DefaultValue=\"dynamic_post_item_oldUnitPrice\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_item_quantity",
+            "defaultValue": "dynamic_post_item_quantity",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_item_quantity,DefaultValue=\"dynamic_post_item_quantity\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_item_pictureUrl",
+            "defaultValue": "dynamic_post_item_pictureUrl",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_post_item_pictureUrl,DefaultValue=\"dynamic_post_item_pictureUrl\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_x_requestid",
+            "defaultValue": "{dynamic_x_requestid}",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_x_requestid,DefaultValue=\"{dynamic_x_requestid}\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      }
+    }
+  },
+  "lastModifedTime": "07/08/2026 12:25:12",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

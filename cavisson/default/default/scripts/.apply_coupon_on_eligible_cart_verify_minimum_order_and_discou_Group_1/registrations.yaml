@@ -1,0 +1,99 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist_visible
+   errorMsg: Currency selector was not visible on the landing page
+   target: main
+   locators:
+      xpath: //*[@aria-label='Select display currency, currently USD']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@aria-label='Select display currency, currently USD']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - goToStorefront
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Selected cart item is not visible
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.),'Watch')][not(.//*[contains(normalize-space(.),'Watch')])]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickShoppingCartLink
+   rhs:
+      type: text
+      value: Watch
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - clickApplyCouponButton
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - clickApplyCouponButton
+   rhs:
+      type: text
+      value: Online Boutique

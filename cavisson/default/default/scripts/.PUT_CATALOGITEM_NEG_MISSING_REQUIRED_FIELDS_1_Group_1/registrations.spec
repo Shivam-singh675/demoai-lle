@@ -1,0 +1,13 @@
+nsl_json_var(dynamic_id, PAGE=index, OBJECT_PATH="root.catalogItem.id", ORD=1, SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=All);
+nsl_decl_var(BASE_URL,DefaultValue="http://localhost:8080",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_name,DefaultValue="dynamic_post_name",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_description,DefaultValue="dynamic_post_description",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_price,DefaultValue="dynamic_post_price",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_pictureUri,DefaultValue="dynamic_post_pictureUri",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_catalogTypeId,DefaultValue="dynamic_post_catalogTypeId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_catalogBrandId,DefaultValue="dynamic_post_catalogBrandId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_id,DefaultValue="dynamic_id",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_price,DefaultValue="dynamic_put_price",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_pictureUri,DefaultValue="dynamic_put_pictureUri",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_catalogTypeId,DefaultValue="dynamic_put_catalogTypeId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_catalogBrandId,DefaultValue="dynamic_put_catalogBrandId",RETAINPREVALUE="NO");

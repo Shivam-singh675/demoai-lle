@@ -1,0 +1,49 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section[1]/div[4]/div[2]
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickPlaceOrder_4
+   rhs:
+      type: text
+      value: '10.00'
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section[1]/div[6]/div[1]/span
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - PlaceOrder
+   rhs:
+      type: text
+      value: SAVE10

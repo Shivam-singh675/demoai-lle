@@ -1,0 +1,8 @@
+0:Start
+1:Start|Flow_1
+2:Start|Flow_1|goToHomePage
+3:Start|Flow_1|clickCurrencyDropdown
+4:Start|Flow_1|selectJpyCurrency
+5:Start|Flow_1|clickWatchDetails
+6:Start|Flow_1|clickAddWatchToCart
+7:Start|Flow_1|enterSave10CouponCode

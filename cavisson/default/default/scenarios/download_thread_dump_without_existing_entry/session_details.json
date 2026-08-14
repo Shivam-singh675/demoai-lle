@@ -1,0 +1,42 @@
+{
+  "humanSteps": [
+    {
+      "stepNumber": 1,
+      "humanStepName": "Navigate to https://10.10.60.82:4444/",
+      "timestamp": 1786536171,
+      "browserActionCount": 1,
+      "testcaseStepCount": 0,
+      "testcaseSteps": []
+    },
+    {
+      "stepNumber": 2,
+      "humanStepName": "Enter valid Username-Lavi and Password-Lavi@123 and submit login form",
+      "timestamp": 1786536227,
+      "browserActionCount": 3,
+      "testcaseStepCount": 1,
+      "testcaseSteps": [
+        {
+          "stepName": "enterUsername",
+          "actionLabel": "Input: \"Username\"",
+          "prePath": "agenticAi/aiTestCases/1081/download_thread_dump_without_existing_entry/dump/Flow_1/Snapshots/pre_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png",
+          "postPath": "agenticAi/aiTestCases/1081/download_thread_dump_without_existing_entry/dump/Flow_1/Snapshots/post_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png"
+        }
+      ]
+    },
+    {
+      "stepNumber": 3,
+      "humanStepName": "Go to the area where thread dump entries are listed and look for an existing entry with Action icon",
+      "timestamp": 1786536292,
+      "browserActionCount": 3,
+      "testcaseStepCount": 1,
+      "testcaseSteps": [
+        {
+          "stepName": "clickLogsLink",
+          "actionLabel": "Click \"LOGS\"",
+          "prePath": "agenticAi/aiTestCases/1081/download_thread_dump_without_existing_entry/dump/Flow_1/Snapshots/pre_goToTheAreaWhereThreadDumpEntriesAreListedAndLookForAnExistingEn.png",
+          "postPath": "agenticAi/aiTestCases/1081/download_thread_dump_without_existing_entry/dump/Flow_1/Snapshots/post_goToTheAreaWhereThreadDumpEntriesAreListedAndLookForAnExistingEn.png"
+        }
+      ]
+    }
+  ]
+}

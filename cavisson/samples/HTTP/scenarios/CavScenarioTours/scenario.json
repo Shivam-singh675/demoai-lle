@@ -1,0 +1,1657 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "samples/HTTP/CavScenarioTours"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "NS_PARENT_LOGGER_LISTEN_PORTS": {
+      "_G": [
+        [
+          "7914",
+          "7920",
+          "1"
+        ]
+      ]
+    },
+    "G_INLINE_MIN_CON_REUSE_DELAY": {
+      "ALL": [
+        []
+      ]
+    },
+    "IO_VECTOR_SIZE": {
+      "_G": [
+        [
+          "10000",
+          "1000",
+          "100000"
+        ]
+      ]
+    },
+    "G_GET_NO_INLINED_OBJ": {
+      "ALL": [
+        [
+          1
+        ]
+      ]
+    },
+    "MAX_DYNAMIC_HOST": {
+      "_G": [
+        [
+          "100"
+        ]
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          0
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "10",
+          "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "NVM_DISTRIBUTION": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "CONTINUE_TEST_ON_GEN_FAILURE": {
+      "_G": [
+        [
+          "1",
+          "10",
+          "100",
+          "0",
+          "900",
+          "600"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "WHITELIST_HEADER": {
+      "_G": [
+        [
+          "0",
+          "User-Agent",
+          "Cavisson"
+        ]
+      ]
+    },
+    "SHOW_SERVER_IP_DATA": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "CAV_EPOCH_YEAR": {
+      "_G": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "G_INLINE_INCLUDE_URL_PATTERN": {
+      "ALL": [
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "samples/HTTP/.CavScenarioTours_Group_1",
+          "10",
+          "",
+          ""
+        ]
+      ]
+    },
+    "SRC_PORT_MODE": {
+      "_G": [
+        [
+          "0",
+          "1000",
+          "0"
+        ]
+      ]
+    },
+    "NUM_NVM": {
+      "_G": [
+        [
+          "1",
+          "CPU",
+          "25",
+          "64"
+        ]
+      ]
+    },
+    "ENABLE_FCS_SETTINGS": {
+      "_G": [
+        [
+          "0",
+          "8"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_OVERRIDE_RECORDED_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          0
+        ]
+      ]
+    },
+    "SHOW_GROUP_DATA": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "CHECK_PROFILE_OVERALL": {
+      "_G": [
+        []
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "PROGRESS_MSECS": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_AUTO_FETCH_EMBEDDED": {
+      "ALL": [
+        []
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "FAVORITE": {
+      "_G": [
+        [
+          "NA"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "JAVA_SCRIPT_RUNTIME_MEM": {
+      "_G": [
+        [
+          "0",
+          "8",
+          "4"
+        ]
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "ENABLE_NC_TCPDUMP": {
+      "_G": [
+        [
+          "2",
+          "2",
+          "2",
+          "120",
+          "5"
+        ]
+      ]
+    },
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "CHECK_PROFILE_PERIODIC": {
+      "_G": [
+        []
+      ]
+    },
+    "DISABLE_SCRIPT_COPY_TO_TR": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "VUSER_THREAD_POOL": {
+      "_G": [
+        [
+          "100",
+          "10",
+          "1000",
+          "512"
+        ]
+      ]
+    },
+    "OPTIMIZE_ETHER_FLOW": {
+      "_G": [
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "SAVE_NVM_FILE_PARAM_VAL": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_INLINE_EXCLUDE_URL_PATTERN": {
+      "ALL": [
+        []
+      ]
+    },
+    "ENABLE_PAGE_BASED_STATS": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "WORK_MEM_SETTING": {
+      "_G": [
+        [
+          "10.0",
+          "8192"
+        ]
+      ]
+    }
+  },
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [],
+      "type": "API",
+      "assertionsV2": [],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "none",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_html_0.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/banner_animated.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_html_1.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/sun_swede.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_html_2.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/login.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_html_3.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/banner_merctur.jpg"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_index_html_4.text",
+                  "label": "",
+                  "url": "{baseURL}/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_index_html.text",
+              "label": "index_html",
+              "url": "{baseURL}/tours/index.html"
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "none",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "24.449",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_0.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/banner_animated.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_1.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/sun_swede.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_2.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/flights.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_3.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/home.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_4.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/signoff.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_5.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/banner_merctur.jpg"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_6.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/vep/images/velocigen.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_login_7.text",
+                  "label": "",
+                  "url": "{baseURL}/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_login.text",
+              "label": "login",
+              "url": "{baseURL}/cgi-bin/login?userSession=75893.0884568651DQADHfApHDHfcDtccpfAttcf&username=&password=&login.x=80&login.y=10&JSFormSubmit=off"
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "2.963",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_0.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/banner_animated.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_1.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/sun_swede.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_2.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/flights.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_3.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/home.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_4.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/signoff.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_5.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/splash_Findflight.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-477625130\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_6.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/vep/images/velocigen.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_7.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/continue.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_reservation_8.text",
+                  "label": "",
+                  "url": "{baseURL}/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_reservation.text",
+              "label": "reservation",
+              "url": "{baseURL}/cgi-bin/reservation"
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "1.209",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_0.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/banner_animated.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_1.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/sun_swede.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/flights.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/home.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_4.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/signoff.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_5.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/splash_Searchresults.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_6.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/startover.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-477625130\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_7.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/vep/images/velocigen.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693447\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_8.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/continue.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_9.text",
+                  "label": "",
+                  "url": "{baseURL}/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_findflight.text",
+              "label": "findflight",
+              "url": "{baseURL}/cgi-bin/findflight?depart=Acapulco&departDate=02-21-2026&arrive=Acapulco&returnDate=02-22-2026&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=61&findFlights.y=14"
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "2.469",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_0.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/banner_animated.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_1.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/sun_swede.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_2.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/flights.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_3.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/home.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_4.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/signoff.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_5.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/splash_creditcard.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693447\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_6.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/startover.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_7.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/purchaseflight.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-477625130\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_8.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/vep/images/velocigen.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_2_9.text",
+                  "label": "",
+                  "url": "{baseURL}/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_findflight_2.text",
+              "label": "findflight_2",
+              "url": "{baseURL}/cgi-bin/findflight?outboundFlight=button0&hidden_outboundFlight_button0=000%7C0%7C02-21-2026&hidden_outboundFlight_button1=001%7C0%7C02-21-2026&hidden_outboundFlight_button2=002%7C0%7C02-21-2026&hidden_outboundFlight_button3=003%7C0%7C02-21-2026&numPassengers=1&advanceDiscount=&seatType=Coach&seatPref=None&reserveFlights.x=77&reserveFlights.y=13"
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "2.476",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_0.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/banner_animated.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_1.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/sun_swede.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_2.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/flights.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_3.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/home.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-327693391\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_4.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/signoff.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_5.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/splash_flightconfirm.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_6.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/bookanother.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-477625130\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_7.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/vep/images/velocigen.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_findflight_3_8.text",
+                  "label": "",
+                  "url": "{baseURL}/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_findflight_3.text",
+              "label": "findflight_3",
+              "url": "{baseURL}/cgi-bin/findflight?firstName=Tiger&lastName=Scott&address1=4261+Stevenson+Blvd.&address2=Fremont%2C+CA+94538&pass1=Scott+Tiger&creditCard=&expDate=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=000%7C0%7C02-21-2026&advanceDiscount=&buyFlights.x=78&buyFlights.y=8&.cgifields=saveCC"
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "3.515",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_welcome_0.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/banner_animated.gif"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-449976034\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_welcome_1.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/sun_swede.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_welcome_2.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/Merc10-dev/images/login.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_welcome_3.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/images/banner_merctur.jpg"
+                },
+                {
+                  "headers": {
+                    "If-None-Match": "\"-477625130\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_welcome_4.text",
+                  "label": "",
+                  "url": "{baseURL}/tours/vep/images/velocigen.gif"
+                },
+                {
+                  "headers": {
+                    "sec-ch-ua-mobile": "?0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Dest": "image",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Sec-Fetch-Mode": "no-cors"
+                  },
+                  "method": "GET",
+                  "thinkTime": "",
+                  "bodyFile": "Group_1_Flow_1_welcome_5.text",
+                  "label": "",
+                  "url": "{baseURL}/favicon.ico"
+                }
+              ],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_welcome.text",
+              "label": "welcome",
+              "url": "{baseURL}/cgi-bin/welcome"
+            },
+            {
+              "headers": {
+                "sec-ch-ua-mobile": "?0",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Site": "same-origin",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-User": "?1",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Sec-Fetch-Mode": "navigate"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "",
+              "thinkTime": "4.359",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "parameters": {
+        "scratch": [
+          {
+            "parameter-name": "baseURL",
+            "defaultValue": "https://127.0.0.1",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(baseURL,DefaultValue=\"https://127.0.0.1\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "20/02/2026 11:32:18",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

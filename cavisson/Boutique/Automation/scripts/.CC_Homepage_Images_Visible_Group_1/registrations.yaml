@@ -1,0 +1,241 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/div[1]/div[2]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - index
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/div[1]/div[3]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - index
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/div[1]/div[4]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - index
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/div[1]/div[5]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - index
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/div[1]/div[6]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - index
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/section/ul/li[1]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - Home
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/section/ul/li[2]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - Home
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/section/ul/li[3]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - Home
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/section/ul/li[4]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - Home
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/section/ul/li[5]/a/div
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - Home
+   rhs:
+      type: text
+      value: ''

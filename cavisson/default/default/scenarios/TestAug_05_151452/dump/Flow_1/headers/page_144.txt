@@ -1,0 +1,22 @@
+--Request 
+POST https://insight.adsrvr.org/track/realtimeconversion
+Host: insight.adsrvr.org
+sec-ch-ua-platform: \"Linux\"
+eventDataSourceVersion: 3.0.5
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-type: application/json
+sec-ch-ua-mobile: ?0
+eventDataSource: JsSdk
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"data":[{"0":"t","1":"t","2":"d","3":"U","4":"n","5":"i","6":"v","7":"e","8":"r","9":"s","10":"a","11":"l","12":"P","13":"i","14":"x","15":"e","16":"l","17":"T","18":"a","19":"g","adv":"102rt04","pixel_ids":["s0e7skb"],"referrer_url":"https://www.directv.com/packages/?dtvprodCd=5185-9845b5bd75c3479d9d65bffffd6b518b","data_processing_option":null,"privacy_settings":[]}]}
+
+

@@ -1,0 +1,2 @@
+POST /fineract-provider/api/v1/authentication HTTP/1.1
+

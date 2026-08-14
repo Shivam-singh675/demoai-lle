@@ -1,0 +1,96 @@
+{
+    "data": [
+        {
+            "name": true,
+            "description": [
+                "active",
+                "pending",
+                "inactive"
+            ],
+            "createdBy": "inactive",
+            "creationDate": "Normal",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/amber.json"
+        },
+        {
+            "name": true,
+            "description": [
+                "active",
+                "pending",
+                "completed",
+                "inactive"
+            ],
+            "createdBy": "Amber",
+            "creationDate": "Inactive",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/ave.json"
+        },
+        {
+            "name": false,
+            "description": [
+                "completed"
+            ],
+            "createdBy": "cavisson",
+            "creationDate": "",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/saa.json"
+        },
+        {
+            "name": false,
+            "description": [
+                "active",
+                "pending",
+                "completed"
+            ],
+            "createdBy": "inactive",
+            "creationDate": "Normal",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/myghj.json"
+        },
+        {
+            "name": false,
+            "description": [
+                "pending",
+                "completed"
+            ],
+            "createdBy": "cavisson",
+            "creationDate": "Derived",
+            "metricType": "Derived",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/kmlm.json"
+        },
+        {
+            "name": true,
+            "description": [
+                "active",
+                "pending",
+                "completed"
+            ],
+            "createdBy": "Amber",
+            "creationDate": "",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/gffy.json"
+        },
+        {
+            "name": false,
+            "description": [
+                "active",
+                "pending"
+            ],
+            "createdBy": "Amber",
+            "creationDate": "Completed",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/wfesfew.json"
+        },
+        {
+            "name": true,
+            "description": [
+                "active",
+                "completed"
+            ],
+            "createdBy": "cavisson",
+            "creationDate": "Active",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/klm.json"
+        }
+    ]
+}

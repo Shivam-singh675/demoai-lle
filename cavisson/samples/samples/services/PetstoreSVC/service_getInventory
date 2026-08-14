@@ -1,0 +1,17 @@
+{
+    "available": {
+        "small": 15,
+        "medium": {SCP_medium},
+        "large": 5
+    },
+    "pending": {
+        "small": 2,
+        "medium": {SCP_medium},
+        "large": 0
+    },
+    "sold": {
+        "small": 8,
+        "medium": {SCP_medium},
+        "large": 3
+    }
+}

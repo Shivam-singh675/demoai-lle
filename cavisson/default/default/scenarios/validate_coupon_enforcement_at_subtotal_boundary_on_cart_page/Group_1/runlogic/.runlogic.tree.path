@@ -1,0 +1,13 @@
+0:Start
+1:Start|Flow_1
+2:Start|Flow_1|goToHomePage
+3:Start|Flow_1|clickViewWatchDetails
+4:Start|Flow_1|clickAddProductToCart
+5:Start|Flow_1|clickShoppingCartLink
+6:Start|Flow_1|enterCouponCode
+7:Start|Flow_1|clickPlaceOrderButton
+8:Start|Flow_1|clickShoppingCartLinkFromCheckout
+9:Start|Flow_1|clickViewRecommendedProduct
+10:Start|Flow_1|clickAddRecommendedProductToCart
+11:Start|Flow_1|enterCouponCodeAgain
+12:Start|Flow_1|clickApplyCouponButton

@@ -1,0 +1,28 @@
+--Request 
+GET https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location
+Host: geolocation.onetrust.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+accept: application/json
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:18 GMT
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-headers: Content-Type
+access-control-allow-methods: GET, OPTIONS
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264dfbb084554b4-DEL
+----
+

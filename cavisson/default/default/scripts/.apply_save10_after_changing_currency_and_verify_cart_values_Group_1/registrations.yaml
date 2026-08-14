@@ -1,0 +1,171 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Page title does not indicate the Online Boutique home page loaded
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - goToHomePage
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: Currency selector was not found on the home page
+   target: main
+   locators:
+      xpath: //*[@id='currency_code']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@id='currency_code']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - goToHomePage
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Currency selector did not show JPY
+   target: main
+   locators:
+      id: currency_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - selectJpyCurrency
+   rhs:
+      type: text
+      value: JPY
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Sunglasses price was not shown in JPY
+   target: main
+   locators:
+      xpath: //a[contains(@aria-label,'View details for Sunglasses')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - selectJpyCurrency
+   rhs:
+      type: text
+      value: ¥2235.06
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - clickAddWatchToCart
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - clickAddWatchToCart
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Selected currency is not JPY
+   target: main
+   locators:
+      id: currency_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - submitCouponCode
+   rhs:
+      type: text
+      value: JPY

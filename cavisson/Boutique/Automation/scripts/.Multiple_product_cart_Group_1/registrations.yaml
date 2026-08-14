@@ -1,0 +1,193 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section/div/div[1]/div[1]/div[1]/h3
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddToCart_2
+   rhs:
+      type: text
+      value: Cart (1)
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/section/div/div[1]/div[1]/div[1]/h3
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddToCart_4
+   rhs:
+      type: text
+      value: Cart (2)
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[2]/div/div/div[1]/div[1]/h3
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickContinueShopping_2
+   rhs:
+      type: text
+      value: Hot Products
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators:
+      id: //*[@id="hot-products-heading"]
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - Home
+   rhs:
+      type: text
+      value: Hot Products
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[1]/div/div[1]/img
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - PDP
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[1]/div/div[2]/div/form/button
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - PDP
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[1]/div/div[1]/img
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - PDP_2
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: /html/body/main/div[1]/div/div[2]/div/form/button
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - PDP_2
+   rhs:
+      type: text
+      value: ''

@@ -1,0 +1,28 @@
+--Request 
+POST https://events.api.boomtrain.com/event/track
+Host: events.api.boomtrain.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"type":"viewed","site_id":"directv-com","bsin":"Mk5tQJQWaVTCUC/K6gCKfJjPxMVbd4l8Lnq1o2pLGl9ho/7uPe3JOAC/qxbBoVONP4XHWBuabhYnuMgFbcamWg==","userId":"Mk5tQJQWaVTCUC/K6gCKfJjPxMVbd4l8Lnq1o2pLGl9ho/7uPe3JOAC/qxbBoVONP4XHWBuabhYnuMgFbcamWg==","session":"2c2e302d-75e2-4cce-ea31-0348002238eb","id":null,"url":"https://www.directv.com/packages/","model":"","href":"https://www.directv.com/packages/?dtvprodCd=5185-9845b5bd75c3479d9d65bffffd6b518b","properties":{"doc_referrer":"","autoTrack":true,"track_by_url":true,"known_to_zeta":false,"isIdentified":false,"externalIds":{"zync":"119b9b01-045e-4ae6-b334-210cf5f64c0b:1785923177.647484"}}}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:19 GMT
+content-type: text/plain
+content-length: 2
+server: nginx
+access-control-allow-origin: *
+access-control-allow-headers: X-Requested-With, Content-Type, Authorization, x-app-id
+access-control-allow-methods: GET, PUT, POST, DELETE
+----
+

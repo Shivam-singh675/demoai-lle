@@ -1,0 +1,669 @@
+{
+  "references": [
+    {
+      "name": "User Story",
+      "href": "https://cavisson-team-apm.atlassian.net/browse/DT-144"
+    }
+  ],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/reject_coupon_below_minimum_order_amount"
+  },
+  "lastModifedBy": "cavisson",
+  "agenticInfo": {
+    "applicationConfig": {
+      "authentication_prompt": "",
+      "applicationUrl": "http://boutique-qa.cav-test.com:31528",
+      "uploadDirectories": []
+    },
+    "uploadId": "",
+    "automationSteps": [
+      {
+        "step_number": 1,
+        "classifier": "action",
+        "action": "Navigate to http://boutique-qa.cav-test.com:31528",
+        "expected_outcome": "The application home page opens successfully."
+      },
+      {
+        "step_number": 2,
+        "classifier": "action",
+        "action": "Click a product from home page, add the product to cart, and open the Cart page",
+        "expected_outcome": "The selected product is added to cart and the Cart page is displayed with cart subtotal and order totals visible before coupon entry."
+      },
+      {
+        "step_number": 3,
+        "classifier": "action",
+        "action": "Enter a coupon code that does not meet the minimum order amount on the Cart page and submit it through the cart coupon flow",
+        "expected_outcome": "The system validates the coupon against supported coupons and subtotal-before-shipping eligibility rules, rejects the coupon because it does not meet the minimum order amount, does not apply any discount, keeps cart and order totals unchanged, handles the invalid entry gracefully in the UI, and clearly indicates that the coupon was not applied."
+      }
+    ],
+    "source": {
+      "summary_id": "b7b8ede1-cf55-4122-84b8-404b1f154bd7",
+      "origin": "JIRA",
+      "storyUrl": "https://cavisson-team-apm.atlassian.net/browse/DT-144"
+    },
+    "priority": "high",
+    "tags": [
+      "Feature=Coupon Validation",
+      "SubFeature=Minimum Order Amount And Discount Limit Enforcement",
+      "Validation=true",
+      "ErrorHandling=true",
+      "Negative=true",
+      "Source=JIRA",
+      "SourceRef=DT-144",
+      "UserStory=Reject an invalid or ineligible coupon code",
+      "Epic=CouponFeatureAI",
+      "app=boutique",
+      "feature=checkout",
+      "testsuite=validate_coupon_is_working_for_all_currencies",
+      "AIGenerated=true"
+    ],
+    "desc": "Verify that a coupon code is rejected when it does not meet the minimum order amount rule, with no discount applied and no change to cart or order totals."
+  },
+  "description": "Verify that a coupon code is rejected when it does not meet the minimum order amount rule, with no discount applied and no change to cart or order totals.",
+  "automationStatus": "active",
+  "preTest": [],
+  "priority": "high",
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.reject_coupon_below_minimum_order_amount_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "Feature=Coupon Validation, SubFeature=Minimum Order Amount And Discount Limit Enforcement, Validation=true, ErrorHandling=true, Negative=true, Source=JIRA, SourceRef=DT-144, UserStory=Reject an invalid or ineligible coupon code, Epic=CouponFeatureAI, app=boutique, feature=checkout, testsuite=validate_coupon_is_working_for_all_currencies"
+        ]
+      ]
+    }
+  },
+  "id": "151ab900-58fe-4789-a636-28b5dfdea546",
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "assertionsV2": [
+        {
+          "locators": {},
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "title",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "goToBoutiqueHomePage"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Online Boutique"
+          },
+          "operator": "contains",
+          "errorMsg": "Home page title did not load as expected",
+          "assertionDescription": "Page title should contain Online Boutique",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//*[contains(normalize-space(.), 'Sunglasses') and not(.//*[contains(normalize-space(.), 'Sunglasses')])]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "clickAddToCartButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Sunglasses"
+          },
+          "operator": "contains",
+          "errorMsg": "Cart item Sunglasses not visible",
+          "assertionDescription": "Cart should show the added Sunglasses item",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//*[contains(normalize-space(.),'Discount')]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "//*[contains(normalize-space(.),'Discount')]",
+            "function": "",
+            "subType": "",
+            "type": "element",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "clickPlaceOrderButton"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": ""
+          },
+          "operator": "not_exist",
+          "errorMsg": "A discount indicator appeared even though the coupon should not apply",
+          "assertionDescription": "No discount row or discount indicator should be shown for the rejected coupon",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "steps": [
+            {
+              "optional": false,
+              "type": "go",
+              "tagName": "",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": "Open Boutique QA"
+              },
+              "stepName": "goToBoutiqueHomePage",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {},
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "",
+                    "function": "",
+                    "subType": "",
+                    "type": "title",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "goToBoutiqueHomePage"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "Online Boutique"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Home page title did not load as expected",
+                  "assertionDescription": "Page title should contain Online Boutique",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "openHttpBoutiqueQaCavTestCom31528",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "A",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": false,
+              "locators": {
+                "xpath": "//a[@aria-label='View details for Sunglasses, priced at $19.99']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div[2]/div/div/section/ul/li/a",
+                "xpath1": "//A[@aria-label=\"View details for Sunglasses, priced at $19.99\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[2]/div/div/section/ul/li[1]/a",
+                "id": "",
+                "class": "",
+                "ai_locator": "View Sunglasses Details"
+              },
+              "stepName": "clickSunglassesProduct",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "clickAProductFromHomePageAddTheProductToCartAndOpenTheCartPage",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "BUTTON",
+              "url": "http://boutique-qa.cav-test.com:31528/cart",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "//button[@aria-label='Add Watch to shopping cart']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div/div/div[2]/div/form/button",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Add To Cart\"][@aria-label=\"Add Sunglasses to shopping cart\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[1]/div/div[2]/div/form/button",
+                "id": "",
+                "class": "cymbal-button-primary",
+                "ai_locator": "Add Watch Button"
+              },
+              "stepName": "clickAddToCartButton",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[contains(normalize-space(.), 'Sunglasses') and not(.//*[contains(normalize-space(.), 'Sunglasses')])]"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "innerText",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "clickAddToCartButton"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "Sunglasses"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Cart item Sunglasses not visible",
+                  "assertionDescription": "Cart should show the added Sunglasses item",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "clickAProductFromHomePageAddTheProductToCartAndOpenTheCartPage2",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "input",
+              "tagName": "INPUT",
+              "url": "http://boutique-qa.cav-test.com:31528/cart",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": false,
+              "locators": {
+                "xpath": "//*[@id='coupon_code']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/section/div/div[2]/form/fieldset[3]/div/div/input",
+                "xpath1": "//INPUT[@placeholder=\"Enter coupon code\"][@name=\"coupon_code\"][@aria-label=\"Optional coupon code\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/section/div/div[2]/form/fieldset[3]/div/div[1]/input",
+                "id": "coupon_code",
+                "class": "",
+                "ai_locator": "Coupon Code Input"
+              },
+              "stepName": "enterSave10CouponCode",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "enterACouponCodeThatDoesNotMeetTheMinimumOrderAmountOnTheCartPag",
+              "value": "SAVE10",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "BUTTON",
+              "url": "http://boutique-qa.cav-test.com:31528/cart?coupon_error=Coupon+code+%22SAVE10%22+requires+an+order+of+at+least+%2450.+Please+try+again.&coupon_code=SAVE10",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "//button[@aria-label='Place your order and proceed to payment']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/section/div/div[2]/form/div/div/button",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Place Order\"][@aria-label=\"Place your order and proceed to payment\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/section/div/div[2]/form/div/div/button",
+                "id": "",
+                "class": "cymbal-button-primary",
+                "ai_locator": "Place Order Button"
+              },
+              "stepName": "clickPlaceOrderButton",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[contains(normalize-space(.),'Discount')]"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "//*[contains(normalize-space(.),'Discount')]",
+                    "function": "",
+                    "subType": "",
+                    "type": "element",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "clickPlaceOrderButton"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": ""
+                  },
+                  "operator": "not_exist",
+                  "errorMsg": "A discount indicator appeared even though the coupon should not apply",
+                  "assertionDescription": "No discount row or discount indicator should be shown for the rejected coupon",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "enterACouponCodeThatDoesNotMeetTheMinimumOrderAmountOnTheCartPag",
+              "value": "",
+              "iframes": ""
+            }
+          ]
+        }
+      },
+      "type": "Browser"
+    }
+  },
+  "lastModifedTime": "29/07/2026 07:02:53",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

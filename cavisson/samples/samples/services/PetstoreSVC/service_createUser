@@ -1,0 +1,7 @@
+{
+    "id": 0,
+    "username": "johndoe",
+     "apiKey": "abc123xyz456"
+    "userStatus": 1,
+    "operationStatus": "User Created Successfully"
+}

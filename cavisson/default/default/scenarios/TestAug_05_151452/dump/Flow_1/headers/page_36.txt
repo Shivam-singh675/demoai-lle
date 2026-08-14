@@ -1,0 +1,710 @@
+--Request 
+POST https://sierra.chat/-/api/events
+Host: sierra.chat
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"eventName":"events.EmbedConfigInit","properties":{"token":"4QpFj40BkclJ60wBkcnYOoWQDHuAyiA1DPD6MLm-wkY","releaseRequested":false,"embedConfigKeys":["variables","display","dimensions","titleBarLogoOnly","canRenderMessageImages","canEndConversation","canStartNewChat","canPrintTranscript","unstyled","hideOnClose","persistence","customConversationStart","onOpen","launcher","disableAutoFocus","persistenceStore","onConversationEnd","onClose"],"config":{"display":"corner","persistence":"custom","hideOnClose":true,"disableAutoFocus":true,"unstyled":false,"canEndConversation":true,"canStartNewChat":true,"canPrintTranscript":false,"titleBarLogoOnly":false},"url":"https://www.directv.com/sports/college-sports/","inIframe":false,"webSdkVersion":"latest"}}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: text/plain; charset=utf-8
+content-length: 49
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+referrer-policy: strict-origin
+server-timing: api;dur=221
+set-cookie: __cf_bm=os5t6vE7EinG0ynzQjkm1Q5VdL37FBaczIt5gvuM7aY-1785923166.8598447-1.0.1.1-ogX4SAkcAXI6WAgraytWxYZ7jmIdmZprHErwSYJKtHatwSrWYTfr_FqdxhSv2TtHbjMZKoYGq9.4tyU8Dq5erEbInCLs8GlEoNETwGweBvJlQRbY2.CsSzS5UAgwvr_T; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+server: cloudflare
+cf-ray: a264df70d8a0c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/Y38tJejIGFbmunRhtm4OPskLrro.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=xEVJwooN4U9h21qnj0vrXgW1JSD.y_ve2qMb4FpHtEo-1785923166.860442-1.0.1.1-GCh9cwDsKCCiUn_tfOxQDlmADZS.WCkMDQBef9QWEs7mVnuB6fidRO7lQK963dVAUYY9udhdbfDXZuPChW4GzXflYUOHshPy9ZMF.OwVMbHv4NSqhn2P4kf5bAfvh5eC; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:06 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df70d8a4c69f-MAA
+----
+--Request 
+GET https://www.googletagmanager.com/gtag/js?id=DC-12050451&cx=c&gtm=4e6831
+Host: www.googletagmanager.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=UTF-8
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-headers: Cache-Control
+content-encoding: zstd
+vary: Accept-Encoding
+date: Wed, 05 Aug 2026 09:46:06 GMT
+expires: Wed, 05 Aug 2026 09:46:06 GMT
+cache-control: private, max-age=900
+last-modified: Wed, 05 Aug 2026 09:00:00 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: cross-origin
+server: Google Tag Manager
+content-length: 139822
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.googletagmanager.com/gtag/js?id=DC-12050451
+Host: www.googletagmanager.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=UTF-8
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-headers: Cache-Control
+content-encoding: zstd
+vary: Accept-Encoding
+date: Wed, 05 Aug 2026 09:46:06 GMT
+expires: Wed, 05 Aug 2026 09:46:06 GMT
+cache-control: private, max-age=900
+last-modified: Wed, 05 Aug 2026 09:00:00 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: cross-origin
+server: Google Tag Manager
+content-length: 139808
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.27.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:29:57 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: wc.pHfKMPGJZVT0s_5_wMHHfI8bPjOE3
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"c94dd134ccde681d934e059cb4990da1\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: kPukHrlRIq4qVKsupUh4RJl2NZJJX1ZELgEVYKNYLoEFiug735lkhA==
+age: 104
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.14.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:01 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: wyUE__8P1p6wLNec5q9wF9YEglnfuDO_
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:28 GMT
+etag: W/\"839b4e06448e9824c14718d827a3c02b\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: NH7bNT3x-kf2EC_bDnHqQLvwOClzjQyLvM2k9aLslpBd3mpkkbDp3A==
+age: 104
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.203.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:22 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: viAlQsBwJF8mef955FMlVKuDQqP9HwJk
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"934d58acf88840c08453674a8ed5621c\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: atIuk_m3GfivR6iR2kVMydGzfIJL3dUCWbPjWmQ0qpetbZJzntzQ7Q==
+age: 104
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.278.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:26 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: ZrfLkQNagPN_O_XLY5dTMsT.Sv0fM1X9
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"1948a6da92d3a467e7b3522225d01aca\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: bgd-GMnkk7ObKZbkOCQ_T3KZR6vafpEgwOB525Mdxmv9QGFMm4L7qw==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.382.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:07 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: zOg6p1iOteocPz_Mh0b104wrcDTTz5mO
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"caacfb5e9957aef048f99accaaaba77b\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: 2lzoP8wfjD6Nhb9EhyUy_fv1AwG0dBSNA1COdWgV8xGHh4zTRhGQ2Q==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.370.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:29:59 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: 0V.XMCpz74yte.AUjQR5AwVCgvRaCSxy
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"9be91cf6a2a5cbe51caccf9bfebae56a\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: _xhMtJzzADIz1NPAmWBuGl0SAEDAeLnXMzIGRS3Fz1HF5jnOwfjBOw==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.531.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:26 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: kA5NRzNsv7KpBG7t6ujTtWgRxxeIL6Ja
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"2e9e6c8ea70d1234dff08e92687e0d24\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: QA2V6PM9EuqbJBrUbwtJUN5DpWt_Bh-K1Hqor7e0vOdhWaZ2TNr9pg==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.394.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:09 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: l20k4qmXru7YkuWvkQ7EoCcqT4SMBEbI
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"e1555d4e77e7cf30c147dd05d2c8628b\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: rwMr88CI-Kwdzl4ww3Yxx3G5mAdvUmWg6IQoNgF304G0mgh2h6jbYg==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.399.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:17 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: xHAT.6.trFvWMXssoMdFj.1aq1htsBqx
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"1b1e1d76824dcdd5cbde1e40d0d82071\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: RaOXeucpP8D8TabYYLH_NA9wEEv-F2BhvLAYS7-sKgRTcB-vu6wjyg==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.396.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:07 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: e.AJsWFwNOOlEAJIRgyeM7RO6MoXMOHQ
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"4ae0f876a3caf2ac7c842d59dcea575d\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: lxC8ZlmTHZNEE0OGIDRWXED0EuSSo7O4LHLbXkrC5dQG-efRpBv5MQ==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.397.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:19 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: 11CkIFAGqMSB4y99kA17MslfzbAKTHsl
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"5f6cbd45cc366ec61a6082da2a3d4a30\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: qBsIueiTunMpJMtOy6GmdNyso6RAoPCsGlPLochnyhLPwuaAAiFOEQ==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.421.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:07 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: OSgniLXJOf83qeworyu1.oIzm57QoWuO
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"6365528e86614a37892ccdc34e9d173b\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: k5cqB5Y96ZLUWHVQGBiMmtcBHJ-nh1KfQewWnIj_q3AdtLeWmKNAxA==
+age: 283
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.433.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:21 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: kSQTdP4Ih53OAX_VGmFfAFwCPoH6raM2
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"dd6455ce6e34d895b216e9c816a8a9b4\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: 869iPnZwescHBuIJPcrqhPrdQ3dP7fa7XAoLzDRNvlfwJhylECo7iA==
+age: 283
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.471.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:15 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: N0osbDH634t65Yb764o3xTHxK.YPTnNm
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:28 GMT
+etag: W/\"702bf944bc3fc0d9d713ec50e9361479\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: pqkSVJKVVomPRijAVftXViu5uTIhjknYp8ndhzfWj4zXXwt9oNYwlA==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.506.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:29:59 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: qfg9fW3TisWF_6cxmnMQo5TaxQ8N.9oH
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"39be40da664297ac2811f172c4eb26b7\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: g0HoC97jiUlfVZ_Th7l7oqv-Cartd_3BOaAgCEZdaZVa_fD5TYInCw==
+age: 208
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.508.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:05 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: 2g3nQrMO4fzraieP3fsZEYPH43anwNtb
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"c090e73a4e47bbe77d53a0bd8da7ea46\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: wO8DyCrjXy48CrzSV-JxDadeoD8CuGLNk6pdzs-dShMQwVIemcCtgw==
+age: 209
+cache-control: max-age=300
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.555.js?utv=ut4.54.202606112229
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:12 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: 7azkCAKJa1fbTgXRbZMDsu1J6LuNZS.p
+content-encoding: gzip
+date: Wed, 05 Aug 2026 09:45:09 GMT
+etag: W/\"9be8754fbe15e088497d46263c52e651\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: t_c4czNGaf6EfoK_WlflD8fIsg5098BJ5WhtDLrusBDU-U-H-5H2lQ==
+age: 283
+cache-control: max-age=300
+----
+

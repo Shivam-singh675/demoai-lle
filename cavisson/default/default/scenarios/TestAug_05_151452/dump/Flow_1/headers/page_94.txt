@@ -1,0 +1,32 @@
+--Request 
+POST https://bat.bing.com/actionp/0?ti=138003007&Ver=2&mid=78ecab68-ae2a-40f1-aec9-4885eaf94943&bo=2&sid=7c332aa090b211f1ad457f22becda171&vid=7c335d2090b211f1a50405c34706bf16&vids=1&msclkid=N&evt=pageHide
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ 
+--Response 
+HTTP/1.1 204
+cache-control: no-cache, must-revalidate
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+set-cookie: MUID=17F14F4838986F71211058E439FC6EFE; domain=.bing.com; expires=Mon, 30-Aug-2027 09:46:15 GMT; path=/; SameSite=None; Secure; Priority=High;
+set-cookie: MR=0; domain=bat.bing.com; expires=Wed, 12-Aug-2026 09:46:15 GMT; path=/; SameSite=None; Secure;
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+access-control-allow-origin: *
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 17D55076D3954782B48B5147FCDEB042 Ref B: BOM01EDGE1612 Ref C: 2026-08-05T09:46:15Z
+date: Wed, 05 Aug 2026 09:46:14 GMT
+----
+

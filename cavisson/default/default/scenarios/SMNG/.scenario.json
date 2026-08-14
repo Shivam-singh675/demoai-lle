@@ -1,0 +1,783 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/SMNG"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Group_1": {
+      "parameters": {},
+      "assertions": [],
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "order": 0,
+          "steps": [
+            {
+              "enable": true,
+              "stepName": "Home",
+              "label": "LaunchApp",
+              "type": "LaunchApp",
+              "tagName": "",
+              "value": "",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//android.widget.TextView[@resource-id=\"ShopScreen_tab_label\"]",
+                "xpath1": "//*[@resource-id='ShopScreen_tab_label'][@text='Shop']",
+                "id": "ShopScreen_tab_label"
+              },
+              "assertions": [],
+              "snapshot": "",
+              "preSnapshot": "",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "appPackage": "com.sallybeauty.shop.qa",
+              "bundleId": "",
+              "appActivity": "com.sallybeauty.shop.MainActivity",
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "Shop",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//android.widget.TextView[@resource-id=\"ShopScreen_tab_label\"]",
+                "xpath1": "//*[@resource-id='ShopScreen_tab_label'][@text='Shop']",
+                "id": "ShopScreen_tab_label"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//android.widget.ImageButton[@content-desc=\"Hair Care\"]",
+                "accessibilityId": "Hair Care",
+                "class": "android.widget.ImageButton"
+              },
+              "assertions": [
+                {
+                  "assertionName": "hair care category exists",
+                  "assertionDesc": "",
+                  "assertOnType": "Element",
+                  "assertOnPropName": "Height",
+                  "assertOnCondition": "Equal",
+                  "assertionValue": "",
+                  "assertConditionEle": "EXIST",
+                  "locators": {
+                    "xpath": "//android.widget.ImageButton[@content-desc=\"Hair Care\"]"
+                  },
+                  "failureVal": "",
+                  "failMessage": "",
+                  "isHeroElement": true,
+                  "min": "0",
+                  "max": "0",
+                  "matchingPattern": "",
+                  "matchingIndex": "0",
+                  "tags": ""
+                }
+              ],
+              "snapshot": "post_snapshot_1785128446403.png",
+              "preSnapshot": "pre_snapshot_1785128446403.png",
+              "pageSource": "source_1785128446403.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "PLP",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//android.widget.ImageButton[@content-desc=\"Hair Care\"]",
+                "accessibilityId": "Hair Care",
+                "class": "android.widget.ImageButton"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "(//android.view.ViewGroup[@resource-id=\"product_card_v2_container\"])[2]",
+                "id": "product_card_v2_container"
+              },
+              "assertions": [],
+              "snapshot": "post_snapshot_1785128461992.png",
+              "preSnapshot": "pre_snapshot_1785128461992.png",
+              "pageSource": "source_1785128461992.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "PDP",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "(//android.view.ViewGroup[@resource-id=\"product_card_v2_container\"])[2]",
+                "id": "product_card_v2_container"
+              },
+              "attributes": "",
+              "assertions": [],
+              "snapshot": "post_snapshot_1785128480431.png",
+              "preSnapshot": "pre_snapshot_1785128480431.png",
+              "pageSource": "source_1785128480431.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "scroll_1",
+              "label": "swipe",
+              "type": "swipe",
+              "tagName": "",
+              "value": "",
+              "attributes": "",
+              "assertions": [],
+              "snapshot": "",
+              "preSnapshot": "",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 757,
+                "startY": 1866,
+                "endX": 755,
+                "endY": 774,
+                "screenWidth": 1080,
+                "screenHeight": 2400,
+                "duration": 0,
+                "isRelative": true
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "scroll_2",
+              "label": "swipe",
+              "type": "swipe",
+              "tagName": "",
+              "value": "",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//android.widget.TextView[@resource-id=\"pdp_add_to_bag_text\"]",
+                "xpath1": "//*[@resource-id='qty_selector_decrease'][@content-desc='Decrease Quantity']",
+                "id": "pdp_add_to_bag_text"
+              },
+              "assertions": [
+                {
+                  "assertionName": "Add to Bag button exists",
+                  "assertionDesc": "",
+                  "assertOnType": "Element",
+                  "assertOnPropName": "Height",
+                  "assertOnCondition": "Equal",
+                  "assertionValue": "",
+                  "assertConditionEle": "EXIST",
+                  "locators": {
+                    "id": "pdp_add_to_bag_text"
+                  },
+                  "failureVal": "",
+                  "failMessage": "",
+                  "isHeroElement": true,
+                  "min": "0",
+                  "max": "0",
+                  "matchingPattern": "",
+                  "matchingIndex": "0",
+                  "tags": ""
+                }
+              ],
+              "snapshot": "",
+              "preSnapshot": "",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 864,
+                "startY": 1170,
+                "endX": 847,
+                "endY": 404,
+                "screenWidth": 1080,
+                "screenHeight": 2400,
+                "duration": 0,
+                "isRelative": true
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "Add_to_Bag",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//android.widget.TextView[@resource-id=\"pdp_add_to_bag_text\"]",
+                "xpath1": "//*[@resource-id='qty_selector_decrease'][@content-desc='Decrease Quantity']",
+                "id": "pdp_add_to_bag_text"
+              },
+              "attributes": "",
+              "assertions": [],
+              "snapshot": "post_snapshot_1785128549636.png",
+              "preSnapshot": "pre_snapshot_1785128549636.png",
+              "pageSource": "source_1785128549636.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            }
+          ],
+          "enable": true
+        }
+      },
+      "scriptType": "",
+      "scriptMode": "visual",
+      "type": "RDT_NATIVE",
+      "order": 0,
+      "genCapacity": 0,
+      "primaryOS": "android",
+      "assertionsV2": [],
+      "runlogic": [],
+      "RDT_NATIVE": [
+        {
+          "appPackage": "com.sallybeauty.shop.qa",
+          "proxyport": 0.0,
+          "os": "android",
+          "os_version": "11.0",
+          "appId": "bs://5b08a913151e0fdd68d5b327974e69d3f69699bc",
+          "browser": "NA",
+          "browser_version": "NA",
+          "env": "cloud",
+          "deviceName": "Samsung Galaxy S21",
+          "profilingEnabled": "off",
+          "network": "4G"
+        }
+      ],
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "10",
+          "default/default/.SMNG_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "Group_1": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Start",
+          "START",
+          "IMMEDIATELY"
+        ],
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "RATE",
+          "120",
+          "M",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "0"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "IMMEDIATELY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "SMNG"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "references": []
+}

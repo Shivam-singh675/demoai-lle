@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 60 60"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     transform="translate(-7247 -13895)"
+     id="g1">
+    <rect
+       transform="translate(7247 13895)"
+       width="60"
+       height="60"
+       fill="none"
+       data-name="Rectangle 3"
+       id="rect1"
+       clip-path="none" />
+    <path
+       transform="translate(7262 13908)"
+       d="M0,0H10V35H0ZM30,0V35H20V0Z"
+       fill="#fff"
+       id="path1"
+       clip-path="none" />
+  </g>
+</svg>

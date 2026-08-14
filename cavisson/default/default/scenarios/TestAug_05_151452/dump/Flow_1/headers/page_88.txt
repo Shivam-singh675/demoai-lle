@@ -1,0 +1,27 @@
+--Request 
+POST https://pnapi.invoca.net/2074/na.json
+Host: pnapi.invoca.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"network_id":2074,"js_version":"4.43.0","tag_revision":"live","tag_id":"2074/0288648893","request_data_shared_params":"{\"_fbp\":\"fb.1.1785923167203.448590667205825087.Bg\",\"_ga\":\"GA1.1.573265066.1785923160\",\"calling_page\":\"www.directv.com/sports/college-sports/\",\"current_zip_code\":\"75001\",\"fullPageURL\":\"www.directv.com/sports/college-sports/\",\"landing_page\":\"https://www.directv.com/sports/college-sports/\",\"optimizelyEndUserId\":\"oeu1785923160264r0.7155237830759648\",\"p\":\"/sports/college-sports/\",\"qm_session_id\":\"15ee8da754a44c11862cb214234d6b3a\",\"returnVisitorFlag\":\"No\",\"consent_cookie\":\"[{\\\"type\\\":\\\"Marketing\\\",\\\"value\\\":\\\"GRANTED\\\"},{\\\"type\\\":\\\"Statistics\\\",\\\"value\\\":\\\"GRANTED\\\"}]\",\"g_cid\":\"573265066.1785923160\",\"ga_measurement_id\":\"G-LEXYQWQ1NF\",\"ga_session_id\":\"1785923160\",\"gcm_uid\":null,\"utm_medium\":null,\"utm_source\":null,\"invoca_id\":\"i-58d5d2bd-b007-41f3-8554-0521e0f98980\"}","client_messages":"{}","client_info":"{\"url\":\"https://www.directv.com/sports/college-sports/\",\"referrer\":\"https://www.directv.com/\",\"cores\":8,\"platform\":\"Linux x86_64\",\"screenWidth\":1897,\"screenHeight\":1108,\"language\":\"en-US\"}"}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:14 GMT
+content-type: text/html;charset=utf-8
+processing_time: 9.82272ms
+vary: Origin
+vary: accept-encoding
+content-encoding: gzip
+----
+

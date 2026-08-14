@@ -1,0 +1,34 @@
+--Request 
+POST https://www.google.com/rmkt/collect/10837652692/?random=1785923177137&cv=11&fst=1785923177137&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6831v889747108za200zb869119018zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=17&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:17 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-security-policy: script-src 'none'; object-src 'none'
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

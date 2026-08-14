@@ -1,0 +1,49 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Homepage product section is not visible
+   target: main
+   locators:
+      xpath: //body
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - goToBoutiqueHomePage
+   rhs:
+      type: text
+      value: Hot Products
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Cart icon did not indicate an empty cart
+   target: main
+   locators:
+      xpath: //a[contains(@aria-label,'View shopping cart')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickShoppingCartLink
+   rhs:
+      type: text
+      value: cart is empty

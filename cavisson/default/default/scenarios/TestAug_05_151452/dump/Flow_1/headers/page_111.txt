@@ -1,0 +1,34 @@
+--Request 
+POST https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=1143583505.1785923160&dt=DIRECTV%20Streaming%20Live%20TV%20Plans&tid=AW-10837652692&en=page_view&dl=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&scrsrc=www.googletagmanager.com&rnd=82263237.1785923176&navt=n&npa=0&ep.enable_event_matching_conversions=false&did=dYmQxMT&gdid=dYmQxMT&gtm=45be6831v889747108za200zb869119018zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&tft=1785923177287&tfd=4037&tids=AW-10837652692&fmt=8
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+pragma: no-cache
+date: Wed, 05 Aug 2026 09:46:17 GMT
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+content-type: text/plain
+cache-control: no-cache, no-store, must-revalidate
+vary: Origin
+vary: X-Origin
+vary: Referer
+server: scaffolding on HTTPServer2
+content-length: 0
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

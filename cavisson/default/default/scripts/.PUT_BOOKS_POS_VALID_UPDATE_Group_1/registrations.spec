@@ -1,0 +1,12 @@
+nsl_decl_var(BASE_URL,DefaultValue="http://localhost:8080",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_title,DefaultValue="dynamic_post_title",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_description,DefaultValue="dynamic_post_description",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_pageCount,DefaultValue="dynamic_post_pageCount",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_excerpt,DefaultValue="dynamic_post_excerpt",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_publishDate,DefaultValue="dynamic_post_publishDate",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_id,DefaultValue="dynamic_id",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_title,DefaultValue="dynamic_put_title",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_description,DefaultValue="dynamic_put_description",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_pageCount,DefaultValue="dynamic_put_pageCount",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_excerpt,DefaultValue="dynamic_put_excerpt",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_put_publishDate,DefaultValue="dynamic_put_publishDate",RETAINPREVALUE="NO");

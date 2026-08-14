@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Online Boutique
+    </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/cart.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/order.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/bot.css">
+    
+    <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
+    
+</head>
+
+<body>
+    <header role="banner" aria-label="Site header">
+
+        
+
+        <nav class="navbar sub-navbar" role="navigation" aria-label="Main navigation">
+            <div class="container d-flex justify-content-between">
+
+                <a href="/"
+                   class="navbar-brand d-flex align-items-center"
+                   aria-label="Online Boutique - go to home page">
+                    
+                    <img src="/static/icons/Hipster_NavLogo.svg"
+                         alt="Online Boutique logo"
+                         class="top-left-logo" />
+                    
+                </a>
+
+                <div class="controls" role="group" aria-label="Site controls">
+
+                    
+                    <div class="h-controls">
+                        <div class="h-control">
+                            
+                            <span class="icon currency-icon" aria-hidden="true">
+                                $
+                            </span>
+                            <form method="POST"
+                                  class="controls-form"
+                                  action="/setCurrency"
+                                  id="currency_form"
+                                  aria-label="Currency selection form">
+                                <label for="currency_code" class="sr-only">Select currency</label>
+                                <select name="currency_code"
+                                        id="currency_code"
+                                        aria-label="Select display currency, currently USD"
+                                        onchange="document.getElementById('currency_form').submit();">
+                                    
+                                    <option value="EUR" >EUR</option>
+                                    
+                                    <option value="USD" selected="selected">USD</option>
+                                    
+                                    <option value="JPY" >JPY</option>
+                                    
+                                    <option value="GBP" >GBP</option>
+                                    
+                                    <option value="TRY" >TRY</option>
+                                    
+                                    <option value="CAD" >CAD</option>
+                                    
+                                </select>
+                            </form>
+                            <img src="/static/icons/Hipster_DownArrow.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="icon arrow" />
+                            
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    <a href="/cart"
+                       class="cart-link"
+                       aria-label="View shopping cart, cart is empty">
+                        <img src="/static/icons/Hipster_CartIcon.svg"
+                             alt="Shopping cart icon"
+                             class="logo"
+                             title="Cart" />
+                        
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+<div  class="local" >
+    <span class="platform-flag" aria-hidden="true">local</span>
+</div>
+
+<main role="main" aria-label="Product detail page for Bamboo Glass Jar">
+    <div class="h-product container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <img class="product-image"
+                     src="/static/img/products/bamboo-glass-jar.jpg"
+                     alt="Product image of Bamboo Glass Jar" />
+            </div>
+
+            <div class="product-info col-md-5" aria-label="Product information">
+                <div class="product-wrapper">
+
+                    <h2>Bamboo Glass Jar</h2>
+
+                    <p class="product-price" aria-label="Price: $2.49">
+                        $2.49
+                    </p>
+
+                    <p aria-label="Product description">This bamboo glass jar can hold 57 oz (1.7 l) and is perfect for any kitchen.</p>
+
+                    
+
+                    <form method="POST"
+                          action="/cart"
+                          aria-label="Add Bamboo Glass Jar to cart">
+                        <input type="hidden" name="product_id" value="9SIQT8TOJO" />
+
+                        <div class="product-quantity-dropdown">
+                            <label for="quantity" class="sr-only">Select quantity</label>
+                            <select name="quantity"
+                                    id="quantity"
+                                    aria-label="Select quantity to add to cart">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                            </select>
+                            <img src="/static/icons/Hipster_DownArrow.svg"
+                                 alt=""
+                                 aria-hidden="true" />
+                        </div>
+
+                        <button type="submit"
+                                class="cymbal-button-primary"
+                                aria-label="Add Bamboo Glass Jar to shopping cart">
+                            Add To Cart
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        
+            
+<section class="recommendations" aria-label="Recommended products section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 offset-xl-1">
+
+                <h2 id="recommendations-heading">You May Also Like</h2>
+
+                <ul class="row" aria-labelledby="recommendations-heading"
+                    style="list-style:none;padding:0;margin:0;">
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Sunglasses">
+                        <div>
+                            <a href="/product/OLJCESPC7Z"
+                               aria-label="View recommended product: Sunglasses">
+                                <img src="/static/img/products/sunglasses.jpg"
+                                     alt="Product image of Sunglasses" />
+                            </a>
+                            <div>
+                                <h5>Sunglasses</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Loafers">
+                        <div>
+                            <a href="/product/L9ECAV7KIM"
+                               aria-label="View recommended product: Loafers">
+                                <img src="/static/img/products/loafers.jpg"
+                                     alt="Product image of Loafers" />
+                            </a>
+                            <div>
+                                <h5>Loafers</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Hairdryer">
+                        <div>
+                            <a href="/product/2ZYFJ3GM2N"
+                               aria-label="View recommended product: Hairdryer">
+                                <img src="/static/img/products/hairdryer.jpg"
+                                     alt="Product image of Hairdryer" />
+                            </a>
+                            <div>
+                                <h5>Hairdryer</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Candle Holder">
+                        <div>
+                            <a href="/product/0PUK6V6EV0"
+                               aria-label="View recommended product: Candle Holder">
+                                <img src="/static/img/products/candle-holder.jpg"
+                                     alt="Product image of Candle Holder" />
+                            </a>
+                            <div>
+                                <h5>Candle Holder</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+    </div>
+
+    <div class="ad" aria-label="Advertisement">
+        
+<div class="container py-3 px-lg-5 py-lg-5">
+    <aside role="complementary" aria-label="Advertisement">
+        <strong aria-hidden="true">Ad</strong>
+        <a href="/product/6E92ZMYYFZ"
+           rel="nofollow noopener noreferrer"
+           target="_blank"
+           aria-label="Advertisement: Mug for sale. Buy two, get third one for free, opens in new tab">
+            Mug for sale. Buy two, get third one for free
+        </a>
+    </aside>
+</div>
+
+    </div>
+
+</main>
+
+
+
+<footer class="py-5" role="contentinfo" aria-label="Site footer">
+    <div class="footer-top">
+        <div class="container footer-social">
+            <p class="footer-text" aria-label="Disclaimer: demo website only">
+                This website is hosted for demo purposes only. It is not an actual shop. This is not a Google product.
+            </p>
+            <p class="footer-text">
+                © 2020-2026 Google LLC
+                (<a href="https://github.com/GoogleCloudPlatform/microservices-demo"
+                    aria-label="View source code on GitHub"
+                    target="_blank"
+                    rel="noopener noreferrer">Source Code</a>)
+            </p>
+            <p class="footer-text">
+                <small aria-label="Session and request debug information">
+                    session-id: 3057f9eb-7c9c-4344-8880-94e52d8e1ad5 — 
+                    request-id: e2e3321e-f48c-497a-b261-e813ba1b74c0
+                </small>
+                <br/>
+                <small aria-label="Deployment details">
+                    
+                        
+                        
+                        
+                        <b>Pod: </b>frontend-c8d848888-rrpfm
+                        
+                    
+                </small>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous">
+</script>
+</body>
+</html>
+

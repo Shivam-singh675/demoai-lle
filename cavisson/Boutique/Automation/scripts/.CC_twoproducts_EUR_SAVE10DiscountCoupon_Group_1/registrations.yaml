@@ -1,0 +1,25 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon applied and the discount does not match
+   target: main
+   locators:
+      xpath: /html/body/main/section[1]/div[6]/div[2]
+   assertOnErrorCodes: ''
+   saveOccurence: ''
+   actionOnFail: STOP
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: textContent
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - PlaceOrder
+   rhs:
+      type: text
+      value: '10'

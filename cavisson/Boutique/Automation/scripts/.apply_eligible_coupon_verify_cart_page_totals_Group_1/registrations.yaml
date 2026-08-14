@@ -1,0 +1,97 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Eligible coupon details are not visible on the cart page
+   target: main
+   locators:
+      xpath: //body
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickShoppingCartLink
+   rhs:
+      type: text
+      value: SAVE10
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Applied coupon code SAVE10 is not visible on the page
+   target: main
+   locators:
+      xpath: //body
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickPlaceOrderButtonAgain
+   rhs:
+      type: text
+      value: SAVE10
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: //h1[@role='alert']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //h1[@role='alert']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - clickPlaceOrderButtonAgain
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - clickPlaceOrderButtonAgain
+   rhs:
+      type: text
+      value: Online Boutique

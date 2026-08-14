@@ -1,0 +1,30 @@
+--Request 
+POST https://ingest.quantummetric.com/horizon/dtv?T=B&u=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&t=1785923166181&v=1785923174183&H=5f06736aaaaee1cda94efb0f&s=15ee8da754a44c11862cb214234d6b3a&f=1785923174183&N=3&Q=2&S=3202&b=377&z=2
+Host: ingest.quantummetric.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"inp":{"v":256,"sel":"[id=\"undefined-primaryCta\"]"},"sd0":80,"sd1":80,"sd2":0,"sd3":0,"sd4":0,"sd5":0,"sd6":20,"sd7":20,"sd8":0,"sd9":0,"e":6,"c":1,"m":1.231796590513731,"s":8.775510204081636,"k":2,"out":{"t":"OUT","u":"http://directv.com/packages/?dtvprodCd=5185-9845b5bd75c3479d9d65bffffd6b518b","n":"Shop packages","P":"[id=\"undefined-primaryCta\"]","ts":1785923174183}}
+--Response 
+HTTP/1.1 200
+content-type: application/json
+access-control-allow-credentials: true
+date: Wed, 05 Aug 2026 09:46:15 GMT
+content-length: 0
+via: 1.1 google
+access-control-expose-headers: Date
+strict-transport-security: max-age=31536000; includeSubDomains
+alt-svc: h3=\":443\"; ma=2592000
+----
+

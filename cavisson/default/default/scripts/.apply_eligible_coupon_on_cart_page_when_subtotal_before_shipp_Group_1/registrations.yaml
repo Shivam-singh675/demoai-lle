@@ -1,0 +1,124 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Page title does not indicate the Online Boutique home page
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - goToBoutiqueHomePage
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon section does not show SAVE10
+   target: main
+   locators:
+      xpath: //*[@id='coupon_code']/ancestor::*[.//*[contains(normalize-space(.),'Available
+         coupons:')]][1]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddWatchToCart
+   rhs:
+      type: text
+      value: SAVE10
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon section does not show SAVE50
+   target: main
+   locators:
+      xpath: //*[@id='coupon_code']/ancestor::*[.//*[contains(normalize-space(.),'Available
+         coupons:')]][1]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddWatchToCart
+   rhs:
+      type: text
+      value: SAVE50
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon section does not show SAVE100
+   target: main
+   locators:
+      xpath: //*[@id='coupon_code']/ancestor::*[.//*[contains(normalize-space(.),'Available
+         coupons:')]][1]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddWatchToCart
+   rhs:
+      type: text
+      value: SAVE100
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon code SAVE10 is not present in the coupon field after validation
+   target: main
+   locators:
+      id: coupon_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: value
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - submitCouponCode
+   rhs:
+      type: text
+      value: SAVE10

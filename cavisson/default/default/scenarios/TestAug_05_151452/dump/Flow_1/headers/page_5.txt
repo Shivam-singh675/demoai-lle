@@ -1,0 +1,70 @@
+--Request 
+POST https://ad.doubleclick.net/ccm/s/collect?auid=1143583505.1785923160&gtm=45He6831v848825936za200zd848825936xea&fmt=8
+Host: ad.doubleclick.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 204
+pragma: no-cache
+date: Wed, 05 Aug 2026 09:45:59 GMT
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+vary: Origin
+vary: X-Origin
+vary: Referer
+content-type: text/html
+server: scaffolding on HTTPServer2
+content-length: 0
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.directv.com/content/dam/gtm/marketing/jslibrary/invoca.js
+Host: www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: pageSessionId=c048471a-e460-4ca7-8c61-d2fcff2607b5; QUARK=FALSE; CIP=61.12.67.22; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; DCPAPP=upperfunnel; Sierramigration=true; akaas_DCPLIVE=1788515157~rv=54~id=2a87b98968c711b381e9d1ebbccd906f~rn=SierraHomepage_norecog; bm_sz=85E85E8CFC5E455C10C4164E83445261~YAAQ3ewsFyNsGKWfAQAArb9Q0QA60PXfjBASd+sikf4HRaMm7nzuCv7O1voZDixja7SDcEtiTYARLD/oud7IPi+DNBx0qekFT5a/XiW9Ibr2Cng8cbfpGehazavisshmMeuPuoLA4IRCIyCfYa8PRAc57BVWEOG+RNI3pGbjdowQHOSqdOnynT+JFRw5jIli7Lpmliq0Tc7NO6dpQd4z4WaT3iCRTLUGG4ptWs4LcaFUeih+HnjrXWj3zI7YWtheiZ8Ps0xODMgbt0x1QubNex3uKnKnlb+gzYQbd3SIj9jQ++Wabm29GX9AX0tlBVz7KAqCaWyRF2//toeiJkCDnKo5QRWrmqMyyHYgiBSHipyD1jqEet+wfB1NnVNDZ+mPjD8mHamNWTnCtUOXns7ZAWyu6xTb~3622451~3621446; ak_bmsc=30032C71D16BAB98DD44664F7617C811~000000000000000000000000000000~YAAQ3ewsFylsGKWfAQAA/8FQ0QAwaN4iYXLJ9s15nkv3Z0OPCr3qTn2qeFsYVaKiQNC2v9JiCayGfTGgw16CRf9zLdKXetNxTbivkldw6XgG0ykQeWyomb2l9VJ/eoj/CRS/8ud/lvfNCerQH0ECFiAltNuf6PL9TEBjXWrNllZ2QxRRIT/VHxw7a/tPNur++33y2z7AtdjGK1cNryPGbe2uVUKopriDN/v4BSjQ+JpFbYXHLuw/TdzFW6LdZtMOMeD08bppq+1DztqhI2LkQ6MR+w1EoGP+pG3PlP2tI/hjU0X2YJq7JkDYbMK9bt987dslWXzegAKyVFa8MqAOBETWfAcY3JRUHoYtvrjoAEPGdb6SCq+0tjBSruvCqfrrpFlOdmpS2Vk/GQ5X4mW7cWOOMoApP/mhDZ/gyq+gjR4JFAO4nmAHJJs2o2OBcA==; currentZipcode=75001; userVisitCount=2; _abck=E53B15511AE8027B6F3E5C08AABA9C31~-1~YAAQ3ewsFzNsGKWfAQAAqMRQ0RBT0vugq/hDxxz2W7YYg5L+1lxMHbRVErdm2IMlRmh84GP+OpImF0BOxuoLPbZIVLahF+QUCfpDsZ1LfevdPu3EWLy0zXepmZ+S9vZs+YO+T8fSYXNJmvfZKXfxx73+K8hCpJaE+WqjecfNxQ6qCJOB87upOArOeyqibXrEcALEmVfxNniqlQtFinO33uVaUObUTRlTDbA+51SJPq3/depzvJ8NITIyP8YolpMWtY28zmDSK7K069ycnHyQDBLNQOGAbFs6vQ2x6Q9YvVdp7vTgWHBciCxJSnb6jgndabVbYUfcyQCq8EhAgozNjHB68Q+cYEAQI555dv5au1KOPQWgyIFX1taNgArggmMGBXhMNgbHC3FxMBLibpbgOl4W1TMNAscZ8nuzb8RYthK8b1BgDyatu1VWuaD3uvQBBqVm4o8koZBpSgzPWgzau1AJ1Mf1A3joJrEPt4KmmO1gl3C8QKI0T78gSvRcZqzyQd/3gaAQvFk6/kIUACDhzFJJwGlC1KorYiLCUNVLVidm5rq1kmt4Ac6e9fpnHss83MZaVOdw8Xn8Ng==~-1~-1~1785926759~AAQAAAAG%2f%2f%2f%2f%2f1UMV%2f+XHT4nbZRJMAzEDHMMuaXGZapVTAx6vnGs78tBLTZ%2fbPni7Tdn3+ZbXKBEIlhFr8XFM7eE3NBkUgoSfsrteYPllViKzyYi~-1; _gcl_au=1.1.1143583505.1785923160
+----
+--Response 
+HTTP/1.1 301
+server: AkamaiGHost
+content-length: 0
+location: https://www.directv.com/dtvassets/gtm/marketing/jslibrary/invoca.js
+cache-control: max-age=0
+expires: Wed, 05 Aug 2026 09:45:59 GMT
+date: Wed, 05 Aug 2026 09:45:59 GMT
+set-cookie: QUARK=FALSE; path=/
+set-cookie: CIP=61.12.67.22; path=/
+set-cookie: AB_IDPROOT=new_idproot_20190410; expires=Thu, 06-Aug-2026 09:45:59 GMT; path=/; domain=.directv.com
+set-cookie: IDPROOT-TEST=AB-IDPROOT-New; path=/; domain=.directv.com
+set-cookie: ak_bmsc=30032C71D16BAB98DD44664F7617C811~000000000000000000000000000000~YAAQ3ewsF1psGKWfAQAA6sZQ0QD71UJLRXSppNDLAOvev8u/y42vPth3E5B3CLF2COu9GrJ0j4bxCnakmK9efuO3yQy02Ql5NvFKkuyDoOn6Y2cl8c16lYOTM7hBSe1kz7IIeXNVGVdB0vh+nrLbiRgG+upa2Qs8H/LCXRPm+/XHQqfYp5BpSlnGxAg8IUiPFRAFLjHt7RB51b1LM0K1AODVqLbOhEbpIEuemEpH5+y0o9VaC8mQOxcWs6tQU+b4xYDG9QeXcSkut3QV6ECBPAelwM493IvJ5FCuuVJo9hjQyAu7sWBppmBfXI1LZlR4zDxfP84BU9hPFhLmbFdCSXuKpeACwY0wD8PnVSVs3BByhLIxu2yXK8TLGJ6ZxpHuyxpjUAGXp4Bxn8Dsa+uuzg5ZjiS91DuAIbGpA9kl0hxGfEBCZ3VuQOsXboZI+y7agmL8L1RXdf9j; Domain=.directv.com; Path=/; Expires=Wed, 05 Aug 2026 11:45:57 GMT; Max-Age=7198; SameSite=None; Secure; HttpOnly
+akamai-request-bc: [a=23.44.236.221,b=320406037,c=g,n=IN_DL_NEWDELHI,o=20940]
+x-dtvaka-origin: dpdui-external.directv.com
+dtv-environment: www.directv.com
+ab_idproot: new_idproot_20190410
+strict-transport-security: max-age=2628000
+x-dtvaka-grn: 0.ddec2c17.1785923159.13190215
+----
+

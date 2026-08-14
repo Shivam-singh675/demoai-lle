@@ -1,0 +1,10 @@
+0:Start
+1:Start|application_wadl
+2:Start|application_wadl|Authenticate___Login
+3:Start|application_wadl|Create_Customer_1
+4:Start|v2
+5:Start|Setup_Savings_Accounts
+6:Start|Setup_Savings_Accounts|Create_Savings_Product
+7:Start|Setup_Savings_Accounts|Create_Savings___Customer_1
+8:Start|Setup_Savings_Accounts|Approve_Savings___Customer_1
+9:Start|Setup_Savings_Accounts|Activate_Savings_Account__Customer_1_

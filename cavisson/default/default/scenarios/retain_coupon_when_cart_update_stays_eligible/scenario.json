@@ -1,0 +1,817 @@
+{
+  "references": [
+    {
+      "name": "User Story",
+      "href": "https://cavisson-team-apm.atlassian.net/browse/DT-145"
+    }
+  ],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/retain_coupon_when_cart_update_stays_eligible"
+  },
+  "lastModifedBy": "cavisson",
+  "agenticInfo": {
+    "applicationConfig": {
+      "authentication_prompt": "",
+      "applicationUrl": "http://boutique-qa.cav-test.com:31528",
+      "uploadDirectories": []
+    },
+    "uploadId": "",
+    "automationSteps": [
+      {
+        "step_number": 1,
+        "classifier": "action",
+        "action": "Navigate to http://boutique-qa.cav-test.com:31528",
+        "expected_outcome": "The application loads successfully from http://boutique-qa.cav-test.com:31528."
+      },
+      {
+        "step_number": 2,
+        "classifier": "action",
+        "action": "Add products and proceed to the Cart page so the cart subtotal satisfies the coupon minimum order amount, then apply a valid coupon on the Cart page.",
+        "expected_outcome": "The valid coupon is applied on the Cart page and the cart shows discounted totals."
+      },
+      {
+        "step_number": 3,
+        "classifier": "action",
+        "action": "Update the cart while keeping the product subtotal before shipping at or above the coupon eligibility threshold.",
+        "expected_outcome": "The system revalidates the applied coupon after the cart change, the coupon remains applied because the cart still satisfies the coupon minimum order amount, the cart and order totals continue to include the discount, and the cart UI continues to show that the coupon is applied."
+      }
+    ],
+    "source": {
+      "summary_id": "139a14d3-18dc-487a-ab17-e5ab96f38280",
+      "origin": "JIRA",
+      "storyUrl": "https://cavisson-team-apm.atlassian.net/browse/DT-145"
+    },
+    "priority": "high",
+    "tags": [
+      "Feature=Coupon Validation",
+      "SubFeature=Valid Coupon Application On Cart And Initial Order Confirmation",
+      "CartUpdate=true",
+      "Validation=true",
+      "Navigation=true",
+      "Source=JIRA",
+      "SourceRef=DT-145",
+      "UserStory=Automatically remove a coupon when the cart becomes ineligible",
+      "Epic=CouponFeatureAI",
+      "app=boutique",
+      "feature=checkout",
+      "testsuite=validate_coupon_is_working_for_all_currencies",
+      "AIGenerated=true"
+    ],
+    "desc": "Verify that when a customer updates the cart after applying a valid coupon, the coupon remains applied if the updated product subtotal before shipping still satisfies the coupon minimum order amount and does not fall below the coupon eligibility threshold."
+  },
+  "description": "Verify that when a customer updates the cart after applying a valid coupon, the coupon remains applied if the updated product subtotal before shipping still satisfies the coupon minimum order amount and does not fall below the coupon eligibility threshold.",
+  "automationStatus": "active",
+  "preTest": [],
+  "priority": "high",
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.retain_coupon_when_cart_update_stays_eligible_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "ALL": [
+        [
+          "ALL",
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "Feature=Coupon Validation, SubFeature=Valid Coupon Application On Cart And Initial Order Confirmation, CartUpdate=true, Validation=true, Navigation=true, Source=JIRA, SourceRef=DT-145, UserStory=Automatically remove a coupon when the cart becomes ineligible, Epic=CouponFeatureAI, app=boutique, feature=checkout, testsuite=validate_coupon_is_working_for_all_currencies"
+        ]
+      ]
+    }
+  },
+  "id": "a7c2ecd2-8042-4096-acde-7f2897675331",
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "assertionsV2": [
+        {
+          "locators": {},
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "title",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "goToBoutiqueHomePage"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "Online Boutique"
+          },
+          "operator": "contains",
+          "errorMsg": "",
+          "assertionDescription": "Page title should contain \"Online Boutique\"",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "id": "coupon_code"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "value",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "pressEnterToApplyCoupon"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "SAVE10"
+          },
+          "operator": "contains",
+          "errorMsg": "Coupon code field does not show SAVE10",
+          "assertionDescription": "Coupon field should contain SAVE10",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//*[contains(normalize-space(.),'Coupon Discount') and contains(normalize-space(.),'SAVE10') and not(.//*[contains(normalize-space(.),'Coupon Discount') and contains(normalize-space(.),'SAVE10')])]"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "pressEnterToApplyCoupon"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "SAVE10"
+          },
+          "operator": "contains",
+          "errorMsg": "Applied coupon indicator is not visible in the cart totals area",
+          "assertionDescription": "Cart should show SAVE10 as the applied coupon discount",
+          "target": "main"
+        },
+        {
+          "locators": {
+            "xpath": "//*[@aria-label='Shopping cart page']"
+          },
+          "assertOnErrorCodes": "none",
+          "saveOccurence": "",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "innerText",
+            "function": "",
+            "subType": "",
+            "type": "attribute",
+            "includeDNSTime": false
+          },
+          "inlineURLPattern": "",
+          "page": [
+            "clickAddWatchToCartFromRecommendation"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "SAVE10"
+          },
+          "operator": "contains",
+          "errorMsg": "Applied coupon SAVE10 is not shown on the cart after the cart update",
+          "assertionDescription": "Cart should still show coupon SAVE10 after the cart update",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "steps": [
+            {
+              "optional": false,
+              "type": "go",
+              "tagName": "",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": "Open Boutique Site"
+              },
+              "stepName": "goToBoutiqueHomePage",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {},
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "",
+                    "function": "",
+                    "subType": "",
+                    "type": "title",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "goToBoutiqueHomePage"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "Online Boutique"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "",
+                  "assertionDescription": "Page title should contain \"Online Boutique\"",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "openHttpBoutiqueQaCavTestCom31528",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "A",
+              "url": "http://boutique-qa.cav-test.com:31528/",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": false,
+              "locators": {
+                "xpath": "//a[@aria-label='View details for Watch, priced at €97.29']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div[2]/div/div/section/ul/li[3]/a",
+                "xpath1": "//A[@aria-label=\"View details for Watch, priced at $109.99\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[2]/div/div/section/ul/li[3]/a",
+                "id": "",
+                "class": "",
+                "ai_locator": "View Watch Details"
+              },
+              "stepName": "clickViewWatchDetails",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "addProductsAndProceedToTheCartPageSoTheCartSubtotalSatisfiesTheC",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "BUTTON",
+              "url": "http://boutique-qa.cav-test.com:31528/product/1YMWWN1N4O",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": false,
+              "locators": {
+                "xpath": "//button[@aria-label='Add Watch to shopping cart']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div/div/div[2]/div/form/button",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Add To Cart\"][@aria-label=\"Add Sunglasses to shopping cart\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[1]/div/div[2]/div/form/button",
+                "id": "",
+                "class": "cymbal-button-primary",
+                "ai_locator": "Add Watch Button"
+              },
+              "stepName": "clickAddWatchToCart",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "addProductsAndProceedToTheCartPageSoTheCartSubtotalSatisfiesTheC",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "input",
+              "tagName": "INPUT",
+              "url": "http://boutique-qa.cav-test.com:31528/cart",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": false,
+              "locators": {
+                "xpath": "//*[@id='coupon_code']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/section/div/div[2]/form/fieldset[3]/div/div/input",
+                "xpath1": "//INPUT[@placeholder=\"Enter coupon code\"][@name=\"coupon_code\"][@aria-label=\"Optional coupon code\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/section/div/div[2]/form/fieldset[3]/div/div[1]/input",
+                "id": "coupon_code",
+                "class": "",
+                "ai_locator": "Coupon Code Input"
+              },
+              "stepName": "enterCouponCode",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "addProductsAndProceedToTheCartPageSoTheCartSubtotalSatisfiesTheC",
+              "value": "SAVE10",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "sendkeys",
+              "tagName": "",
+              "url": "http://boutique-qa.cav-test.com:31528/cart?coupon_action=apply&coupon_code=SAVE10",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "xpath3": "",
+                "id": "",
+                "class": "",
+                "ai_locator": ""
+              },
+              "stepName": "pressEnterToApplyCoupon",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "id": "coupon_code"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "value",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "pressEnterToApplyCoupon"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "SAVE10"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Coupon code field does not show SAVE10",
+                  "assertionDescription": "Coupon field should contain SAVE10",
+                  "target": "main"
+                },
+                {
+                  "locators": {
+                    "xpath": "//*[contains(normalize-space(.),'Coupon Discount') and contains(normalize-space(.),'SAVE10') and not(.//*[contains(normalize-space(.),'Coupon Discount') and contains(normalize-space(.),'SAVE10')])]"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "innerText",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "pressEnterToApplyCoupon"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "SAVE10"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Applied coupon indicator is not visible in the cart totals area",
+                  "assertionDescription": "Cart should show SAVE10 as the applied coupon discount",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "addProductsAndProceedToTheCartPageSoTheCartSubtotalSatisfiesTheC",
+              "value": "Enter",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "A",
+              "url": "http://boutique-qa.cav-test.com:31528/cart?coupon_action=apply&coupon_code=SAVE10",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": false,
+              "locators": {
+                "xpath": "//a[@aria-label='View recommended product: Mug']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/section/div/div/div/ul/li/div/a",
+                "xpath1": "//A[@aria-label=\"View recommended product: Sunglasses\"]",
+                "domstring": "",
+                "xpath3": "html/body/section/div/div/div/ul/li[1]/div/a",
+                "id": "",
+                "class": "",
+                "ai_locator": "View Mug Link"
+              },
+              "stepName": "clickViewRecommendedMug",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [],
+              "prevStepName": "updateTheCartWhileKeepingTheProductSubtotalBeforeShippingAtOrAbo",
+              "value": "",
+              "iframes": ""
+            },
+            {
+              "optional": false,
+              "type": "click",
+              "tagName": "BUTTON",
+              "url": "http://boutique-qa.cav-test.com:31528/cart",
+              "timeout": 0,
+              "continueOnError": true,
+              "tags": [],
+              "srcLocators": "",
+              "preSnapshot": "",
+              "navigation": true,
+              "locators": {
+                "xpath": "//button[@aria-label='Add Watch to shopping cart']",
+                "role": "",
+                "csspath": "",
+                "xpath2": "/html[2]/body/main/div/div/div[2]/div/form/button",
+                "xpath1": "//BUTTON[normalize-space(.)=\"Add To Cart\"][@aria-label=\"Add Sunglasses to shopping cart\"]",
+                "domstring": "",
+                "xpath3": "html/body/main/div[1]/div/div[2]/div/form/button",
+                "id": "",
+                "class": "cymbal-button-primary",
+                "ai_locator": "Add Watch Button"
+              },
+              "stepName": "clickAddWatchToCartFromRecommendation",
+              "destLocators": "",
+              "har": "",
+              "waitElementTimeout": 0,
+              "subType": "RBU",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "",
+                "role": "",
+                "csspath": "",
+                "xpath2": "",
+                "xpath1": "",
+                "domstring": "",
+                "id": "",
+                "class": ""
+              },
+              "assertions": [
+                {
+                  "locators": {
+                    "xpath": "//*[@aria-label='Shopping cart page']"
+                  },
+                  "assertOnErrorCodes": "none",
+                  "saveOccurence": "",
+                  "actionOnFail": "CONTINUE",
+                  "lhs": {
+                    "warnThreshold": 0,
+                    "errorThreshold": 0,
+                    "ignoreWarn": false,
+                    "arg1": "innerText",
+                    "function": "",
+                    "subType": "",
+                    "type": "attribute",
+                    "includeDNSTime": false
+                  },
+                  "inlineURLPattern": "",
+                  "page": [
+                    "clickAddWatchToCartFromRecommendation"
+                  ],
+                  "rhs": {
+                    "type": "text",
+                    "value": "SAVE10"
+                  },
+                  "operator": "contains",
+                  "errorMsg": "Applied coupon SAVE10 is not shown on the cart after the cart update",
+                  "assertionDescription": "Cart should still show coupon SAVE10 after the cart update",
+                  "target": "main"
+                }
+              ],
+              "prevStepName": "updateTheCartWhileKeepingTheProductSubtotalBeforeShippingAtOrAbo",
+              "value": "",
+              "iframes": ""
+            }
+          ]
+        }
+      },
+      "type": "Browser"
+    }
+  },
+  "lastModifedTime": "29/07/2026 07:23:51",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

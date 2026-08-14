@@ -1,0 +1,98 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - goToBoutiqueHomePage
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon code field does not show SAVE10
+   target: main
+   locators:
+      id: coupon_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: value
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - pressEnterToApplyCoupon
+   rhs:
+      type: text
+      value: SAVE10
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Applied coupon indicator is not visible in the cart totals area
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.),'Coupon Discount') and contains(normalize-space(.),'SAVE10')
+         and not(.//*[contains(normalize-space(.),'Coupon Discount') and contains(normalize-space(.),'SAVE10')])]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - pressEnterToApplyCoupon
+   rhs:
+      type: text
+      value: SAVE10
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Applied coupon SAVE10 is not shown on the cart after the cart update
+   target: main
+   locators:
+      xpath: //*[@aria-label='Shopping cart page']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddWatchToCartFromRecommendation
+   rhs:
+      type: text
+      value: SAVE10

@@ -1,0 +1,830 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/FineractCheckAndTransfer"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Fineract_Banking_Flow",
+      "concurrency": "1"
+    }
+  ],
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_INLINE_MIN_CON_REUSE_DELAY": {
+      "ALL": [
+        []
+      ]
+    },
+    "REPORT_SET_GEN": {
+      "_G": [
+        []
+      ]
+    },
+    "NETCLOUD_COMPARE_REPORT": {
+      "_G": [
+        []
+      ]
+    },
+    "G_PAGE_RELOAD": {
+      "ALL": []
+    },
+    "G_SSL_VERIFY_PEER": {
+      "ALL": [
+        [
+          "0 0"
+        ]
+      ]
+    },
+    "G_FIRST_SESSION_PACING": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "G_HTTP_HDR": {
+      "ALL": []
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test_FineractCheckAndTransfer"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "10",
+          "10"
+        ]
+      ]
+    },
+    "G_ENABLE_CORRELATION_ID": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "G_REPORTING": {
+      "ALL": [
+        [
+          "2",
+          "10",
+          "10",
+          "25",
+          "0",
+          "500"
+        ]
+      ]
+    },
+    "G_CLICK_AWAY": {
+      "ALL": []
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_SRC_IP_LIST": {
+      "ALL": [
+        []
+      ]
+    },
+    "G_SSL_SETTINGS": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Fineract_Banking_Flow",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.FineractCheckAndTransfer_Fineract_Banking_Flow",
+          "100",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_CONTINUE_ON_PAGE_ERROR": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_TLS_VERSION": {
+      "ALL": [
+        [
+          "ssl2_3"
+        ]
+      ]
+    },
+    "G_NEW_USER_ON_SESSION": {
+      "ALL": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_OVERRIDE_RECORDED_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "G_SSL_CA_FILE_PATH": {
+      "ALL": [
+        [
+          ""
+        ]
+      ]
+    },
+    "G_USE_SRC_IP": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Fineract_Banking_Flow": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "CHECK_PROFILE_OVERALL": {
+      "_G": [
+        []
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "G_SESSION_PACING": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "G_INLINE_DELAY": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "G_MAX_URL_RETRIES": {
+      "ALL": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "G_SSL_KEY_FILE_PATH": {
+      "ALL": [
+        []
+      ]
+    },
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_USE_SAME_NETID_SRC": {
+      "ALL": [
+        []
+      ]
+    },
+    "G_SHOW_RUNTIME_RUNLOGIC_PROGRESS": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SESSION_RETRY": {
+      "ALL": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_AVG_SSL_REUSE": {
+      "ALL": [
+        [
+          "100"
+        ]
+      ]
+    },
+    "G_IP_VERSION_MODE": {
+      "ALL": [
+        []
+      ]
+    },
+    "SHOW_IP_DATA": {
+      "_G": [
+        []
+      ]
+    },
+    "CHECK_PROFILE_PERIODIC": {
+      "_G": [
+        []
+      ]
+    },
+    "G_SEND_NS_TX_HTTP_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SSL_CERT_FILE_PATH": {
+      "ALL": [
+        []
+      ]
+    },
+    "G_VUSER_TRACE": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SCRIPT_MODE": {
+      "ALL": [
+        [
+          "1",
+          "256",
+          "0"
+        ]
+      ]
+    },
+    "G_ENABLE_DT": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SSL_RENEGOTIATION": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_TRACING_LIMIT": {
+      "ALL": [
+        [
+          "1024",
+          "10240",
+          "10240",
+          "1048576"
+        ]
+      ]
+    },
+    "G_SSL_CLEAN_CLOSE_ONLY": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_CIPHER_LIST": {
+      "ALL": [
+        [
+          "''''"
+        ]
+      ]
+    },
+    "G_LOGGING": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "REPORT_MAIL_SETTING": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    }
+  },
+  "id": "4279e062-54ca-4d00-98ad-c4654b69eda1",
+  "scripts": {
+    "Fineract_Banking_Flow": {
+      "scriptMode": "visual",
+      "runlogic": [
+        {
+          "isDefault": true,
+          "system": true,
+          "name": "runlogic"
+        }
+      ],
+      "recordingProfile": "default.prof",
+      "type": "API",
+      "ownerId": "4c81926e-c039-4e23-9720-fdb444323306",
+      "assertionsV2": [],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "Content-Type": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": "bnNfcmVwbGFjZSgiYXV0aGtleSIsICJcXHUwMDNkIiwgIj0iKTsK"
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_Login.json",
+              "repeatInline": "",
+              "label": "Login",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/authentication"
+            },
+            {
+              "headers": {
+                "Content-Type": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_.text",
+              "repeatInline": "",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Content-Type": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": "bnNfcmVwbGFjZSgiYXV0aGtleSIsICJcXHUwMDNkIiwgIj0iKTsK"
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_Deposit.json",
+              "repeatInline": "",
+              "label": "Deposit",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/savingsaccounts/{savingsIdParam}/transactions?command=deposit"
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Content-Type": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_.text",
+              "repeatInline": "",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_Check_Balance_Before.json",
+              "repeatInline": "",
+              "label": "Check_Balance_Before",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/savingsaccounts/{savingsIdParam}"
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_.text",
+              "repeatInline": "",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_Transfer_funds.json",
+              "repeatInline": "",
+              "label": "Transfer_funds",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/accounttransfers"
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_.text",
+              "repeatInline": "",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_Check_Balance_After_Transfer.undefined",
+              "repeatInline": "",
+              "label": "Check_Balance_After_Transfer",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/savingsaccounts/{savingsIdParam}"
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authkey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Fineract_Banking_Flow_Flow_1_.text",
+              "repeatInline": "",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "state": "MANUAL",
+      "parameters": {
+        "dateTime": [
+          {
+            "dayType": "All Days",
+            "maxDays": "1",
+            "update-on": "SESSION",
+            "offset": "",
+            "parameter-name": "transferDateParam",
+            "formatName": "%m/%d/%Y",
+            "isUnique": "Yes",
+            "minDays": "1",
+            "regStrLine": "nsl_date_var(transferDateParam, Format=\"%m/%d/%Y\", Unique=YES, Refresh=SESSION);"
+          }
+        ],
+        "search": [
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "authkey",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "false",
+            "SaveOffset": "0",
+            "label": "PAGE=Login",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": "\"",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "search-in": "Body",
+            "lb": "\"base64EncodedAuthenticationKey\":\"",
+            "isICcheckedRB": "false",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "false",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(authkey, PAGE=Login, LB/IC=\"\\\"base64EncodedAuthenticationKey\\\":\\\"\", RB/IC=\"\\\"\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          }
+        ],
+        "file": [
+          {
+            "fileName": "saving_account_details.csv",
+            "parameter-name": "userIdParam:1,savingsIdParam:2",
+            "dataDir": "shared",
+            "update": "SESSION",
+            "removeDupRecords": "No",
+            "saveUseOnceOption": "Every",
+            "firstDataLine": "1",
+            "mode": "UNIQUE",
+            "varValue": "",
+            "delimiter": ",",
+            "encodeMode": "All",
+            "textAreas": "602,502,\n603,503,\n604,504,\n605,505,\n606,506,\n607,507,\n608,508,\n609,509,\n610,510,\n611,511,\n612,512,\n613,513,\n614,514,\n615,515,\n616,516,\n618,517,\n617,518,\n619,519,\n621,520,\n620,521,\n623,523,\n622,522,\n624,524,\n626,526,\n625,525,\n628,527,\n627,528,\n629,529,\n630,530,\n632,532,\n631,531,\n634,533,\n633,534,\n636,536,\n635,535,\n638,537,\n637,538,\n639,540,\n640,539,\n641,541,\n643,543,\n642,542,\n645,544,\n644,545,\n648,546,\n646,548,\n647,547,\n649,549,\n650,550,\n651,552,\n653,553,\n652,551,\n655,554,\n654,556,\n656,555,\n658,558,\n657,557,\n660,560,\n661,559,\n659,561,\n664,563,\n663,564,\n662,562,\n665,565,\n666,567,\n667,566,\n669,568,\n670,570,\n668,569,\n672,571,\n671,572,\n673,573,\n675,575,\n676,576,\n674,574,\n678,578,\n677,579,\n679,577,\n681,580,\n682,583,\n680,582,\n683,581,\n684,585,\n685,586,\n686,584,\n688,587,\n687,588,\n689,589,\n690,590,\n691,591,\n692,593,\n693,592,\n694,595,\n695,594,\n696,597,\n697,596,\n698,598,\n699,599,\n700,600,\n701,601,\n",
+            "regStrLine": "nsl_static_var(userIdParam:1,savingsIdParam:2, DATADIR=shared, File=saving_account_details.csv, Refresh=SESSION, Mode=UNIQUE, EncodeMode=All, RemoveDupRecords=No);"
+          },
+          {
+            "fileName": "relief_account_details.csv",
+            "parameter-name": "reliefFundClientIdParam:1,reliefFundSavingsIdParam:2",
+            "dataDir": "shared",
+            "update": "SESSION",
+            "removeDupRecords": "No",
+            "saveUseOnceOption": "Every",
+            "firstDataLine": "1",
+            "mode": "SEQUENTIAL",
+            "varValue": "",
+            "delimiter": ",",
+            "encodeMode": "All",
+            "textAreas": "501,401,\n",
+            "regStrLine": "nsl_static_var(reliefFundClientIdParam:1,reliefFundSavingsIdParam:2, DATADIR=shared, File=relief_account_details.csv, Refresh=SESSION, Mode=SEQUENTIAL, EncodeMode=All);"
+          }
+        ],
+        "scratch": [
+          {
+            "parameter-name": "authToken",
+            "defaultValue": "",
+            "regStrLine": "nsl_decl_var(authToken,RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "initialBalance",
+            "defaultValue": "",
+            "regStrLine": "nsl_decl_var(initialBalance,RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "tenantId",
+            "defaultValue": "default",
+            "regStrLine": "nsl_decl_var(tenantId,DefaultValue=\"default\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountId",
+            "defaultValue": "",
+            "regStrLine": "nsl_decl_var(accountId,RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "balanceBeforeTransfer",
+            "defaultValue": "",
+            "regStrLine": "nsl_decl_var(balanceBeforeTransfer,RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "12/08/2026 11:19:27",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

@@ -1,0 +1,47 @@
+{
+  "name" : "download_a_thread_dump_08_12_2026_17_31_40",
+  "testcases" : [ {
+    "name" : "default/default/download_thread_dump_from_existing_entry",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/download_thread_dump_without_existing_entry",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/verify_action_icon_shows_download_option",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/download_thread_dump_with_single_existing_entry",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/retry_thread_dump_download_from_existing_entry",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "Test Suite generated on 08_12_2026_17_32_01",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

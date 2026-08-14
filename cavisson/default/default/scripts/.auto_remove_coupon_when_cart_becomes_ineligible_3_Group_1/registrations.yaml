@@ -1,0 +1,25 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Currency selector not visible on the loaded application page
+   target: main
+   locators:
+      id: currency_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: value
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - goToHomePage
+   rhs:
+      type: text
+      value: USD

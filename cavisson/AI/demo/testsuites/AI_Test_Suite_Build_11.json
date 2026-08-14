@@ -1,0 +1,35 @@
+{
+  "name" : "AI_Test_Suite_Build_11",
+  "testcases" : [ {
+    "name" : "AI/demo/reject_unsupported_coupon_code_and_keep_totals_unchanged_3",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "AI/demo/reject_ineligible_coupon_when_subtotal_before_shipping_rules_",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "AI-generated regression suite — 2/2 testcases passed automation on 2026-07-30 04:36:24",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

@@ -1,0 +1,27 @@
+{
+  "humanSteps": [
+    {
+      "stepNumber": 1,
+      "humanStepName": "Navigate to https://10.10.60.82:4444/",
+      "timestamp": 1786603096,
+      "browserActionCount": 1,
+      "testcaseStepCount": 0,
+      "testcaseSteps": []
+    },
+    {
+      "stepNumber": 2,
+      "humanStepName": "Enter valid username-Lavi and password-Lavi@123 and submit login form",
+      "timestamp": 1786603143,
+      "browserActionCount": 3,
+      "testcaseStepCount": 1,
+      "testcaseSteps": [
+        {
+          "stepName": "enterUsername",
+          "actionLabel": "Input: \"Username\"",
+          "prePath": "agenticAi/aiTestCases/1083/block_second_thread_dump_while_first_capture_is_in_progress/dump/Flow_1/Snapshots/pre_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png",
+          "postPath": "agenticAi/aiTestCases/1083/block_second_thread_dump_while_first_capture_is_in_progress/dump/Flow_1/Snapshots/post_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+--Request 
+POST https://ingest.quantummetric.com/horizon/dtv?T=B&u=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&t=1785923178139&v=1785923187461&H=6b06736a191f4fc087eebaac&s=15ee8da754a44c11862cb214234d6b3a&f=1785923187461&N=3&Q=2&S=1411&b=2297&z=2
+Host: ingest.quantummetric.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"e":8,"m":1.9422165053694096,"k":5,"c":1,"qc":[{"t":"H","n":"Select Entertainment package","x":39,"y":27,"tc":9048,"ts":1785923187188,"P":"[id=\"plancard-SignaturePackage-card-0-pkg-cta-panel-0\"]","ev":"html:last-child:nth-child(1):only-child>body:nth-child(2)>div[id=\"__next\"]:nth-child(1)>main[id=\"mainContent\"]:nth-child(2)>div:last-child:nth-child(1):only-child>section[id=\"dtv2-ribbonProgressivePlanCard\"]:nth-child(8)>div[class=\"MuiBox-root mui-style-10ru2wu\"]:last-child:nth-child(1):only-child>div[class=\"MuiBox-root mui-style-xqyrfh\"][id=\"plancard-SignaturePackage\"]:last-child:nth-child(2)>div[class=\"MuiBox-root mui-style-d9w7j\"]:last-child:nth-child(1):only-child>div[class=\"MuiBox-root mui-style-hyot8p\"]:last-child:nth-child(1):only-child>div[class=\"MuiBox-root mui-style-dzwns5\"][id=\"plancard-SignaturePackage-0-ctnr\"]:nth-child(1)>div[class=\"MuiBox-root mui-style-nhbf3m\"][id=\"plancard-SignaturePackage-card-0-card-ctnr\"]:last-child:nth-child(1):only-child>div[class=\"MuiBox-root mui-style-v1or5h\"][id=\"plancard-SignaturePackage-card-0-card-body\"]:last-child:nth-child(2)>div[class=\"MuiBox-root mui-style-0\"]:last-child:nth-child(5)>div[class=\"equal-height-JlocK\"]:nth-child(6)>div[class=\"MuiBox-root mui-style-1v9tvuu\"][id=\"plancard-SignaturePackage-card-0-pkg-cta-panel-ctnr\"]:last-child:nth-child(1):only-child>div[class=\"MuiBox-root mui-style-7ax19k\"][id=\"plancard-SignaturePackage-card-0-pkg-cta-panel\"]:last-child:nth-child(1):only-child>a[aria-label=\"select entertainment package\"][class=\"MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-sizeMedium MuiButton-uxprimarydark MuiButton-uxprimarydarkPrimary MuiButton-uxprimarydarkSizeMedium MuiButtonBase-root mui-style-l9cpy7\"][id=\"plancard-SignaturePackage-card-0-pkg-cta-panel-0\"]:last-child:nth-child(1):only-child"}],"inp":{"v":296,"sel":"[id=\"plancard-SignaturePackage-card-0-pkg-cta-panel-0\"]"},"sd0":18,"sd1":67,"sd2":81,"sd3":33,"sd4":19,"sd5":0,"sd6":0,"sd7":0,"sd8":0,"sd9":0,"s":9.065306122448977,"out":{"t":"OUT","u":"https://www.directv.com/shop/build/configure/entertainment-package?flowType=streaming&intent=device","n":"Select Entertainment package","P":"[id=\"plancard-SignaturePackage-card-0-pkg-cta-panel-0\"]","ts":1785923187461}}
+--Response 
+HTTP/1.1 200
+content-type: application/json
+access-control-allow-credentials: true
+date: Wed, 05 Aug 2026 09:46:28 GMT
+content-length: 0
+via: 1.1 google
+access-control-expose-headers: Date
+strict-transport-security: max-age=31536000; includeSubDomains
+alt-svc: h3=\":443\"; ma=2592000
+----
+

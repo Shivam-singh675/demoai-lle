@@ -1,0 +1,12 @@
+{
+  "appium:browserstack.acceptInsecureCerts": true,
+  "appium:browserstack.local": false,
+  "appium:autoAcceptAlerts": true,
+  "appium:browserstack.networkLogs": true,
+  "appium:build": "RDT Recording",
+  "appium:autoGrantPermissions": true,
+  "platformName": "android",
+  "appium:deviceName": "Samsung Galaxy S21",
+  "appium:os_version": "11.0",
+  "appium:app": "bs://5b08a913151e0fdd68d5b327974e69d3f69699bc"
+}

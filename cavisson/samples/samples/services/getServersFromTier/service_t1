@@ -1,0 +1,57 @@
+{
+    "data": [
+        {$CAVREPEAT_BLOCK_START, sep(,), Num(2)} {
+            "server": "NDApp1",
+            "serverIP": "10.10.60.13",
+            "tier": "Cavisson",
+            "cavMonHome": "/home/cavisson/netdiagnostics",
+            "machineType": "Linux",
+            "version": "4.12.0.39",
+            "autoScale": 1,
+            "status": 1,
+            "autoRegister": 0,
+            "clusters": [
+                {
+                    "tomcatIP": "10.10.60.13",
+                    "tomcatPort": 8001,
+                    "protocol": "https",
+                    "cname": "Machine_60_13"
+                },
+                {
+                    "tomcatIP": "10.10.50.4",
+                    "tomcatPort": 8002,
+                    "protocol": "https",
+                    "cname": "Machine_50_4"
+                }
+            ],
+            "instances": [
+                {
+                    "instance": "CMON",
+                    "instanceType": "Java",
+                    "ctrlConFlag": 1,
+                    "tier": "Cavisson",
+                    "server": "NDApp"
+                }
+            ]
+        }{$CAVREPEAT_BLOCK_END}
+    ],
+    "rsTime": [
+        {
+            "Machine_60_13": {
+                "node": "98055 µs"
+            }
+        },
+        {
+            "Machine_50.4": {
+                "node": "5047937 µs"
+            }
+        },
+        {
+            "nodeRsTime": "5056687 µs"
+        },
+        {
+            "fromCached": true,
+            "cacheTime": "1663 µs"
+        }
+    ]
+}

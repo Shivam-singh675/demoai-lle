@@ -1,0 +1,13 @@
+[
+  {"email": "someone@example.com"},
+  {"street_address": "1600 Amphitheatre Parkway"},
+  {"zip_code": "94043"},
+  {"city": "Mountain View"},
+  {"state": "CA"},
+  {"country": "United States"},
+  {"credit_card_number": "4432801561520454"},
+  {"credit_card_expiration_month": "1"},
+  {"credit_card_expiration_year": "2027"},
+  {"credit_card_cvv": "672"},
+  {"coupon_code": ""}
+]

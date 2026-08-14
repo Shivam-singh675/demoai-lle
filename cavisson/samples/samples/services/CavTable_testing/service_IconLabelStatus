@@ -1,0 +1,762 @@
+{
+    "data": [
+        {
+            "id": 1335,
+            "name": "nvd_Copy_6",
+            "createdTs": 1712748199327,
+            "lastModifiedTs": 1712748199327,
+            "creator": "cavisson",
+            "createdBy": "cavisson",
+            "status": "Failed",
+            "icon": [
+                {
+                    "key": 11
+                }
+            ],
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1337,
+            "name": "Default_Action_Copy_6",
+            "createdTs": 0,
+            "lastModifiedTs": 1712817954673,
+            "createdBy": "Amber",
+            "status": "Failed",
+            "icon": [
+                {
+                    "key": 12
+                },
+                {
+                    "key": 13
+                }
+            ],
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "prakash.rout@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 12,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "bigpanda",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 13,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "bmcremedy",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 14,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "ciscospark",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 15,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "kaizala",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 17,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "pagerduty",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 18,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "servicenow",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 20,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "slack",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 19,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "zohomanageengine",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 21,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "alertsender",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 16,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "microsoftteams",
+                    "extensionKeys": [
+                        "0"
+                    ],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1338,
+            "key": 1,
+            "name": "nvd1_Copy_6",
+            "createdTs": 1712748199380,
+            "lastModifiedTs": 1712748199380,
+            "creator": "cavisson",
+            "createdBy": "Jagatjeet",
+            "status": "Success",
+            "icon": [
+                {
+                    "key": 13
+                }
+            ],
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 16,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "microsoftteams",
+                    "extensionKeys": [
+                        "0"
+                    ],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1336,
+            "key": 12,
+            "name": "Testing",
+            "createdTs": 1712748199380,
+            "lastModifiedTs": 1712748199380,
+            "creator": "cavisson",
+            "createdBy": "cavisson",
+            "status": "Success",
+            "icon": [
+                {
+                    "key": 14
+                },
+                {
+                    "key": 15
+                },
+                {
+                    "key": 13
+                }
+            ],
+            "actions": [
+                {
+                    "type": 11,
+                    "key": 12,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "bigpanda",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 14,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "ciscospark",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1346,
+            "name": "nvd_Copy_6_Copy_1",
+            "createdTs": 1712814534436,
+            "lastModifiedTs": 1712814534436,
+            "creator": "cavisson",
+            "createdBy": "cavisson",
+            "status": "Success",
+            "icon": 15,
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 14,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "ciscospark",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1335,
+            "name": "nvd_Copy_6",
+            "createdTs": 1712748199327,
+            "lastModifiedTs": 1712748199327,
+            "creator": "cavisson",
+            "createdBy": "Amber",
+            "status": "Failed",
+            "icon": 11,
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1337,
+            "name": "Default_Action_Copy_6",
+            "createdTs": 0,
+            "lastModifiedTs": 1712817954673,
+            "createdBy": "Amber",
+            "status": "Failed",
+            "icon": 11,
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "prakash.rout@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 12,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "bigpanda",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 13,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "bmcremedy",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 20,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "slack",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 19,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "zohomanageengine",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 21,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "alertsender",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 16,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "microsoftteams",
+                    "extensionKeys": [
+                        "0"
+                    ],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1338,
+            "key": 1,
+            "name": "nvd1_Copy_6",
+            "createdTs": 1712748199380,
+            "lastModifiedTs": 1712748199380,
+            "creator": "cavisson",
+            "createdBy": "Jagatjeet",
+            "status": "Success",
+            "icon": [
+                {
+                    "key": 11
+                },
+                {
+                    "key": 14
+                }
+            ],
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1336,
+            "key": 12,
+            "name": "Testing",
+            "createdTs": 1712748199380,
+            "lastModifiedTs": 1712748199380,
+            "creator": "cavisson",
+            "createdBy": "Jagatjeet",
+            "status": "Success",
+            "icon": 13,
+            "actions": [
+                {
+                    "type": 11,
+                    "key": 12,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "bigpanda",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        },
+        {
+            "id": 1346,
+            "name": "nvd_Copy_6_Copy_1",
+            "createdTs": 1712814534436,
+            "lastModifiedTs": 1712814534436,
+            "creator": "cavisson",
+            "createdBy": "cavisson",
+            "status": "Failed",
+            "icon": 14,
+            "actions": [
+                {
+                    "type": 1,
+                    "key": 1,
+                    "email": {
+                        "receiver": "amber.sahai@cavisson.com",
+                        "subject": "$SEVERITY : Alert for one of the severely affected Subject '$SUBJECT'",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 0,
+                        "singleWidget": false
+                    },
+                    "extensionName": "",
+                    "indicesPattern": "",
+                    "dashboardLink": true,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                },
+                {
+                    "type": 11,
+                    "key": 14,
+                    "email": {
+                        "receiver": "",
+                        "subject": "",
+                        "preText": "",
+                        "postText": "",
+                        "dashboardLink": "",
+                        "dashboardGraphTime": 10,
+                        "singleWidget": false
+                    },
+                    "extensionName": "ciscospark",
+                    "extensionKeys": [],
+                    "indicesPattern": "",
+                    "dashboardLink": false,
+                    "dashboardGT": 10,
+                    "singleWidget": false
+                }
+            ]
+        }
+    ]
+}

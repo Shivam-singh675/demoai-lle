@@ -1,0 +1,79 @@
+--Request 
+GET https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=CR_30vrVXmB0AHZTkq&Version=4&Q_InterceptID=SI_djbXWUSXzUcsPaF&Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BrandTier=&Q_ARCACHEVERSION=21&Q_BRANDDC=pdx1
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/json; charset=utf-8
+x-transaction-id: 41ecb888-f97c-4438-bddc-b465d6b2fd01
+x-request-id: bc95b28b-b288-47a0-8200-7caa61cb81c9
+access-control-allow-origin: *
+cache-control: public, max-age=604800, s-maxage=604800
+edge-control: max-age=604800
+etag: W/\"93b-y57KaBFH5fi5lPT7YfFbMvBGouo\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+age: 186856
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df703be191a9-DEL
+----
+--Request 
+GET https://cdn.cookielaw.org/scripttemplates/202606.1.0/otBannerSdk.js
+Host: cdn.cookielaw.org
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+content-length: 139190
+content-encoding: gzip
+content-md5: QytWMDYRYeW7itBwlEx+bQ==
+last-modified: Tue, 23 Jun 2026 18:26:58 GMT
+etag: 0x8DED155033943C7
+server: cloudflare
+x-ms-request-id: 046d7cca-901e-00c5-0e41-03edb1000000
+x-ms-version: 2009-09-19
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding
+access-control-allow-origin: *
+accept-ranges: bytes
+cross-origin-resource-policy: cross-origin
+vary: accept-encoding
+age: 30456
+cache-control: max-age=86400
+cf-cache-status: HIT
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+cf-ray: a264df70bb0f54a7-DEL
+----
+

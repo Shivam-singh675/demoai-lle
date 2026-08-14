@@ -1,0 +1,439 @@
+--Request 
+POST https://sierra.chat/-/api/events
+Host: sierra.chat
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"eventName":"events.EmbedConfigInit","properties":{"token":"4QpFj40BkclJ60wBkcnYOoWQDHuAyiA1DPD6MLm-wkY","releaseRequested":false,"embedConfigKeys":["variables","display","dimensions","titleBarLogoOnly","canRenderMessageImages","canEndConversation","canStartNewChat","canPrintTranscript","unstyled","hideOnClose","persistence","customConversationStart","onOpen","launcher","disableAutoFocus","persistenceStore","onConversationEnd","onClose"],"config":{"display":"corner","persistence":"custom","hideOnClose":true,"disableAutoFocus":true,"unstyled":false,"canEndConversation":true,"canStartNewChat":true,"canPrintTranscript":false,"titleBarLogoOnly":false},"url":"https://www.directv.com/packages/","inIframe":false,"webSdkVersion":"latest"}}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:18 GMT
+content-type: text/plain; charset=utf-8
+content-length: 49
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+referrer-policy: strict-origin
+server-timing: api;dur=228
+set-cookie: __cf_bm=LXF89pVF.g7ut6rliN76.wxTmdaA.AuKMVpk0dsbq6k-1785923178.321258-1.0.1.1-we6OLYk.zhbWkzNzxEOtS2eMA0pdFjulxTvyrONde7IkoHVpLehP0jGHGxQtur3MemoJWaL9qEFFAfwOe36P0CERgmWeMhwc38AHLoqFPILPTP1ddS6xhAltVhiooMFi; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:18 GMT
+server: cloudflare
+cf-ray: a264dfb87f63c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/Y38tJejIGFbmunRhtm4OPskLrro.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df70d8a4c69f-MAA
+----
+--Request 
+GET https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-LEXYQWQ1NF&cid=573265066.1785923160&gtm=45j91e6830v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115938465~115938468~117549813~117549813~118032361~118032361~118897920~118897930~119527019~119896802&_is_sw=f14s3t1204&_tu=BA&gap.sstd=5&aip=1&z=401017557
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:18 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://js.adsrvr.org/universal_pixel.js
+Host: js.adsrvr.org
+sec-ch-ua-platform: \"Linux\"
+If-None-Match: \"3c2902a9e6adcb33745963459cecb356\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+If-Modified-Since: Sun, 02 Aug 2026 12:07:04 GMT
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://match.adsrvr.org/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 304 Not Modified
+Connection: keep-alive
+Date: Tue, 04 Aug 2026 12:10:29 GMT
+Last-Modified: Sun, 02 Aug 2026 12:07:04 GMT
+ETag: \"3c2902a9e6adcb33745963459cecb356\"
+x-amz-server-side-encryption: AES256
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 7cea0c438b17b3fb24548503d32d145c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL51-P3
+X-Amz-Cf-Id: 7bP433O389-s5XoejSImu4Lmz6fbKFG-dJ6wFdOjs1Xi_ve0WMWT4Q==
+Age: 77750
+----
+--Request 
+GET https://js.adsrvr.org/universal_pixel.js
+Host: js.adsrvr.org
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://match.adsrvr.org/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Date: Tue, 04 Aug 2026 12:10:29 GMT
+Last-Modified: Sun, 02 Aug 2026 12:07:04 GMT
+x-amz-server-side-encryption: AES256
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 7cea0c438b17b3fb24548503d32d145c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL51-P3
+X-Amz-Cf-Id: 1d90YL_crV6tSRB5XWWUZmhqfuvBg9syB87PoiHtf6L_sYhiTqOHLw==
+Age: 77750
+Content-Type: application/javascript
+Content-Length: 482
+ETag: \"3c2902a9e6adcb33745963459cecb356\"
+Accept-Ranges: bytes
+----
+--Request 
+GET https://bat.bing.com/p/insights/s/0.8.69
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+cache-control: public, max-age=86400
+content-type: application/javascript;charset=utf-8
+content-encoding: br
+last-modified: Tue, 04 Aug 2026 06:07:37 GMT
+etag: W/\"0x8DEF1EEAED33CBE\"
+vary: Accept-Encoding
+access-control-allow-origin: *
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-ms-request-id: 3f104fb0-501e-0029-3cec-2310af000000
+x-ms-version: 2018-03-28
+x-azure-ref: 20260805T094618Z-15d79dd4bcf8r7n6hC1PUSuu78000000077000000000511z
+x-fd-int-roxy-purgeid: 0
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 45BA8B8E28974ECD8851C73E61433EF2 Ref B: BOM01EDGE1612 Ref C: 2026-08-05T09:46:18Z
+date: Wed, 05 Aug 2026 09:46:17 GMT
+----
+--Request 
+GET https://sierra.chat/-/cdn/1ryKg6_jUh__CwYAHozGm_wnMbU.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc16c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/d5YlBEDJGN5D0KtFJNhao6-oXQ4.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc1bc69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/qJ31DbE1i-CmsuHNdCXw5ujIgB8.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc22c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/iNlO2fAGjwqMWKn8-EXRlVwXkfI.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc26c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/XgamTLmuiYUXbrHkrGHWrNL_VV0.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc2ac69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/vTdX1QjKeysMCr9tesws_OBh0S4.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc2ec69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/Dv4tu_7JDZOFiuSGzuyT2NXolXY.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc31c69f-MAA
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=dtvresearch
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 561747
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"1bf41-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df6fcb3891a9-DEL
+----
+

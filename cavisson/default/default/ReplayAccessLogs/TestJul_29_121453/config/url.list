@@ -1,0 +1,15 @@
+Total=528;Redirected=0;TimeBasedFiltered=0;BadRequest=471;NonSessionRequest=0;InlineFilteredRequest=0;TotalUrlPattern=13                                                                                                                                                                                                                                                                                                                                                                                                       
+Filter|Type|Method|URL|Count|Txn-Name|Host|Query_File_Offset|POST-DATA_FILE|URL-Pattern
+NO|MAIN|GET|/|3|NA|NA|-1|NA|NA
+NO|MAIN|GET|/fineract-provider/actuator/health|1|NA|NA|-1|NA|NA
+NO|MAIN|GET|/fineract-provider/actuator/info|1|NA|NA|-1|NA|NA
+NO|MAIN|OPTIONS|/fineract-provider/actuator/info|1|NA|NA|-1|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/accounttransfers|4|NA|NA|-1|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/authentication|8|NA|NA|-1|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/clients|12|NA|NA|-1|NA|NA
+NO|MAIN|GET|/fineract-provider/api/v1/offices|1|NA|NA|-1|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/savingsaccounts|6|NA|NA|-1|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/savingsaccounts/1?*|6|NA|NA|0|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/savingsaccounts/2/transactions?*|3|NA|NA|363|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/savingsaccounts/2?*|7|NA|NA|582|NA|NA
+NO|MAIN|POST|/fineract-provider/api/v1/savingsproducts|4|NA|NA|-1|NA|NA

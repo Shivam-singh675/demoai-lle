@@ -1,0 +1,14 @@
+0:Start
+1:Start|Flow_1
+2:Start|Flow_1|goToStorefront
+3:Start|Flow_1|goToStorefront2
+4:Start|Flow_1|goToStorefront3
+5:Start|Flow_1|goToStorefront4
+6:Start|Flow_1|clickViewWatchDetails
+7:Start|Flow_1|clickAddWatchToCart
+8:Start|Flow_1|clickShoppingCartLink
+9:Start|Flow_1|enterCouponCode
+10:Start|Flow_1|clickPlaceOrderButton
+11:Start|Flow_1|goBackToCart
+12:Start|Flow_1|enterCouponCodeAgain
+13:Start|Flow_1|clickPlaceOrderButtonAgain

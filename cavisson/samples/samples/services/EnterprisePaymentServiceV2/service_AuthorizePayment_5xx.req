@@ -1,0 +1,13 @@
+X-Payment-experimentation: V1
+{
+    "RequestType": "AuthorizePayment",
+    "Version": "V1",
+    "AssociateAccount": [
+        {
+            "accId": "5936291",
+            "encryptedsecuritycode": "XRPCw134n//wh+hdkjWR/",
+            "phonenum": "8285771111",
+            "originator": "cavisson"
+        }
+    ]
+}

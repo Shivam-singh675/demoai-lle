@@ -1,0 +1,309 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/PUT_ORDERS_CANCEL_POS_VALID_REQUEST_2"
+  },
+  "lastModifedBy": "cavisson",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.PUT_ORDERS_CANCEL_POS_VALID_REQUEST_2_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "id": "2ec73565-b177-4a04-8cbb-921c5761a787",
+  "scripts": {
+    "Group_1": {
+      "scriptMode": "visual",
+      "rumsid": "",
+      "runlogic": [],
+      "type": "API",
+      "RDT_NATIVE": [],
+      "assertionsV2": [
+        {
+          "locators": {},
+          "assertOnErrorCodes": "all",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "statuscode"
+          },
+          "inlineURLPattern": ".*",
+          "page": [
+            "index1"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "^2[0-9]{2}$"
+          },
+          "operator": "match_regex",
+          "errorMsg": "Status code validation failed for PUT request",
+          "assertionDescription": "PUT cancel order response status code should be a 2xx success code",
+          "target": "main"
+        },
+        {
+          "locators": {},
+          "assertOnErrorCodes": "all",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "statuscode"
+          },
+          "inlineURLPattern": ".*",
+          "page": [
+            "index"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "^2[0-9]{2}$"
+          },
+          "operator": "match_regex",
+          "errorMsg": "Setup status code validation failed",
+          "assertionDescription": "Setup request placeholder status assertion for chained PUT flow",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "headers": {},
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "x-requestid": "{dynamic_x_requestid}",
+                "Content-Type": "application/json"
+              },
+              "method": "POST",
+              "inlineRequests": [],
+              "label": "index",
+              "body": "{\"orderNumber\":\"{dynamic_put_orderNumber}\"}",
+              "url": "{BASE_URL}/api/orders/cancel",
+              "condition": [],
+              "postResponse": {},
+              "thinkTime": "",
+              "preRequest": {},
+              "enable": true,
+              "repeatInline": ""
+            },
+            {
+              "headers": {
+                "x-requestid": "{dynamic_x_requestid}",
+                "Content-Type": "application/json"
+              },
+              "method": "PUT",
+              "inlineRequests": [],
+              "label": "index1",
+              "body": "{\"orderNumber\":\"{dynamic_put_orderNumber}\"}",
+              "url": "{BASE_URL}/api/orders/cancel",
+              "condition": [],
+              "postResponse": {},
+              "thinkTime": "",
+              "preRequest": {},
+              "enable": true,
+              "repeatInline": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "assertions": [],
+      "parameters": {
+        "json": [],
+        "scratch": [
+          {
+            "parameter-name": "BASE_URL",
+            "defaultValue": "http://localhost:8080",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(BASE_URL,DefaultValue=\"http://localhost:8080\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_put_orderNumber",
+            "defaultValue": "dynamic_put_orderNumber",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_put_orderNumber,DefaultValue=\"dynamic_put_orderNumber\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_put_orderNumber",
+            "defaultValue": "dynamic_put_orderNumber",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(dynamic_put_orderNumber,DefaultValue=\"dynamic_put_orderNumber\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_x_requestid",
+            "defaultValue": "{dynamic_x_requestid}",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_x_requestid,DefaultValue=\"{dynamic_x_requestid}\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "06/08/2026 09:53:09",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

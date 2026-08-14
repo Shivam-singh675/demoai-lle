@@ -1,0 +1,2 @@
+GET /fineract-provider/api/v1/offices HTTP/1.1
+

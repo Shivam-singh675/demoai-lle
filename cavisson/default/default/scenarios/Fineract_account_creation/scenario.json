@@ -1,0 +1,1590 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "yes",
+    "testname": "default/default/Fineract_account_creation"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Apache_Fineract_REST_API",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Apache_Fineract_REST_API": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Apache_Fineract_REST_API",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.Fineract_account_creation_Apache_Fineract_REST_API",
+          "100",
+          "",
+          ""
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test_Fineract_account_creation"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "id": "f5db9e6c-b46a-4c50-812a-f26b9763a863",
+  "scripts": {
+    "Apache_Fineract_REST_API": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [
+        {
+          "isDefault": true,
+          "system": true,
+          "name": "runlogic"
+        }
+      ],
+      "recordingProfile": "default.prof",
+      "type": "API",
+      "assertionsV2": [],
+      "flows": {
+        "Setup_Savings_Accounts": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Create_Savings_Product.json",
+              "label": "Create_Savings_Product",
+              "url": "{baseUrl}/api/v1/savingsproducts"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Create_Savings___Customer_1.json",
+              "label": "Create_Savings___Customer_1",
+              "url": "{baseUrl}/api/v1/savingsaccounts"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Approve_Savings___Customer_1.json",
+              "label": "Approve_Savings___Customer_1",
+              "url": "{baseUrl}/api/v1/savingsaccounts/{savingsIdParam}?command=approve"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Activate_Savings_Account__Customer_1_.json",
+              "label": "Activate_Savings_Account__Customer_1_",
+              "url": "{baseUrl}/api/v1/savingsaccounts/2?command=activate"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Deposit_Money_into_Customer_1.json",
+              "label": "Deposit_Money_into_Customer_1",
+              "url": "{baseUrl}/api/v1/savingsaccounts/2/transactions?command=deposit"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Create_Savings_Account__Relief_Fund_.json",
+              "label": "Create_Savings_Account__Relief_Fund_",
+              "url": "{baseUrl}/api/v1/savingsaccounts"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Approve_Savings_Account__Relief_Fund_.json",
+              "label": "Approve_Savings_Account__Relief_Fund_",
+              "url": "{baseUrl}/api/v1/savingsaccounts/1?command=approve"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Activate_Savings_Account__Relief_Fund_.json",
+              "label": "Activate_Savings_Account__Relief_Fund_",
+              "url": "{baseUrl}/api/v1/savingsaccounts/1?command=activate"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 2
+        },
+        "application_wadl": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_get_External_Grammar.json",
+              "label": "get_External_Grammar",
+              "url": "{baseUrl}/application.wadl/{path}"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_get_Wadl.json",
+              "label": "get_Wadl",
+              "url": "{baseUrl}/application.wadl"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_Authenticate___Login.json",
+              "label": "Authenticate___Login",
+              "url": "{baseUrl}/api/v1/authentication"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_Create_Customer_1.json",
+              "label": "Create_Customer_1",
+              "url": "{baseUrl}/api/v1/clients"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_Create_Relief_Fund_Beneficiary.json",
+              "label": "Create_Relief_Fund_Beneficiary",
+              "url": "{baseUrl}/api/v1/clients"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_Transfer_to_Relief_Fund.json",
+              "label": "Transfer_to_Relief_Fund",
+              "url": "{baseUrl}/api/v1/accounttransfers"
+            },
+            {
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        },
+        "v2": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Apache_Fineract_REST_API_v2_Search_Clients_by_text.json",
+              "label": "Search_Clients_by_text",
+              "url": "{baseUrl}/v2/clients/search"
+            },
+            {
+              "headers": {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Apache_Fineract_REST_API_v2_.text",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 1
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "state": "MANUAL",
+      "parameters": {
+        "dateTime": [
+          {
+            "dayType": "All Days",
+            "maxDays": 1,
+            "update-on": "SESSION",
+            "offset": "",
+            "parameter-name": "approvedOnDateParam",
+            "formatName": "%m/%d/%Y",
+            "isUnique": "Yes",
+            "minDays": 1,
+            "regStrLine": "nsl_date_var(approvedOnDateParam, Format=\"%m/%d/%Y\", Unique=YES, Refresh=SESSION);"
+          }
+        ],
+        "search": [
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": 0,
+            "rb-type": "text",
+            "parameter-name": "Fineract_user_account",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "",
+            "SaveOffset": 0,
+            "label": "PAGE=Authenticate___Login, PAGE=Create_Customer_1",
+            "groupVal": 0,
+            "type": "Regex",
+            "rb": "",
+            "convertValue": "None",
+            "idxValForSearchParam": 1,
+            "regex": "fineruser",
+            "search-in": "Body",
+            "lb": "",
+            "isICcheckedRB": false,
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": false,
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(Fineract_user_account, PAGE=Authenticate___Login, PAGE=Create_Customer_1, RE=\"fineruser\", GROUP=0, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          },
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": 0,
+            "rb-type": "text",
+            "parameter-name": "activatedOnDateParam",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "",
+            "SaveOffset": 0,
+            "label": "PAGE=Approve_Savings___Customer_1",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": ",",
+            "convertValue": "None",
+            "idxValForSearchParam": 1,
+            "regex": "",
+            "search-in": "Body",
+            "lb": "\"activatedOnDate\":",
+            "isICcheckedRB": false,
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": false,
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(activatedOnDateParam, PAGE=Approve_Savings___Customer_1, LB=\"\\\"activatedOnDate\\\":\", RB=\",\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          }
+        ],
+        "file": [
+          {
+            "fileName": "account_creation_other_paramas.dat",
+            "parameter-name": "officeId:1,firstname:2,lastname:3,legalFormId:4,active:5,activationDate:6,dateFormat:7,locale:8",
+            "dataDir": "",
+            "update": "SESSION",
+            "removeDupRecords": "No",
+            "saveUseOnceOption": "Every",
+            "firstDataLine": "1",
+            "mode": "SEQUENTIAL",
+            "varValue": "",
+            "delimiter": ",",
+            "encodeMode": "All",
+            "textAreas": "1,Relief,Fund,1,true,27 July 2026,dd MMMM yyyy,en",
+            "regStrLine": "nsl_static_var(officeId:1,firstname:2,lastname:3,legalFormId:4,active:5,activationDate:6,dateFormat:7,locale:8, File=account_creation_other_paramas.dat, Refresh=SESSION, Mode=SEQUENTIAL, EncodeMode=All);"
+          },
+          {
+            "fileName": "Fineract_account_creatin_baseurl.dat",
+            "parameter-name": "baseUrl:1,tenantId:2",
+            "dataDir": "",
+            "update": "SESSION",
+            "removeDupRecords": "No",
+            "saveUseOnceOption": "Every",
+            "firstDataLine": "1",
+            "mode": "SEQUENTIAL",
+            "varValue": "F1=value;F2=value",
+            "delimiter": ",",
+            "encodeMode": "All",
+            "textAreas": "https://10.10.70.138:8443/fineract-provider,default",
+            "regStrLine": "nsl_static_var(baseUrl:1,tenantId:2, File=Fineract_account_creatin_baseurl.dat, Refresh=SESSION, Mode=SEQUENTIAL, VAR_VALUE=F1=value;F2=value, EncodeMode=All);"
+          }
+        ],
+        "json": [
+          {
+            "redirectionDepth": "Last",
+            "idxVal": 1,
+            "RetainPreValue": ", RETAINPREVALUE=\"YES\"",
+            "tempOrdValue": ", ORD=1",
+            "parameter-name": "savingsIdParam",
+            "oRDName": "index",
+            "label": "PAGE=Create_Savings___Customer_1",
+            "actionOnNotFound": "",
+            "convertValue": "",
+            "saveoffSet": 0,
+            "encodeMode": "None",
+            "saveLength": 0,
+            "lbValue": "$.savingsId",
+            "regStrLine": "nsl_json_var(savingsIdParam, PAGE=Create_Savings___Customer_1, OBJECT_PATH=\"root.$.savingsId\", ORD=1, SaveOffset=0, RETAINPREVALUE=\"YES\", EncodeMode=All);",
+            "isIncomplete": false
+          }
+        ],
+        "scratch": [
+          {
+            "parameter-name": "path",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(path,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "organisationCreditBureauId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(organisationCreditBureauId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configurationId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(configurationId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanProductId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanProductId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountingRuleId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountingRuleId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountNumberFormatId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountNumberFormatId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "type",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(type,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountTransferId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountTransferId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transferId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(transferId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "adHocId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(adHocId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "auditId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(auditId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "centerId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(centerId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "chargeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(chargeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientid",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(clientid,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(clientExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transactionExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(transactionExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transactionId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(transactionId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "externalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(externalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(clientId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientCollateralId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(clientCollateralId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "collateralId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(collateralId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "familyMemberId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(familyMemberId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "identifierId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(identifierId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "codeName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(codeName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "codeValueId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(codeValueId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "codeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(codeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(configName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "name",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(name,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(configId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "datatable",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(datatable,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "apptable",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(apptable,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "datatableName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(datatableName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "apptableId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(apptableId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "datatableId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(datatableId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "delinquencyBucketId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(delinquencyBucketId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "delinquencyRangeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(delinquencyRangeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "resourceId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(resourceId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entityDatatableCheckId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(entityDatatableCheckId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "mapId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(mapId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fromId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fromId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "toId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(toId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "relId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(relId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "id",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(id,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "ownerExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(ownerExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(loanExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "servicename",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(servicename,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entity",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(entity,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "mappingId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(mappingId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fixedDepositAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fixedDepositAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "productId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(productId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "floatingRateId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(floatingRateId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fundId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fundId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "glAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(glAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "glClosureId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(glClosureId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "groupId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(groupId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "holidayId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(holidayId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "hookId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(hookId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "chartId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(chartId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "chartSlabId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(chartSlabId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "partitionSize",
+            "defaultValue": "2942",
+            "regStrLine": "nsl_decl_var(partitionSize,DefaultValue=\"2942\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configValue",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(configValue,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "statusId",
+            "defaultValue": "2942",
+            "regStrLine": "nsl_decl_var(statusId,DefaultValue=\"2942\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "lockOwner",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(lockOwner,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "idType",
+            "defaultValue": "BBAN",
+            "regStrLine": "nsl_decl_var(idType,DefaultValue=\"BBAN\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "idValue",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(idValue,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "subIdOrType",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(subIdOrType,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transactionCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(transactionCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "quoteCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(quoteCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "requestCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(requestCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transferCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(transferCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "shortName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(shortName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "jobId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(jobId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "jobName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(jobName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "journalEntryId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(journalEntryId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "ppiName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(ppiName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "likelihoodId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(likelihoodId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "originatorId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(originatorId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "externalProductId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(externalProductId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanTransactionExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(loanTransactionExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanTransactionId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanTransactionId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanChargeExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(loanChargeExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanChargeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanChargeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "variationId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(variationId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "originatorExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(originatorExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "externalTransactionId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(externalTransactionId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "glimId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(glimId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "disbursementId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(disbursementId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "guarantorId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(guarantorId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "installmentId",
+            "defaultValue": "2942",
+            "regStrLine": "nsl_decl_var(installmentId,DefaultValue=\"2942\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "postDatedCheckId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(postDatedCheckId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "officeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(officeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "paymentTypeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(paymentTypeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "categoryId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(categoryId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "criteriaId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(criteriaId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entryId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(entryId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "rateId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(rateId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "recurringDepositAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(recurringDepositAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entityId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(entityId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "scheduleId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(scheduleId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "roleId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(roleId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "reportName",
+            "defaultValue": "Client Listing",
+            "regStrLine": "nsl_decl_var(reportName,DefaultValue=\"Client Listing\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "savingsExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(savingsExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "parentAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(parentAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "savingsAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(savingsAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "savingsAccountChargeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(savingsAccountChargeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dividendId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(dividendId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "campaignId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(campaignId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "staffId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(staffId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "standingInstructionId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(standingInstructionId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "surveyName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(surveyName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fulfilledId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fulfilledId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "surveyId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(surveyId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "key",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(key,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "taxComponentId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(taxComponentId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "taxGroupId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(taxGroupId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "tellerId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(tellerId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "cashierId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(cashierId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "templateId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(templateId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "tenantId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(tenantId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "userId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(userId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "breachId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(breachId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entityType",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(entityType,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "calendarId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(calendarId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "documentId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(documentId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "meetingId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(meetingId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "resourceType",
+            "defaultValue": "hEj",
+            "regStrLine": "nsl_decl_var(resourceType,DefaultValue=\"hEj\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "noteId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(noteId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "baseUrl",
+            "defaultValue": "/fineract-provider/api",
+            "regStrLine": "nsl_decl_var(baseUrl,DefaultValue=\"/fineract-provider/api\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "04/08/2026 12:36:11",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

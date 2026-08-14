@@ -1,0 +1,31 @@
+{
+  "name" : "Hyperlink_Test_23",
+  "testcases" : [ {
+    "name" : "AI/demo/reject_invalid_or_ineligible_coupon_code_without_changing_tot",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "AI-generated regression suite — 1/5 testcases passed automation on 2026-07-29 09:21:29",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

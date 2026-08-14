@@ -1,0 +1,1715 @@
+{
+  "id": "bcdf9a5e-25a2-4963-baae-a815e6f73b6f",
+  "configuration": {
+    "isFlow": "yes",
+    "testname": "default/default/FineractAccountCreation_Source"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Apache_Fineract_REST_API",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Apache_Fineract_REST_API": {
+      "parameters": {
+        "dateTime": [
+          {
+            "dayType": "All Days",
+            "maxDays": "1",
+            "update-on": "SESSION",
+            "offset": "",
+            "parameter-name": "approvedOnDateParam",
+            "formatName": "%m/%d/%Y",
+            "isUnique": "false",
+            "minDays": "1",
+            "regStrLine": "nsl_date_var(approvedOnDateParam, Format=\"%m/%d/%Y\", Refresh=SESSION);"
+          }
+        ],
+        "search": [
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "activatedOnDateParam",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "false",
+            "SaveOffset": "0",
+            "label": "PAGE=Approve_Savings___Customer_1",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": "\"",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "search-in": "Body",
+            "lb": "\"approvedOnDate\":\"",
+            "isICcheckedRB": "false",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "false",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(activatedOnDateParam, PAGE=Approve_Savings___Customer_1, LB/IC=\"\\\"approvedOnDate\\\":\\\"\", RB/IC=\"\\\"\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          },
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "authKey",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "",
+            "SaveOffset": "0",
+            "label": "PAGE=Authenticate___Login",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": "\"",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "regex": "",
+            "search-in": "Body",
+            "lb": "\"base64EncodedAuthenticationKey\":\"",
+            "isICcheckedRB": "false",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "false",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(authKey, PAGE=Authenticate___Login, LB=\"\\\"base64EncodedAuthenticationKey\\\":\\\"\", RB=\"\\\"\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          },
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "clientIdParam",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "",
+            "SaveOffset": "0",
+            "label": "PAGE=Create_Customer_1",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": ",",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "regex": "",
+            "search-in": "Body",
+            "lb": "\"clientId\":",
+            "isICcheckedRB": "false",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "false",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(clientIdParam, PAGE=Create_Customer_1, LB=\"\\\"clientId\\\":\", RB=\",\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          },
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "savingsIdParam",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "",
+            "SaveOffset": "0",
+            "label": "PAGE=Create_Savings___Customer_1",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": ",",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "regex": "",
+            "search-in": "Body",
+            "lb": "\"savingsId\":",
+            "isICcheckedRB": "false",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "false",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(savingsIdParam, PAGE=Create_Savings___Customer_1, LB=\"\\\"savingsId\\\":\", RB=\",\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          },
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "approveOnDateFormatParam",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "",
+            "SaveOffset": "0",
+            "label": "PAGE=Approve_Savings___Customer_1",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": "\"",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "regex": "",
+            "search-in": "Body",
+            "lb": "\"dateFormat\":\"",
+            "isICcheckedRB": "false",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "false",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(approveOnDateFormatParam, PAGE=Approve_Savings___Customer_1, LB=\"\\\"dateFormat\\\":\\\"\", RB=\"\\\"\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          }
+        ],
+        "json": [
+          {
+            "redirectionDepth": "Last",
+            "idxVal": "1",
+            "RetainPreValue": ", RETAINPREVALUE=\"YES\"",
+            "tempOrdValue": ", ORD=1",
+            "parameter-name": "base64EncodedAuthenticationKeyParam",
+            "oRDName": "index",
+            "label": "PAGE=Authenticate___Login",
+            "actionOnNotFound": "",
+            "convertValue": "",
+            "saveoffSet": "0",
+            "encodeMode": "None",
+            "saveLength": "0",
+            "lbValue": "root.base64EncodedAuthenticationKey",
+            "regStrLine": "nsl_json_var(base64EncodedAuthenticationKeyParam, PAGE=Authenticate___Login, OBJECT_PATH=\"root.root.base64EncodedAuthenticationKey\", ORD=1, SaveOffset=0, RETAINPREVALUE=\"YES\", EncodeMode=All);"
+          }
+        ],
+        "scratch": [
+          {
+            "parameter-name": "path",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(path,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "organisationCreditBureauId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(organisationCreditBureauId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configurationId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(configurationId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanProductId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanProductId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountingRuleId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountingRuleId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountNumberFormatId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountNumberFormatId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "type",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(type,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "accountTransferId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(accountTransferId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transferId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(transferId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "adHocId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(adHocId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "auditId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(auditId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "centerId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(centerId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "chargeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(chargeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientid",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(clientid,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(clientExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transactionExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(transactionExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transactionId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(transactionId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "externalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(externalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(clientId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientCollateralId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(clientCollateralId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "collateralId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(collateralId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "familyMemberId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(familyMemberId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "identifierId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(identifierId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "codeName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(codeName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "codeValueId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(codeValueId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "codeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(codeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(configName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "name",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(name,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(configId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "datatable",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(datatable,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "apptable",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(apptable,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "datatableName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(datatableName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "apptableId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(apptableId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "datatableId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(datatableId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "delinquencyBucketId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(delinquencyBucketId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "delinquencyRangeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(delinquencyRangeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "resourceId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(resourceId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entityDatatableCheckId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(entityDatatableCheckId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "mapId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(mapId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fromId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fromId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "toId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(toId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "relId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(relId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "id",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(id,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "ownerExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(ownerExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(loanExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "servicename",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(servicename,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entity",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(entity,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "mappingId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(mappingId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fixedDepositAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fixedDepositAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "productId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(productId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "floatingRateId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(floatingRateId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fundId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fundId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "glAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(glAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "glClosureId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(glClosureId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "groupId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(groupId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "holidayId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(holidayId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "hookId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(hookId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "chartId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(chartId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "chartSlabId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(chartSlabId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "partitionSize",
+            "defaultValue": "2942",
+            "regStrLine": "nsl_decl_var(partitionSize,DefaultValue=\"2942\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "configValue",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(configValue,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "statusId",
+            "defaultValue": "2942",
+            "regStrLine": "nsl_decl_var(statusId,DefaultValue=\"2942\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "lockOwner",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(lockOwner,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "idType",
+            "defaultValue": "BBAN",
+            "regStrLine": "nsl_decl_var(idType,DefaultValue=\"BBAN\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "idValue",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(idValue,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "subIdOrType",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(subIdOrType,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transactionCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(transactionCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "quoteCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(quoteCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "requestCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(requestCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "transferCode",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(transferCode,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "shortName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(shortName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "jobId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(jobId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "jobName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(jobName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "journalEntryId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(journalEntryId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "ppiName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(ppiName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "likelihoodId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(likelihoodId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "originatorId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(originatorId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "externalProductId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(externalProductId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanTransactionExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(loanTransactionExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanTransactionId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanTransactionId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanChargeExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(loanChargeExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "loanChargeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(loanChargeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "variationId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(variationId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "originatorExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(originatorExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "externalTransactionId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(externalTransactionId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "glimId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(glimId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "disbursementId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(disbursementId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "guarantorId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(guarantorId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "installmentId",
+            "defaultValue": "2942",
+            "regStrLine": "nsl_decl_var(installmentId,DefaultValue=\"2942\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "postDatedCheckId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(postDatedCheckId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "officeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(officeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "paymentTypeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(paymentTypeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "categoryId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(categoryId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "criteriaId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(criteriaId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entryId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(entryId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "rateId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(rateId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "recurringDepositAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(recurringDepositAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entityId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(entityId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "scheduleId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(scheduleId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "roleId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(roleId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "reportName",
+            "defaultValue": "Client Listing",
+            "regStrLine": "nsl_decl_var(reportName,DefaultValue=\"Client Listing\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "savingsExternalId",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(savingsExternalId,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "parentAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(parentAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "savingsAccountId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(savingsAccountId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "savingsAccountChargeId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(savingsAccountChargeId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dividendId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(dividendId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "campaignId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(campaignId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "staffId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(staffId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "standingInstructionId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(standingInstructionId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "surveyName",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(surveyName,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "fulfilledId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(fulfilledId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "surveyId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(surveyId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "key",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(key,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "taxComponentId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(taxComponentId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "taxGroupId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(taxGroupId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "tellerId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(tellerId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "cashierId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(cashierId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "templateId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(templateId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "tenantId",
+            "defaultValue": "default",
+            "regStrLine": "nsl_decl_var(tenantId,DefaultValue=\"default\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "userId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(userId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "breachId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(breachId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "entityType",
+            "defaultValue": "string",
+            "regStrLine": "nsl_decl_var(entityType,DefaultValue=\"string\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "calendarId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(calendarId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "documentId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(documentId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "meetingId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(meetingId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "resourceType",
+            "defaultValue": "hEj",
+            "regStrLine": "nsl_decl_var(resourceType,DefaultValue=\"hEj\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "noteId",
+            "defaultValue": "4678",
+            "regStrLine": "nsl_decl_var(noteId,DefaultValue=\"4678\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "baseUrl",
+            "defaultValue": "https://10.10.70.138:8443/fineract-provider",
+            "regStrLine": "nsl_decl_var(baseUrl,DefaultValue=\"https://10.10.70.138:8443/fineract-provider\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "authKeyParam",
+            "defaultValue": "",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(authKeyParam,RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "assertions": [],
+      "flows": {
+        "Setup_Savings_Accounts": {
+          "requests": [
+            {
+              "url": "{baseUrl}/api/v1/savingsproducts",
+              "label": "Create_Savings_Product",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {base64EncodedAuthenticationKeyParam}",
+                "clientIdParam": "",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Create_Savings_Product.json",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": false,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {base64EncodedAuthenticationKeyParam}",
+                "clientIdParam": "",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": false,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "{baseUrl}/api/v1/savingsaccounts",
+              "label": "Create_Savings___Customer_1",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Create_Savings___Customer_1.json",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "{baseUrl}/api/v1/savingsaccounts/{savingsIdParam}?command=approve",
+              "label": "Approve_Savings___Customer_1",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Approve_Savings___Customer_1.json",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "{baseUrl}/api/v1/savingsaccounts/{savingsIdParam}?command=activate",
+              "label": "Activate_Savings_Account__Customer_1_",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_Activate_Savings_Account__Customer_1_.json",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": "bnNfc2F2ZV9kYXRhX2V2YWwoIi9ob21lL2Nhdmlzc29uL3dvcmsvd29ya3NwYWNlL2FkbWluL3N5c3RlbS9jYXZpc3Nvbi9kYXRhL3NoYXJlZC9zYXZpbmdfYWNjb3VudF9kZXRhaWxzLmNzdiIsTlNfVFJVTkNfRklMRSwgIntjbGllbnRJZFBhcmFtfSx7c2F2aW5nc0lkUGFyYW19Iik7"
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_Setup_Savings_Accounts_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            }
+          ],
+          "order": 1,
+          "steps": [],
+          "enable": true
+        },
+        "application_wadl": {
+          "requests": [
+            {
+              "url": "{baseUrl}/api/v1/authentication",
+              "label": "Authenticate___Login",
+              "method": "POST",
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_Authenticate___Login.json",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": "Ly9uc19yZXBsYWNlKCJiYXNlNjRFbmNvZGVkQXV0aGVudGljYXRpb25LZXlQYXJhbSIsICJcXHUwMDNkIiwgIj0iKTsKbnNfcmVwbGFjZSgiYXV0aEtleSIsICJcXHUwMDNkIiwgIj0iKTsK"
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "POST",
+              "headers": {
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "{baseUrl}/api/v1/clients",
+              "label": "Create_Customer_1",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_Create_Customer_1.json",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            },
+            {
+              "url": "",
+              "label": "",
+              "method": "POST",
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "bodyFile": "Apache_Fineract_REST_API_application_wadl_.text",
+              "thinkTime": "0",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {
+                "inline": ""
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": []
+            }
+          ],
+          "order": 0,
+          "steps": [],
+          "enable": true
+        }
+      },
+      "scriptType": "c",
+      "scriptMode": "visual",
+      "type": "API",
+      "order": 0,
+      "genCapacity": 0,
+      "assertionsV2": [],
+      "runlogic": [
+        {
+          "name": "runlogic",
+          "isDefault": true,
+          "system": true
+        }
+      ],
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_DISABLE_REUSEADDR": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_INLINE_MIN_CON_REUSE_DELAY": {
+      "ALL": [
+        []
+      ]
+    },
+    "REPORT_SET_GEN": {
+      "_G": [
+        []
+      ]
+    },
+    "G_GET_NO_INLINED_OBJ": {
+      "_G": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "NETCLOUD_COMPARE_REPORT": {
+      "_G": [
+        []
+      ]
+    },
+    "G_PAGE_RELOAD": {
+      "ALL": []
+    },
+    "G_SSL_VERIFY_PEER": {
+      "ALL": [
+        [
+          "0 0"
+        ]
+      ]
+    },
+    "SERVER_SELECT_MODE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_FIRST_SESSION_PACING": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "ENABLE_ALERT": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "G_DISABLE_ACCEPT_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "FineractAccountCreation_Source_Debug_Test"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "G_TRACING": {
+      "_G": [
+        [
+          "ALL",
+          "4",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "ADD_RECORDED_HOST": {
+      "_G": []
+    },
+    "G_ENABLE_CORRELATION_ID": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "G_REPORTING": {
+      "ALL": [
+        [
+          "2",
+          "1",
+          "10",
+          "25",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_ERR_CODE_OK": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_ENABLE_REFERER": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_HTTP_BODY_CHECKSUM_HEADER": {
+      "ALL": [
+        [
+          "0",
+          "0",
+          "0",
+          "X-Payload-Confirmation",
+          "{",
+          "}"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "PAGE_AS_TRANSACTION": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SERVER_HOST": {
+      "ALL": []
+    },
+    "G_SSL_SETTINGS": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SRC_IP_LIST": {
+      "ALL": [
+        []
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Apache_Fineract_REST_API",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.FineractAccountCreation_Source_Apache_Fineract_REST_API",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "G_CONTINUE_ON_PAGE_ERROR": {
+      "_G": [
+        [
+          "ALL",
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_TLS_VERSION": {
+      "ALL": [
+        [
+          "ssl2_3"
+        ]
+      ]
+    },
+    "G_NEW_USER_ON_SESSION": {
+      "ALL": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_DISABLE_HOST_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_OVERRIDE_RECORDED_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "G_SSL_CA_FILE_PATH": {
+      "ALL": [
+        [
+          ""
+        ]
+      ]
+    },
+    "G_USE_SRC_IP": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SAVE_LOCATION_HDR_ON_ALL_RSP_CODE": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Apache_Fineract_REST_API": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "CHECK_PROFILE_OVERALL": {
+      "_G": [
+        []
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "G_SESSION_PACING": {
+      "ALL": [
+        [
+          "2",
+          "0",
+          "1000"
+        ]
+      ]
+    },
+    "G_SCRIPT_PARAM": {
+      "ALL": []
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "G_INLINE_DELAY": {
+      "ALL": [
+        [
+          "ALL",
+          "0"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "TX_GROUPING": {
+      "_G": [
+        []
+      ]
+    },
+    "G_MAX_URL_RETRIES": {
+      "ALL": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "G_SSL_KEY_FILE_PATH": {
+      "ALL": [
+        []
+      ]
+    },
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEFAULT_SERVER_LOCATION": {
+      "_G": [
+        [
+          "SanFrancisco"
+        ]
+      ]
+    },
+    "G_USE_SAME_NETID_SRC": {
+      "ALL": [
+        []
+      ]
+    },
+    "G_DISABLE_UA_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SESSION_RETRY": {
+      "ALL": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_SHOW_RUNTIME_RUNLOGIC_PROGRESS": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_AVG_SSL_REUSE": {
+      "ALL": [
+        [
+          "100"
+        ]
+      ]
+    },
+    "G_MODULEMASK": {
+      "_G": [
+        [
+          "ALL",
+          "HTTP"
+        ]
+      ]
+    },
+    "G_IP_VERSION_MODE": {
+      "ALL": [
+        []
+      ]
+    },
+    "SHOW_IP_DATA": {
+      "_G": [
+        []
+      ]
+    },
+    "CHECK_PROFILE_PERIODIC": {
+      "_G": [
+        []
+      ]
+    },
+    "G_SEND_NS_TX_HTTP_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SSL_CERT_FILE_PATH": {
+      "ALL": [
+        []
+      ]
+    },
+    "MONITORING_SETTINGS": {
+      "_G": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "default",
+          "1"
+        ]
+      ]
+    },
+    "G_VUSER_TRACE": {
+      "_G": [
+        [
+          "ALL",
+          "2"
+        ]
+      ]
+    },
+    "G_SCRIPT_MODE": {
+      "ALL": [
+        [
+          "2"
+        ]
+      ]
+    },
+    "G_SSL_RENEGOTIATION": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_TRACING_LIMIT": {
+      "ALL": [
+        [
+          "1024",
+          "10240",
+          "10240",
+          "1048576"
+        ]
+      ]
+    },
+    "G_RAMP_DOWN_METHOD": {
+      "ALL": [
+        [
+          "0",
+          "0",
+          "300000"
+        ]
+      ]
+    },
+    "G_SSL_CLEAN_CLOSE_ONLY": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_CIPHER_LIST": {
+      "ALL": [
+        [
+          "''''"
+        ]
+      ]
+    },
+    "G_LOGGING": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "REPORT_MAIL_SETTING": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_STATIC_HOST": {
+      "ALL": [
+        [
+          "localhost",
+          "127.0.0.1"
+        ]
+      ]
+    },
+    "G_DISABLE_ACCEPT_ENC_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_USE_RECORDED_HOST_IN_HOST_HDR": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    }
+  },
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "references": []
+}

@@ -1,0 +1,12 @@
+{
+  "humanSteps": [
+    {
+      "stepNumber": 1,
+      "humanStepName": "Navigate to https://10.10.60.82:4444/",
+      "timestamp": 1786595854,
+      "browserActionCount": 1,
+      "testcaseStepCount": 0,
+      "testcaseSteps": []
+    }
+  ]
+}

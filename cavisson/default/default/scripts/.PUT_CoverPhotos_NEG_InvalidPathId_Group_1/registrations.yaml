@@ -1,0 +1,45 @@
+assertions:
+-  refId: null
+   inlineURLPattern: .*
+   operator: match_regex
+   errorMsg: POST setup status code validation failed
+   target: main
+   assertOnErrorCodes: all
+   saveOccurence: null
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: statuscode
+      includeDNSTime: false
+   page:
+   - index
+   rhs:
+      type: text
+      value: ^2[0-9]{2}$
+-  refId: null
+   inlineURLPattern: .*
+   operator: match_regex
+   errorMsg: PUT negative status code validation failed
+   target: main
+   assertOnErrorCodes: all
+   saveOccurence: null
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: statuscode
+      includeDNSTime: false
+   page:
+   - index1
+   rhs:
+      type: text
+      value: ^[45][0-9]{2}$

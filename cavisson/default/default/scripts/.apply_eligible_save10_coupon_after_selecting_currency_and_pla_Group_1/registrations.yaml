@@ -1,0 +1,121 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist_visible
+   errorMsg: Currency dropdown is not visible on the home page
+   target: main
+   locators:
+      xpath: //*[@id='currency_code']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@id='currency_code']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - navigateToHttpBoutiqueQaCavTestCom31528
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: A product listing is not visible on the home page
+   target: main
+   locators:
+      xpath: //a[@aria-label='View details for Sunglasses, priced at $19.99']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - navigateToHttpBoutiqueQaCavTestCom31528
+   rhs:
+      type: text
+      value: Sunglasses
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Cart count does not show one item
+   target: main
+   locators:
+      xpath: //*[@aria-label='View shopping cart, 1 item in cart']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - addTheItemOnThePdpPageSoTheOrderTotalIs50AndAbove
+   rhs:
+      type: text
+      value: 1 item in cart
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: Sunglasses line item is not present in the cart
+   target: main
+   locators:
+      xpath: //*[@aria-label='View product details for Sunglasses']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@aria-label='View product details for Sunglasses']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - addTheItemOnThePdpPageSoTheOrderTotalIs50AndAbove
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - onCartPageEnterCouponCodeSave10AndClickPlaceOrder
+   rhs:
+      type: text
+      value: Online Boutique

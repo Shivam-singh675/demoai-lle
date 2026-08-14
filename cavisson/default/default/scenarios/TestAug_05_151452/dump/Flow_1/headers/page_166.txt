@@ -1,0 +1,27 @@
+--Request 
+POST https://pnapi.invoca.net/2074/na.json
+Host: pnapi.invoca.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"network_id":2074,"js_version":"4.43.0","tag_revision":"live","tag_id":"2074/0288648893","request_data_shared_params":"{\"invoca_id\":\"i-58d5d2bd-b007-41f3-8554-0521e0f98980\",\"returnVisitorFlag\":\"No\",\"utm_medium\":\"Direct\",\"gcm_uid\":null,\"utm_source\":\"Direct\",\"Account_Type\":null,\"BAN\":null,\"Call_Type\":null,\"Campaign_ID\":null,\"Cell_Code\":null,\"DIRECTVPageInterest\":\"Packages\",\"DIRECTVProductInterest\":null,\"Evolv_UID\":null,\"LOB\":null,\"OMS_Order_ID\":null,\"StreamItems\":null,\"StreamPackage\":null,\"TFN_Destination\":null,\"Tactic_ID\":null,\"_fbc\":null,\"_fbp\":\"fb.1.1785923167203.448590667205825087.Bg\",\"_ga\":\"GA1.1.573265066.1785923160\",\"add_on\":null,\"agent\":null,\"article_name\":null,\"base_package\":null,\"call_disposition_reason\":null,\"call_sentiment_overall_label\":null,\"call_start_time\":null,\"call_treatment_ab_test_path\":null,\"calling_page\":\"www.directv.com/packages/\",\"cartDetails\":null,\"consent_cookie\":\"[{\\\"type\\\":\\\"Marketing\\\",\\\"value\\\":\\\"GRANTED\\\"},{\\\"type\\\":\\\"Statistics\\\",\\\"value\\\":\\\"GRANTED\\\"}]\",\"conversation_languages\":null,\"current_zip_code\":\"75001\",\"customerFlag\":null,\"customerFlagTrue\":null,\"customer_id\":null,\"dap_referrer_routing\":null,\"dclid\":null,\"destination_time_zone\":null,\"dim_value\":null,\"disposition\":null,\"dtv_now_osprey_selection\":null,\"dvc_type\":null,\"errorMessage\":null,\"error_code\":null,\"evaluated_by\":null,\"experiment\":null,\"extendedSource\":null,\"forced_destination\":null,\"fullPageURL\":\"www.directv.com/packages/?dtvprodCd=5185-9845b5bd75c3479d9d65bffffd6b518b\",\"gclid\":null,\"gclsrc\":null,\"invoca_caller_language\":null,\"landing_page\":\"https://www.directv.com/packages/?dtvprodCd=5185-9845b5bd75c3479d9d65bffffd6b518b\",\"lead_record_type\":null,\"linkNames\":null,\"marketing_channel\":null,\"mcid\":null,\"msclkid\":null,\"number_tvs\":null,\"oem\":null,\"optimizelyEndUserId\":\"oeu1785923160264r0.7155237830759648\",\"order_id\":null,\"owner\":null,\"p\":\"/packages/\",\"page_classification\":null,\"pdis_status\":null,\"product_purchased\":null,\"product_purchased_sp\":null,\"product_purchased_test\":null,\"profile_name\":null,\"propensity_to_churn\":null,\"qm_session_id\":\"15ee8da754a44c11862cb214234d6b3a\",\"quadroQuiz\":null,\"queue\":null,\"rebate_offer_id\":null,\"referrer\":null,\"reviewed_by\":null,\"routing_campaign\":null,\"sessLtb\":null,\"source_campaign\":null,\"sub_cohort\":null,\"subscriber_type\":null,\"tealium_session_id\":\"1785923177657\",\"tealium_visitor_id\":\"119fd1510cb67938556404759148566547515d5bbd\",\"tfnid\":null,\"ttd_id\":null,\"utm_audience\":null,\"utm_campaign\":null,\"utm_content\":null,\"utm_id\":null,\"utm_segment\":null,\"video_account_number\":null,\"video_call_disposition_sp\":null,\"zip_code\":null,\"g_cid\":\"573265066.1785923160\",\"ga_measurement_id\":\"G-LEXYQWQ1NF\",\"ga_session_id\":\"1785923160\"}","client_messages":"{}","client_info":"{\"url\":\"https://www.directv.com/packages/?dtvprodCd=5185-9845b5bd75c3479d9d65bffffd6b518b\",\"referrer\":\"\",\"cores\":8,\"platform\":\"Linux x86_64\",\"screenWidth\":1897,\"screenHeight\":1108,\"language\":\"en-US\"}","request_data":"[{\"request_id\":\"+18553836121\",\"advertiser_campaign_id_from_network\":\"directv_default\",\"params\":{\"invoca_detected_destination\":\"+18553836121\"}},{\"request_id\":\"+18005315000\",\"advertiser_campaign_id_from_network\":\"service_default\",\"params\":{\"invoca_detected_destination\":\"+18005315000\"}}]","destination_settings":"{\"paramName\":\"invoca_detected_destination\"}"}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:27 GMT
+content-type: text/html;charset=utf-8
+processing_time: 63.20639ms
+vary: Origin
+vary: accept-encoding
+content-encoding: gzip
+----
+

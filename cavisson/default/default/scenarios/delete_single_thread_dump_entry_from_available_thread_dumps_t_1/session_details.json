@@ -1,0 +1,74 @@
+{
+  "humanSteps": [
+    {
+      "stepNumber": 1,
+      "humanStepName": "Navigate to https://10.10.60.82:4444/",
+      "timestamp": 1786528508,
+      "browserActionCount": 1,
+      "testcaseStepCount": 0,
+      "testcaseSteps": []
+    },
+    {
+      "stepNumber": 2,
+      "humanStepName": "Enter valid username-Lavi and password-Lavi@123 and submit login form",
+      "timestamp": 1786528559,
+      "browserActionCount": 3,
+      "testcaseStepCount": 1,
+      "testcaseSteps": [
+        {
+          "stepName": "enterUsername",
+          "actionLabel": "Input: \"Username\"",
+          "prePath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/pre_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png",
+          "postPath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/post_enterValidUsernameLaviAndPasswordLavi123AndSubmitLoginForm.png"
+        }
+      ]
+    },
+    {
+      "stepNumber": 3,
+      "humanStepName": "Locate an existing thread dump entry in the 'Available Thread Dump(s)' table and click the Action (\u22ee) icon for that entry",
+      "timestamp": 1786529114,
+      "browserActionCount": 34,
+      "testcaseStepCount": 5,
+      "testcaseSteps": [
+        {
+          "stepName": "clickLogsLink",
+          "actionLabel": "Search page",
+          "prePath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/pre_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd.png",
+          "postPath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/post_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd.png"
+        },
+        {
+          "stepName": "clickConfigurationButton",
+          "actionLabel": "Search page",
+          "prePath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/pre_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd2.png",
+          "postPath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/post_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd2.png"
+        },
+        {
+          "stepName": "clickExpandButton",
+          "actionLabel": "Search page",
+          "prePath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/pre_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd3.png",
+          "postPath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/post_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd3.png"
+        },
+        {
+          "stepName": "clickPerformanceLink",
+          "actionLabel": "Search page",
+          "prePath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/pre_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd4.png",
+          "postPath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/post_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd4.png"
+        },
+        {
+          "stepName": "clickSystemSplitButton",
+          "actionLabel": "Find elements",
+          "prePath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/pre_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd5.png",
+          "postPath": "agenticAi/aiTestCases/1079/delete_single_thread_dump_entry_from_available_thread_dumps_t_1/dump/Flow_1/Snapshots/post_locateAnExistingThreadDumpEntryInTheAvailableThreadDumpSTableAnd5.png"
+        }
+      ]
+    },
+    {
+      "stepNumber": 4,
+      "humanStepName": "Select 'Delete' for the same thread dump entry and confirm deletion",
+      "timestamp": 1786529182,
+      "browserActionCount": 1,
+      "testcaseStepCount": 0,
+      "testcaseSteps": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+--Request 
+POST https://sdk.iad-05.braze.com/api/v3/data/
+Host: sdk.iad-05.braze.com
+sec-ch-ua-platform: \"Linux\"
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+X-Braze-Last-Req-Ms-Ago: 10993
+sec-ch-ua-mobile: ?0
+X-Braze-Req-Attempt: 1
+X-Braze-Req-Tokens-Remaining: 29
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Content-type: application/json
+X-Braze-Api-Key: 795e2050-a249-4266-b25b-b6882659271a
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"respond_with":{"user_id":"573265066.1785923160","config":{"config_time":1777648867}},"attributes":[{"user_id":"573265066.1785923160","custom":{"lastSportsURL":"https://www.directv.com/sports/college-sports/"}}],"api_key":"795e2050-a249-4266-b25b-b6882659271a","time":1785923177,"sdk_version":"6.8.0","device_id":"a724d15a-5361-4f71-9188-f666359f7f75"}
+--Response 
+HTTP/1.1 201
+date: Wed, 05 Aug 2026 09:46:17 GMT
+content-type: application/json; charset=utf-8
+cf-ray: a264dfb22c8459a6-DEL
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+content-encoding: gzip
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains
+vary: Accept-Encoding
+access-control-allow-headers: *
+access-control-allow-methods: POST, OPTIONS
+x-ratelimit-limit: 553
+x-ratelimit-period: 3
+x-ratelimit-remaining: 552
+x-ratelimit-reset: 1785923178
+----
+

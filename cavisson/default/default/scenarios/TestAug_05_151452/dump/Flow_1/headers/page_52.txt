@@ -1,0 +1,316 @@
+--Request 
+POST https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=1143583505.1785923160&dt=Stream%20NCAA%20College%20Sports%20Live%20on%20DIRECTV&tid=AW-10837652692&en=searchpv&dl=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&dr=https%3A%2F%2Fwww.directv.com%2F&scrsrc=www.googletagmanager.com&rnd=2139383364.1785923166&navt=n&npa=0&did=dYmQxMT&gdid=dYmQxMT&gtm=45be6831v889747108za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117227716~118131808~118897920~118897930~119896802&tft=1785923168118&tfd=3723&tids=AW-10837652692&fmt=8
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: text/plain
+pragma: no-cache
+date: Wed, 05 Aug 2026 09:46:08 GMT
+cache-control: no-cache, no-store, must-revalidate
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+vary: Origin
+vary: X-Origin
+vary: Referer
+server: scaffolding on HTTPServer2
+content-length: 0
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://match.adsrvr.org/track/cei?advertiser_id=102rt04&cookie_sync=1&upv=3.0.0&upid=s0e7skb&gpp_consent=&ref=https%3a%2f%2fwww.directv.com&redirect=1
+Host: match.adsrvr.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-type: text/html
+server: Kestrel
+vary: Accept-Encoding
+content-encoding: gzip
+----
+--Request 
+GET https://match.adsrvr.org/track/cei?advertiser_id=p1khwya&cookie_sync=1&upv=3.0.0&upid=edw9roa&gpp_consent=&ref=https%3a%2f%2fwww.directv.com&redirect=1
+Host: match.adsrvr.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-type: text/html
+server: Kestrel
+vary: Accept-Encoding
+content-encoding: gzip
+----
+--Request 
+GET https://bat.bing.com/p/action/138003007.js
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+cache-control: private,max-age=60
+content-type: application/javascript; charset=utf-8
+content-encoding: br
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cross-origin-resource-policy: cross-origin
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: AF502F73E4F84BBE82CD6ED692C2CB81 Ref B: BOM01EDGE1612 Ref C: 2026-08-05T09:46:08Z
+date: Wed, 05 Aug 2026 09:46:07 GMT
+----
+--Request 
+GET https://s.pinimg.com/ct/lib/main.3c5b736e.js
+Host: s.pinimg.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+etag: \"f4946ed9547ed002e5e11a9d376e6f46\"
+x-amz-server-side-encryption: AES256
+cache-control: max-age=1209600
+content-encoding: br
+accept-ranges: bytes
+content-type: application/javascript
+content-length: 29817
+akamai-request-bc: on
+server-timing: cdn;desc=\"akamai\", cdn-cache;desc=\"Hit\", cdn-edge-time;dur=0
+vary: Accept-Encoding, Origin
+x-cdn: akamai
+access-control-max-age: 86400
+access-control-expose-headers: X-CDN
+access-control-allow-methods: GET
+access-control-allow-origin: *
+akamai-grn: 0.4b4ad217.1785923168.cd46ab2b
+----
+--Request 
+GET https://sierra.chat/agent/4QpFj40BkclJ60wBkcnYOoWQDHuAyiA1DPD6MLm-wkY/embed-css
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: style
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-type: text/css
+access-control-allow-origin: *
+cache-control: public, max-age=60
+x-frame-options: DENY
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+content-security-policy: base-uri 'self'; default-src d138j1c6jn4qpg.cloudfront.net sierracdn.com 'self'; script-src 'nonce-65418db3-6e5d-4a83-b67e-fdc06aeed98f' 'strict-dynamic' https: 'unsafe-inline'; img-src d138j1c6jn4qpg.cloudfront.net sierracdn.com 'self' https://sierra.chat https://sierra.chat blob: https://*.google-analytics.com https://*.googletagmanager.com data:; frame-src https://player.vimeo.com https://www.youtube.com https://*.sierra.ai https://sierra.chat https://*.clearme.com https://*.bark.co https://drinkag1.com https://lyrahealth.oktapreview.com https://rocketpro.tfaforms.net https://*.zendesk.com https://*.withpersona.com; style-src d138j1c6jn4qpg.cloudfront.net sierracdn.com 'self' 'unsafe-inline' https://sierra.chat https://fonts.googleapis.com; connect-src 'self' d138j1c6jn4qpg.cloudfront.net sierracdn.com https://sierra.chat https://sierra.chat https://api.sierra.chat https://api-staging.sierra.chat https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://rocketpro.tfaforms.net wss://api.internal.sierra.ai https://*.gstatic.com data:; font-src d138j1c6jn4qpg.cloudfront.net sierracdn.com 'self' https://sierra.chat https://fonts.gstatic.com data:; frame-ancestors https://*.sierra.ai https://sierra.chat https://*.clearme.com https://*.lyrahealth.com; media-src 'self' blob: d138j1c6jn4qpg.cloudfront.net sierracdn.com
+referrer-policy: strict-origin
+x-content-type-options: nosniff
+set-cookie: csrf=a492d874-471a-4a88-bcc1-d53a797a496f; Path=/; SameSite=Lax; Secure; Max-Age=604800
+set-cookie: s=%7B%22timezone%22%3A%22%5C%22Asia%2FKolkata%5C%22%22%7D; SameSite=strict; Path=/; Secure
+set-cookie: __cf_bm=S8AnndzfXYxFzZv__xKTzZl85M8_uM0Ao9Um76k.mp4-1785923168.1734135-1.0.1.1-AG_UmRALoAFZkyaByfCMWhB1EVO9xDV.SUSoh8ygFo.nPHXhWhra8WcqWHtWm6WlzR5M.t4X6X__gXlZNRdtqdXziJb8moA4KA5v3_M8vSqRwiNGRw7l6UT4A95H6jai; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:08 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df791c90c69f-MAA
+----
+
+--Response 
+HTTP/1.1 302
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-type: text/html
+content-length: 40
+location: https://match.adsrvr.org/track/cei?advertiser_id=102rt04&cookie_sync=1&upv=3.0.0&upid=s0e7skb&gpp_consent=&ref=https%3a%2f%2fwww.directv.com&redirect=1
+server: Kestrel
+set-cookie: TDID=3c31659f-6c6d-45a1-8591-ad1117966d2c; expires=Thu, 05 Aug 2027 09:46:08 GMT; domain=.adsrvr.org; path=/; secure; samesite=none
+----
+--Request 
+GET https://sierra.chat/-/cdn/FpL-JUm6ifbsCEmLMj-shkLEVcU.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=HadrFaGPRLwPfiA3a25rVQIslVIN2kA13Jm42pDyvKA-1785923168.2071056-1.0.1.1-XQ2bXbgTpLP.dkW7WpF93DWCd7lJuErbqE2BU_Yjt5vvxGJz5Vj2BVRqWKzFa40m1TyGk7Y271VDzLkR39fze4vM5ojiLLcm3K7yD55PCmUwxYFdyC7TKc2I7YZQzlE_; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:08 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df794d2dc69f-MAA
+----
+--Request 
+GET https://servedby.flashtalking.com/spot/8/25776;153951;14358/?ft_referrer=https%3A//www.directv.com/sports/college-sports/%3F~&ns=https%3A//www.directv.com/&cb=191625.68931923062
+Host: servedby.flashtalking.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://servedby.flashtalking.com/container/25776;130445;14358;iframe/?ft_referrer=https%3A//www.directv.com/sports/college-sports/%3F~&ns=https%3A//www.directv.com/&cb=191625.68931923062
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Content-Length: 42
+Server: prod-xre-app35.bom11
+Allow-Fenced-Frame-Automatic-Beacons: true
+Expires: Wed, 05 Aug 2026 09:46:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 05 Aug 2026 09:46:08 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=86400
+----
+--Request 
+GET https://servedby.flashtalking.com/segment/2/read/a;;pixel/?s=14358&d=www.directv.com&r=sports/college-sports/
+Host: servedby.flashtalking.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://servedby.flashtalking.com/container/25776;130445;14358;iframe/?ft_referrer=https%3A//www.directv.com/sports/college-sports/%3F~&ns=https%3A//www.directv.com/&cb=191625.68931923062
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Content-Length: 42
+Server: prod-xre-app30.bom11
+Allow-Fenced-Frame-Automatic-Beacons: true
+Expires: Wed, 05 Aug 2026 09:46:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 05 Aug 2026 09:46:08 GMT
+Connection: keep-alive
+Set-Cookie: flashtalkingad1=\"GUID=679111F7EBC2E0\"; Path=/; Domain=.flashtalking.com; Expires=Sat, 4 Sep 2027 19:46:08 GMT; Max-Age=34164000; Secure; SameSite=None
+Strict-Transport-Security: max-age=86400
+----
+--Request 
+GET https://servedby.flashtalking.com/segment/2/read/a;;pixel/?s=13503&d=www.directv.com&r=sports/college-sports/
+Host: servedby.flashtalking.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://servedby.flashtalking.com/container/19536;124481;13503;iframe/?ft_referrer=https%3A//www.directv.com/sports/college-sports/%3F~&ns=https%3A//www.directv.com/&cb=812124.5547688669
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Content-Length: 42
+Server: prod-xre-app27.bom11
+Allow-Fenced-Frame-Automatic-Beacons: true
+Expires: Wed, 05 Aug 2026 09:46:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 05 Aug 2026 09:46:08 GMT
+Connection: keep-alive
+Set-Cookie: flashtalkingad1=\"GUID=67919A15BA0CC7\"; Path=/; Domain=.flashtalking.com; Expires=Sat, 4 Sep 2027 19:46:08 GMT; Max-Age=34164000; Secure; SameSite=None
+Strict-Transport-Security: max-age=86400
+----
+

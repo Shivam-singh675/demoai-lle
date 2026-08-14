@@ -1,0 +1,431 @@
+{
+
+  "configuration": {
+    "isFlow": "no",
+    "testname": "samples/HTTP/hpd_tiny_hps_http2"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_NEW_USER_ON_SESSION": {
+      "ALL": [
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_OVERRIDE_RECORDED_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          0
+        ]
+      ]
+    },
+    "G_USE_SRC_IP": {
+      "ALL": [
+        [
+          "1",
+          "999999999"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "G_FIRST_SESSION_PACING": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          0
+        ]
+      ]
+    },
+    "G_HTTP_HDR": {
+      "ALL": []
+    },
+    "G_SESSION_PACING": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "G_ENABLE_CORRELATION_ID": {
+      "ALL": [
+        [
+          0
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "G_REPORTING": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_USE_SAME_NETID_SRC": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SHOW_RUNTIME_RUNLOGIC_PROGRESS": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_IP_VERSION_MODE": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_NO_VALIDATION": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "SHOW_IP_DATA": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_USE_DNS": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SEND_NS_TX_HTTP_HEADER": {
+      "ALL": [
+        [
+          0
+        ]
+      ]
+    },
+    "G_USER_CLEANUP_MSECS": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SRC_IP_LIST": {
+      "ALL": [
+        []
+      ]
+    },
+    "G_VUSER_TRACE": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "samples/HTTP/.hpd_tiny_hps_http2_Group_1",
+          "128",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_ENABLE_DT": {
+      "ALL": [
+        [
+          0
+        ]
+      ]
+    },
+    "G_TRACING_LIMIT": {
+      "ALL": [
+        [
+          "1024",
+          "10240",
+          "10240",
+          "1048576"
+        ]
+      ]
+    },
+    "G_LOGGING": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_HTTP_MODE": {
+      "ALL": [
+        [
+          "2",
+          "1"
+        ]
+      ]
+    }
+  },
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [
+        {
+          "isDefault": true,
+          "system": true,
+          "name": "runlogic"
+        }
+      ],
+      "type": "API",
+      "assertionsV2": [],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_tiny.text",
+              "label": "tiny",
+              "url": "http://127.0.0.1/tiny"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_Request_1.text",
+              "label": "Request_1",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "parameters": {},
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "20/02/2026 11:34:14",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

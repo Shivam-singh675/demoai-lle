@@ -1,0 +1,12 @@
+0:Start
+1:Start|Flow_1
+2:Start|Flow_1|Home
+3:Start|Flow_1|changeCurrency
+4:Start|Flow_1|PDP
+5:Start|Flow_1|AddToCart
+6:Start|Flow_1|ContinueShopping
+7:Start|Flow_1|PDP_2
+8:Start|Flow_1|AddToCart_2
+9:Start|Flow_1|Entercouponcode
+10:Start|Flow_1|PlaceOrder
+11:Start|Flow_1|ContinueShopping_2

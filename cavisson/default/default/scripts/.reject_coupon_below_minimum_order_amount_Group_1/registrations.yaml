@@ -1,0 +1,74 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Home page title did not load as expected
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - goToBoutiqueHomePage
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Cart item Sunglasses not visible
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.), 'Sunglasses') and not(.//*[contains(normalize-space(.),
+         'Sunglasses')])]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddToCartButton
+   rhs:
+      type: text
+      value: Sunglasses
+-  refId: null
+   inlineURLPattern: ''
+   operator: not_exist
+   errorMsg: A discount indicator appeared even though the coupon should not apply
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.),'Discount')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[contains(normalize-space(.),'Discount')]
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - clickPlaceOrderButton
+   rhs:
+      type: text
+      value: ''

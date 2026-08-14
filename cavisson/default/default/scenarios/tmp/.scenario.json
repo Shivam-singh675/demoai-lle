@@ -1,0 +1,130 @@
+{
+  "configuration": {
+    "testname": "default/default/tmp"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Apache_Fineract_REST_API",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Apache_Fineract_REST_API": {
+      "flows": {},
+      "scriptType": "",
+      "scriptMode": "visual",
+      "order": 0,
+      "genCapacity": 0,
+      "assertionsV2": [],
+      "runlogic": [],
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "SGRP": {
+      "_G": [
+        [
+          "Apache_Fineract_REST_API",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.FineractAccountCreation_Source_Apache_Fineract_REST_API",
+          "10.00"
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_SESSION_RATE"
+        ]
+      ]
+    },
+    "G_SCRIPT_MODE": {
+      "ALL": [
+        [
+          "2"
+        ]
+      ]
+    },
+    "G_CONTINUE_ON_PAGE_ERROR": {
+      "ALL": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "G_SESSION_PACING": {
+      "ALL": [
+        [
+          "2",
+          "0",
+          "1000"
+        ]
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME_SESSIONS",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME_SESSIONS",
+          "00:01:00",
+          "0"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    }
+  },
+  "description": "",
+  "priority": ""
+}

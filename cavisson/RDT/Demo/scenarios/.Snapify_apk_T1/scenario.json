@@ -1,0 +1,707 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "RDT/Demo/Snapify_apk_T1"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_GET_NO_INLINED_OBJ": {
+      "_G": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "ENABLE_ALERT": {
+      "_G": [
+        [
+          0
+        ]
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          1,
+          "1"
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Snapify_apk_T1_Debug_Test"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "G_TRACING": {
+      "_G": [
+        [
+          "ALL",
+          "4",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          1
+        ]
+      ]
+    },
+    "G_MODULEMASK": {
+      "_G": [
+        [
+          "ALL",
+          "HTTP"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "MONITORING_SETTINGS": {
+      "_G": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "default",
+          "1"
+        ]
+      ]
+    },
+    "G_VUSER_TRACE": {
+      "_G": [
+        [
+          "ALL",
+          "2"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "10",
+          "RDT/Demo/.Snapify_apk_T1_Group_1",
+          1,
+          "",
+          ""
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "G_CONTINUE_ON_PAGE_ERROR": {
+      "_G": [
+        [
+          "ALL",
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "G_RBU": {
+      "Group_1": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    }
+  },
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [],
+      "recordingProfile": "default.prof",
+      "type": "RDT_NATIVE",
+      "RDT_NATIVE": [
+        {
+          "appPackage": "com.example.snapify_app",
+          "proxyport": 0,
+          "os": "android",
+          "os_version": "11.0",
+          "appId": "bs://67862db025af7859dc3d9f69d81e801f56ee5912",
+          "browser": "NA",
+          "browser_version": "NA",
+          "env": "cloud",
+          "deviceName": "Samsung Galaxy S21",
+          "profilingEnabled": "off",
+          "network": "4G"
+        }
+      ],
+      "assertionsV2": [],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [],
+          "steps": [
+            {
+              "appPackage": "com.example.snapify_app",
+              "realBrowserOptionData": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "LaunchApp",
+              "preSnapshot": "",
+              "navigation": false,
+              "postStep": {
+                "inline": ""
+              },
+              "enable": true,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [],
+              "id": "",
+              "userAction": "change",
+              "optional": false,
+              "eventType": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "appActivity": "com.example.snapify_app.MainActivity",
+              "condition": [],
+              "subType": "",
+              "heroElement": {
+                "xpath": "//android.widget.Button[@content-desc=\"Shop Now\"]",
+                "accessibilityId": "Shop Now"
+              },
+              "snapshot": "",
+              "iframes": "",
+              "description": "",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "iframeXpathData": "",
+              "stepName": "Home",
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "value": "",
+              "direction": "up",
+              "headers": "",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "bundleId": "",
+              "label": "LaunchApp",
+              "tagName": "",
+              "thinkTime": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "attributes": "",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "pre_snapshot_1784885733959.png",
+              "locators": {
+                "xpath": "//android.widget.Button[@content-desc=\"Shop Now\"]",
+                "accessibilityId": "Shop Now"
+              },
+              "navigation": false,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "Category_PLP",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [],
+              "id": "",
+              "value": "NA",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "pageSource": "source_1784885733959.xml",
+              "attributes": "",
+              "subType": "",
+              "scrollY": 0,
+              "heroElement": {
+                "xpath": "//android.widget.Button[@content-desc=\"Electronics\"]",
+                "xpath1": "//android.widget.Button[@content-desc='Electronics']",
+                "accessibilityId": "Electronics"
+              },
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "post_snapshot_1784885733959.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "pre_snapshot_1784885749981.png",
+              "locators": {
+                "xpath": "//android.widget.Button[@content-desc=\"Electronics\"]",
+                "xpath1": "//android.widget.Button[@content-desc='Electronics']",
+                "accessibilityId": "Electronics"
+              },
+              "navigation": false,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "PLP",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [
+                {
+                  "assertionDesc": "",
+                  "assertConditionEle": "EXIST",
+                  "max": "0",
+                  "assertOnPropName": "Height",
+                  "matchingIndex": "0",
+                  "failMessage": "Categories are not displayed ",
+                  "tags": "",
+                  "matchingPattern": "",
+                  "locators": {
+                    "xpath": "//android.widget.Button[@content-desc=\"Electronics\"]"
+                  },
+                  "min": "0",
+                  "isHeroElement": "true",
+                  "assertionName": "Categories are present",
+                  "assertOnType": "Element",
+                  "assertOnCondition": "Equal",
+                  "failureVal": "Stop Session",
+                  "assertionValue": ""
+                }
+              ],
+              "id": "",
+              "value": "NA",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "pageSource": "source_1784885749981.xml",
+              "attributes": "",
+              "subType": "",
+              "scrollY": 0,
+              "heroElement": {
+                "xpath": "//android.widget.ImageView[@content-desc=\"Smart Watch\\n$299.99\"]",
+                "accessibilityId": "Smart Watch\\n$299.99"
+              },
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "post_snapshot_1784885749981.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "pre_snapshot_1784885756477.png",
+              "locators": {
+                "xpath": "//android.widget.ImageView[@content-desc=\"Smart Watch\\n$299.99\"]",
+                "accessibilityId": "Smart Watch\\n$299.99"
+              },
+              "navigation": false,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "PDP",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [
+                {
+                  "assertionDesc": "",
+                  "assertConditionEle": "EXIST",
+                  "max": "0",
+                  "assertOnPropName": "Height",
+                  "matchingIndex": "0",
+                  "failMessage": "Product List is not displayed",
+                  "tags": "",
+                  "matchingPattern": "",
+                  "locators": {
+                    "xpath": "//android.widget.ImageView[@content-desc=\"Smart Watch\\n$299.99\"]"
+                  },
+                  "min": "0",
+                  "isHeroElement": "true",
+                  "assertionName": "Porduct List Available",
+                  "assertOnType": "Element",
+                  "assertOnCondition": "Equal",
+                  "failureVal": "",
+                  "assertionValue": ""
+                }
+              ],
+              "id": "",
+              "value": "NA",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "pageSource": "source_1784885756477.xml",
+              "attributes": "",
+              "subType": "",
+              "scrollY": 0,
+              "heroElement": {
+                "xpath": "//android.widget.Button[@content-desc=\"Buy Now\"]",
+                "xpath1": "//android.widget.Button[@content-desc='Buy Now']",
+                "accessibilityId": "Buy Now"
+              },
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "post_snapshot_1784885756477.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "pre_snapshot_1784885765949.png",
+              "locators": {
+                "xpath": "//android.widget.Button[@content-desc=\"Buy Now\"]",
+                "xpath1": "//android.widget.Button[@content-desc='Buy Now']",
+                "accessibilityId": "Buy Now"
+              },
+              "navigation": false,
+              "iframeXpathData": "",
+              "postStep": {
+                "inline": ""
+              },
+              "stepName": "BuyNow",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "authCredentials": {
+                "password": "",
+                "username": ""
+              },
+              "assertions": [
+                {
+                  "assertionDesc": "",
+                  "assertConditionEle": "EXISTS AND VISIBLE",
+                  "max": "0",
+                  "assertOnPropName": "Height",
+                  "matchingIndex": "0",
+                  "failMessage": "BuyNow is visible on current screen",
+                  "tags": "",
+                  "matchingPattern": "",
+                  "locators": {
+                    "xpath": "//android.widget.Button[@content-desc=\"Buy Now\"]"
+                  },
+                  "min": "0",
+                  "isHeroElement": "false",
+                  "assertionName": "BuyNow is available and visible",
+                  "assertOnType": "Element",
+                  "assertOnCondition": "Equal",
+                  "failureVal": "",
+                  "assertionValue": ""
+                }
+              ],
+              "id": "",
+              "value": "NA",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "pageSource": "source_1784885765949.xml",
+              "attributes": "",
+              "subType": "",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "post_snapshot_1784885765949.png",
+              "iframes": "",
+              "ordinal": ""
+            }
+          ],
+          "order": 0
+        }
+      },
+      "scriptType": "",
+      "primaryOS": "android",
+      "assertions": [],
+      "state": "MANUAL",
+      "parameters": {},
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "24/07/2026 09:47:05",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

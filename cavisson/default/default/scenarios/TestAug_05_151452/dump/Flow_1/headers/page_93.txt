@@ -1,0 +1,30 @@
+--Request 
+POST https://ingest.quantummetric.com/horizon/dtv?T=B&u=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&t=1785923166181&v=1785923174184&H=5f06736aaaaee1cda94efb0f&s=15ee8da754a44c11862cb214234d6b3a&f=1785923174183&P=4&N=4&S=82434&b=90&z=2
+Host: ingest.quantummetric.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ [{"t":"inp","v":{"v":256,"sel":"[id=\"undefined-primaryCta\"]"},"d":1716},{"t":"f","d":1}]
+--Response 
+HTTP/1.1 200
+content-type: application/json
+access-control-allow-credentials: true
+date: Wed, 05 Aug 2026 09:46:15 GMT
+content-length: 0
+via: 1.1 google
+access-control-expose-headers: Date
+strict-transport-security: max-age=31536000; includeSubDomains
+alt-svc: h3=\":443\"; ma=2592000
+----
+

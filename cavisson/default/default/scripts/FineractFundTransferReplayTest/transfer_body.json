@@ -1,0 +1,16 @@
+{
+    "fromOfficeId": 1,
+    "fromClientId": 629,
+    "fromAccountType": 2,
+    "fromAccountId": 529,
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}

@@ -1,0 +1,463 @@
+--Request 
+POST https://sdk.iad-05.braze.com/api/v3/data/
+Host: sdk.iad-05.braze.com
+sec-ch-ua-platform: \"Linux\"
+X-Braze-TriggersRequest: true
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+X-Braze-Last-Req-Ms-Ago: 7200000
+X-Braze-DataRequest: true
+sec-ch-ua-mobile: ?0
+X-Braze-Req-Attempt: 1
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Content-type: application/json
+X-Braze-Api-Key: 795e2050-a249-4266-b25b-b6882659271a
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"respond_with":{"triggers":true,"user_id":"573265066.1785923160","config":{"config_time":0}},"events":[{"name":"ss","time":1785923166.35,"data":{},"session_id":"57a5e2d2-91bd-43f6-a928-c24566661c92","user_id":"573265066.1785923160"}],"device":{"browser":"Unknown Browser","browser_version":"Unknown Version","os_version":"Linux","resolution":"1897x1108","locale":"en-us","time_zone":"America/Chicago","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"api_key":"795e2050-a249-4266-b25b-b6882659271a","time":1785923166,"sdk_metadata":["wcd","gg"],"sdk_version":"6.8.0","device_id":"a724d15a-5361-4f71-9188-f666359f7f75"}
+--Response 
+HTTP/1.1 201
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/json; charset=utf-8
+cf-ray: a264df6dce9c59a6-DEL
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+content-encoding: gzip
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains
+vary: Accept-Encoding
+access-control-allow-headers: *
+access-control-allow-methods: POST, OPTIONS
+x-ratelimit-limit: 500
+x-ratelimit-period: 3
+x-ratelimit-remaining: 499
+x-ratelimit-reset: 1785923169
+----
+--Request 
+GET https://use.fontawesome.com/7f85a56ba4.css
+Host: use.fontawesome.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: text/css
+report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9O42hU9qivTdo3KmTo10Qe7ogLNsrBOiy3E5y2O3Vowkp%2FGREaX2ipTDveJ6ObR3vAyNo8hONwT8BjUoVfUUY%2BN6inxZcBEv4uPm8B8LI2le8l5sk1hS2eXl6T9G5QLzsQVwY625\"}]}
+last-modified: Fri, 22 Sep 2023 00:57:51 GMT
+nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}
+server: cloudflare
+cache-control: public, max-age=1800
+expires: Wed, 22 Oct 2025 16:37:27 GMT
+age: 6835
+cf-cache-status: HIT
+etag: W/\"8360eb270b919a1fb4776bc448d9ed14\"
+content-encoding: zstd
+cf-ray: a264df6efee6d261-SIN
+alt-svc: h3=\":443\"; ma=86400
+----
+--Request 
+GET https://tags.tiqcdn.com/utag/directv/main/prod/utag.252.js?utv=ut4.54.202602201833
+Host: tags.tiqcdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Thu, 11 Jun 2026 22:30:10 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: Xde8a7hTVYWUStqcDgjzjqh2nj8ijiNp
+content-encoding: br
+date: Wed, 05 Aug 2026 09:46:07 GMT
+etag: W/\"f14fe62643224b87ca2df16a6ce5424d\"
+vary: Accept-Encoding
+x-cache: RefreshHit from cloudfront
+via: 1.1 516afc70a3b3f2e68dd4cbe530530dd4.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-P8
+x-amz-cf-id: IX_F_zBmv1WtbeIV8zp80ZyPo9lU71oHcYg5ZAtT0CPxOv4WENvAWg==
+cache-control: max-age=300
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/881.65c406596abf35768129.chunk.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=www.directv.com
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 561924
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"cf3d-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df6e18bc91a9-DEL
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/963.c66321cb3f9f4543e3c6.chunk.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=www.directv.com
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 561924
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"24a9e-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df6e18b891a9-DEL
+----
+--Request 
+GET https://solutions.invocacdn.com/js/networks/2074/0288648893/tag-live.js
+Host: solutions.invocacdn.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: text/javascript
+x-amz-replication-status: COMPLETED
+last-modified: Mon, 20 Jul 2026 16:23:19 GMT
+server: AmazonS3
+x-amz-server-side-encryption: AES256
+x-amz-version-id: dWKMnzxH9ZfJ0KjpcyhmKqUw9ob9qfP4
+content-encoding: br
+date: Wed, 05 Aug 2026 09:45:08 GMT
+cache-control: max-age=300
+etag: W/\"5bfced5e3b64bf5b66485a5d80d705c6\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 e33e605f2931e1a586cd356e7b3dcd96.cloudfront.net (CloudFront)
+x-amz-cf-pop: TLV55-P1
+x-amz-cf-id: fnaBENuEAvhBksHoEsQsBvLZb8Y4AiDCCLozhlQWO_oKlmYWnSxmYA==
+age: 108
+----
+--Request 
+GET https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-LEXYQWQ1NF&cid=573265066.1785923160&gtm=45j91e6830v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115616985~115938465~115938469~117215457~117215457~118032361~118032361~118395333~118897920~118897930~119896802&_is_sw=f15s0t1&_tu=BA&gap.sstd=5&aip=1&z=131674418
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:06 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-LEXYQWQ1NF&cid=573265066.1785923160&gtm=45j91e6830v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115616985~115938465~115938469~117215455~117215455~117215457~117215457~118032361~118032361~118395333~118897920~118897930~119896802&_is_sw=f15s0t12&_tu=BA&gap.sstd=5&aip=1&z=1885643806
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:06 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-LEXYQWQ1NF&cid=573265066.1785923160&gtm=45j91e6830v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115616985~115938465~115938469~117215457~117215457~118032361~118032361~118395333~118897920~118897930~119896802&_is_sw=f15s0t23&_tu=BA&gap.sstd=5&aip=1&z=893074461
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:06 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-LEXYQWQ1NF&cid=573265066.1785923160&gtm=45j91e6830v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115616985~115938465~115938469~117215457~117215457~117215459~117215459~117549814~117549814~118032361~118032361~118395333~118897920~118897930~119896802&_is_sw=f15s0t32&_tu=BA&gap.sstd=5&aip=1&z=2006272580
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:06 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://cdn.cookielaw.org/consent/c37345a0-f820-4777-9d9d-dfc31170677a/otSDKStub.js
+Host: cdn.cookielaw.org
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+cf-ray: a264df6e5fe454a7-DEL
+cf-cache-status: HIT
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 22269
+cache-control: public, max-age=86400
+content-encoding: gzip
+etag: 0x8DEEBFBFF76392F
+expires: Thu, 06 Aug 2026 09:46:06 GMT
+last-modified: Mon, 27 Jul 2026 16:27:48 GMT
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: accept-encoding
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding
+access-control-expose-headers: X-OneTrust-IsBot
+content-md5: iv9Tl9m+PK4wwKi0G2PtBA==
+cross-origin-resource-policy: cross-origin
+cross-origin-resource-policy: cross-origin
+x-content-type-options: nosniff
+x-onetrust-isbot: false
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: c9534200-401e-00e5-558b-24817d000000
+x-ms-version: 2009-09-19
+----
+--Request 
+GET https://cdn.quantummetric.com/qscripts/quantum-dtv.js
+Host: cdn.quantummetric.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: text/javascript
+server: cloudflare
+vary: Accept-Encoding
+etag: W/\"178478776779917858000042931785916802292\"
+cache-control: public, max-age=300, stale-while-revalidate=21600, stale-if-error=21600
+access-control-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+x-content-type-options: nosniff
+timing-allow-origin: *
+strict-transport-security: max-age=31536000; includeSubDomains;
+content-security-policy: default-src 'self' *.quantummetric.com; connect-src * ws:; frame-src * data: blob:; font-src * data: blob:; img-src * data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.quantummetric.com; style-src 'self' 'unsafe-inline' *.quantummetric.com;
+x-robots-tag: noindex
+content-encoding: gzip
+age: 55
+cf-cache-status: HIT
+cf-ray: a264df6ece63ff67-BOM
+alt-svc: h3=\":443\"; ma=86400
+----
+--Request 
+GET https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-LEXYQWQ1NF&cid=573265066.1785923160&gtm=45j91e6830v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115616985~115938465~115938469~117215455~117215455~117215457~117215457~118032361~118032361~118395333~118897920~118897930~119896802&_is_sw=f15s0t148&_tu=BA&gap.sstd=5&aip=1&z=1285573308
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:06 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

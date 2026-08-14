@@ -1,0 +1,17 @@
+{
+    "code": 200,
+    "type": "success",
+    "message": "Users created successfully",
+    "data": [
+        {$CAVREPEAT_BLOCK_START, sep(,), Count(SP_Username)}{
+            "id": 1,
+            "username": "{SP_Username}",
+            "firstName": "{JP_Firstname}",
+            "lastName": "{JP_Lastname}",
+            "email": "{JP_Email}",
+            "password": "{JP_Password}",
+            "userStatus": 1,
+             "apiKey": "abc123xyz456"
+        }{$CAVREPEAT_BLOCK_END},
+    ]
+}

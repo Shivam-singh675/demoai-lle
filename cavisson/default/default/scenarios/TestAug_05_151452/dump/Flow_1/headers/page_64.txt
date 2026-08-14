@@ -1,0 +1,99 @@
+--Request 
+POST https://insight.adsrvr.org/track/realtimeconversion
+Host: insight.adsrvr.org
+sec-ch-ua-platform: \"Linux\"
+eventDataSourceVersion: 3.0.5
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-type: application/json
+sec-ch-ua-mobile: ?0
+eventDataSource: JsSdk
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"data":[{"0":"t","1":"t","2":"d","3":"U","4":"n","5":"i","6":"v","7":"e","8":"r","9":"s","10":"a","11":"l","12":"P","13":"i","14":"x","15":"e","16":"l","17":"T","18":"a","19":"g","adv":"p1khwya","pixel_ids":["edw9roa"],"referrer_url":"https://www.directv.com/sports/college-sports/","data_processing_option":null,"privacy_settings":[]}]}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:09 GMT
+content-type: application/json
+server: Kestrel
+vary: Accept-Encoding
+content-encoding: gzip
+----
+--Request 
+GET https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22event_id%22%3A%224249273992070144%22%7D&tid=2612953088789&cb=1785923169017&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22opt_out_type%22%3A%22%22%2C%22st%22%3A%22%22%2C%22country%22%3A%22%22%2C%22external_id%22%3A%5B%22e37157f91f7ff45f919823fbdd55d4f4c7ebb31462a08b6254155df4b66d4a5d%22%5D%2C%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPVlXVXhPR1V5Tm1JdE1UTTNPQzAwTkRZMkxUZ3dORE10WlRGaE5UY3hPR1ExWldOaQ%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.directv.com%2F%22%2C%22if%22%3Afalse%2C%22sh%22%3A1108%2C%22sw%22%3A1897%2C%22mh%22%3A%223c5b736e%22%2C%22is_eu%22%3Afalse%2C%22is_restricted_region%22%3Afalse%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22135%22%7D%2C%7B%22brand%22%3A%22Not-A.Brand%22%2C%22version%22%3A%228%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%226.8.0%22%2C%22uaFullVersion%22%3A%22135.0.7049.52%22%7D
+Host: ct.pinterest.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+cache-control: no-cache,no-store,must-revalidate,max-age=0
+pragma: no-cache
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+content-type: image/gif
+content-length: 35
+access-control-allow-origin: *
+x-envoy-upstream-service-time: 1
+pinterest-version: 9a09dd6f766fc7c4653fe61029c058719c15db64
+referrer-policy: origin
+x-pinterest-rid: 1691407512442933
+x-pinterest-rid-128bit: ea156a4123aec061eabaddb607e1aaec
+date: Wed, 05 Aug 2026 09:46:09 GMT
+set-cookie: _pinterest_ct_ua=TWc9PSZKa0ZrRDRrT2dYbTdvUHZCODk4UXlYNmVUeDlFNlRRREp0S1BjcTRORDRtWDZGd0cvQWRwZTRwQVNLbjRKN29JdnR3Wll3U0ZWQUsyMTlnckI4MEhsVEMwbnFQWU5XSkFmVjZjYkV0Z2hZYz0md3FYRjRWamdzUXN3Y3JvZlVYSHJHZ0VQQURZPQ==; Max-Age=31536000; Expires=Thu, 05 Aug 2027 09:46:09 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None
+akamai-grn: 0.a6014017.1785923169.80bb973a
+x-cdn: akamai
+strict-transport-security: max-age=31536000 ; includeSubDomains ; preload
+----
+--Request 
+GET https://bat.bing.com/p/insights/s/0.8.67
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+cache-control: public, max-age=86400
+content-type: application/javascript;charset=utf-8
+content-encoding: br
+last-modified: Tue, 28 Jul 2026 21:04:01 GMT
+etag: W/\"0x8DEECEBBFDF1B21\"
+vary: Accept-Encoding
+access-control-allow-origin: *
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-ms-request-id: 92b099dc-a01e-003d-0988-2358c0000000
+x-ms-version: 2018-03-28
+x-azure-ref: 20260805T094609Z-15d79dd4bcfjcbkmhC1PUS3rpw000000048g00000000kxe9
+x-fd-int-roxy-purgeid: 0
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 2723BA95C2894DD8BADEDFDC48C321A8 Ref B: BOM01EDGE1612 Ref C: 2026-08-05T09:46:09Z
+date: Wed, 05 Aug 2026 09:46:08 GMT
+----
+

@@ -1,0 +1,18 @@
+{
+  "page": 3320,
+  "request": {
+    "text": "string"
+  },
+  "size": 3465,
+  "sorts": [
+    {
+      "direction": "DESC",
+      "property": "string"
+    },
+    {
+      "direction": "ASC",
+      "property": "string"
+    }
+  ]
+}
+

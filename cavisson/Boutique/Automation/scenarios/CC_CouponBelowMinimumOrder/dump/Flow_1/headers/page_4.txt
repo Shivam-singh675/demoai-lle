@@ -1,0 +1,92 @@
+--Request 
+POST http://66.220.31.130:30741/cart/checkout
+Host: 66.220.31.130:30741
+Origin: http://66.220.31.130:30741
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://66.220.31.130:30741/cart
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: shop_session-id=2a5ce73b-6fe8-4993-ae62-4da9f39fa922
+----
+ email=someone%40example.com&street_address=1600+Amphitheatre+Parkway&zip_code=94043&city=Mountain+View&state=CA&country=United+States&credit_card_number=4432801561520454&credit_card_expiration_month=1&credit_card_expiration_year=2027&credit_card_cvv=672&coupon_code=save10
+--Response 
+HTTP/1.1 302 Found
+Location: /cart?coupon_error=coupon+%22SAVE10%22+requires+an+order+of+at+least+USD+50.00&coupon_code=SAVE10
+Date: Fri, 03 Jul 2026 08:40:08 GMT
+Content-Length: 0
+----
+--Request 
+GET http://66.220.31.130:30741/cart?coupon_error=coupon+%22SAVE10%22+requires+an+order+of+at+least+USD+50.00&coupon_code=SAVE10
+Host: 66.220.31.130:30741
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://66.220.31.130:30741/cart
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: shop_session-id=2a5ce73b-6fe8-4993-ae62-4da9f39fa922
+----
+--Response 
+HTTP/1.1 200 OK
+Date: Fri, 03 Jul 2026 08:40:08 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+----
+--Request 
+GET http://66.220.31.130:30741/static/img/products/mug.jpg
+Host: 66.220.31.130:30741
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://66.220.31.130:30741/cart?coupon_error=coupon+%22SAVE10%22+requires+an+order+of+at+least+USD+50.00&coupon_code=SAVE10
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: shop_session-id=2a5ce73b-6fe8-4993-ae62-4da9f39fa922
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 62732
+Content-Type: image/jpeg
+Last-Modified: Wed, 24 Jun 2026 10:23:59 GMT
+Date: Fri, 03 Jul 2026 08:39:38 GMT
+----
+--Request 
+GET http://66.220.31.130:30741/static/img/products/hairdryer.jpg
+Host: 66.220.31.130:30741
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://66.220.31.130:30741/cart?coupon_error=coupon+%22SAVE10%22+requires+an+order+of+at+least+USD+50.00&coupon_code=SAVE10
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: shop_session-id=2a5ce73b-6fe8-4993-ae62-4da9f39fa922
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 66076
+Content-Type: image/jpeg
+Last-Modified: Wed, 24 Jun 2026 10:23:59 GMT
+Date: Fri, 03 Jul 2026 08:39:37 GMT
+----
+--Request 
+GET http://66.220.31.130:30741/static/img/products/loafers.jpg
+Host: 66.220.31.130:30741
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://66.220.31.130:30741/cart?coupon_error=coupon+%22SAVE10%22+requires+an+order+of+at+least+USD+50.00&coupon_code=SAVE10
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: shop_session-id=2a5ce73b-6fe8-4993-ae62-4da9f39fa922
+----
+--Response 
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 131516
+Content-Type: image/jpeg
+Last-Modified: Wed, 24 Jun 2026 10:23:59 GMT
+Date: Fri, 03 Jul 2026 08:39:37 GMT
+----
+

@@ -1,0 +1,125 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Page title does not indicate the Online Boutique application loaded
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - goToHomePage
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //div[contains(concat(' ', normalize-space(@class), ' '), ' text-right
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' pr-md-0 ')]
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - clickAddSunglassesToCart
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - clickAddSunglassesToCart
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Invalid coupon message was not shown
+   target: main
+   locators:
+      xpath: //*[contains(normalize-space(.),'Invalid coupon code "INVALID123". Please
+         try again.')][not(.//*[contains(normalize-space(.),'Invalid coupon code "INVALID123".
+         Please try again.')])]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: innerText
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickPlaceOrder
+   rhs:
+      type: text
+      value: Invalid coupon code "INVALID123". Please try again.
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Coupon field does not retain the entered invalid code
+   target: main
+   locators:
+      id: coupon_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: value
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickPlaceOrder
+   rhs:
+      type: text
+      value: INVALID123

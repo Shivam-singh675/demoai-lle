@@ -1,0 +1,1304 @@
+{
+    "data": [
+        {
+            "targetData": [
+                {
+                    "description": "Number of connections has established.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Established-(*)",
+                    "name": "Established",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                }
+            ],
+            "name": "nmkan",
+            "description": "knskns",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:40:37",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/nmkan.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Total Number of used sockets or active sockets",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Used Sockets-(*)",
+                    "name": "Used Sockets",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                }
+            ],
+            "name": "masnm",
+            "description": "nmsnm",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:41:16",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/masnm.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Number of connections has established.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Established-(*)",
+                    "name": "Established",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                }
+            ],
+            "name": "kmsdkj",
+            "description": "llsal",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:40:19",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/kmsdkj.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Total Number of used sockets or active sockets",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Used Sockets-(*)",
+                    "name": "Used Sockets",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Total number of tcp sockets in use.",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Tcp InUse-(*)",
+                    "name": "Tcp InUse",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Number of orphan TCP sockets (not attached to any file descriptor).",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Tcp Orphan Count-(*)",
+                    "name": "Tcp Orphan Count",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "TIME-WAIT - waiting for enough time to pass to be sure the remote TCP received the acknowledgment of its connection termination request. Number of TCP sockets currently in TIME_WAIT state.",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Tcp Timewait-(*)",
+                    "name": "Tcp Timewait",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 4,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "All TCP socket number ( for example, ESTABLISH, CLOSE_WAIT, TIME_WAIT, etc) (only TCP).",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Tcp Alloc-(*)",
+                    "name": "Tcp Alloc",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 5,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Number of pages allocated to TCP. (1page = 4096 bytes)",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Tcp Memory-(*)",
+                    "name": "Tcp Memory",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 6,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Number of UDP sockets in use.",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Udp InUse-(*)",
+                    "name": "Udp InUse",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 7,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Memory allocated for this socket type (1page = 4096 bytes)",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Udp Memory-(*)",
+                    "name": "Udp Memory",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 8,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Memory allocated for this socket type (1page = 4096 bytes).",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Udp-Lite InUse-(*)",
+                    "name": "Udp-Lite InUse",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 9,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Number of raw sockets in use.",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Raw InUse-(*)",
+                    "name": "Raw InUse",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 10,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Number of structures associated with IP fragmentation currently in  use. (Only available by kernels > 2.2).",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Frag InUse-(*)",
+                    "name": "Frag InUse",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 11,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                },
+                {
+                    "description": "Memory used to reassemble IP fragments.",
+                    "glbMetricId": "-1",
+                    "label": "Socket Statistics|Frag Memory-(*)",
+                    "name": "Frag Memory",
+                    "value": "Normal",
+                    "mgId": 10107,
+                    "metricId": 12,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "Socket Statistics"
+                }
+            ],
+            "name": "knkewk",
+            "description": "mkmsm",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:41:33",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/knkewk.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Number of connections has established.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Established-(*)",
+                    "name": "Established",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections actively attempting to establish a connection.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|SynSent-(*)",
+                    "name": "SynSent",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connection requests which have been received from the network.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|SynRcvd-(*)",
+                    "name": "SynRcvd",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections, for which sockets are closed, and the connections are shutting down.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|FinWait1-(*)",
+                    "name": "FinWait1",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 4,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections which have been closed, and the sockets are waiting for  a  shutdown  from the remote end.   ",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|FinWait2-(*)",
+                    "name": "FinWait2",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 5,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections for which  sockets are waiting after close to handle packets still in the network.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|TimeWait-(*)",
+                    "name": "TimeWait",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 6,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections for which  sockets are not being used.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Closed-(*)",
+                    "name": "Closed",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 7,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections, for which remote end has shutdown, waiting for the socket to close.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|CloseWait-(*)",
+                    "name": "CloseWait",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 8,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections, of which remote end has shut down, and the socket is closed.  Waiting for acknowledgement.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|LastAck-(*)",
+                    "name": "LastAck",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 9,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections, for which socket is listening for incoming connections.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Listen-(*)",
+                    "name": "Listen",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 10,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "Number of connections, of which both  sockets are shut down but we still do not have all our data sent.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Closing-(*)",
+                    "name": "Closing",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 11,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "The count of bytes not acknowledged by the remote host.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Send Queue Size (Bytes)-(*)",
+                    "name": "Send Queue Size (Bytes)",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 12,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                },
+                {
+                    "description": "The count of bytes not copied by the user program connected to this socket.",
+                    "glbMetricId": "-1",
+                    "label": "TCP States|Receive Queue Size (Bytes)-(*)",
+                    "name": "Receive Queue Size (Bytes)",
+                    "value": "Normal",
+                    "mgId": 10976,
+                    "metricId": 13,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TCPGroup",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP States"
+                }
+            ],
+            "name": "mewkm",
+            "description": "dmmsm",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:41:45",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/mewkm.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Active connections openings per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Active opens/Sec-(*)",
+                    "name": "Active opens/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Passive connection openings per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Passive opens/Sec-(*)",
+                    "name": "Passive opens/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Failed connection attempts per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Failed attempt/Sec-(*)",
+                    "name": "Failed attempt/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Connection resets received per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Reset received/Sec-(*)",
+                    "name": "Reset received/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 4,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Segments received per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Segments received/Sec-(*)",
+                    "name": "Segments received/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 5,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Segments send out per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Segments send out/Sec-(*)",
+                    "name": "Segments send out/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 6,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Segments retransmitted per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Segments retransmitted/Sec-(*)",
+                    "name": "Segments retransmitted/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 7,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "bad segments received per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Bad segments received/Sec-(*)",
+                    "name": "Bad segments received/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 8,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Resets sent per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Resets sent/Sec-(*)",
+                    "name": "Resets sent/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 9,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "SYNs to LISTEN sockets dropped per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|SYNs To LISTEN Sockets Dropped/Sec-(*)",
+                    "name": "SYNs To LISTEN Sockets Dropped/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 10,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                }
+            ],
+            "name": "nmfdnm",
+            "description": "nsnm",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:40:49",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/nmfdnm.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "System Load average for the past 1 minute.",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Load Average Over 1 Minute-(*)",
+                    "name": "Load Average Over 1 Minute",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                },
+                {
+                    "description": "System Load average for the past 5 minutes.",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Load Average Over 5 Minute-(*)",
+                    "name": "Load Average Over 5 Minute",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                },
+                {
+                    "description": "System Load average for the past 15 minutes.",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Load Average Over 15 Minute-(*)",
+                    "name": "Load Average Over 15 Minute",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                },
+                {
+                    "description": "Total time the system has been running in days",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Uptime (Days)-(*)",
+                    "name": "Uptime (Days)",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 4,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                },
+                {
+                    "description": "Number of users currently logged on.",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Number of Users-(*)",
+                    "name": "Number of Users",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 5,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                },
+                {
+                    "description": "Limit of open files.",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Open Files Limit-(*)",
+                    "name": "Open Files Limit",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 6,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                },
+                {
+                    "description": "Number of open files in system.",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Open Files-(*)",
+                    "name": "Open Files",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 7,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                },
+                {
+                    "description": "Percentage of open files to limit",
+                    "glbMetricId": "-1",
+                    "label": "System Load Stats|Open Files (%)-(*)",
+                    "name": "Open Files (%)",
+                    "value": "Normal",
+                    "mgId": 10569,
+                    "metricId": 8,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "System Load Stats"
+                }
+            ],
+            "name": "mfmkq",
+            "description": "mdm",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:42:00",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/mfmkq.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Active connections openings per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Active opens/Sec-(*)",
+                    "name": "Active opens/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Passive connection openings per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Passive opens/Sec-(*)",
+                    "name": "Passive opens/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Failed connection attempts per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Failed attempt/Sec-(*)",
+                    "name": "Failed attempt/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Connection resets received per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Reset received/Sec-(*)",
+                    "name": "Reset received/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 4,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Segments received per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Segments received/Sec-(*)",
+                    "name": "Segments received/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 5,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Segments send out per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Segments send out/Sec-(*)",
+                    "name": "Segments send out/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 6,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Segments retransmitted per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Segments retransmitted/Sec-(*)",
+                    "name": "Segments retransmitted/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 7,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "bad segments received per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Bad segments received/Sec-(*)",
+                    "name": "Bad segments received/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 8,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "Resets sent per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|Resets sent/Sec-(*)",
+                    "name": "Resets sent/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 9,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                },
+                {
+                    "description": "SYNs to LISTEN sockets dropped per Sec",
+                    "glbMetricId": "-1",
+                    "label": "TCP Stats Rate (Linux)|SYNs To LISTEN Sockets Dropped/Sec-(*)",
+                    "name": "SYNs To LISTEN Sockets Dropped/Sec",
+                    "value": "Normal",
+                    "mgId": 10187,
+                    "metricId": 10,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TCP Stats Rate (Linux)"
+                }
+            ],
+            "name": "emfmd",
+            "description": "dmm",
+            "createdBy": "Amber",
+            "creationDate": "24/01/2024, 17:42:19",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/emfmd.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Total samples uprolled by the batch job.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Uproll Batch Job Stats|TSDB Total Samples Uprolled-(*)",
+                    "name": "TSDB Total Samples Uprolled",
+                    "value": "Normal",
+                    "mgId": 22225,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Uproll Batch Job Stats"
+                }
+            ],
+            "name": "jeeeoj",
+            "description": "d",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/11/2024, 16:02:37",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/jeeeoj.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Metrics ingestion rate per Sec.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Metrics Ingestion/Sec-(*)",
+                    "name": "Metrics Ingestion/Sec",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "nmhh",
+            "description": "ccc",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/12/2024, 12:35:55",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/nmhh.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Metrics ingestion rate per Sec.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Metrics Ingestion/Sec-(*)",
+                    "name": "Metrics Ingestion/Sec",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "jdbwywv",
+            "description": "bj",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/16/2024, 12:34:13",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/jdbwywv.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Metrics ingestion rate per Sec.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Metrics Ingestion/Sec-(*)",
+                    "name": "Metrics Ingestion/Sec",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "bdwjd",
+            "description": "n sq",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/16/2024, 12:34:41",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/bdwjd.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Time taken to complete the batch job in Sec.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Batch Job Timings|TSDB BJ CompletionTime (Sec)-(*)",
+                    "name": "TSDB BJ CompletionTime (Sec)",
+                    "value": "Normal",
+                    "mgId": 22224,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency>JobName",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Batch Job Timings"
+                }
+            ],
+            "name": "csj",
+            "description": "q dnq",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/16/2024, 12:43:07",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/csj.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Total number of metrics which are ingested.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Total Metrics-(*)",
+                    "name": "Total Metrics",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "adbjq",
+            "description": " x",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/16/2024, 12:43:21",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/adbjq.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Metrics ingestion rate per Sec.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Metrics Ingestion/Sec-(*)",
+                    "name": "Metrics Ingestion/Sec",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "kjj",
+            "description": "xa",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/16/2024, 12:43:36",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/kjj.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Total number of metrics which are ingested.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Total Metrics-(*)",
+                    "name": "Total Metrics",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "jeetdw",
+            "description": "jc",
+            "createdBy": "jagatjeet",
+            "creationDate": "3/27/2024, 14:23:53",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/jeetdw.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Metrics ingestion rate per Sec.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Metrics Ingestion/Sec-(*)",
+                    "name": "Metrics Ingestion/Sec",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                },
+                {
+                    "description": "Total number of metrics which are ingested.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Total Metrics-(*)",
+                    "name": "Total Metrics",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                },
+                {
+                    "description": "Total subject which are ingested.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Total Subjects-(*)",
+                    "name": "Total Subjects",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "ddasc",
+            "description": "acs",
+            "createdBy": "cavisson",
+            "creationDate": "11/04/2024, 15:14:20",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/ddasc.json"
+        },
+        {
+            "targetData": [
+                {
+                    "description": "Metrics ingestion rate per Sec.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Metrics Ingestion/Sec-(*)",
+                    "name": "Metrics Ingestion/Sec",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 1,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                },
+                {
+                    "description": "Total number of metrics which are ingested.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Total Metrics-(*)",
+                    "name": "Total Metrics",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 2,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                },
+                {
+                    "description": "Total subject which are ingested.\n",
+                    "glbMetricId": "-1",
+                    "label": "TSDB Ingestion Stats|Total Subjects-(*)",
+                    "name": "Total Subjects",
+                    "value": "Normal",
+                    "mgId": 14300,
+                    "metricId": 3,
+                    "vectorName": {
+                        "mode": 2,
+                        "sMeta": "Tier>Server>TSDBNode>Frequency",
+                        "sName": "*"
+                    },
+                    "derivedNumber": 0,
+                    "mg": "TSDB Ingestion Stats"
+                }
+            ],
+            "name": "jaaa",
+            "description": "dfsdzd",
+            "createdBy": "cavisson",
+            "creationDate": "11/04/2024, 15:14:45",
+            "metricType": "Normal",
+            "catalogueFilePath": "/home/cavisson/work/webapps/sys/unifiedConfig/catalogueMangement/jaaa.json"
+        }
+    ]
+}

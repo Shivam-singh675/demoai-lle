@@ -1,0 +1,443 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/TestJul_27_111526"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          1
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "10",
+          "default/default/.TestJul_27_111526_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "Group_1": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Start",
+          "START",
+          "IMMEDIATELY"
+        ],
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "RATE",
+          "120",
+          "M",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "0"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "IMMEDIATELY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [],
+      "recordingProfile": "default.prof",
+      "type": "RDT_NATIVE",
+      "RDT_NATIVE": [
+        {
+          "appPackage": "com.example.snapify_app",
+          "proxyport": 0,
+          "os": "android",
+          "os_version": "11.0",
+          "appId": "bs://67862db025af7859dc3d9f69d81e801f56ee5912",
+          "browser": "NA",
+          "browser_version": "NA",
+          "env": "cloud",
+          "deviceName": "Samsung Galaxy S21",
+          "profilingEnabled": "off",
+          "network": "4G"
+        }
+      ],
+      "assertionsV2": [],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [],
+          "steps": [
+            {
+              "appPackage": "com.example.snapify_app",
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "LaunchApp",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "",
+              "navigation": false,
+              "iframeXpathData": "",
+              "stepName": "LaunchApp",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "assertions": [],
+              "id": "",
+              "value": "",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "LaunchApp",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "appActivity": "com.example.snapify_app.MainActivity",
+              "condition": [],
+              "thinkTime": 0,
+              "attributes": "",
+              "subType": "",
+              "scrollY": 0,
+              "heroElement": {
+                "xpath": "//android.widget.ScrollView/android.view.View[6]/android.view.View/android.view.View[1]/android.widget.ImageView",
+                "accessibilityId": "Laptop Pro 15\"\\n$1299.99"
+              },
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "pre_snapshot_1785131189653.png",
+              "locators": {
+                "xpath": "//android.widget.ScrollView/android.view.View[6]/android.view.View/android.view.View[1]/android.widget.ImageView",
+                "accessibilityId": "Laptop Pro 15\"\\n$1299.99"
+              },
+              "navigation": false,
+              "iframeXpathData": "",
+              "stepName": "click_1",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "assertions": [],
+              "id": "",
+              "value": "NA",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 0,
+              "pageSource": "source_1785131189653.xml",
+              "attributes": "",
+              "subType": "",
+              "scrollY": 0,
+              "heroElement": {
+                "xpath": "//android.widget.Button[@content-desc=\"Add to Cart\"]",
+                "xpath1": "//android.widget.Button[@content-desc='Add to Cart']",
+                "accessibilityId": "Add to Cart"
+              },
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "post_snapshot_1785131189653.png",
+              "iframes": "",
+              "ordinal": ""
+            },
+            {
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "click",
+              "title": "",
+              "continueOnError": true,
+              "content": "",
+              "timeout": 0,
+              "preSnapshot": "pre_snapshot_1785131198921.png",
+              "locators": {
+                "xpath": "//android.widget.Button[@content-desc=\"Add to Cart\"]",
+                "xpath1": "//android.widget.Button[@content-desc='Add to Cart']",
+                "accessibilityId": "Add to Cart"
+              },
+              "navigation": false,
+              "iframeXpathData": "",
+              "stepName": "click_2",
+              "enable": true,
+              "imageFile": "",
+              "waitElementTimeout": 0,
+              "assertions": [],
+              "id": "",
+              "value": "NA",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "coordinates": {
+                "duration": 0,
+                "endY": 0,
+                "endX": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "startY": 0,
+                "startX": 0,
+                "isRelative": false
+              },
+              "optional": false,
+              "label": "click",
+              "eventType": "",
+              "tagName": "",
+              "steps": 0,
+              "idClassStr": "",
+              "tags": [],
+              "condition": [],
+              "thinkTime": 0,
+              "pageSource": "source_1785131198921.xml",
+              "attributes": "",
+              "subType": "",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "snapshot": "post_snapshot_1785131198921.png",
+              "iframes": "",
+              "ordinal": ""
+            }
+          ],
+          "order": 0
+        }
+      },
+      "scriptType": "",
+      "primaryOS": "android",
+      "assertions": [],
+      "state": "MANUAL",
+      "parameters": {},
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "27/07/2026 05:48:32",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

@@ -1,0 +1,7 @@
+{
+    "transactionDate": "{transferDateParam}",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}

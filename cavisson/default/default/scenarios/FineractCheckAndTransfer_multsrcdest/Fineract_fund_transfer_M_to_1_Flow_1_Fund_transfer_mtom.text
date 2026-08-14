@@ -1,0 +1,24 @@
+{
+    "fromOfficeId": 1,
+    "fromClientId": {userIdParam},
+    "fromAccountType": 2,
+    "fromAccountId": {savingsIdParam},
+
+    "toOfficeId": 1,
+    "toClientId": {reliefFundClientIdMtoMG2Param},
+    "toAccountType": 2,
+    "toAccountId": {reliefFundSavingIdMtoMG2Param},
+
+    "transferAmount": 100,
+    "transferDate": "{transferDateParam}",
+    "transferDescription": "Transfer from many users to many relief accounts",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+

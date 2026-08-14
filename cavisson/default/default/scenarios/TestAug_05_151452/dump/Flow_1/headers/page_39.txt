@@ -1,0 +1,27 @@
+--Request 
+POST https://logx.optimizely.com/v1/events
+Host: logx.optimizely.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"account_id":"4993150444371968","anonymize_ip":true,"client_name":"js","client_version":"0.251.0","enrich_decisions":true,"project_id":"5137227521458176","revision":"4932","visitors":[{"visitor_id":"oeu1785923160264r0.7155237830759648","session_id":"AUTO","attributes":[{"e":null,"k":"","t":"first_session","v":true},{"e":null,"k":"","t":"browserId","v":"gc"},{"e":null,"k":"","t":"device","v":"desktop"},{"e":null,"k":"","t":"device_type","v":"desktop_laptop"},{"e":null,"k":"","t":"source_type","v":"direct"}],"snapshots":[{"activationTimestamp":1785923166082,"decisions":[{"c":"5030894543568896","x":null,"v":null,"h":false,"m":{}}],"events":[{"e":null,"y":"client_activation","u":"d4cac34b-44cd-48b1-aff2-06233e469bb3","t":1785923166094}]}]}]}
+--Response 
+HTTP/1.1 204
+timing-allow-origin: *
+content-type: text/plain
+x-request-id: 460ebc42-93d3-4248-9824-c542926a488f
+date: Wed, 05 Aug 2026 09:46:07 GMT
+via: 1.1 google
+alt-svc: h3=\":443\"; ma=2592000
+----
+

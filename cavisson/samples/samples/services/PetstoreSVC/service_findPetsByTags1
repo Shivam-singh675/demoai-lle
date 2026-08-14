@@ -1,0 +1,44 @@
+[
+    {
+        "id": 45678,
+        "name": "Mittens",
+        "category": {
+            "id": 1,
+            "name": "Cats"
+        },
+        "photoUrls": [
+            "https://example.com/mittens1.jpg",
+            "https://example.com/mittens2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "Friendly"
+            },
+            {
+                "id": 6,
+                "name": "Small"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 78901,
+        "name": "Buddy",
+        "category": {
+            "id": 2,
+            "name": "Dogs"
+        },
+        "photoUrls": [
+            "https://example.com/buddy1.jpg",
+            "https://example.com/buddy2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 3,
+                "name": "Friendly"
+            }
+        ],
+        "status": "available"
+    }
+]

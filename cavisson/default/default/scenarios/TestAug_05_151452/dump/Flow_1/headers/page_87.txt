@@ -1,0 +1,29 @@
+--Request 
+POST https://ingest.quantummetric.com/horizon/dtv?T=B&u=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&t=1785923166181&v=1785923173554&H=5f06736aaaaee1cda94efb0f&s=15ee8da754a44c11862cb214234d6b3a&N=2&Q=2&S=1673&b=1529&z=1
+Host: ingest.quantummetric.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ x��T�n� ��hN[	*C�v��Z��K�J=�QD�&4R���V����i�8��^���7�����x`��4�c��g4"�0A��%r`�I:N�q�a:$6�(� x�fo��= ���i�-�R����ؐ"X�1����t�J	A�fZN2(�T��*����y��<�9 P0X��0�}�b��d6���rŜ5�֚.��u��j*u�*,V�!����iεm4�[g���S-�%�^��ݞO��b*췮g�Z��yJb&�~��C�o\��� /5�ag���m���ң�+������U��Y5�YaB�\A>?�js�.���?�^6�Y�R*��t���%9�:�/|&�>o�&�|��;i_��|��(Ά_�����%7���
+>����2�|w5:�P��m����|�R{�4�Qo:����������.�X���%y�9����N�p��\W$��*΃�����/=�
+--Response 
+HTTP/1.1 200
+content-type: application/json
+access-control-allow-credentials: true
+date: Wed, 05 Aug 2026 09:46:14 GMT
+content-length: 0
+via: 1.1 google
+access-control-expose-headers: Date
+strict-transport-security: max-age=31536000; includeSubDomains
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

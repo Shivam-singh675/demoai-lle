@@ -1,0 +1,249 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/POST_AUTHENTICATE_NEG_INVALIDPAYLOAD_3"
+  },
+  "lastModifedBy": "cavisson",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.POST_AUTHENTICATE_NEG_INVALIDPAYLOAD_3_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          4,
+          1,
+          2,
+          0,
+          0,
+          1,
+          100,
+          100
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "id": "97e0eaac-5a0c-4337-895a-0eb79d5a3e32",
+  "scripts": {
+    "Group_1": {
+      "scriptMode": "visual",
+      "rumsid": "",
+      "runlogic": [],
+      "type": "API",
+      "RDT_NATIVE": [],
+      "assertionsV2": [
+        {
+          "locators": {},
+          "assertOnErrorCodes": "all",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "statuscode"
+          },
+          "inlineURLPattern": ".*",
+          "page": [
+            "*"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "^[45][0-9]{2}$"
+          },
+          "operator": "match_regex",
+          "errorMsg": "Status code validation failed",
+          "assertionDescription": "Response status code should be a 4xx or 5xx error code",
+          "target": "main"
+        }
+      ],
+      "flows": {
+        "Flow_1": {
+          "headers": {},
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "method": "POST",
+              "inlineRequests": [],
+              "label": "index",
+              "body": "{\"username\":null,\"password\":null}",
+              "url": "{BASE_URL}/api/authenticate",
+              "condition": [],
+              "postResponse": {},
+              "thinkTime": "",
+              "preRequest": {},
+              "enable": true,
+              "repeatInline": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "assertions": [],
+      "parameters": {
+        "scratch": [
+          {
+            "parameter-name": "BASE_URL",
+            "defaultValue": "http://localhost:8080",
+            "retainValue": false,
+            "regStrLine": "nsl_decl_var(BASE_URL,DefaultValue=\"http://localhost:8080\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "03/08/2026 13:37:36",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

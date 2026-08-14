@@ -1,0 +1,513 @@
+
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Online Boutique
+    </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/cart.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/order.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/bot.css">
+    
+    <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
+    
+</head>
+
+<body>
+    <header role="banner" aria-label="Site header">
+
+        
+
+        <nav class="navbar sub-navbar" role="navigation" aria-label="Main navigation">
+            <div class="container d-flex justify-content-between">
+
+                <a href="/"
+                   class="navbar-brand d-flex align-items-center"
+                   aria-label="Online Boutique - go to home page">
+                    
+                    <img src="/static/icons/Hipster_NavLogo.svg"
+                         alt="Online Boutique logo"
+                         class="top-left-logo" />
+                    
+                </a>
+
+                <div class="controls" role="group" aria-label="Site controls">
+
+                    
+                    <div class="h-controls">
+                        <div class="h-control">
+                            
+                            <span class="icon currency-icon" aria-hidden="true">
+                                €
+                            </span>
+                            <form method="POST"
+                                  class="controls-form"
+                                  action="/setCurrency"
+                                  id="currency_form"
+                                  aria-label="Currency selection form">
+                                <label for="currency_code" class="sr-only">Select currency</label>
+                                <select name="currency_code"
+                                        id="currency_code"
+                                        aria-label="Select display currency, currently EUR"
+                                        onchange="document.getElementById('currency_form').submit();">
+                                    
+                                    <option value="EUR" selected="selected">EUR</option>
+                                    
+                                    <option value="USD" >USD</option>
+                                    
+                                    <option value="JPY" >JPY</option>
+                                    
+                                    <option value="GBP" >GBP</option>
+                                    
+                                    <option value="TRY" >TRY</option>
+                                    
+                                    <option value="CAD" >CAD</option>
+                                    
+                                </select>
+                            </form>
+                            <img src="/static/icons/Hipster_DownArrow.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="icon arrow" />
+                            
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    <a href="/cart"
+                       class="cart-link"
+                       aria-label="View shopping cart, 2 items in cart">
+                        <img src="/static/icons/Hipster_CartIcon.svg"
+                             alt="Shopping cart icon"
+                             class="logo"
+                             title="Cart" />
+                        
+                        <span class="cart-size-circle" aria-hidden="true">2</span>
+                        
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div  class="local" >
+        <span class="platform-flag" aria-hidden="true">local</span>
+    </div>
+
+    <main role="main" class="cart-sections" aria-label="Shopping cart page">
+
+        
+        <section class="container" aria-label="Cart summary and checkout">
+            <div class="row">
+
+                <div class="col-lg-6 col-xl-5 offset-xl-1 cart-summary-section" aria-label="Cart item summary">
+
+                    <div class="row mb-3 py-2">
+                        <div class="col-4 pl-md-0">
+                            <h3 id="cart-heading">Cart (2)</h3>
+                        </div>
+                        <div class="col-8 pr-md-0 text-right">
+                            <form method="POST" action="/cart/empty" aria-label="Empty your entire cart">
+                                <button class="cymbal-button-secondary cart-summary-empty-cart-button"
+                                        type="submit"
+                                        aria-label="Remove all items from cart">
+                                    Empty Cart
+                                </button>
+                                <a class="cymbal-button-primary"
+                                   href="/"
+                                   role="button"
+                                   aria-label="Continue shopping, return to home page">
+                                    Continue Shopping
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+
+                    <ul aria-labelledby="cart-heading" style="list-style:none;padding:0;margin:0;">
+                    
+                    <li class="row cart-summary-item-row" aria-label="Cart item: Sunglasses">
+                        <div class="col-md-4 pl-md-0">
+                            <a href="/product/OLJCESPC7Z"
+                               aria-label="View product details for Sunglasses">
+                                <img class="img-fluid"
+                                     alt="Product image of Sunglasses"
+                                     src="/static/img/products/sunglasses.jpg" />
+                            </a>
+                        </div>
+                        <div class="col-md-8 pr-md-0">
+                            <div class="row">
+                                <div class="col"><h4>Sunglasses</h4></div>
+                            </div>
+                            <div class="row cart-summary-item-row-item-id-row">
+                                <div class="col" aria-label="Product SKU: OLJCESPC7Z">SKU #OLJCESPC7Z</div>
+                            </div>
+                            <div class="row">
+                                <div class="col" aria-label="Quantity: 1">Quantity: 1</div>
+                                <div class="col pr-md-0 text-right" aria-label="Item subtotal: €17.68">
+                                    <strong>€17.68</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="row cart-summary-item-row" aria-label="Cart item: Watch">
+                        <div class="col-md-4 pl-md-0">
+                            <a href="/product/1YMWWN1N4O"
+                               aria-label="View product details for Watch">
+                                <img class="img-fluid"
+                                     alt="Product image of Watch"
+                                     src="/static/img/products/watch.jpg" />
+                            </a>
+                        </div>
+                        <div class="col-md-8 pr-md-0">
+                            <div class="row">
+                                <div class="col"><h4>Watch</h4></div>
+                            </div>
+                            <div class="row cart-summary-item-row-item-id-row">
+                                <div class="col" aria-label="Product SKU: 1YMWWN1N4O">SKU #1YMWWN1N4O</div>
+                            </div>
+                            <div class="row">
+                                <div class="col" aria-label="Quantity: 1">Quantity: 1</div>
+                                <div class="col pr-md-0 text-right" aria-label="Item subtotal: €97.29">
+                                    <strong>€97.29</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    </ul>
+
+                    <div class="row cart-summary-shipping-row" aria-label="Shipping cost">
+                        <div class="col pl-md-0">Shipping</div>
+                        <div class="col pr-md-0 text-right" aria-live="polite">€7.95</div>
+                    </div>
+
+                    <div class="row cart-summary-total-row" aria-label="Order total before discount">
+                        <div class="col pl-md-0">Total</div>
+                        <div class="col pr-md-0 text-right" aria-live="polite">€122.92</div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 offset-lg-1 col-xl-4">
+
+                    <form class="cart-checkout-form"
+                          action="/cart/checkout"
+                          method="POST"
+                          aria-label="Checkout form">
+
+                        <fieldset>
+                            <legend><h3>Shipping Address</h3></legend>
+
+                            <div class="form-row">
+                                <div class="col cymbal-form-field">
+                                    <label for="email">E-mail Address</label>
+                                    <input type="email" id="email" name="email"
+                                           value="someone@example.com" required
+                                           aria-label="Email address for order confirmation"
+                                           aria-required="true"
+                                           autocomplete="email">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col cymbal-form-field">
+                                    <label for="street_address">Street Address</label>
+                                    <input type="text" name="street_address" id="street_address"
+                                           value="1600 Amphitheatre Parkway" required
+                                           aria-label="Street address for shipping"
+                                           aria-required="true"
+                                           autocomplete="street-address">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col cymbal-form-field">
+                                    <label for="zip_code">Zip Code</label>
+                                    <input type="text" name="zip_code" id="zip_code"
+                                           value="94043" required pattern="\d{4,5}"
+                                           aria-label="Zip or postal code, 4 to 5 digits"
+                                           aria-required="true"
+                                           autocomplete="postal-code">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col cymbal-form-field">
+                                    <label for="city">City</label>
+                                    <input type="text" name="city" id="city"
+                                           value="Mountain View" required
+                                           aria-label="City for shipping address"
+                                           aria-required="true"
+                                           autocomplete="address-level2">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-5 cymbal-form-field">
+                                    <label for="state">State</label>
+                                    <input type="text" name="state" id="state"
+                                           value="CA" required
+                                           aria-label="State or province"
+                                           aria-required="true"
+                                           autocomplete="address-level1">
+                                </div>
+                                <div class="col-md-7 cymbal-form-field">
+                                    <label for="country">Country</label>
+                                    <input type="text" id="country" placeholder="Country Name"
+                                           name="country" value="United States" required
+                                           aria-label="Country name"
+                                           aria-required="true"
+                                           autocomplete="country-name">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><h3 class="payment-method-heading">Payment Method</h3></legend>
+
+                            <div class="form-row">
+                                <div class="col cymbal-form-field">
+                                    <label for="credit_card_number">Credit Card Number</label>
+                                    <input type="text" id="credit_card_number"
+                                           name="credit_card_number"
+                                           placeholder="0000000000000000"
+                                           value="4432801561520454"
+                                           required pattern="\d{16}"
+                                           aria-label="16-digit credit card number"
+                                           aria-required="true"
+                                           autocomplete="cc-number">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-5 cymbal-form-field">
+                                    <label for="credit_card_expiration_month">Month</label>
+                                    <select name="credit_card_expiration_month"
+                                            id="credit_card_expiration_month"
+                                            aria-label="Credit card expiration month"
+                                            autocomplete="cc-exp-month">
+                                        <option value="1">January</option>
+                                        <option value="2">February</option>
+                                        <option value="3">March</option>
+                                        <option value="4">April</option>
+                                        <option value="5">May</option>
+                                        <option value="6">June</option>
+                                        <option value="7">July</option>
+                                        <option value="8">August</option>
+                                        <option value="9">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                    </select>
+                                    <img src="/static/icons/Hipster_DownArrow.svg"
+                                         alt="" aria-hidden="true" class="cymbal-dropdown-chevron">
+                                </div>
+                                <div class="col-md-4 cymbal-form-field">
+                                    <label for="credit_card_expiration_year">Year</label>
+                                    <select name="credit_card_expiration_year"
+                                            id="credit_card_expiration_year"
+                                            aria-label="Credit card expiration year"
+                                            autocomplete="cc-exp-year">
+                                        <option value="2026"
+                                            >2026</option><option value="2027"
+                                            selected="selected">2027</option><option value="2028"
+                                            >2028</option><option value="2029"
+                                            >2029</option><option value="2030"
+                                            >2030</option>
+                                    </select>
+                                    <img src="/static/icons/Hipster_DownArrow.svg"
+                                         alt="" aria-hidden="true" class="cymbal-dropdown-chevron">
+                                </div>
+                                <div class="col-md-3 cymbal-form-field">
+                                    <label for="credit_card_cvv">CVV</label>
+                                    <input type="password" id="credit_card_cvv"
+                                           name="credit_card_cvv" value="672"
+                                           required pattern="\d{3}"
+                                           aria-label="3-digit CVV security code from back of card"
+                                           aria-required="true"
+                                           autocomplete="cc-csc">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><h3 class="payment-method-heading">Coupon Code</h3></legend>
+
+                            
+
+                            <div class="form-row">
+                                <div class="col cymbal-form-field">
+                                    <label for="coupon_code">Have a coupon? (optional)</label>
+                                    <input type="text"
+                                           id="coupon_code"
+                                           name="coupon_code"
+                                           placeholder="Enter coupon code"
+                                           maxlength="20"
+                                           value=""
+                                           aria-label="Optional coupon code"
+                                           aria-describedby="coupon-hint"
+                                           autocomplete="off"
+                                           style="text-transform:uppercase;">
+                                    <small id="coupon-hint"
+                                           style="color:#6c757d;font-size:0.82em;line-height:1.6;display:block;margin-top:4px;">
+                                        Available coupons:<br>
+                                        
+                                        <strong>SAVE10</strong> — Save €10 off orders above €50<br>
+                                        
+                                        <strong>SAVE50</strong> — Save €50 off orders above €200<br>
+                                        
+                                        <strong>SAVE100</strong> — Save €100 off orders above €400<br>
+                                        
+                                    </small>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-row justify-content-center">
+                            <div class="col text-center">
+                                <button class="cymbal-button-primary"
+                                        type="submit"
+                                        aria-label="Place your order and proceed to payment">
+                                    Place Order
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        
+
+    </main>
+
+    
+        
+<section class="recommendations" aria-label="Recommended products section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 offset-xl-1">
+
+                <h2 id="recommendations-heading">You May Also Like</h2>
+
+                <ul class="row" aria-labelledby="recommendations-heading"
+                    style="list-style:none;padding:0;margin:0;">
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Candle Holder">
+                        <div>
+                            <a href="/product/0PUK6V6EV0"
+                               aria-label="View recommended product: Candle Holder">
+                                <img src="/static/img/products/candle-holder.jpg"
+                                     alt="Product image of Candle Holder" />
+                            </a>
+                            <div>
+                                <h5>Candle Holder</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Mug">
+                        <div>
+                            <a href="/product/6E92ZMYYFZ"
+                               aria-label="View recommended product: Mug">
+                                <img src="/static/img/products/mug.jpg"
+                                     alt="Product image of Mug" />
+                            </a>
+                            <div>
+                                <h5>Mug</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Salt &amp; Pepper Shakers">
+                        <div>
+                            <a href="/product/LS4PSXUNUM"
+                               aria-label="View recommended product: Salt &amp; Pepper Shakers">
+                                <img src="/static/img/products/salt-and-pepper-shakers.jpg"
+                                     alt="Product image of Salt &amp; Pepper Shakers" />
+                            </a>
+                            <div>
+                                <h5>Salt &amp; Pepper Shakers</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="col-md-3" aria-label="Recommended product: Tank Top">
+                        <div>
+                            <a href="/product/66VCHSJNUP"
+                               aria-label="View recommended product: Tank Top">
+                                <img src="/static/img/products/tank-top.jpg"
+                                     alt="Product image of Tank Top" />
+                            </a>
+                            <div>
+                                <h5>Tank Top</h5>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+    
+
+<footer class="py-5" role="contentinfo" aria-label="Site footer">
+    <div class="footer-top">
+        <div class="container footer-social">
+            <p class="footer-text" aria-label="Disclaimer: demo website only">
+                This website is hosted for demo purposes only. It is not an actual shop. This is not a Google product.
+            </p>
+            <p class="footer-text">
+                © 2020-2026 Google LLC
+                (<a href="https://github.com/GoogleCloudPlatform/microservices-demo"
+                    aria-label="View source code on GitHub"
+                    target="_blank"
+                    rel="noopener noreferrer">Source Code</a>)
+            </p>
+            <p class="footer-text">
+                <small aria-label="Session and request debug information">
+                    session-id: 31af75e8-fe54-437c-9c42-3ef16cc466a7 — 
+                    request-id: 0940ad10-e3c0-4d0e-9218-353db499758a
+                </small>
+                <br/>
+                <small aria-label="Deployment details">
+                    
+                    Deployment details are still loading. Try refreshing this page.
+                    
+                </small>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous">
+</script>
+</body>
+</html>
+

@@ -1,0 +1,99 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist_visible
+   errorMsg: Username field is not visible on the login page
+   target: main
+   locators:
+      xpath: //*[@placeholder='Username']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@placeholder='Username']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - openHttps101060824444UnifiedDashboardLogin
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist_visible
+   errorMsg: Password field is not visible on the login page
+   target: main
+   locators:
+      xpath: //*[@placeholder='Password']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@placeholder='Password']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - openHttps101060824444UnifiedDashboardLogin
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: //i[contains(concat(' ', normalize-space(@class), ' '), ' icons8-error
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' icons8 ')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //i[contains(concat(' ', normalize-space(@class), ' '), ' icons8-error
+         ') and contains(concat(' ', normalize-space(@class), ' '), ' icons8 ')]
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - submitLoginForm
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - submitLoginForm
+   rhs:
+      type: text
+      value: Cavisson

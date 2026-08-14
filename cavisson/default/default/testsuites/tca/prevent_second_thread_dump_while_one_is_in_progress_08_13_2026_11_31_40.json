@@ -1,0 +1,35 @@
+{
+  "name" : "prevent_second_thread_dump_while_one_is_in_progress_08_13_2026_11_31_40",
+  "testcases" : [ {
+    "name" : "default/default/block_second_thread_dump_while_first_capture_is_in_progress",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/verify_no_duplicate_thread_dump_entry_after_blocked_retry",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "Test Suite generated on 08_13_2026_11_31_45",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

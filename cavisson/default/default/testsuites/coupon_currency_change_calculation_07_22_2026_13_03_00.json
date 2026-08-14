@@ -1,0 +1,31 @@
+{
+  "name" : "coupon_currency_change_calculation_07_22_2026_13_03_00",
+  "testcases" : [ {
+    "name" : "default/default/apply_first_coupon_and_prevent_second_coupon_same_order",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "Verify that on the Cart page for an eligible order, the system applies the first valid coupon code, recalculates the cart totals, rejects a second coupon code on the same order, and keeps the original applied coupon and discount unchanged.",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

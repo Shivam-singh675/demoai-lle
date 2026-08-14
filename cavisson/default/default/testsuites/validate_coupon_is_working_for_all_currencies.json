@@ -1,0 +1,67 @@
+{
+  "name" : "validate_coupon_is_working_for_all_currencies",
+  "testcases" : [ {
+    "name" : "default/default/apply_eligible_coupon_after_currency_change_and_verify_order_",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/reject_coupon_when_cart_total_does_not_meet_eligibility_after",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/apply_eligible_coupon_on_cart_page_when_subtotal_before_shipp",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/reject_coupon_on_cart_page_when_subtotal_before_shipping_does",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/auto_remove_coupon_when_cart_becomes_ineligible_happy_path",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/retain_coupon_when_cart_update_stays_eligible",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/reject_unsupported_coupon_code_on_cart_page",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/reject_coupon_below_minimum_order_amount",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/apply_valid_coupon_on_cart_and_verify_order_confirmation_init",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "default/default/reject_valid_coupon_when_minimum_order_amount_not_met",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "AI-generated regression suite — 10/10 testcases passed automation on 2026-07-29 07:23:58",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

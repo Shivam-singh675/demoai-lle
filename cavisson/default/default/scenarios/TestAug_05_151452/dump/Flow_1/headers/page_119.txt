@@ -1,0 +1,101 @@
+--Request 
+POST https://cloud3.zineone.com/c3/api/v1/originId?originId=a91bfb00-2015-49fb-9925-8463d125a32a&profileId=b18130f7-c32c-4684-b705-a5fced49d989
+Host: cloud3.zineone.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain
+apikey: cloud3@f259e6b6-692e-4da3-a5c9-d4abcdda5b5fZ11777582274462901317
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {}
+--Response 
+HTTP/1.1 200
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: DENY
+content-security-policy: default-src 'self';
+cache-control: no-store
+pragma: no-cache
+content-type: text/plain;charset=utf-8
+access-control-allow-origin: *
+access-control-allow-headers: apikey, accesstoken
+content-length: 0
+via: 1.1 google
+date: Wed, 05 Aug 2026 09:46:17 GMT
+alt-svc: h3=\":443\"; ma=2592000
+----
+--Request 
+GET https://trkn.us/pixel/conv/ppt=21080;g=landing_pages;gid=49355?_rnd=0.21098078816312094;ip=61.12.67.22;cuidchk=1
+Host: trkn.us
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 42
+Content-Type: image/gif
+Pragma: no-cache
+Date: Wed, 05 Aug 2026 09:46:17 GMT
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+P3P: CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"
+Set-Cookie: barometric[cuid]=cuid_6a730669-5e6a-4371-a72f-b44b46daaff4; expires=Thu, 05-Aug-2027 09:46:17 GMT; Max-Age=31536000; path=/; SameSite=None;  Secure; domain=.trkn.us;
+Expires: Sun, 9 Nov 1980 12:58:00 GMT
+Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+Set-Cookie: barometric[idfa]=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=None; Secure; domain=.trkn.us
+----
+--Request 
+GET https://s.pinimg.com/ct/lib/main.3c5b736e.js
+Host: s.pinimg.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+etag: \"f4946ed9547ed002e5e11a9d376e6f46\"
+x-amz-server-side-encryption: AES256
+cache-control: max-age=1209600
+content-encoding: br
+accept-ranges: bytes
+content-type: application/javascript
+content-length: 29817
+akamai-request-bc: on
+server-timing: cdn;desc=\"akamai\", cdn-cache;desc=\"Hit\", cdn-edge-time;dur=0
+vary: Accept-Encoding, Origin
+x-cdn: akamai
+access-control-max-age: 86400
+access-control-expose-headers: X-CDN
+access-control-allow-methods: GET
+access-control-allow-origin: *
+akamai-grn: 0.4b4ad217.1785923168.cd46ab2b
+----
+

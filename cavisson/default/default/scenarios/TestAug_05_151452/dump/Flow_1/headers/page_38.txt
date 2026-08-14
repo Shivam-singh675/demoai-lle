@@ -1,0 +1,744 @@
+--Request 
+POST https://cloud3.zineone.com/c3/api/v1/originId?originId=9e300d34-d3c4-46ac-aef7-74c49fe16ac5&profileId=b18130f7-c32c-4684-b705-a5fced49d989
+Host: cloud3.zineone.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain
+apikey: cloud3@f259e6b6-692e-4da3-a5c9-d4abcdda5b5fZ11777582274462901317
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {}
+--Response 
+HTTP/1.1 200
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: DENY
+content-security-policy: default-src 'self';
+cache-control: no-store
+pragma: no-cache
+content-type: text/plain;charset=utf-8
+access-control-allow-origin: *
+access-control-allow-headers: apikey, accesstoken
+content-length: 0
+via: 1.1 google
+date: Wed, 05 Aug 2026 09:46:06 GMT
+alt-svc: h3=\":443\"; ma=2592000
+----
+--Request 
+GET https://sierra.chat/-/cdn/1ryKg6_jUh__CwYAHozGm_wnMbU.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=fYHnCGri3QXawRqB.VCH9QZ.VKyRl1CldnNcB.7Us5k-1785923167.0013275-1.0.1.1-zeawYmCiEatJw.SGTKkz23hir8ILKqFNH_t7LgWf0O.gUxoorT3UH_pHuALuA9ZZFmGX.R4n3FD7dfYN9HptCPNB1stxHI8Yqz_cJf3Hie_PISKsbSTRMnVtyNGdiNMQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc16c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/d5YlBEDJGN5D0KtFJNhao6-oXQ4.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=WoBwASl_abXiT60ovEaRacT6qKU6saLUXy8ort3kkYQ-1785923167.0023804-1.0.1.1-xIWkfa50108dOIl8ktbSSOHbtUo_mA7UNIhtmGkCb6V9zaXAuqr22ghZESsGAdhe4khQf4BdUr5B9MNLt7cwCipQVjK2TdtQdKrZ9zK6I5luiK1hdux9zRBEzTIuE3fp; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc1bc69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/qJ31DbE1i-CmsuHNdCXw5ujIgB8.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=.PqxFv4dY6e94YQMESvt.q1W3e1hL50uTdxr4O4pnDE-1785923167.0036056-1.0.1.1-YOHqSRT7HAdylpQGs8TAflukGZHwS8u.nmBQoFS4V9w5ZfrXCi6m8eAxTnng_vRnFcUDB4WUU5DtRIpgpq9qTkggvbX1ko_5Jm_mWZmus_K3b5kH4putMp7Fm2UGydtq; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc22c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/iNlO2fAGjwqMWKn8-EXRlVwXkfI.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=45f_2_wLCGy2AJkD2B0bljiJ.pB1zycaiSv.hYlyvDA-1785923167.0041447-1.0.1.1-PiR9VEEYHElSooDQpRrfA_H0sA4p.80m78PvY9JaKENlZrz78unBlC4m3GnjMuBj1GcQIA.MbRmtD9C4C.j0fwHsdz6u.xQv8MsthE4hYY9Ik0AkSz_OonpEtINzBX_T; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc26c69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/XgamTLmuiYUXbrHkrGHWrNL_VV0.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=4IIz67jLX4locRm86rPfCHgaNESA82COxM0Ewbp.Wn8-1785923167.0046124-1.0.1.1-hOcguHRg52i7bLGo2hVe_V1CYFhXLVv2PMKl8S2EQYbq87jAsbE7UP3lmPnWpYS8WVoou1jrUnTPPAYdc4vL.3aORJmkQDpXbXu3.EjXIvtP648tt9w.p0Gep_0RYKq1; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc2ac69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/vTdX1QjKeysMCr9tesws_OBh0S4.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=9jwpAYJVlyGvUuVRywcJHezXiZBTXb6q.StlP1VcQPc-1785923167.0049891-1.0.1.1-v6DWlAhYeJP2oYEDE0YexYvrYUJ8p77JuHxilDDSmft98x6srOyAPrXxDYSDnO7DkoE5m5ZXPZK7R.srHaDOPeiIE11uQUhEF4hBMzohZgGzI0WYifAWPdIfvm0AxqN.; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc2ec69f-MAA
+----
+--Request 
+GET https://sierra.chat/-/cdn/Dv4tu_7JDZOFiuSGzuyT2NXolXY.js
+Host: sierra.chat
+Origin: https://www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: https://sierra.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+cache-control: public, max-age=31536000, immutable
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-expose-headers: X-Sierra-Turn-ID
+referrer-policy: strict-origin
+set-cookie: __cf_bm=y9ohqmFO78u1_KGACLIj00xjURnY3VS5WNPRnYr5kj8-1785923167.006529-1.0.1.1-qVA4BQrQ6NgjIBHzbwXGYYMXAsHmhCbd0nwBZJ6al2chv4coPT0uGE8VY.F4t_tMFmZye6.w6myyE_ZhhjsJBBF_H1V7Wq6HEpfjndpyJmIIDQndO.m8UAJwh6w_NJfu; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:07 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264df71bc31c69f-MAA
+----
+--Request 
+GET https://trkn.us/pixel/conv/ppt=21080;g=landing_pages;gid=49355?_rnd=0.7487731510837361
+Host: trkn.us
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 302 Moved Temporarily
+Location: /pixel/conv/ppt=21080;g=landing_pages;gid=49355?_rnd=0.7487731510837361;ip=61.12.67.22;cuidchk=1
+Date: Wed, 05 Aug 2026 09:46:07 GMT
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+P3P: CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"
+Set-Cookie: barometric[cuid]=cuid_6a73065f-5e6a-4371-872f-b404ece55871; expires=Thu, 05-Aug-2027 09:46:07 GMT; Max-Age=31536000; path=/; SameSite=None;  Secure; domain=.trkn.us;
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+----
+--Request 
+GET https://c.amazon-adsystem.com/aat/amzn.js
+Host: c.amazon-adsystem.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+content-encoding: gzip
+last-modified: Thu, 23 Jul 2026 01:57:09 GMT
+x-amz-server-side-encryption: AES256
+x-amz-version-id: fi7EWg5jpqkaVIuKAGQLyktd63TGmUTx
+server: AmazonS3
+via: 1.1 4e3be423e38bfde196f648d739993dbc.cloudfront.net (CloudFront), 1.1 b40f9f97f365a32aebc156236fec9e1c.cloudfront.net (CloudFront)
+x-viewer-country: IN
+date: Wed, 05 Aug 2026 00:28:03 GMT
+etag: W/\"005d4c7c29159b1e767a701844d18d02\"
+vary: Accept-Encoding
+age: 33485
+access-control-allow-methods: GET, HEAD, OPTIONS
+access-control-allow-origin: *
+access-control-expose-headers: x-viewer-country
+x-amz-cf-pop: DEL51-P5
+x-amz-cf-pop: DEL51-P3
+x-cache: RefreshHit from cloudfront
+x-amz-cf-id: qpZCIcdTQRy2WB7YQQvewIu8cPB6ZWsBHMEw7mpytj4eZi4-qne8PQ==
+----
+--Request 
+GET https://www.googletagmanager.com/gtag/js?id=AW-16624272110&cx=c&gtm=4e6831
+Host: www.googletagmanager.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=UTF-8
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-headers: Cache-Control
+content-encoding: zstd
+vary: Accept-Encoding
+date: Wed, 05 Aug 2026 09:46:07 GMT
+expires: Wed, 05 Aug 2026 09:46:07 GMT
+cache-control: private, max-age=900
+last-modified: Wed, 05 Aug 2026 09:00:00 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: cross-origin
+server: Google Tag Manager
+content-length: 149770
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://analytics-sm.com/js/v1/beacon.js
+Host: analytics-sm.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript
+last-modified: Mon, 18 Nov 2019 20:56:58 GMT
+content-encoding: gzip
+server: AmazonS3
+date: Wed, 05 Aug 2026 09:41:13 GMT
+cache-control: max-age=600, no-transform, public
+etag: W/\"ab9f4a2518b1913f8a45b16f69d1c7a3\"
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 8bdc7841182c04dbd11d29828ca39c34.cloudfront.net (CloudFront)
+x-amz-cf-pop: TLV55-P3
+x-amz-cf-id: 4YTmM6cZAeKXaUM2fkdfp_XrbvMoRop5f1k2-N7aqtqmjdljLTmuJA==
+age: 304
+----
+--Request 
+GET https://js.adsrvr.org/up_loader.1.1.0.js
+Host: js.adsrvr.org
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Sun, 02 Aug 2026 12:07:03 GMT
+Server: AmazonS3
+x-amz-server-side-encryption: AES256
+Content-Encoding: gzip
+Date: Wed, 05 Aug 2026 07:53:12 GMT
+ETag: W/\"f69b7952630809d94e309043fa13c1a8\"
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 6c4627b4ac2c0d26f97aa4c03194996e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DEL51-P3
+X-Amz-Cf-Id: 3RmSneVfd8Qp7wO8SJemL1mrimwnpYQiYIrKcb8nvHzHU9Djd02MGg==
+Age: 52104
+----
+--Request 
+GET https://www.googletagmanager.com/gtag/js?id=AW-10837652692&cx=c&gtm=4e6831
+Host: www.googletagmanager.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=UTF-8
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-headers: Cache-Control
+content-encoding: zstd
+vary: Accept-Encoding
+date: Wed, 05 Aug 2026 09:46:07 GMT
+expires: Wed, 05 Aug 2026 09:46:07 GMT
+cache-control: private, max-age=900
+last-modified: Wed, 05 Aug 2026 09:00:00 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: cross-origin
+server: Google Tag Manager
+content-length: 159628
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://bat.bing.com/bat.js
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+cache-control: private,max-age=1800
+content-length: 15402
+content-type: application/javascript
+content-encoding: gzip
+last-modified: Thu, 26 Mar 2026 22:06:51 GMT
+accept-ranges: bytes
+etag: \"808fed96cbddc1:0\"
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cross-origin-resource-policy: cross-origin
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 5DEA6B85E4BC474D9A7567E83C4DFC27 Ref B: BOM01EDGE1612 Ref C: 2026-08-05T09:46:07Z
+date: Wed, 05 Aug 2026 09:46:06 GMT
+----
+--Request 
+GET https://www.redditstatic.com/ads/pixel.js
+Host: www.redditstatic.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+last-modified: Thu, 09 Jul 2026 19:14:17 GMT
+etag: \"b4ecc07dd794fb02bdf8addf06a01bd5\"
+x-amz-server-side-encryption: AES256
+cache-control: public, max-age=60
+content-encoding: gzip
+content-type: application/javascript
+via: 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Wed, 05 Aug 2026 09:46:07 GMT
+vary: Accept-Encoding,Origin
+x-reddit-ct: v=1,dn=FT,p=DEL,cs=HIT
+server: snooserv
+report-to: {\"group\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": true,  \"endpoints\": [{ \"url\": \"https://w3-reporting-nel.reddit.com/reports\" }]}, {\"group\": \"w3-reporting\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting.reddit.com/reports\" }]}, {\"group\": \"w3-reporting-csp\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting-csp.reddit.com/reports\" }]}
+nel: {\"report_to\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": false, \"success_fraction\": 0.02, \"failure_fraction\": 0.02}
+alt-svc: h3=\":443\";ma=2592000;persist=1,h3-29=\":443\";ma=2592000;persist=1,h3-27=\":443\";ma=2592000;persist=1
+content-length: 19754
+----
+--Request 
+GET https://servedby.flashtalking.com/container/19536;124481;13503;iframe/?ft_referrer=https%3A//www.directv.com/sports/college-sports/%3F~&ns=https%3A//www.directv.com/&cb=812124.5547688669
+Host: servedby.flashtalking.com
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Type: text/html
+Server: prod-xre-app4.bom11
+Content-Encoding: gzip
+Allow-Fenced-Frame-Automatic-Beacons: true
+Expires: Wed, 05 Aug 2026 09:46:07 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 05 Aug 2026 09:46:07 GMT
+Content-Length: 959
+Connection: keep-alive
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=86400
+----
+--Request 
+GET https://connect.facebook.net/en_US/fbevents.js
+Host: connect.facebook.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+vary: Accept-Encoding
+content-encoding: gzip
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: *
+reporting-endpoints: coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"
+report-to: {\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}
+content-security-policy-report-only: default-src *.facebook.com *.fbcdn.net *.facebook.net 'self' blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net blob: 'self' 'nonce-9tKyUAWN';style-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob: 'unsafe-inline';connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.fbcdn.net attachment.fbsbx.com *.cdninstagram.com blob: 'self' data: https://edge-chat.facebook.net https://edge-chat-latest.facebook.net wss://edge-chat-latest.facebook.net wss://edge-chat.facebook.net wss://edge-chat.socialplugin.facebook.net wss://edge-chat-latest.socialplugin.facebook.net https://edge-chat.socialplugin.facebook.net https://edge-chat-latest.socialplugin.facebook.net;font-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;img-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;media-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;child-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;frame-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;manifest-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;object-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;worker-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;report-uri https://www.facebook.com/csp/reporting/?m=tr_exp&minimize=0;
+content-security-policy: default-src *.facebook.com *.fbcdn.net *.facebook.net 'self' blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net blob: 'self' 'nonce-9tKyUAWN';style-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob: 'unsafe-inline';connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.fbcdn.net attachment.fbsbx.com *.cdninstagram.com blob: 'self' data: https://edge-chat.facebook.net https://edge-chat-latest.facebook.net wss://edge-chat-latest.facebook.net wss://edge-chat.facebook.net wss://edge-chat.socialplugin.facebook.net wss://edge-chat-latest.socialplugin.facebook.net https://edge-chat.socialplugin.facebook.net https://edge-chat-latest.socialplugin.facebook.net;font-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;img-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;media-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;child-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;frame-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;manifest-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;object-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;worker-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;
+x-frame-options: DENY
+document-policy: force-load-at-top
+document-policy: include-js-call-stacks-in-crash-reports
+permissions-policy: accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"
+cross-origin-resource-policy: cross-origin
+cross-origin-embedder-policy-report-only: require-corp;report-to=\"coep_report\"
+cross-origin-opener-policy: same-origin-allow-popups
+pragma: public
+cache-control: public, max-age=1200
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-content-type-options: nosniff
+x-xss-protection: 0
+origin-agent-cluster: ?1
+x-fb-optimizer: 0
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+x-fb-debug: WWIozjwKoq2ZA3wLR/0iRV5XHijnh7OO3ZadLxEhHO/5OlWzbIYlEAn4b0kjEsBCdQnv5xBb676auxs6T+IN4w==
+content-length: 106174
+date: Wed, 05 Aug 2026 09:46:07 GMT
+x-fb-connection-quality: EXCELLENT; q=0.9, rtt=13, rtx=0, c=14, mss=1392, tbw=4620, tp=-1, tpl=-1, uplat=3, ullat=-1
+alt-svc: h3=\":443\"; ma=86400
+----
+--Request 
+GET https://servedby.flashtalking.com/container/25776;130445;14358;iframe/?ft_referrer=https%3A//www.directv.com/sports/college-sports/%3F~&ns=https%3A//www.directv.com/&cb=191625.68931923062
+Host: servedby.flashtalking.com
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Type: text/html
+Server: prod-xre-app11.bom11
+Content-Encoding: gzip
+Allow-Fenced-Frame-Automatic-Beacons: true
+Expires: Wed, 05 Aug 2026 09:46:07 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 05 Aug 2026 09:46:07 GMT
+Content-Length: 1079
+Connection: keep-alive
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=86400
+----
+--Request 
+GET https://www.directv.com/tag_path/profile/visit/js/1_0?dtm_cid=82607&dtm_cmagic=ec8194&dtm_fid=101&dtmc_tms=1&dtm_promo_id=1&cachebuster=4249273992070144&dtmc_loc=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F
+Host: www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://www.directv.com/sports/college-sports/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: pageSessionId=c048471a-e460-4ca7-8c61-d2fcff2607b5; QUARK=FALSE; CIP=61.12.67.22; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; DCPAPP=upperfunnel; Sierramigration=true; currentZipcode=75001; _gcl_au=1.1.1143583505.1785923160; optimizelyEndUserId=oeu1785923160264r0.7155237830759648; optimizelySession=1785923160295; _ga=GA1.1.573265066.1785923160; FPID=FPID2.2.s00py4CpvE1r0JRcykbSXjkoUOaePf%2FYzml48Wf6G7Y%3D.1785923160; FPLC=i3RVi4lfhHDngzq4192ZwQw%2FBHM702IqDEui35C9l%2FmhNj7BHdi2Mz4rfu8qgHZ%2FEy%2BouH6VTV2%2BmoC8yKCEZBEHhekVL8jH0ptHlyspsNSOLJy29OT2rizrMWujTA%3D%3D; FPGSID=1.1785923160.1785923160.G-LEXYQWQ1NF.WjVHCjiCNikZ1GfAAFzjbA; utag_main__sn=1; utag_main_ses_id=1785923163000%3Bexp-session; dtvprodpersisted=_83102abd194c48238c420d73eeb3c10aab4cec684176481f8caa6bb868f042f8_b3b1de73465240c2a510de9bdddb9f8b_1785923163171_9007199255772889_1785923163171_1_cade18db640e48eb8dbee93e1600898e; akaas_DCPLIVE=1788515164~rv=54~id=c9d1509c8130f7dd359e1e8f5fea343c~rn=100%25%20Sierramigration%20uf; bm_mi=A59A357BB40381D851F768D111DFC955~YAAQ3ewsF4VsGKWfAQAAc9lQ0QAoFB8NRsPVkiNOvB57iiHpaqBouqUc/zqiZO6lleVCywHZhUjlEvxjK+ZqK68RUd8yameagiXyRKhZpKfAenhkDZZ9QBK9bKgX/0s8g00k8OfLdjOaLYOP7qRa4qZ9X3dp/LHTS8jvNzDzZj8B538A3Olb8qFeFnUn7CVa1Is6A6ANK1ljFmPM/+m1pKR2vuOMhwNe1uiKZo5n56FOcMhhhdsERH9pqZkcIMYuF/47altLxgy9FBAlJDSXI8Xk7HJ3Yozh1XzMQHQDD22JsqOOxNnoyBQESCJ1IkOShES2IPeGeoObqOUW6VcmtoH+kzcPkW79kqCJ~1; bm_sz=85E85E8CFC5E455C10C4164E83445261~YAAQ3ewsF4dsGKWfAQAAc9lQ0QD3RQgnlAtE4BPLWHWjkpBe9ARi9yTWKlPJHr/35v49uvA8GYHZQiFk+9uC8ZTEpUXK4pAdbzI7o2wg4C5fcZ9PzvqL4fA9M0pcmC89AkeadZnFa6AfUmmRhNObE1xLSMFIADsyAe/GyVIfBIQx2UM0JXUadwZlukzJLZMl7ZeDVMptdv6Si50GhNZSf85dOI0+/ieja9gLttQwHybzpoh6Lb+J4puAiYBK0oG0tS/B9kW1UuMyWJggGxvlDF+akth3VnRFeoU2irTDTPcPlkIlTJGFYpAiLMHjGW61u5L9X71BIucif3hVMaWYEQ1pY1+p9LOGf2t1qKIw6CK+N30pZAfrVQ0EYQ2q45aB/YCnJ9vJT6biEKhdYtbKFffkJKPH/lNQ9P4=~3622451~3621446; utag_main__ss=0%3Bexp-session; userVisitCount=3; user_id=GA1.1.573265066.1785923160; utag_main__pn=2%3Bexp-session; utag_main__se=4%3Bexp-session; utag_main__st=1785924966117%3Bexp-session; _ga_LEXYQWQ1NF=GS2.1.s1785923160$o1$g1$t1785923166$j54$l0$h666784750; ak_bmsc=AF85E6A1B421A7C2D308A44A45ABBD94~000000000000000000000000000000~YAAQ3ewsF5VsGKWfAQAAAuBQ0QDIREQH7zRjVcKnKFn+D/ifLf8blTB8xfVSaKzZtvnwUirZQYwMQDx5QYrNKn4muOrOGADn8zidHLtC8RekklWLPNpKrQ7mRWlUpRl3hybBYHo3TZrtHu7O0gwAm0ng3KxHIJ0DL5kRoFo7KOhEDf5z1/08Rgfz6z0qWdA/DsBn0OdbpEGmqHVr+q4PlDK3La9pOLylZutxTWfAW+6xqcxLS7wsUUJC86p9HNr+sI61jy0DNF+XNAI68Q9zSbIbJC9vCvuS2VZ5CL9DPoj/oJYpOBhwVSTlyUhGOW5KTRLc2qx9GiNrekrnhkHgXY+sgeuAIuPHFeImPoVWTt3shp6URp1BdlUCbKAZ9qgl/MHNsUy7IjMgzn721sEd68tkfjaUaqCs0vWRqplM3utiVuXRZr9ShaJ7SQZbn4RCJ/rWQux/ngnpmrub8hW8AlZt9FNO+OkWpBHcfOiUdFqJh3zwWPzSB9dk657+xu8b0auWyU3GyE26iP04; ab.storage.userId.795e2050-a249-4266-b25b-b6882659271a=g%3A573265066.1785923160%7Ce%3Aundefined%7Cc%3A1785923166349%7Cl%3A1785923166351; ab.storage.deviceId.795e2050-a249-4266-b25b-b6882659271a=g%3Aa724d15a-5361-4f71-9188-f666359f7f75%7Ce%3Aundefined%7Cc%3A1785923166353%7Cl%3A1785923166353; ab.storage.sessionId.795e2050-a249-4266-b25b-b6882659271a=g%3A57a5e2d2-91bd-43f6-a928-c24566661c92%7Ce%3A1785924966359%7Cc%3A1785923166350%7Cl%3A1785923166359; dtvprodsession=9007199255772889_1785923166138_1785923163171_5185_cade18db640e48eb8dbee93e1600898e; invoca_session=%7B%22ttl%22%3A%222026-09-04T09%3A46%3A06.688Z%22%2C%22session%22%3A%7B%22invoca_id%22%3A%22i-58d5d2bd-b007-41f3-8554-0521e0f98980%22%2C%22returnVisitorFlag%22%3A%22No%22%7D%2C%22config%22%3A%7B%22ce%22%3Atrue%2C%22fv%22%3Afalse%2C%22rn%22%3Afalse%7D%7D; _abck=E53B15511AE8027B6F3E5C08AABA9C31~-1~YAAQ3ewsF6BsGKWfAQAAkeJQ0RA6lsnaQUEdAdUKNj+IHKTMb8RKNCrhC9mFxU1ZJH3foLdAU/uuoD1O7RwJLapbHjxMsc6YR1GoqJsxsc/Bj5SH9PLEgFWcVXm+5BAjhTRPx5Mtkp7PEqixHXOfkvq3v8z3ZIAYdA3RWkVZVeZ8Z3zcCIYZhEoF3nRgH7Vgk3+F3RDaF70obiKqBzK3QkHIs32fnbKHNZnsOqaGyoFJhjg78xLo5Uawpj9aPxLnWGisKNJHuYwu34VRJ+iMLT8sgdApFRWncqc5uVQomO1ehOpq3/t7NqC2xyNIx0/TVZa/eBsCqyiyvEFt06WlMbkXVeTBx2A3O3bGPdqPUSq7jjSNw3/oWSoOaQu4S3YTcGOLAdGXVJEViu7bgf9jWO6jsFgAAZtpbfYyVTlfpnXSJCW+wJLKs+csr52TqJP+iFsQxhlRIUCPmJIDZ6NxVEtYUmaXfT9MYGN9HmHS9J1Eg7M6zxDr4qYShL9uvpd/rDG0TmkcxKZ4Wnu8tKnrr1ru1aD/Aqt4PowNBkLeUz11FvzFQCrQqiIAFREN+uduJgH43LLOVRu9MhvBXE1w76nS79cS5p6TrwOMpL8kzxaS9gATDY0tr9foq5f/~-1~-1~1785926759~AAQAAAAG%2f%2f%2f%2f%2f1ozn1HvhrLI4y%2f5lOhCgEZMtAwl+XdfmYGKDwQpoUn1DLqWUM8iYIdKY7xJjaJFExAkJrKJeG12raPmXDdxLAur6obsl+kagzs+~-1; AWSALB=hfAjAoVsq1jbmWtmybBylEQbVyNtf+5iTtd3vNL926OjJnu+wg3gZbzXn1VRUxddJ/BIoInkb+bGGua2Gbf5V00ZMp7vO7ASRcXL4gWzV7msiy2KJkrlJhtd8vuB; AWSALBCORS=hfAjAoVsq1jbmWtmybBylEQbVyNtf+5iTtd3vNL926OjJnu+wg3gZbzXn1VRUxddJ/BIoInkb+bGGua2Gbf5V00ZMp7vO7ASRcXL4gWzV7msiy2KJkrlJhtd8vuB; bm_sv=599E92A48522E90AD2A38081363180C6~YAAQ1uwsF29wn66fAQAAAuNQ0QCh3bjJht+pj3Z2gz9qebZxjSEeeqzlrfaMGV9Bi9c2mq2IBdswHbhwYUp11cyTnXeaPd0ZlKG4Rm7An9Vo6gKBsVCQd/OEHyFEHIv7yAq0kxGGkZk+tpGy172/mMK7grTOXalLr3kZdPseHZsDtOs36T32k1lvLE5j+MwbzF6JKGMkgt5Oz6O4vsFSE6qsBVVgyoBMoSa+c9X/2VN6FQpsuBEPbCJpau1QH2ImJZWEmTIZiYbo~1; _fbp=fb.1.1785923167203.448590667205825087.Bg
+----
+--Response 
+HTTP/1.1 200
+server: nginx
+content-type: application/javascript
+content-length: 19
+x-robots-tag: noindex, nofollow
+edge-cache-tag: www.directv.com-tag_path-profile
+expires: Wed, 05 Aug 2026 09:46:07 GMT
+cache-control: max-age=0, no-cache
+pragma: no-cache
+date: Wed, 05 Aug 2026 09:46:07 GMT
+set-cookie: QUARK=FALSE; path=/
+set-cookie: CIP=61.12.67.22; path=/
+set-cookie: AB_IDPROOT=new_idproot_20190410; expires=Thu, 06-Aug-2026 09:46:07 GMT; path=/; domain=.directv.com
+set-cookie: IDPROOT-TEST=AB-IDPROOT-New; path=/; domain=.directv.com
+akamai-request-bc: [a=23.44.236.221,b=320408529,c=g,n=IN_DL_NEWDELHI,o=20940],[c=c,n=IN_DL_NEWDELHI,o=20940],[a=197,c=o]
+x-dtvaka-origin: c82607.csd.dotomi.com
+dtv-environment: www.directv.com
+ab_idproot: new_idproot_20190410
+strict-transport-security: max-age=2628000
+x-dtvaka-grn: 0.ddec2c17.1785923167.13190bd1
+----
+--Request 
+GET https://s.pinimg.com/ct/core.js
+Host: s.pinimg.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+etag: \"059779785897e0907ed8883d300abc58\"
+x-amz-server-side-encryption: AES256
+cache-control: max-age=7200
+content-encoding: br
+accept-ranges: bytes
+content-type: application/javascript
+content-length: 1881
+alt-svc: h3=\":443\"; ma=600,h3-29=\":443\"; ma=600
+akamai-request-bc: on
+server-timing: cdn;desc=\"akamai\", cdn-cache;desc=\"Hit\", cdn-edge-time;dur=0
+vary: Accept-Encoding, Origin
+x-cdn: akamai
+access-control-max-age: 86400
+access-control-expose-headers: X-CDN
+access-control-allow-methods: GET
+access-control-allow-origin: *
+akamai-grn: 0.4b4ad217.1785923167.cd467451
+----
+--Request 
+GET https://trkn.us/pixel/conv/ppt=21080;g=landing_pages;gid=49355?_rnd=0.7487731510837361;ip=61.12.67.22;cuidchk=1
+Host: trkn.us
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200 OK
+Content-Length: 42
+Content-Type: image/gif
+Pragma: no-cache
+Date: Wed, 05 Aug 2026 09:46:07 GMT
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+P3P: CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"
+Set-Cookie: barometric[cuid]=cuid_6a73065f-5e6a-4371-b72f-b404f1b8d921; expires=Thu, 05-Aug-2027 09:46:07 GMT; Max-Age=31536000; path=/; SameSite=None;  Secure; domain=.trkn.us;
+Expires: Sun, 9 Nov 1980 12:58:00 GMT
+Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+Set-Cookie: barometric[idfa]=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=None; Secure; domain=.trkn.us
+----
+

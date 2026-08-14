@@ -1,0 +1,51 @@
+--Request 
+POST https://sierra.chat/-/api/graphql
+Host: sierra.chat
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"query":"query embedChatQuery(\n  $token: String!\n  $release: String\n  $enableContactCenter: Boolean\n  $userIdentityToken: String\n  $loadDemoConfig: Boolean = false\n  $windowId: String\n  $locale: String\n) {\n  embedBotByToken(token: $token, release: $release, fullscreen: false, enableContactCenter: $enableContactCenter, userIdentityToken: $userIdentityToken, windowId: $windowId, locale: $locale) {\n    __typename\n    ...embedChatFragment\n    ... on Node {\n      __isNode: __typename\n      id\n    }\n  }\n}\n\nfragment embedChatFragment on EmbedBotResult {\n  __isEmbedBotResult: __typename\n  ... on EmbedBot {\n    __typename\n    token\n    releaseHash\n    brand {\n      botName\n      chatStyle\n      logoSVG\n      sendButtonSVG\n      sendButtonDisabledSVG\n      greetingMessage\n      agentTransferWaitingMessage\n      agentTransferQueueSizeMessage\n      agentTransferQueueNextMessage\n      agentTransferEstimatedWaitMessage\n      agentTransferAverageWaitMessage\n      showAgentTransferWaitingMessage\n      agentTransferQueueNameMessage\n      agentJoinedMessage\n      agentLeftMessage\n      errorMessage\n      canRenderMessageImages\n      inactivityMessage\n      disclosure\n      inputPlaceholder\n      conversationEndedMessage\n      logoIncludesAgentName\n      dimensions {\n        width\n        height\n        maxHeight\n      }\n      voiceDisclosure\n      textStreamStyle {\n        delayMs\n        fadeIn\n      }\n      showTimestamps\n      showBotName\n      showAvatars\n      agentAvatarURL\n      messageLabelPlacement\n      textDirection\n      uiStrings\n      agentDisabledMessage\n      surveyPrompt\n      surveyNegativeFeedback\n      surveyNeutralFeedback\n      surveyPositiveFeedback\n    }\n    contactCenterConfig {\n      contactCenterEnabled\n      customerCanSendAfterAgentLeave\n    }\n    issueCategories {\n      id\n      label\n    }\n    embedConfig {\n      attachmentsStyle\n      textConfig {\n        enabledEvents\n        inactivityTimeoutSeconds\n        chatInputCharacterLimit\n        clientStartEventMaxFreezeMs\n        useLegacyClientEventSendBehavior\n      }\n    }\n    webBuildToken\n    webCSSToken\n    markdownLinksEnabled\n    additionalMarkdownLinkProtocols\n    turnstileSiteKey\n    windowId\n    windowToken\n    serverWindowPropagationEnabled\n    webKeyboardAvoidanceEnabled\n    embedDemoConfig @include(if: $loadDemoConfig) {\n      enabled\n      phoneNumber\n    }\n  }\n  ... on EmbedBotError {\n    __typename\n    message\n    code\n  }\n  ... on EmbedBotDisabled {\n    __typename\n    agentDisabledMessage\n  }\n}\n","variables":{"token":"4QpFj40BkclJ60wBkcnYOoWQDHuAyiA1DPD6MLm-wkY","windowId":"3c5fde82-1321-44e4-aac4-53de97467bf6"},"extensions":{"windowId":"3c5fde82-1321-44e4-aac4-53de97467bf6"}}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:19 GMT
+content-type: application/json
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+referrer-policy: strict-origin
+server-timing: api;dur=268
+set-cookie: __cf_bm=lFOS3ZyLzxqLDzOmXMSD9fVGqiVp.LRqK_OWDdQvcJ4-1785923179.4716163-1.0.1.1-CRE96cLMPbSscf8urOL8inj5KxRZsj3c1jxS6UBdOLTuMR1nBYdSkAmPDFJc49G0RQezTh9OA9JOgy8yO_yDQ_8CZWEVoBlp0s1TU0ySyBTBpEw0zozcntwypn9q8WvR; HttpOnly; SameSite=None; Secure; Path=/; Domain=sierra.chat; Expires=Wed, 05 Aug 2026 10:16:19 GMT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a264dfbfbdfec69f-MAA
+----
+--Request 
+GET https://cookiesync.us2.mparticle.com/v1/sync?esid=13431&MPID=8427438627078788923&ID=acdc2519-8970-4442-9133-2a2744917e4c&Key=us2-6e2266ef6b87e44a90069be92e0b1320&env=2
+Host: cookiesync.us2.mparticle.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 204
+date: Wed, 05 Aug 2026 09:46:20 GMT
+server: Kestrel
+----
+

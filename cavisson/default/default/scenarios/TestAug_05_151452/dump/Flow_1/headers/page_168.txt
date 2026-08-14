@@ -1,0 +1,33 @@
+--Request 
+POST https://apps.rokt-api.com/webevents/v3/JS/us2-6e2266ef6b87e44a90069be92e0b1320/events
+Host: apps.rokt-api.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=utf-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ 
+--Response 
+HTTP/1.1 202
+content-type: application/json
+server: Kestrel
+access-control-allow-origin: *
+content-encoding: gzip
+expires: Wed, 05 Aug 2026 09:46:29 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Wed, 05 Aug 2026 09:46:29 GMT
+vary: Accept-Encoding
+set-cookie: akaalb_Instance-1=~op=Prod_MP_Event:Prod-MP-Event|~rv=85~m=Prod-MP-Event:0|~os=141f223fa3e939d66e4926adb7c49b34~id=db28af49d9b158ec81948c0630f8187b; path=/; Secure; SameSite=None
+strict-transport-security: max-age=31536000; includeSubDomains
+----
+

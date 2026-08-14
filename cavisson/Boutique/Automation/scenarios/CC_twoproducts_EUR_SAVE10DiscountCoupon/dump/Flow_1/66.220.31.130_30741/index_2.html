@@ -1,0 +1,382 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Online Boutique
+    </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/cart.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/order.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles/bot.css">
+    
+    <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
+    
+</head>
+
+<body>
+    <header role="banner" aria-label="Site header">
+
+        
+
+        <nav class="navbar sub-navbar" role="navigation" aria-label="Main navigation">
+            <div class="container d-flex justify-content-between">
+
+                <a href="/"
+                   class="navbar-brand d-flex align-items-center"
+                   aria-label="Online Boutique - go to home page">
+                    
+                    <img src="/static/icons/Hipster_NavLogo.svg"
+                         alt="Online Boutique logo"
+                         class="top-left-logo" />
+                    
+                </a>
+
+                <div class="controls" role="group" aria-label="Site controls">
+
+                    
+                    <div class="h-controls">
+                        <div class="h-control">
+                            
+                            <span class="icon currency-icon" aria-hidden="true">
+                                €
+                            </span>
+                            <form method="POST"
+                                  class="controls-form"
+                                  action="/setCurrency"
+                                  id="currency_form"
+                                  aria-label="Currency selection form">
+                                <label for="currency_code" class="sr-only">Select currency</label>
+                                <select name="currency_code"
+                                        id="currency_code"
+                                        aria-label="Select display currency, currently EUR"
+                                        onchange="document.getElementById('currency_form').submit();">
+                                    
+                                    <option value="EUR" selected="selected">EUR</option>
+                                    
+                                    <option value="USD" >USD</option>
+                                    
+                                    <option value="JPY" >JPY</option>
+                                    
+                                    <option value="GBP" >GBP</option>
+                                    
+                                    <option value="TRY" >TRY</option>
+                                    
+                                    <option value="CAD" >CAD</option>
+                                    
+                                </select>
+                            </form>
+                            <img src="/static/icons/Hipster_DownArrow.svg"
+                                 alt=""
+                                 aria-hidden="true"
+                                 class="icon arrow" />
+                            
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    <a href="/cart"
+                       class="cart-link"
+                       aria-label="View shopping cart, cart is empty">
+                        <img src="/static/icons/Hipster_CartIcon.svg"
+                             alt="Shopping cart icon"
+                             class="logo"
+                             title="Cart" />
+                        
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+<div  class="local" >
+    <span class="platform-flag" aria-hidden="true">local</span>
+</div>
+
+<main role="main" class="home" aria-label="Home page, product listing">
+
+    
+    <div class="home-mobile-hero-banner d-lg-none"
+         role="img"
+         aria-label="Online Boutique hero banner image"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-12 col-lg-12 px-10-percent">
+
+                <section class="row hot-products-row px-xl-6" aria-label="Hot products section">
+
+                    <div class="col-12">
+                        <h3 id="hot-products-heading">Hot Products</h3>
+                    </div>
+
+                    <ul class="row w-100" aria-labelledby="hot-products-heading"
+                        style="list-style:none; padding:0; margin:0;">
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Sunglasses, price €17.68">
+                            <a href="/product/OLJCESPC7Z"
+                               aria-label="View details for Sunglasses, priced at €17.68">
+                                <img loading="lazy"
+                                     src="/static/img/products/sunglasses.jpg"
+                                     alt="Product image of Sunglasses" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Sunglasses</div>
+                                <div class="hot-product-card-price" aria-label="Price: €17.68">
+                                    €17.68
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Tank Top, price €16.79">
+                            <a href="/product/66VCHSJNUP"
+                               aria-label="View details for Tank Top, priced at €16.79">
+                                <img loading="lazy"
+                                     src="/static/img/products/tank-top.jpg"
+                                     alt="Product image of Tank Top" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Tank Top</div>
+                                <div class="hot-product-card-price" aria-label="Price: €16.79">
+                                    €16.79
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Watch, price €97.29">
+                            <a href="/product/1YMWWN1N4O"
+                               aria-label="View details for Watch, priced at €97.29">
+                                <img loading="lazy"
+                                     src="/static/img/products/watch.jpg"
+                                     alt="Product image of Watch" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Watch</div>
+                                <div class="hot-product-card-price" aria-label="Price: €97.29">
+                                    €97.29
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Loafers, price €79.60">
+                            <a href="/product/L9ECAV7KIM"
+                               aria-label="View details for Loafers, priced at €79.60">
+                                <img loading="lazy"
+                                     src="/static/img/products/loafers.jpg"
+                                     alt="Product image of Loafers" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Loafers</div>
+                                <div class="hot-product-card-price" aria-label="Price: €79.60">
+                                    €79.60
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Hairdryer, price €22.10">
+                            <a href="/product/2ZYFJ3GM2N"
+                               aria-label="View details for Hairdryer, priced at €22.10">
+                                <img loading="lazy"
+                                     src="/static/img/products/hairdryer.jpg"
+                                     alt="Product image of Hairdryer" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Hairdryer</div>
+                                <div class="hot-product-card-price" aria-label="Price: €22.10">
+                                    €22.10
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Candle Holder, price €16.79">
+                            <a href="/product/0PUK6V6EV0"
+                               aria-label="View details for Candle Holder, priced at €16.79">
+                                <img loading="lazy"
+                                     src="/static/img/products/candle-holder.jpg"
+                                     alt="Product image of Candle Holder" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Candle Holder</div>
+                                <div class="hot-product-card-price" aria-label="Price: €16.79">
+                                    €16.79
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Salt &amp; Pepper Shakers, price €16.35">
+                            <a href="/product/LS4PSXUNUM"
+                               aria-label="View details for Salt &amp; Pepper Shakers, priced at €16.35">
+                                <img loading="lazy"
+                                     src="/static/img/products/salt-and-pepper-shakers.jpg"
+                                     alt="Product image of Salt &amp; Pepper Shakers" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Salt &amp; Pepper Shakers</div>
+                                <div class="hot-product-card-price" aria-label="Price: €16.35">
+                                    €16.35
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Bamboo Glass Jar, price €2.20">
+                            <a href="/product/9SIQT8TOJO"
+                               aria-label="View details for Bamboo Glass Jar, priced at €2.20">
+                                <img loading="lazy"
+                                     src="/static/img/products/bamboo-glass-jar.jpg"
+                                     alt="Product image of Bamboo Glass Jar" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Bamboo Glass Jar</div>
+                                <div class="hot-product-card-price" aria-label="Price: €2.20">
+                                    €2.20
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="col-md-4 hot-product-card"
+                            aria-label="Product: Mug, price €7.95">
+                            <a href="/product/6E92ZMYYFZ"
+                               aria-label="View details for Mug, priced at €7.95">
+                                <img loading="lazy"
+                                     src="/static/img/products/mug.jpg"
+                                     alt="Product image of Mug" />
+                                <div class="hot-product-card-img-overlay" aria-hidden="true"></div>
+                            </a>
+                            <div>
+                                <div class="hot-product-card-name">Mug</div>
+                                <div class="hot-product-card-price" aria-label="Price: €7.95">
+                                    €7.95
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+
+                </section>
+
+                
+                <div class="row d-none d-lg-block home-desktop-footer-row">
+                    <div class="col-12 p-0">
+                        
+
+<footer class="py-5" role="contentinfo" aria-label="Site footer">
+    <div class="footer-top">
+        <div class="container footer-social">
+            <p class="footer-text" aria-label="Disclaimer: demo website only">
+                This website is hosted for demo purposes only. It is not an actual shop. This is not a Google product.
+            </p>
+            <p class="footer-text">
+                © 2020-2026 Google LLC
+                (<a href="https://github.com/GoogleCloudPlatform/microservices-demo"
+                    aria-label="View source code on GitHub"
+                    target="_blank"
+                    rel="noopener noreferrer">Source Code</a>)
+            </p>
+            <p class="footer-text">
+                <small aria-label="Session and request debug information">
+                    session-id: 31af75e8-fe54-437c-9c42-3ef16cc466a7 — 
+                    request-id: 9a871183-56e5-47de-9ffc-9887d9c3d834
+                </small>
+                <br/>
+                <small aria-label="Deployment details">
+                    
+                    Deployment details are still loading. Try refreshing this page.
+                    
+                </small>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous">
+</script>
+</body>
+</html>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<div class="d-lg-none">
+    
+
+<footer class="py-5" role="contentinfo" aria-label="Site footer">
+    <div class="footer-top">
+        <div class="container footer-social">
+            <p class="footer-text" aria-label="Disclaimer: demo website only">
+                This website is hosted for demo purposes only. It is not an actual shop. This is not a Google product.
+            </p>
+            <p class="footer-text">
+                © 2020-2026 Google LLC
+                (<a href="https://github.com/GoogleCloudPlatform/microservices-demo"
+                    aria-label="View source code on GitHub"
+                    target="_blank"
+                    rel="noopener noreferrer">Source Code</a>)
+            </p>
+            <p class="footer-text">
+                <small aria-label="Session and request debug information">
+                    session-id: 31af75e8-fe54-437c-9c42-3ef16cc466a7 — 
+                    request-id: 9a871183-56e5-47de-9ffc-9887d9c3d834
+                </small>
+                <br/>
+                <small aria-label="Deployment details">
+                    
+                    Deployment details are still loading. Try refreshing this page.
+                    
+                </small>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous">
+</script>
+</body>
+</html>
+
+</div>
+

@@ -1,0 +1,28 @@
+--Request 
+POST https://bat.bing.com/p/insights/c/y
+Host: bat.bing.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"e":["0.8.69",4,7163,2594,"g2y1lqb4cp","19ue5gt","1v8lqvo",2,1,1,0,"https://www.directv.com/packages/?dtvprodCd=5185-9845b5bd75c3479d9d65bffffd6b518b"],"a":[[6706,10,1,0,702,"","",1],[6727,10,1,0,711,"","",1],[6747,10,1,0,732,"","",1],[6766,10,1,0,774,"","",1],[6807,10,1,0,925,"","",1],[6786,10,1,0,925,"","",1],[6830,10,1,0,1007,"","",1],[6847,10,1,0,1078,"","",1],[6886,10,1,0,1171,"","",1],[6906,10,1,0,1190,"","",1],[6946,10,1,0,1200,"","",1],[7240,10,1,0,1230,"","",1],[7266,10,1,0,1321,"","",1],[7286,10,1,0,1449,"","",1],[7306,10,1,0,1565,"","",1],[7326,10,1,0,1648,"","",1],[7366,10,1,0,1700,"","",1],[7346,10,1,0,1700,"","",1],[9377,9,30,431,2445,12659,9063,0,1,0,"••••","https://www.directv.com/shop/build/configure/entertainment-package?flowType=streaming&intent=device","",1,0,264,47,"a","muibuttonbase-root muibutton-root muibutton-uxprim","plancard-signaturepackage",0],[9751,26,"pagehide",0],[7163,4,1,1882,7996,1882,980,0,700,0,0,0,5687,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[9757,0,2,382,4,4,25,22]]}
+--Response 
+HTTP/1.1 204
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+request-context: appId=cid-v1:a449a586-8786-487f-a449-dc1b282a2628
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 3B26D46AC50C4FE7870E464A9D4589EB Ref B: BOM01EDGE1612 Ref C: 2026-08-05T09:46:28Z
+date: Wed, 05 Aug 2026 09:46:27 GMT
+----
+

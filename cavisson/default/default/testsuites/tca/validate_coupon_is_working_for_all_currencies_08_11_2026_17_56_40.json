@@ -1,0 +1,31 @@
+{
+  "name" : "validate_coupon_is_working_for_all_currencies_08_11_2026_17_56_40",
+  "testcases" : [ {
+    "name" : "default/default/apply_save10_after_changing_currency_and_verify_cart_values_1",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "Anmol",
+  "description" : "Test Suite generated on 08_11_2026_17_58_05",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

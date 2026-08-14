@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "name": "Mittens",
+    "category": {
+        "id": 2,
+        "name": "Cats"
+    },
+    "photoUrls": [
+        "https://www.example.com/cat.jpg",
+        "https://www.example.com/cat2.jpg"
+    ],
+    "tags": [
+        {
+            "id": 2,
+            "name": "playful"
+        },
+        {
+            "id": 3,
+            "name": "indoor"
+        }
+    ],
+    "status": "pending"
+}

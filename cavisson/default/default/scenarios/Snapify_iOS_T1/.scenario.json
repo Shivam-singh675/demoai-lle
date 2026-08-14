@@ -1,0 +1,769 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/Snapify_iOS_T1"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Group_1": {
+      "parameters": {},
+      "assertions": [],
+      "flows": {
+        "Flow_1": {
+          "requests": [],
+          "order": 0,
+          "steps": [
+            {
+              "enable": true,
+              "stepName": "Home",
+              "label": "LaunchApp",
+              "type": "LaunchApp",
+              "tagName": "",
+              "value": "",
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//XCUIElementTypeStaticText[@name=\"Clothing\"]",
+                "class": "XCUIElementTypeStaticText"
+              },
+              "assertions": [
+                {
+                  "assertionName": "Home page loaded successfully",
+                  "assertionDesc": "",
+                  "assertOnType": "Element",
+                  "assertOnPropName": "Height",
+                  "assertOnCondition": "Equal",
+                  "assertionValue": "",
+                  "assertConditionEle": "EXIST",
+                  "locators": {
+                    "xpath": "//XCUIElementTypeStaticText[@name=\"Clothing\"]"
+                  },
+                  "failureVal": "",
+                  "failMessage": "Home page could not load successfully",
+                  "isHeroElement": true,
+                  "min": "0",
+                  "max": "0",
+                  "matchingPattern": "",
+                  "matchingIndex": "0",
+                  "tags": ""
+                }
+              ],
+              "snapshot": "",
+              "preSnapshot": "",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "appPackage": "com.cavisson.snapifyApp",
+              "bundleId": "",
+              "appActivity": "",
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "Category_PLP_0",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//XCUIElementTypeStaticText[@name=\"Clothing\"]",
+                "class": "XCUIElementTypeStaticText"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//XCUIElementTypeButton[@name=\"Electronics\"]",
+                "xpath1": "//*[@name='Electronics'][@label='Electronics']"
+              },
+              "assertions": [
+                {
+                  "assertionName": "Electronics category present on Category PLP Page",
+                  "assertionDesc": "",
+                  "assertOnType": "Element",
+                  "assertOnPropName": "Height",
+                  "assertOnCondition": "Equal",
+                  "assertionValue": "",
+                  "assertConditionEle": "EXIST",
+                  "locators": {
+                    "xpath": "//XCUIElementTypeButton[@name=\"Electronics\"]"
+                  },
+                  "failureVal": "",
+                  "failMessage": "Electronics category is not present on Category PLP Page",
+                  "isHeroElement": true,
+                  "min": "0",
+                  "max": "0",
+                  "matchingPattern": "",
+                  "matchingIndex": "0",
+                  "tags": ""
+                }
+              ],
+              "snapshot": "post_snapshot_1784888857359.png",
+              "preSnapshot": "pre_snapshot_1784888857359.png",
+              "pageSource": "source_1784888857359.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "Category_PLP1",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//XCUIElementTypeButton[@name=\"Electronics\"]",
+                "xpath1": "//*[@name='Electronics'][@label='Electronics']"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//XCUIElementTypeImage[@name=\"Wireless Headphones $199.99\"]",
+                "accessibilityId": "Wireless Headphones $199.99"
+              },
+              "assertions": [],
+              "snapshot": "post_snapshot_1784888908204.png",
+              "preSnapshot": "pre_snapshot_1784888908204.png",
+              "pageSource": "source_1784888908204.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "PDP",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//XCUIElementTypeImage[@name=\"Wireless Headphones $199.99\"]",
+                "accessibilityId": "Wireless Headphones $199.99"
+              },
+              "attributes": "",
+              "assertions": [],
+              "snapshot": "post_snapshot_1784888918217.png",
+              "preSnapshot": "pre_snapshot_1784888918217.png",
+              "pageSource": "source_1784888918217.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "Orders",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//XCUIElementTypeButton[@name=\"Orders Tab 4 of 5\"]",
+                "accessibilityId": "Orders Tab 4 of 5"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//XCUIElementTypeButton[@name=\"Home Tab 1 of 5\"]",
+                "accessibilityId": "Home Tab 1 of 5"
+              },
+              "assertions": [
+                {
+                  "assertionName": "Order Page loaded successfully",
+                  "assertionDesc": "",
+                  "assertOnType": "Element",
+                  "assertOnPropName": "Height",
+                  "assertOnCondition": "Equal",
+                  "assertionValue": "",
+                  "assertConditionEle": "EXIST",
+                  "locators": {
+                    "xpath": "//XCUIElementTypeButton[@name=\"Orders Tab 4 of 5\"]"
+                  },
+                  "failureVal": "",
+                  "failMessage": "Order Page loaded successfully",
+                  "isHeroElement": false,
+                  "min": "0",
+                  "max": "0",
+                  "matchingPattern": "",
+                  "matchingIndex": "0",
+                  "tags": ""
+                }
+              ],
+              "snapshot": "post_snapshot_1784889593222.png",
+              "preSnapshot": "pre_snapshot_1784889593222.png",
+              "pageSource": "source_1784889593222.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            },
+            {
+              "enable": true,
+              "stepName": "Home_0",
+              "label": "click",
+              "type": "click",
+              "tagName": "",
+              "value": "NA",
+              "locators": {
+                "xpath": "//XCUIElementTypeButton[@name=\"Home Tab 1 of 5\"]",
+                "accessibilityId": "Home Tab 1 of 5"
+              },
+              "attributes": "",
+              "heroElement": {
+                "xpath": "//XCUIElementTypeButton[@name=\"Home Tab 1 of 5\"]",
+                "accessibilityId": "Home Tab 1 of 5"
+              },
+              "assertions": [],
+              "snapshot": "post_snapshot_1784889612844.png",
+              "preSnapshot": "pre_snapshot_1784889612844.png",
+              "pageSource": "source_1784889612844.xml",
+              "subType": "",
+              "iframes": "",
+              "continueOnError": true,
+              "coordinates": {
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "screenWidth": 0,
+                "screenHeight": 0,
+                "duration": 0,
+                "isRelative": false
+              },
+              "tags": [],
+              "waitElementTimeout": 0,
+              "thinkTime": 0.0,
+              "tabIndex": 0,
+              "navigation": false,
+              "headers": "",
+              "realBrowserOptionData": "",
+              "imageFile": "",
+              "userAction": "change",
+              "elementType": "TEXT",
+              "ordinal": "",
+              "idClassStr": "",
+              "iframeXpathData": "",
+              "content": "",
+              "scrollX": 0.0,
+              "scrollY": 0.0,
+              "optional": false,
+              "steps": 0,
+              "id": "",
+              "eventType": "",
+              "description": "",
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "title": "",
+              "timeout": 0,
+              "direction": "up",
+              "distancePct": 0,
+              "preStep": {
+                "inline": ""
+              },
+              "postStep": {
+                "inline": ""
+              },
+              "condition": [],
+              "authCredentials": {
+                "username": "",
+                "password": ""
+              }
+            }
+          ],
+          "enable": true
+        }
+      },
+      "scriptType": "",
+      "scriptMode": "visual",
+      "type": "RDT_NATIVE",
+      "order": 0,
+      "genCapacity": 0,
+      "primaryOS": "ios",
+      "assertionsV2": [],
+      "runlogic": [],
+      "RDT_NATIVE": [
+        {
+          "appPackage": "com.cavisson.snapifyApp",
+          "proxyport": 0.0,
+          "os": "ios",
+          "os_version": "26",
+          "appId": "bs://e6db31e46b9cd329ce5646d459decc8cac7798c3",
+          "browser": "NA",
+          "browser_version": "NA",
+          "env": "cloud",
+          "deviceName": "iphone 14",
+          "profilingEnabled": "off",
+          "network": "4G"
+        }
+      ],
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_OVERRIDE_RECORDED_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "2",
+          "3000"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Start",
+          "START",
+          "IMMEDIATELY"
+        ],
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "RATE",
+          "120",
+          "M",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "0"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "IMMEDIATELY"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test_Snapify_iOS_T1"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "10",
+          "default/default/.Snapify_iOS_T1_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "G_RBU": {
+      "Group_1": [
+        [
+          "ALL",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        [
+          "os=ios,app=snapify"
+        ]
+      ]
+    }
+  },
+  "description": "",
+  "priority": "high",
+  "preTest": [],
+  "postTest": [],
+  "references": []
+}

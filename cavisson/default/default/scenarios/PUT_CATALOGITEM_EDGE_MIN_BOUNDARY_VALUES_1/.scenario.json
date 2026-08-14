@@ -1,0 +1,385 @@
+{
+  "id": "65ad8312-dddb-4a16-b5da-dd46a3b312a3",
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/PUT_CATALOGITEM_EDGE_MIN_BOUNDARY_VALUES_1"
+  },
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": "1"
+    }
+  ],
+  "scripts": {
+    "Group_1": {
+      "parameters": {
+        "json": [
+          {
+            "redirectionDepth": "Last",
+            "idxVal": "1",
+            "RetainPreValue": ", RETAINPREVALUE=\"YES\"",
+            "tempOrdValue": ", ORD=1",
+            "parameter-name": "dynamic_id",
+            "oRDName": "index",
+            "label": "PAGE=index",
+            "actionOnNotFound": "",
+            "convertValue": "",
+            "saveoffSet": "0",
+            "encodeMode": "None",
+            "saveLength": "0",
+            "lbValue": "catalogItem.id",
+            "regStrLine": "nsl_json_var(dynamic_id, PAGE=index, OBJECT_PATH=\"root.catalogItem.id\", ORD=1, SaveOffset=0, RETAINPREVALUE=\"YES\", EncodeMode=All);"
+          }
+        ],
+        "scratch": [
+          {
+            "parameter-name": "BASE_URL",
+            "defaultValue": "http://localhost:8080",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(BASE_URL,DefaultValue=\"http://localhost:8080\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_name",
+            "defaultValue": "dynamic_post_name",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_post_name,DefaultValue=\"dynamic_post_name\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_description",
+            "defaultValue": "dynamic_post_description",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_post_description,DefaultValue=\"dynamic_post_description\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_price",
+            "defaultValue": "dynamic_post_price",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_post_price,DefaultValue=\"dynamic_post_price\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_pictureUri",
+            "defaultValue": "dynamic_post_pictureUri",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_post_pictureUri,DefaultValue=\"dynamic_post_pictureUri\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_catalogTypeId",
+            "defaultValue": "dynamic_post_catalogTypeId",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_post_catalogTypeId,DefaultValue=\"dynamic_post_catalogTypeId\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_post_catalogBrandId",
+            "defaultValue": "dynamic_post_catalogBrandId",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_post_catalogBrandId,DefaultValue=\"dynamic_post_catalogBrandId\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_id",
+            "defaultValue": "dynamic_id",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_id,DefaultValue=\"dynamic_id\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_put_name",
+            "defaultValue": "dynamic_put_name",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_put_name,DefaultValue=\"dynamic_put_name\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_put_description",
+            "defaultValue": "dynamic_put_description",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_put_description,DefaultValue=\"dynamic_put_description\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_put_price",
+            "defaultValue": "dynamic_put_price",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_put_price,DefaultValue=\"dynamic_put_price\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_put_catalogTypeId",
+            "defaultValue": "dynamic_put_catalogTypeId",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_put_catalogTypeId,DefaultValue=\"dynamic_put_catalogTypeId\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "dynamic_put_catalogBrandId",
+            "defaultValue": "dynamic_put_catalogBrandId",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(dynamic_put_catalogBrandId,DefaultValue=\"dynamic_put_catalogBrandId\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "assertions": [],
+      "flows": {
+        "Flow_1": {
+          "requests": [
+            {
+              "url": "{BASE_URL}/api/catalog-items",
+              "label": "index",
+              "method": "POST",
+              "headers": {
+                "Authorization": "{dynamic_post_authorization}",
+                "Content-Type": "application/json"
+              },
+              "body": "{\"name\":\"{dynamic_post_name}\",\"description\":\"{dynamic_post_description}\",\"price\":\"{dynamic_post_price}\",\"pictureUri\":\"{dynamic_post_pictureUri}\",\"catalogTypeId\":\"{dynamic_post_catalogTypeId}\",\"catalogBrandId\":\"{dynamic_post_catalogBrandId}\"}",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {},
+              "postResponse": {},
+              "condition": []
+            },
+            {
+              "url": "{BASE_URL}/api/catalog-items",
+              "label": "index1",
+              "method": "PUT",
+              "headers": {
+                "Authorization": "{dynamic_post_authorization}",
+                "Content-Type": "application/json"
+              },
+              "body": "{\"id\":\"{dynamic_id}\",\"name\":\"{dynamic_put_name}\",\"description\":\"{dynamic_put_description}\",\"price\":\"{dynamic_put_price}\",\"pictureUri\":null,\"catalogTypeId\":\"{dynamic_put_catalogTypeId}\",\"catalogBrandId\":\"{dynamic_put_catalogBrandId}\",\"pictureBase64\":null,\"pictureName\":null}",
+              "thinkTime": "",
+              "inlineRequests": [],
+              "repeatInline": "",
+              "enable": true,
+              "preRequest": {},
+              "postResponse": {},
+              "condition": []
+            }
+          ],
+          "headers": {},
+          "order": 0,
+          "steps": [],
+          "enable": true
+        }
+      },
+      "scriptType": "",
+      "scriptMode": "visual",
+      "type": "API",
+      "order": 0,
+      "genCapacity": 0,
+      "assertionsV2": [
+        {
+          "inlineURLPattern": ".*",
+          "operator": "match_regex",
+          "errorMsg": "POST setup status code validation failed",
+          "target": "main",
+          "locators": {},
+          "assertOnErrorCodes": "all",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "statuscode",
+            "includeDNSTime": false
+          },
+          "page": [
+            "index"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "^2[0-9]{2}$"
+          }
+        },
+        {
+          "inlineURLPattern": ".*",
+          "operator": "match_regex",
+          "errorMsg": "PUT edge status code validation failed",
+          "target": "main",
+          "locators": {},
+          "assertOnErrorCodes": "all",
+          "actionOnFail": "CONTINUE",
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "",
+            "function": "",
+            "subType": "",
+            "type": "statuscode",
+            "includeDNSTime": false
+          },
+          "page": [
+            "index1"
+          ],
+          "rhs": {
+            "type": "text",
+            "value": "^2[0-9]{2}$"
+          }
+        }
+      ],
+      "runlogic": [],
+      "RDT_NATIVE": [],
+      "rumsid": "",
+      "state": "MANUAL",
+      "recordingProfile": "default.prof"
+    }
+  },
+  "scenario": {
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.PUT_CATALOGITEM_EDGE_MIN_BOUNDARY_VALUES_1_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "4",
+          "1",
+          "2",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    }
+  },
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": []
+}

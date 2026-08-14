@@ -1,0 +1,66 @@
+--Request 
+POST https://pnapi.invoca.net/2074/na.json
+Host: pnapi.invoca.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"network_id":2074,"js_version":"4.43.0","tag_revision":"live","tag_id":"2074/0288648893","request_data_shared_params":"{\"_ga\":\"GA1.1.573265066.1785923160\",\"calling_page\":\"www.directv.com/sports/college-sports/\",\"current_zip_code\":\"75001\",\"fullPageURL\":\"www.directv.com/sports/college-sports/\",\"landing_page\":\"https://www.directv.com/sports/college-sports/\",\"optimizelyEndUserId\":\"oeu1785923160264r0.7155237830759648\",\"p\":\"/sports/college-sports/\",\"g_cid\":\"573265066.1785923160\",\"ga_measurement_id\":\"G-LEXYQWQ1NF\",\"ga_session_id\":\"1785923160\",\"returnVisitorFlag\":\"No\",\"gcm_uid\":null,\"utm_medium\":null,\"utm_source\":null,\"invoca_id\":\"i-58d5d2bd-b007-41f3-8554-0521e0f98980\"}","client_messages":"{}","client_info":"{\"url\":\"https://www.directv.com/sports/college-sports/\",\"referrer\":\"https://www.directv.com/\",\"cores\":8,\"platform\":\"Linux x86_64\",\"screenWidth\":1897,\"screenHeight\":1108,\"language\":\"en-US\"}","request_data":"[{\"request_id\":\"+18553836121\",\"advertiser_campaign_id_from_network\":\"directv_default\",\"params\":{\"invoca_detected_destination\":\"+18553836121\"}},{\"request_id\":\"+18005315000\",\"advertiser_campaign_id_from_network\":\"service_default\",\"params\":{\"invoca_detected_destination\":\"+18005315000\"}}]","destination_settings":"{\"paramName\":\"invoca_detected_destination\"}","metrics":"[[\"beaconSupported\",\"counter\"]]"}
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:07 GMT
+content-type: text/html;charset=utf-8
+processing_time: 67.59759ms
+vary: Origin
+vary: accept-encoding
+content-encoding: gzip
+----
+--Request 
+GET https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BRANDID=dtvresearch
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/javascript
+access-control-allow-origin: *
+timing-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+edge-control: max-age=604800
+cache-control: public, max-age=604800, s-maxage=604800
+age: 561747
+last-modified: Tue, 28 Jul 2026 18:31:13 GMT
+etag: W/\"1bf41-19fa9fec168\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+content-security-policy-report-only: frame-ancestors 'self' *.qualtrics.com *.my.salesforce.com *.visualforce.com *.visual.force.com *.lightning.force.com; report-uri https://sjc1.qualtrics.com/csp-report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df6fcb3891a9-DEL
+----
+

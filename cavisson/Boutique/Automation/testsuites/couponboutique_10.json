@@ -1,0 +1,67 @@
+{
+  "name" : "couponboutique_10",
+  "testcases" : [ {
+    "name" : "Boutique/Automation/CC_USD_SAVE10_Coupon",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_USD_SAV10_Coupon",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_Test_applied_currency_changetoEUR",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_twoproducts_EUR_SAVE10DiscountCoupon",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_Empty_cart",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_Multiple_product_cart",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_Homepage_Images_Visible",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_Cart_onHome_cart_page",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_CouponBelowMinimumOrder",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  }, {
+    "name" : "Boutique/Automation/CC_AutoAppliedDiscountCoupon_CartCheckoutMismatch",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "",
+  "run_config" : {
+    "concurrency" : 1
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : "",
+    "cc" : null,
+    "bcc" : null,
+    "body" : "",
+    "subject" : "Testsuite $TESTSUITE_NAME is completed  with status  $STATUS",
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ ],
+  "operationTypeList" : null,
+  "testProfile" : ""
+}

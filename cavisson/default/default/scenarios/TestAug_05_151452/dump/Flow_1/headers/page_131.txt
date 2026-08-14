@@ -1,0 +1,35 @@
+--Request 
+POST https://apps.rokt-api.com/identity/v1/identify
+Host: apps.rokt-api.com
+x-mp-key: us2-6e2266ef6b87e44a90069be92e0b1320
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/plain;charset=UTF-8
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+ {"client_sdk":{"platform":"web","sdk_vendor":"mparticle","sdk_version":"2.75.1"},"context":null,"environment":"production","request_id":"9b6630fa-14f6-45f2-84b6-39ebef6be20c","request_timestamp_ms":1785923178322,"previous_mpid":null,"known_identities":{"device_application_stamp":"9ebc8278-0629-4e16-75be-fa3e26627f3c"}}
+--Response 
+HTTP/1.1 200
+content-type: application/json; charset=utf-8
+server: Kestrel
+access-control-expose-headers: X-MP-Max-Age
+content-encoding: gzip
+x-mp-max-age: 86400
+expires: Wed, 05 Aug 2026 09:46:19 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Wed, 05 Aug 2026 09:46:19 GMT
+content-length: 165
+vary: Accept-Encoding
+set-cookie: akaalb_Instance-1=~op=Prod_MP_Identity:Prod-MP-Identity|~rv=22~m=Prod-MP-Identity:0|~os=141f223fa3e939d66e4926adb7c49b34~id=4fb338cf1cd8f68e87cff4802d232e46; path=/; Secure; SameSite=None
+strict-transport-security: max-age=31536000; includeSubDomains
+----
+

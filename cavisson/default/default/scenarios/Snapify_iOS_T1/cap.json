@@ -1,0 +1,12 @@
+{
+  "appium:browserstack.acceptInsecureCerts": true,
+  "appium:browserstack.local": false,
+  "appium:autoAcceptAlerts": true,
+  "appium:browserstack.networkLogs": true,
+  "appium:build": "RDT Recording",
+  "appium:autoGrantPermissions": true,
+  "platformName": "ios",
+  "appium:deviceName": "iphone 14",
+  "appium:os_version": "26",
+  "appium:app": "bs://e6db31e46b9cd329ce5646d459decc8cac7798c3"
+}

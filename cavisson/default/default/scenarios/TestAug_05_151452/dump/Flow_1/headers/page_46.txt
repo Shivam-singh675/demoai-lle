@@ -1,0 +1,222 @@
+--Request 
+GET https://pixel-config.reddit.com/pixels/t2_5iplaapd/config
+Host: pixel-config.reddit.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+access-control-allow-origin: *
+cache-control: max-age=14400
+content-encoding: gzip
+content-type: application/json
+accept-ranges: bytes
+date: Wed, 05 Aug 2026 09:46:07 GMT
+via: 1.1 varnish
+x-reddit-ct: v=1,dn=FT,p=DEL,cs=HIT,rb=9ca812731334dc8ddaacf7ecb3838958d87dbfc028827bd75e1a2d6d2c3e
+server: snooserv
+content-length: 56
+----
+--Request 
+GET https://alb.reddit.com/rp.gif?ts=1785923167711&id=t2_5iplaapd&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.customEventName=&m.products=&m.conversionId=&uuid=a6d5b647-c78c-403f-98cc-752458aec5f6&aaid=&external_id=&idfa=&integration=reddit&partner=TEALIUM&partner_version=&opt_out=0&sh=1897&sw=1108&v=rdt_b6dc0919&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&db=tsc-0.isc-0.pp-0.fetch-1.mo-1.iframe-0.ww-0.qsa-1.srv_cfg-0.src_pid-0
+Host: alb.reddit.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+server: Varnish
+retry-after: 0
+cross-origin-resource-policy: cross-origin
+content-type: image/gif
+accept-ranges: bytes
+date: Wed, 05 Aug 2026 09:46:07 GMT
+via: 1.1 varnish
+x-reddit-ct: v=1,dn=FT,p=DEL,cs=HIT
+report-to: {\"group\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": true,  \"endpoints\": [{ \"url\": \"https://w3-reporting-nel.reddit.com/reports\" }]}, {\"group\": \"w3-reporting\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting.reddit.com/reports\" }]}, {\"group\": \"w3-reporting-csp\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting-csp.reddit.com/reports\" }]}
+nel: {\"report_to\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": false, \"success_fraction\": 0.3, \"failure_fraction\": 0.3}
+content-length: 42
+----
+--Request 
+GET https://alb.reddit.com/rp.gif?ts=1785923167713&id=t2_5iplaapd&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.customEventName=&m.products=&m.conversionId=&uuid=a6d5b647-c78c-403f-98cc-752458aec5f6&aaid=&external_id=&idfa=&integration=reddit&partner=TEALIUM&partner_version=&opt_out=0&sh=1897&sw=1108&v=rdt_b6dc0919&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F&db=tsc-0.srv_cfg-0.src_pid-0
+Host: alb.reddit.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+server: Varnish
+retry-after: 0
+cross-origin-resource-policy: cross-origin
+content-type: image/gif
+accept-ranges: bytes
+date: Wed, 05 Aug 2026 09:46:07 GMT
+via: 1.1 varnish
+x-reddit-ct: v=1,dn=FT,p=DEL,cs=HIT
+report-to: {\"group\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": true,  \"endpoints\": [{ \"url\": \"https://w3-reporting-nel.reddit.com/reports\" }]}, {\"group\": \"w3-reporting\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting.reddit.com/reports\" }]}, {\"group\": \"w3-reporting-csp\", \"max_age\": 14400, \"include_subdomains\": true, \"endpoints\": [{ \"url\": \"https://w3-reporting-csp.reddit.com/reports\" }]}
+nel: {\"report_to\": \"w3-reporting-nel\", \"max_age\": 14400, \"include_subdomains\": false, \"success_fraction\": 0.3, \"failure_fraction\": 0.3}
+content-length: 42
+----
+--Request 
+GET https://12050451.fls.doubleclick.net/activityi;dc_pre=CLvJhKCaiZYDFTPHhAAdak0EMg;src=12050451;type=direc00;cat=direc008;rcb=18;ord=5434438720434;npa=0;auiddc=1143583505.1785923160;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0;uamb=0;uam=;uap=Linux;uapv=6.8.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6831v9172137160za200zb848825936zd848825936xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=1;tag_exp=115938465~115938469~117227716~118131808~118395334~118897920~118897930~119896802;epver=2;~oref=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F?
+Host: 12050451.fls.doubleclick.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:08 GMT
+expires: Wed, 05 Aug 2026 09:46:08 GMT
+cache-control: private, max-age=0
+strict-transport-security: max-age=21600
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+content-encoding: br
+server: cafe
+content-length: 562
+x-xss-protection: 0
+set-cookie: test_cookie=CheckForPermission; expires=Wed, 05-Aug-2026 10:01:07 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://connect.facebook.net/signals/config/1990543777800675?v=2.9.370&r=stable&domain=www.directv.com&hme=589ca7d2e122c6385be4e33d0bc38dace8e88b62db3f4bee0e6f01d386858e70&ex_m=108%2C210%2C160%2C22%2C73%2C74%2C151%2C69%2C68%2C11%2C169%2C93%2C16%2C143%2C131%2C39%2C76%2C81%2C139%2C165%2C171%2C26%2C27%2C28%2C30%2C48%2C152%2C78%2C116%2C18%2C20%2C44%2C40%2C42%2C41%2C86%2C95%2C99%2C114%2C150%2C153%2C46%2C115%2C24%2C21%2C123%2C70%2C36%2C155%2C154%2C156%2C147%2C145%2C25%2C35%2C59%2C113%2C167%2C71%2C17%2C158%2C118%2C84%2C67%2C19%2C88%2C89%2C120%2C87%2C141%2C140%2C144%2C100%2C166%2C34%2C49%2C117%2C47%2C8%2C4%2C5%2C7%2C6%2C3%2C94%2C105%2C172%2C177%2C224%2C75%2C237%2C236%2C235%2C23%2C33%2C55%2C107%2C61%2C10%2C64%2C101%2C102%2C103%2C109%2C134%2C31%2C29%2C136%2C137%2C138%2C133%2C132%2C161%2C77%2C164%2C162%2C163%2C50%2C60%2C127%2C15%2C168%2C45%2C281%2C282%2C280%2C295%2C313%2C217%2C206%2C62%2C207%2C205%2C316%2C307%2C52%2C218%2C111%2C135%2C83%2C125%2C54%2C124%2C130%2C129%2C58%2C65%2C63%2C157%2C79%2C80%2C119%2C37%2C32%2C53%2C56%2C104%2C170%2C1%2C128%2C14%2C126%2C12%2C2%2C57%2C96%2C66%2C122%2C92%2C91%2C173%2C174%2C97%2C98%2C9%2C106%2C51%2C148%2C90%2C82%2C72%2C121%2C110%2C43%2C149%2C0%2C85%2C142%2C146%2C159%2C38%2C112%2C13%2C175
+Host: connect.facebook.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+vary: Accept-Encoding
+content-encoding: gzip
+content-type: application/x-javascript; charset=utf-8
+timing-allow-origin: *
+reporting-endpoints: coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"
+report-to: {\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}
+content-security-policy-report-only: default-src *.facebook.com *.fbcdn.net *.facebook.net 'self' blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net blob: 'self' 'nonce-gCRettn4';style-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob: 'unsafe-inline';connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.fbcdn.net attachment.fbsbx.com *.cdninstagram.com blob: 'self' data: https://edge-chat.facebook.net https://edge-chat-latest.facebook.net wss://edge-chat-latest.facebook.net wss://edge-chat.facebook.net wss://edge-chat.socialplugin.facebook.net wss://edge-chat-latest.socialplugin.facebook.net https://edge-chat.socialplugin.facebook.net https://edge-chat-latest.socialplugin.facebook.net;font-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;img-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;media-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;child-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;frame-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;manifest-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;object-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;worker-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;report-uri https://www.facebook.com/csp/reporting/?m=tr_exp&minimize=0;
+content-security-policy: default-src *.facebook.com *.fbcdn.net *.facebook.net 'self' blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net blob: 'self' 'nonce-gCRettn4';style-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob: 'unsafe-inline';connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.fbcdn.net attachment.fbsbx.com *.cdninstagram.com blob: 'self' data: https://edge-chat.facebook.net https://edge-chat-latest.facebook.net wss://edge-chat-latest.facebook.net wss://edge-chat.facebook.net wss://edge-chat.socialplugin.facebook.net wss://edge-chat-latest.socialplugin.facebook.net https://edge-chat.socialplugin.facebook.net https://edge-chat-latest.socialplugin.facebook.net;font-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;img-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;media-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;child-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;frame-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;manifest-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;object-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;worker-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;
+x-frame-options: DENY
+document-policy: force-load-at-top
+document-policy: include-js-call-stacks-in-crash-reports
+permissions-policy: accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"
+cross-origin-resource-policy: cross-origin
+cross-origin-embedder-policy-report-only: require-corp;report-to=\"coep_report\"
+cross-origin-opener-policy: same-origin-allow-popups
+pragma: public
+cache-control: public, max-age=1200
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-content-type-options: nosniff
+x-xss-protection: 0
+origin-agent-cluster: ?1
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+x-fb-debug: Fy24D7NBwa7OU3PnfV0ZQwk+zmWycs/Tl7mVSB8GlRBzeHEBHRVWGmPHo13qeD8ps0/bDWNzyRqmX+WC7NWCxg==
+content-length: 66569
+date: Wed, 05 Aug 2026 09:46:07 GMT
+x-fb-connection-quality: EXCELLENT; q=0.9, rtt=19, rtx=0, c=93, mss=1392, tbw=115672, tp=-1, tpl=-1, uplat=1, ullat=-1
+alt-svc: h3=\":443\"; ma=86400
+----
+--Request 
+GET https://insight.adsrvr.org/track/cei?advertiser_id=102rt04&cookie_sync=1&upv=3.0.0&upid=s0e7skb&gpp_consent=&ref=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F
+Host: insight.adsrvr.org
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-type: text/html
+content-length: 40
+location: https://match.adsrvr.org/track/cei?advertiser_id=102rt04&cookie_sync=1&upv=3.0.0&upid=s0e7skb&gpp_consent=&ref=https%3a%2f%2fwww.directv.com&redirect=1
+server: Kestrel
+set-cookie: TDID=cfe18c1a-b589-40ea-9e57-76a939bafefc; expires=Thu, 05 Aug 2027 09:46:08 GMT; domain=.adsrvr.org; path=/; secure; samesite=none
+----
+--Request 
+GET https://insight.adsrvr.org/track/cei?advertiser_id=p1khwya&cookie_sync=1&upv=3.0.0&upid=edw9roa&gpp_consent=&ref=https%3A%2F%2Fwww.directv.com%2Fsports%2Fcollege-sports%2F
+Host: insight.adsrvr.org
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 302
+date: Wed, 05 Aug 2026 09:46:08 GMT
+content-type: text/html
+content-length: 40
+location: https://match.adsrvr.org/track/cei?advertiser_id=p1khwya&cookie_sync=1&upv=3.0.0&upid=edw9roa&gpp_consent=&ref=https%3a%2f%2fwww.directv.com&redirect=1
+server: Kestrel
+set-cookie: TDID=49511e0d-21a6-4b4b-be18-42ed24335e1d; expires=Thu, 05 Aug 2027 09:46:08 GMT; domain=.adsrvr.org; path=/; secure; samesite=none
+----
+

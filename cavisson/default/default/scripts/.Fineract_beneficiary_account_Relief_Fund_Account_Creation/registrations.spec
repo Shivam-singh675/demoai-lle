@@ -1,0 +1,11 @@
+nsl_date_var(approvedOnDateParam, Format="%m/%d/%Y", Unique=YES, Refresh=SESSION);
+nsl_search_var(authKey, PAGE=Authentication, LB/IC="\"base64EncodedAuthenticationKey\":\"", RB/IC="\"", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE="NO", EncodeMode=All);
+nsl_search_var(approveOnDateFormatParam, PAGE=Approve_Relief_Fund_Account, LB/IC="\"dateFormat\":\"", RB/IC="\"", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE="NO", EncodeMode=All);
+nsl_search_var(savingsIdParam, PAGE=Create_Relief_Fund_Savings_Account, LB/IC="\"savingsId\":", RB/IC=",", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE="YES", EncodeMode=All);
+nsl_decl_var(baseUrl,DefaultValue="https://10.10.70.138:8443/fineract-provider/api/v1",RETAINPREVALUE="NO");
+nsl_decl_var(username,DefaultValue="mifos",RETAINPREVALUE="NO");
+nsl_decl_var(password,DefaultValue="password",RETAINPREVALUE="NO");
+nsl_decl_var(productId,RETAINPREVALUE="NO");
+nsl_decl_var(savingsId,RETAINPREVALUE="NO");
+nsl_decl_var(clientId,RETAINPREVALUE="NO");
+nsl_decl_var(tenantId,DefaultValue="default",RETAINPREVALUE="NO");

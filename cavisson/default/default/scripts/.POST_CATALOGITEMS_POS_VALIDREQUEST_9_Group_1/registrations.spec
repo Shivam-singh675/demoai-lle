@@ -1,0 +1,12 @@
+nsl_decl_var(BASE_URL,DefaultValue="http://localhost:8080",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_name,DefaultValue="dynamic_post_name",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_description,DefaultValue="dynamic_post_description",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_price,DefaultValue="dynamic_post_price",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_pictureFileName,DefaultValue="dynamic_post_pictureFileName",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_catalogTypeId,DefaultValue="dynamic_post_catalogTypeId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_catalogBrandId,DefaultValue="dynamic_post_catalogBrandId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_availableStock,DefaultValue="dynamic_post_availableStock",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_restockThreshold,DefaultValue="dynamic_post_restockThreshold",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_maxStockThreshold,DefaultValue="dynamic_post_maxStockThreshold",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_onReorder,DefaultValue="dynamic_post_onReorder",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_api_version,DefaultValue="{dynamic_api_version}",RETAINPREVALUE="NO");

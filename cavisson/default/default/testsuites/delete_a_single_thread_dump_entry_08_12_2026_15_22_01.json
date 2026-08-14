@@ -1,0 +1,31 @@
+{
+  "name" : "delete_a_single_thread_dump_entry_08_12_2026_15_22_01",
+  "testcases" : [ {
+    "name" : "default/default/delete_single_thread_dump_entry_from_available_thread_dumps_t_1",
+    "continue_on_failure" : true,
+    "repetitions" : null
+  } ],
+  "path" : null,
+  "rptTestNum" : -1,
+  "last_updated_by" : "cavisson",
+  "description" : "Verify that a user can open the Action (⋮) menu for an existing thread dump entry, access the 'Delete' action, confirm deletion, and see that the selected entry is no longer listed in the 'Available Thread Dump(s)' table.",
+  "run_config" : {
+    "concurrency" : 0
+  },
+  "mail_config" : {
+    "enabled" : false,
+    "to" : null,
+    "cc" : null,
+    "bcc" : null,
+    "body" : null,
+    "subject" : null,
+    "optionType" : 0,
+    "progressType" : null,
+    "progressValue" : null
+  },
+  "functionaTest" : null,
+  "userName" : null,
+  "tags" : [ "AIGenerated=true" ],
+  "operationTypeList" : null,
+  "testProfile" : null
+}

@@ -1,0 +1,603 @@
+{
+  "references": [],
+  "configuration": {
+    "isFlow": "no",
+    "testname": "default/default/Fineract_beneficiary_account"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "",
+  "priority": "",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Relief_Fund_Account_Creation",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_GET_NO_INLINED_OBJ": {
+      "_G": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Relief_Fund_Account_Creation": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "ENABLE_ALERT": {
+      "_G": [
+        [
+          0
+        ]
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "SESSIONS",
+          1,
+          "1"
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Fineract_beneficiary_account_Debug_Test"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "G_TRACING": {
+      "_G": [
+        [
+          "ALL",
+          "4",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "100",
+          "100"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {},
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          1
+        ]
+      ]
+    },
+    "G_MODULEMASK": {
+      "_G": [
+        [
+          "ALL",
+          "HTTP"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "MONITORING_SETTINGS": {
+      "_G": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "default",
+          "1"
+        ]
+      ]
+    },
+    "G_VUSER_TRACE": {
+      "_G": [
+        [
+          "ALL",
+          "2"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Relief_Fund_Account_Creation",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "default/default/.Fineract_beneficiary_account_Relief_Fund_Account_Creation",
+          1,
+          "",
+          ""
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "G_CONTINUE_ON_PAGE_ERROR": {
+      "_G": [
+        [
+          "ALL",
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    }
+  },
+  "id": "b1e42e7e-08c0-46b5-b24d-b434c3c306ee",
+  "scripts": {
+    "Relief_Fund_Account_Creation": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [
+        {
+          "isDefault": true,
+          "system": true,
+          "name": "runlogic"
+        }
+      ],
+      "recordingProfile": "default.prof",
+      "type": "API",
+      "assertionsV2": [],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {
+                "Content-Type": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": "bnNfcmVwbGFjZSgiYXV0aEtleSIsICJcXHUwMDNkIiwgIj0iKTsK"
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_Authentication.json",
+              "label": "Authentication",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/authentication"
+            },
+            {
+              "headers": {
+                "Content-Type": "application/json",
+                "Fineract-Platform-TenantId": "default"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "{tenantId}"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_Get_Savings_Products.undefined",
+              "label": "Get_Savings_Products",
+              "url": "{baseUrl}/savingsproducts"
+            },
+            {
+              "headers": {
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "{tenantId}"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": false,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_Create_Relief_Fund_Savings_Account.json",
+              "label": "Create_Relief_Fund_Savings_Account",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/savingsaccounts"
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_Approve_Relief_Fund_Account.json",
+              "label": "Approve_Relief_Fund_Account",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/savingsaccounts/{savingsIdParam}?command=approve"
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_Activate_Relief_Fund_Account.json",
+              "label": "Activate_Relief_Fund_Account",
+              "url": "https://10.10.70.138:8443/fineract-provider/api/v1/savingsaccounts/{savingsIdParam}?command=activate"
+            },
+            {
+              "headers": {
+                "Authorization": "Basic {authKey}",
+                "Accept": "application/json",
+                "Fineract-Platform-TenantId": "default",
+                "Content-Type": "application/json"
+              },
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Relief_Fund_Account_Creation_Flow_1_.text",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "state": "MANUAL",
+      "parameters": {
+        "dateTime": [
+          {
+            "dayType": "All Days",
+            "maxDays": "1",
+            "update-on": "SESSION",
+            "offset": "",
+            "parameter-name": "approvedOnDateParam",
+            "formatName": "%m/%d/%Y",
+            "isUnique": "Yes",
+            "minDays": "1",
+            "regStrLine": "nsl_date_var(approvedOnDateParam, Format=\"%m/%d/%Y\", Unique=YES, Refresh=SESSION);"
+          }
+        ],
+        "search": [
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "authKey",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "false",
+            "SaveOffset": "0",
+            "label": "PAGE=Authentication",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": "\"",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "search-in": "Body",
+            "lb": "\"base64EncodedAuthenticationKey\":\"",
+            "isICcheckedRB": "true",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "true",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(authKey, PAGE=Authentication, LB/IC=\"\\\"base64EncodedAuthenticationKey\\\":\\\"\", RB/IC=\"\\\"\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          },
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "approveOnDateFormatParam",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "",
+            "SaveOffset": "0",
+            "label": "PAGE=Approve_Relief_Fund_Account",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": "\"",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "regex": "",
+            "search-in": "Body",
+            "lb": "\"dateFormat\":\"",
+            "isICcheckedRB": "true",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "true",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(approveOnDateFormatParam, PAGE=Approve_Relief_Fund_Account, LB/IC=\"\\\"dateFormat\\\":\\\"\", RB/IC=\"\\\"\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"NO\", EncodeMode=All);"
+          },
+          {
+            "ORD": "index",
+            "redirectionDepth": "",
+            "SaveLen": "0",
+            "rb-type": "text",
+            "parameter-name": "savingsIdParam",
+            "ActionOnNotFound": "Error",
+            "variableRetainPreValue": "true",
+            "SaveOffset": "0",
+            "label": "PAGE=Create_Relief_Fund_Savings_Account",
+            "groupVal": "",
+            "type": "Boundary",
+            "rb": ",",
+            "convertValue": "None",
+            "idxValForSearchParam": "1",
+            "search-in": "Body",
+            "lb": "\"savingsId\":",
+            "isICcheckedRB": "true",
+            "encodeMode": "All",
+            "LBMATCH": "FIRST",
+            "isICcheckedLB": "true",
+            "lb-type": "text",
+            "regStrLine": "nsl_search_var(savingsIdParam, PAGE=Create_Relief_Fund_Savings_Account, LB/IC=\"\\\"savingsId\\\":\", RB/IC=\",\", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE=\"YES\", EncodeMode=All);"
+          }
+        ],
+        "scratch": [
+          {
+            "parameter-name": "baseUrl",
+            "defaultValue": "https://10.10.70.138:8443/fineract-provider/api/v1",
+            "regStrLine": "nsl_decl_var(baseUrl,DefaultValue=\"https://10.10.70.138:8443/fineract-provider/api/v1\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "username",
+            "defaultValue": "mifos",
+            "regStrLine": "nsl_decl_var(username,DefaultValue=\"mifos\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "password",
+            "defaultValue": "password",
+            "regStrLine": "nsl_decl_var(password,DefaultValue=\"password\",RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "productId",
+            "defaultValue": "",
+            "regStrLine": "nsl_decl_var(productId,RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "savingsId",
+            "defaultValue": "",
+            "regStrLine": "nsl_decl_var(savingsId,RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "clientId",
+            "defaultValue": "",
+            "regStrLine": "nsl_decl_var(clientId,RETAINPREVALUE=\"NO\");"
+          },
+          {
+            "parameter-name": "tenantId",
+            "defaultValue": "default",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(tenantId,DefaultValue=\"default\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "07/08/2026 04:32:16",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

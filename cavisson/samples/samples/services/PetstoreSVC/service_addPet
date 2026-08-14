@@ -1,0 +1,23 @@
+{
+    "id": 12345,
+    "name": "Fluffy",
+    "category": {
+        "id": 1,
+        "name": "Cats"
+    },
+    "photoUrls": [
+        "https://example.com/fluffy1.jpg",
+        "https://example.com/fluffy2.jpg"
+    ],
+    "tags": [
+        {
+            "id": 2,
+            "name": "Cute"
+        },
+        {
+            "id": 3,
+            "name": "Furry"
+        }
+    ],
+    "status": "available"
+}

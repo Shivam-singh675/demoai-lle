@@ -1,0 +1,232 @@
+--Request 
+POST https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16624272110/?random=235452252&cv=11&fst=1785923177384&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6831v9188567129za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=14&label=az3eCN7I1L0ZEO6Fifc9&capi=1&gtm_ee=1&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ept=5&ct_cookie_present=false&eoid=CkAKEQjwvsvTBhDY6o-b8fXQ88oBEisABi5dxNWbx9dfEJTLSVC-t0BW2mbhQ9QttFhgqX7LLh1UTNCg7GRYTjjX8P8HAQ&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bECShlub3QtZXZlbnQtc291cmNlLCB0cmlnZ2VyWgMKAQFiAwoBAw&cerd=Cgzr370tpqe-LYOwvi0&fsk=ChAI8L7L0wYQ5aD_j4rtyJgsEiwA6CShrhArDBGAiSM21F19VBztM5bPFsRHCT9Rmwrrt_0dDLiUoCyNZNOBkhoCqjU&pscrd=IhMI2JvYpJqJlgMVfOiEAB02bBI6OhhodHRwczovL3d3dy5kaXJlY3R2LmNvbS9CV0NoRUk4TDdMMHdZUXJjV3VscW5rMDhMYkFSSXNBTDNueUl1eHB1R2o3MWVkSFdSOEhVaVdVVEUzcHlUUDJzQlNNNDVIbE1BVG5WR0dNeGozaGpCYTBzWXoMCAliCAgAEAAYACAA
+Host: googleads.g.doubleclick.net
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:17 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+location: https://www.google.com/pagead/1p-conversion/16624272110/?random=235452252&cv=11&fst=1785923177384&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6831v9188567129za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=14&label=az3eCN7I1L0ZEO6Fifc9&capi=1&gtm_ee=1&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ept=5&ct_cookie_present=false&eoid=CkAKEQjwvsvTBhDY6o-b8fXQ88oBEisABi5dxNWbx9dfEJTLSVC-t0BW2mbhQ9QttFhgqX7LLh1UTNCg7GRYTjjX8P8HAQ&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bECShlub3QtZXZlbnQtc291cmNlLCB0cmlnZ2VyWgMKAQFiAwoBAw&cerd=Cgzr370tpqe-LYOwvi0&fsk=ChAI8L7L0wYQ5aD_j4rtyJgsEiwA6CShrhArDBGAiSM21F19VBztM5bPFsRHCT9Rmwrrt_0dDLiUoCyNZNOBkhoCqjU&pscrd=IhMI2JvYpJqJlgMVfOiEAB02bBI6OhhodHRwczovL3d3dy5kaXJlY3R2LmNvbS9CV0NoRUk4TDdMMHdZUXJjV3VscW5rMDhMYkFSSXNBTDNueUl1eHB1R2o3MWVkSFdSOEhVaVdVVEUzcHlUUDJzQlNNNDVIbE1BVG5WR0dNeGozaGpCYTBzWXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS0wEAEQoqgSmh9xlIUAW_Ijbllea3I0wj-d_unidjeViKWk8D4u-ESFdvTF3PSieZk4ckRni9mRXCpWS77AzXAI8tv7tWQQdRiDPfxUHpmiHDd4TOJFKGJq75KTdP-nnNbq5fEFVblPFbRgWNzecxGBvVgotk1cJUTgEY5tp5_aomaPydaLqW7oKhqbGRVIPIsnPNLnsaQL6Dq_QN_fWvSYM_bOiYfFXWN8fasKBemO9OJ9yJTuoCMdEMvJa71-eZNsWCPfxWwu_n-4f5ZFaEMlaqj2Dw&random=3225776292
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.com/pagead/1p-user-list/16624272110/?random=1785923177370&cv=11&fst=1785920400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6831v9188567129za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=14&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&data=event%3Dgtag.config%3Benable_event_matching_conversions%3Dfalse&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSevQU97SJ5PHBGSNYELG9-50SlHUTy_2x_FsWLW2pE5DLYaq3RAPn-F7S4Q_wD818tFCZymI6tUPeqI_6p1AVf0z4hQEEHU1PCb-Q43GsmPqGQE9pcM0QMN98_EEAdeeFwHkzdfogIwVXM05e9NfaUAsaff_ayEVVb3Euo5XyuRys4V0MOZLD2IQiPoVoxREEeOs6zgDRoSxf4FWY5h6ot0w_LwQPB5n60crep5z0DeUI7pH1f1drVDqUYBJpM5vFsoIpKBYKesqJd9ssEd&random=86812070&rmt_tld=0&ipr=y
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:17 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+content-security-policy: script-src 'none'; object-src 'none'
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.co.in/pagead/1p-user-list/16624272110/?random=1785923177370&cv=11&fst=1785920400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6831v9188567129za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=14&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&data=event%3Dgtag.config%3Benable_event_matching_conversions%3Dfalse&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSevQU97SJ5PHBGSNYELG9-50SlHUTy_2x_FsWLW2pE5DLYaq3RAPn-F7S4Q_wD818tFCZymI6tUPeqI_6p1AVf0z4hQEEHU1PCb-Q43GsmPqGQE9pcM0QMN98_EEAdeeFwHkzdfogIwVXM05e9NfaUAsaff_ayEVVb3Euo5XyuRys4V0MOZLD2IQiPoVoxREEeOs6zgDRoSxf4FWY5h6ot0w_LwQPB5n60crep5z0DeUI7pH1f1drVDqUYBJpM5vFsoIpKBYKesqJd9ssEd&random=86812070&rmt_tld=1&ipr=y
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:17 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+content-security-policy: script-src 'none'; object-src 'none'
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&dma=0&npa=0&gcd=13l3l3l3l1l1&tid=G-LEXYQWQ1NF&cid=573265066.1785923160&gtm=45j91e6830v869119018z8848825936z99236018967za20gzb848825936zd848825936&tag_exp=115938465~115938468~117549813~117549813~117549814~117549814~118032361~118032361~118897920~118897930~119527019~119896802&_is_sw=f15s1t530&_tu=BA&gap.sstd=5&aip=1&z=383619561
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:17 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: image/gif
+x-content-type-options: nosniff
+server: cafe
+content-length: 42
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.com/pagead/1p-conversion/16624272110/?random=235452252&cv=11&fst=1785923177384&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6831v9188567129za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=14&label=az3eCN7I1L0ZEO6Fifc9&capi=1&gtm_ee=1&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ept=5&ct_cookie_present=false&eoid=CkAKEQjwvsvTBhDY6o-b8fXQ88oBEisABi5dxNWbx9dfEJTLSVC-t0BW2mbhQ9QttFhgqX7LLh1UTNCg7GRYTjjX8P8HAQ&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bECShlub3QtZXZlbnQtc291cmNlLCB0cmlnZ2VyWgMKAQFiAwoBAw&cerd=Cgzr370tpqe-LYOwvi0&fsk=ChAI8L7L0wYQ5aD_j4rtyJgsEiwA6CShrhArDBGAiSM21F19VBztM5bPFsRHCT9Rmwrrt_0dDLiUoCyNZNOBkhoCqjU&pscrd=IhMI2JvYpJqJlgMVfOiEAB02bBI6OhhodHRwczovL3d3dy5kaXJlY3R2LmNvbS9CV0NoRUk4TDdMMHdZUXJjV3VscW5rMDhMYkFSSXNBTDNueUl1eHB1R2o3MWVkSFdSOEhVaVdVVEUzcHlUUDJzQlNNNDVIbE1BVG5WR0dNeGozaGpCYTBzWXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS0wEAEQoqgSmh9xlIUAW_Ijbllea3I0wj-d_unidjeViKWk8D4u-ESFdvTF3PSieZk4ckRni9mRXCpWS77AzXAI8tv7tWQQdRiDPfxUHpmiHDd4TOJFKGJq75KTdP-nnNbq5fEFVblPFbRgWNzecxGBvVgotk1cJUTgEY5tp5_aomaPydaLqW7oKhqbGRVIPIsnPNLnsaQL6Dq_QN_fWvSYM_bOiYfFXWN8fasKBemO9OJ9yJTuoCMdEMvJa71-eZNsWCPfxWwu_n-4f5ZFaEMlaqj2Dw&random=3225776292
+Host: www.google.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 302
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:18 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+location: https://www.google.co.in/pagead/1p-conversion/16624272110/?random=235452252&cv=11&fst=1785923177384&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6831v9188567129za200zb848825936zd848825936xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=14&label=az3eCN7I1L0ZEO6Fifc9&capi=1&gtm_ee=1&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ept=5&ct_cookie_present=false&eoid=CkAKEQjwvsvTBhDY6o-b8fXQ88oBEisABi5dxNWbx9dfEJTLSVC-t0BW2mbhQ9QttFhgqX7LLh1UTNCg7GRYTjjX8P8HAQ&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bECShlub3QtZXZlbnQtc291cmNlLCB0cmlnZ2VyWgMKAQFiAwoBAw&cerd=Cgzr370tpqe-LYOwvi0&fsk=ChAI8L7L0wYQ5aD_j4rtyJgsEiwA6CShrhArDBGAiSM21F19VBztM5bPFsRHCT9Rmwrrt_0dDLiUoCyNZNOBkhoCqjU&is_vtc=1&cid=CAQS0wEAEQoqgSmh9xlIUAW_Ijbllea3I0wj-d_unidjeViKWk8D4u-ESFdvTF3PSieZk4ckRni9mRXCpWS77AzXAI8tv7tWQQdRiDPfxUHpmiHDd4TOJFKGJq75KTdP-nnNbq5fEFVblPFbRgWNzecxGBvVgotk1cJUTgEY5tp5_aomaPydaLqW7oKhqbGRVIPIsnPNLnsaQL6Dq_QN_fWvSYM_bOiYfFXWN8fasKBemO9OJ9yJTuoCMdEMvJa71-eZNsWCPfxWwu_n-4f5ZFaEMlaqj2Dw&random=3225776292&ipr=y&pscrd=IhMI2JvYpJqJlgMVfOiEAB02bBI6OhhodHRwczovL3d3dy5kaXJlY3R2LmNvbS9CV0NoRUk4TDdMMHdZUXJjV3VscW5rMDhMYkFSSXNBTDNueUl1eHB1R2o3MWVkSFdSOEhVaVdVVEUzcHlUUDJzQlNNNDVIbE1BVG5WR0dNeGozaGpCYTBzWXoMCAliCAgAEAAYACAAggEFcAGIAQE
+content-security-policy: script-src 'none'; object-src 'none'
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.co.in/pagead/1p-conversion/10837652692/?random=668087215&cv=11&fst=1785923177115&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6831v889747108z8848825936za200zb869119018zd848825936xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=17&label=FvOtCKeSkv0YENTp5a8o&capi=1&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&ec_mode=a&oidsrc=3&ecsid2=422465542.1785923177&_tu=CBA&gcl_ctr=2~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkQKEQjwvsvTBhDY6o-b8fXQ88oBEi8ABi5dxC-ImEIfAdPi1XYLWoMxdkol1Xk72yYc89YUWhe7kAPdg02nZkdWFr78d_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bECSitub3QtbmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlLCB0cmlnZ2VyWgMKAQFiAwoBAw&cerd=ChDs370t2Ym-Laanvi2DsL4t&fsk=ChAI8L7L0wYQ5aD_j4rtyJgsEiwA6CShrsbE_rYyguPMqH-G5gvM-lvK5UzhP5jIp4WrV30BHu_wgNjK6MNMIxoC4qo&is_vtc=1&cid=CAQS0wEAEQoqgW7PDxAqRgTtaJof8hhAHDXq5aSp9jHUMlUHjYnU1O4xg5uDTOaLu52FO7DI2uzMPvoNov3c2hYgYPJVYgiNtMRltgF7S0l5OSO7MRc94mxParI8baBXfm56sqkeZxJMz24LU431DFAeeWuiJAd7kieyD65q-ClJhD0U1Yjn461yEAv09jCmsby_AxTUPOjYxe-_lnm_1x6Vjwaj9OixIRtuVyxnkeO8iv0lOYJjH752XbxIKebq4GvTE9jtYVdbltARae29y_DwJbts0xbo&eitems=ChAI8L7L0wYQ8beSi4er04AbEh0ABNiEnqPDVBlYHETp9vB7i6jhRBgy4YHhWoHeYg&random=3890325241&ipr=y&pscrd=IhMI_KXIpJqJlgMVveSEAB2I8jHHOhhodHRwczovL3d3dy5kaXJlY3R2LmNvbS9CV0NoRUk4TDdMMHdZUXJjV3VscW5rMDhMYkFSSXNBTDNueUlzZWVTQkNXaXZLSWZSQk1vM3MzekYyczNkaUJZYXFESjAteFE2aXpSVUsyQlc4dVI5bWtMTXoMCAliCAgAEAAYACAAggEJcAGIAQHiAQEC
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:18 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-security-policy: script-src 'none'; object-src 'none'
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+--Request 
+GET https://www.google.co.in/pagead/1p-conversion/10837652692/?random=1448004316&cv=11&fst=1785923177132&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6831v889747108z8848825936za200zb869119018zd848825936xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227716~118131808~118897920~118897930~119896803&u_w=1897&u_h=1108&url=https%3A%2F%2Fwww.directv.com%2Fpackages%2F%3FdtvprodCd%3D5185-9845b5bd75c3479d9d65bffffd6b518b&rcb=17&label=FvOtCKeSkv0YENTp5a8o&capi=1&frm=0&tiba=DIRECTV%20Streaming%20Live%20TV%20Plans&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1143583505.1785923160&uaa=x86&uab=64&uafvl=Chromium%3B135.0.7049.52%7CNot-A.Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.8.0&uaw=0&ec_mode=a&oidsrc=3&ecsid2=422465542.1785923177&_tu=CBA&gcl_ctr=3~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkQKEQjwvsvTBhDY6o-b8fXQ88oBEi8ABi5dxF_Kb0LJ5GlnAyo1B1EcsdUhzuStwK4b-QBIonSjUuR--YJF9W89_mvJh_D_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjL4bECShl0cmlnZ2VyO25hdmlnYXRpb24tc291cmNlWgMKAQFiAwoBAw&cerd=Cgzr370tp6e-LYOwvi0&fsk=ChAI8L7L0wYQ5aD_j4rtyJgsEiwA6CShrn2n9zFtcQ1rX75YXYJNISziiV907DcnXJPoilaWPlSYOZlhrahgqxoCZj0&is_vtc=1&cid=CAQS0wEAEQoqgTgU1p9UeoeolT29EhNCGJyIFB2grxBwn3fQ08dEdozxq0Vp14PHBUyU3IyWynX2ea27vN37EmJPe89mrghT2n0AuGNWU1sduBJQcCDmZaE62DP9er6PQqicd7K40YWJYNgHt_TkN1QSo1dqD4hpQfn-yL7ffIeSZREs7SqeZ8uM3upY17nGjKbSQtNClbgeE6rdl6bStYy76WwGfdfEY0TROZDRZ_xLOGIVGwfHvmmovVyfROwqwt8ElC3a13VEMFvop81_glI5dW5Ay1pK&eitems=ChAI8L7L0wYQ8beSi4er04AbEh0ABNiEnmIUmGDi2vMjBMZPSkjIerktDP_XCS1T_g&random=446881160&ipr=y&pscrd=IhMI6LHIpJqJlgMVIdqEAB1R8x1aOhhodHRwczovL3d3dy5kaXJlY3R2LmNvbS9CV0NoRUk4TDdMMHdZUXJjV3VscW5rMDhMYkFSSXNBTDNueUlzU2hCRF9mZ3hCZnpHZi1Ba2RKd0tnU09uU0dJMUJTTzI4b3p0Ump4SGU2dnRyci1kMGFnMHoMCAliCAgAEAAYACAAggEJcAGIAQHiAQEC
+Host: www.google.co.in
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: none
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+p3p: policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+date: Wed, 05 Aug 2026 09:46:18 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-security-policy: script-src 'none'; object-src 'none'
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000
+----
+

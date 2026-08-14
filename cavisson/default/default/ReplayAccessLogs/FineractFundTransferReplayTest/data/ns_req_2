@@ -1,0 +1,6050 @@
+POST /fineract-provider/api/v1/savingsaccounts/553/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/504/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/551/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/503/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/527/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/528/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/529/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/502/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/554/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/579/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/578/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/554 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/528 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/504 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/553 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/503 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/529 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/527 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/551 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+GET /fineract-provider/api/v1/savingsaccounts/502 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/577/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/505/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/505 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 652,
+    "fromAccountType": 2,
+    "fromAccountId": 551,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/529 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/504 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/554 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/553 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/528 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/530/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/530 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/527 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/502 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/503 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/551 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/505 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/530 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/556/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/556 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/556 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/580/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/506/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/506 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/506 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/532/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/532 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/532 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/555/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/555 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/555 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/583/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/507/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/507 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/507 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/531/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/531 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/531 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/558/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/558 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 658,
+    "fromAccountType": 2,
+    "fromAccountId": 558,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/558 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/582/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/508/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/508 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 633,
+    "fromAccountType": 2,
+    "fromAccountId": 534,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/508 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/533/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/533 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 633,
+    "fromAccountType": 2,
+    "fromAccountId": 534,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/533 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/557/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/557 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 661,
+    "fromAccountType": 2,
+    "fromAccountId": 559,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/557 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/581/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/509/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/509 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 661,
+    "fromAccountType": 2,
+    "fromAccountId": 559,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/509 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/534/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/534 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 661,
+    "fromAccountType": 2,
+    "fromAccountId": 559,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/534 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/560/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/560 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 661,
+    "fromAccountType": 2,
+    "fromAccountId": 559,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/560 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/585/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/510/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/510 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 661,
+    "fromAccountType": 2,
+    "fromAccountId": 559,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/510 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/536/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/536 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 661,
+    "fromAccountType": 2,
+    "fromAccountId": 559,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/536 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/559/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/559 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 661,
+    "fromAccountType": 2,
+    "fromAccountId": 559,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/559 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/586/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/511/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/511 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/511 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/535/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/535 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/535 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/561/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/561 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/561 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/584/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/512/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/512 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/512 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/537/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/537 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/537 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/563/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/563 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/563 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/587/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/513/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/513 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/513 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/538/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/538 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 637,
+    "fromAccountType": 2,
+    "fromAccountId": 538,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/538 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/564/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/564 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 615,
+    "fromAccountType": 2,
+    "fromAccountId": 515,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/564 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/588/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/514/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/514 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/514 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/540/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/540 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/540 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/562/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/562 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/562 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/589/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/515/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/515 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/515 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/539/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/539 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/539 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/565/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/565 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/565 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/590/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/516/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/516 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/516 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/541/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/541 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 641,
+    "fromAccountType": 2,
+    "fromAccountId": 541,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/541 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/567/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/567 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 667,
+    "fromAccountType": 2,
+    "fromAccountId": 566,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/567 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/591/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/517/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/517 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 619,
+    "fromAccountType": 2,
+    "fromAccountId": 519,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/517 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/543/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/543 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 619,
+    "fromAccountType": 2,
+    "fromAccountId": 519,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/543 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/566/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/566 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 619,
+    "fromAccountType": 2,
+    "fromAccountId": 519,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/566 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/593/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/518/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/518 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 619,
+    "fromAccountType": 2,
+    "fromAccountId": 519,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/518 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/542/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/542 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 619,
+    "fromAccountType": 2,
+    "fromAccountId": 519,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/542 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/568/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/568 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 619,
+    "fromAccountType": 2,
+    "fromAccountId": 519,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/568 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/592/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/519/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/519 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 619,
+    "fromAccountType": 2,
+    "fromAccountId": 519,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/519 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/544/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/544 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 668,
+    "fromAccountType": 2,
+    "fromAccountId": 569,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/544 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/570/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/570 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 668,
+    "fromAccountType": 2,
+    "fromAccountId": 569,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/570 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/595/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/520/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/520 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 623,
+    "fromAccountType": 2,
+    "fromAccountId": 523,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/520 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/545/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/545 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 623,
+    "fromAccountType": 2,
+    "fromAccountId": 523,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/545 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/569/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/569 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 623,
+    "fromAccountType": 2,
+    "fromAccountId": 523,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/569 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4) Gecko/20100101 Firefox/115.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/594/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/521/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/521 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 623,
+    "fromAccountType": 2,
+    "fromAccountId": 523,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/521 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/546/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/546 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 623,
+    "fromAccountType": 2,
+    "fromAccountId": 523,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/546 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/571/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/571 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 623,
+    "fromAccountType": 2,
+    "fromAccountId": 523,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/571 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/597/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/523/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/523 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 623,
+    "fromAccountType": 2,
+    "fromAccountId": 523,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/523 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/548/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/548 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/548 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/572/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/572 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/572 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/596/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/522/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/522 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/522 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/547/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/547 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/547 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/573/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/573 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/573 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/598/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/524/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/524 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/524 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/549/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/549 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/549 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/575/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/575 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 675,
+    "fromAccountType": 2,
+    "fromAccountId": 575,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/575 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/599/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/526/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/526 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 651,
+    "fromAccountType": 2,
+    "fromAccountId": 552,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/526 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/550/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/550 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 651,
+    "fromAccountType": 2,
+    "fromAccountId": 552,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/550 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/576/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/576 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 651,
+    "fromAccountType": 2,
+    "fromAccountId": 552,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/576 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/600/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST /fineract-provider/api/v1/savingsaccounts/525/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/525 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 651,
+    "fromAccountType": 2,
+    "fromAccountId": 552,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/525 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/552/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/552 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 651,
+    "fromAccountType": 2,
+    "fromAccountId": 552,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/552 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/574/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/10/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/574 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/accounttransfers HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "fromOfficeId": 1,
+    "fromClientId": 674,
+    "fromAccountType": 2,
+    "fromAccountId": 574,
+
+    "toOfficeId": 1,
+    "toClientId": 501,
+    "toAccountType": 2,
+    "toAccountId": 401,
+
+    "transferAmount": 100,
+    "transferDate": "08/10/2026",
+    "transferDescription": "Transfer from Relief Fund to Customer One",
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET /fineract-provider/api/v1/savingsaccounts/574 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Content-Type: application/json
+
+POST /fineract-provider/api/v1/savingsaccounts/601/transactions?command=deposit HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Type: application/json
+{
+    "transactionDate": "08/11/2026",
+    "transactionAmount": 5000,
+    "paymentTypeId": 1,
+    "locale": "en",
+    "dateFormat": "MM/dd/yyyy"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

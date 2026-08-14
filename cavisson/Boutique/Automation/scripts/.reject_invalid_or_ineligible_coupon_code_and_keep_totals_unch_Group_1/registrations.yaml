@@ -1,0 +1,121 @@
+assertions:
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Online Boutique home link is not visible
+   target: main
+   locators:
+      xpath: //*[@aria-label='Online Boutique - go to home page']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - goToBoutiqueHomePage
+   rhs:
+      type: text
+      value: Online Boutique
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: Cart does not show 1 item
+   target: main
+   locators:
+      xpath: //a[contains(@aria-label,'View shopping cart')]
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: aria-label
+      function: ''
+      subType: ''
+      type: attribute
+      includeDNSTime: false
+   page:
+   - clickAddSunglassesToCart
+   rhs:
+      type: text
+      value: 1 item in cart
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist_visible
+   errorMsg: Coupon code input is not visible
+   target: main
+   locators:
+      id: coupon_code
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //*[@id='coupon_code']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - clickAddSunglassesToCart
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: exist
+   errorMsg: ''
+   target: main
+   locators:
+      xpath: //div[@role='alert']
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: //div[@role='alert']
+      function: ''
+      subType: ''
+      type: element
+      includeDNSTime: false
+   page:
+   - pressEnterToApplyCoupon
+   rhs:
+      type: text
+      value: ''
+-  refId: null
+   inlineURLPattern: ''
+   operator: contains
+   errorMsg: ''
+   target: main
+   locators: {
+      }
+   assertOnErrorCodes: none
+   saveOccurence: ''
+   actionOnFail: CONTINUE
+   lhs:
+      warnThreshold: 0
+      errorThreshold: 0
+      ignoreWarn: false
+      arg1: ''
+      function: ''
+      subType: ''
+      type: title
+      includeDNSTime: false
+   page:
+   - pressEnterToApplyCoupon
+   rhs:
+      type: text
+      value: Online Boutique

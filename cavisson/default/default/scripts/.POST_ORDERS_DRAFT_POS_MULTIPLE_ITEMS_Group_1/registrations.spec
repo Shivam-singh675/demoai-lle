@@ -1,0 +1,16 @@
+nsl_decl_var(BASE_URL,DefaultValue="http://localhost:8080",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_buyerId,DefaultValue="dynamic_post_buyerId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item1_id,DefaultValue="dynamic_post_item1_id",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item1_productId,DefaultValue="dynamic_post_item1_productId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item1_productName,DefaultValue="dynamic_post_item1_productName",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item1_unitPrice,DefaultValue="dynamic_post_item1_unitPrice",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item1_oldUnitPrice,DefaultValue="dynamic_post_item1_oldUnitPrice",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item1_quantity,DefaultValue="dynamic_post_item1_quantity",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item1_pictureUrl,DefaultValue="dynamic_post_item1_pictureUrl",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item2_id,DefaultValue="dynamic_post_item2_id",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item2_productId,DefaultValue="dynamic_post_item2_productId",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item2_productName,DefaultValue="dynamic_post_item2_productName",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item2_unitPrice,DefaultValue="dynamic_post_item2_unitPrice",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item2_oldUnitPrice,DefaultValue="dynamic_post_item2_oldUnitPrice",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item2_quantity,DefaultValue="dynamic_post_item2_quantity",RETAINPREVALUE="NO");
+nsl_decl_var(dynamic_post_item2_pictureUrl,DefaultValue="dynamic_post_item2_pictureUrl",RETAINPREVALUE="NO");

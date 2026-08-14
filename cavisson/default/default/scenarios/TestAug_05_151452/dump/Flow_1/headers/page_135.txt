@@ -1,0 +1,36 @@
+--Request 
+GET https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=SI_6JdNpLb7pIW0B3U&Version=6&Q_CLIENTVERSION=2.54.0&Q_CLIENTTYPE=web&Q_BrandTier=&Q_ARCACHEVERSION=21&Q_BRANDDC=pdx1
+Host: siteintercept.qualtrics.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+----
+--Response 
+HTTP/1.1 200
+date: Wed, 05 Aug 2026 09:46:06 GMT
+content-type: application/json; charset=utf-8
+x-transaction-id: 01c93f13-7934-4f14-a2c9-08b22e39852c
+x-request-id: 0ec65683-42fb-40fe-93ec-a8746bdb45f8
+access-control-allow-origin: *
+cache-control: public, max-age=604800, s-maxage=604800
+edge-control: max-age=604800
+etag: W/\"d6d-oU25i4Pbnj8f4RyXy3ZyNignO6Y\"
+vary: Accept-Encoding
+content-encoding: br
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+permissions-policy: camera=(), geolocation=(), microphone=()
+age: 186856
+cf-cache-status: HIT
+server: cloudflare
+cf-ray: a264df703bd191a9-DEL
+----
+

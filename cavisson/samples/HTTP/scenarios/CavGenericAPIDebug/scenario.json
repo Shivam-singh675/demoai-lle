@@ -1,0 +1,1086 @@
+{
+  "configuration": {
+    "isFlow": "no",
+    "testname": "samples/HTTP/CavGenericAPIDebug"
+  },
+  "lastModifedBy": "cavisson",
+  "description": "This uses following query paramters\nSvcTime - Service time in milli-seconds and applied 10ms delay in each API\nStatus - HTTP Status code e.g. 404, 200, 500\nhttp://{host}/url_service/url_test.xml?SvcTime=10&Status=200\"\nhttp://{host}/url_service/url_test.xml?SvcTime=10&Status=404\"\nhttp://{host}/url_service/url_test.xml?SvcTime=10&Status=500\"\nOr\nLocation - If status is 301 or 302, then Location is used and set in the repsonse \ne.g http://192.168.1.40/url_service/url_test.xml?SvcTime=10&Status=301&Location=/tours/index.html\nOr\nRespSize - Size of response body\nhttp://{host}/url_service/url_test.xml?SvcTime=10&RespSize=128\nOr\nRespSameAsReq - Y/N. If Y, then whatever comes in Req body, it is send back in response\nhttp://{host}/url_service/url_test.xml?SvcTime=10&RespSameAsReq=Y\nOr\nCloseConnection - Y/N. If Y, then hpd will close the connection.\nhttp://{host}/url_service/url_test.xml?CloseConnection=Y\nHeader  (Upto 50 headers)\nHdr??=<headername: hdr value>\ne.g http://192.168.1.40/url_service/url_test.xml?SvcTime=10&Status=404&RespSize=128&Hdr1=MyHdr: MyHdrValue",
+  "preTest": [],
+  "postTest": [],
+  "version": "1.0",
+  "tags": [],
+  "defaultScriptType": "c",
+  "schedule": [
+    {
+      "duration": "00:01:00",
+      "script": "Group_1",
+      "concurrency": 1
+    }
+  ],
+  "scenario": {
+    "NS_GENERATOR": {
+      "_G": [
+        []
+      ]
+    },
+    "NUM_USERS": {
+      "_G": [
+        []
+      ]
+    },
+    "NS_PARENT_LOGGER_LISTEN_PORTS": {
+      "_G": [
+        [
+          "7914",
+          "7920",
+          "1"
+        ]
+      ]
+    },
+    "G_DISABLE_REUSEADDR": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "IO_VECTOR_SIZE": {
+      "_G": [
+        [
+          "10000",
+          "1000",
+          "100000"
+        ]
+      ]
+    },
+    "REPORT_SET_GEN": {
+      "_G": [
+        []
+      ]
+    },
+    "NETCLOUD_COMPARE_REPORT": {
+      "_G": [
+        []
+      ]
+    },
+    "SERVER_SELECT_MODE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_FIRST_SESSION_PACING": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "MAX_DYNAMIC_HOST": {
+      "_G": [
+        [
+          "100"
+        ]
+      ]
+    },
+    "G_PAGE_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "3",
+          "2000",
+          "5000"
+        ]
+      ]
+    },
+    "G_DISABLE_ACCEPT_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "TARGET_RATE": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE": {
+      "_G": [
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "00:01:00"
+        ],
+        [
+          "ALL",
+          "Duration",
+          "DURATION",
+          "TIME",
+          "00:05:00"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "TIME",
+          "00:01:00",
+          "LINEARLY"
+        ]
+      ]
+    },
+    "TNAME": {
+      "_G": [
+        [
+          "Test_CavGenericAPIDebug"
+        ]
+      ]
+    },
+    "G_TRACING": {
+      "ALL": [
+        [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "NVM_DISTRIBUTION": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "ADD_RECORDED_HOST": {
+      "_G": []
+    },
+    "G_ENABLE_CORRELATION_ID": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "GEN_SERVER_SETTING": {
+      "_G": [
+        []
+      ]
+    },
+    "G_REPORTING": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "CONTINUE_TEST_ON_GEN_FAILURE": {
+      "_G": [
+        [
+          "1",
+          "10",
+          "100",
+          "0",
+          "900",
+          "600"
+        ]
+      ]
+    },
+    "WHITELIST_HEADER": {
+      "_G": [
+        [
+          "1",
+          "User-Agent",
+          "Cavisson{ipaddr}"
+        ]
+      ]
+    },
+    "G_ERR_CODE_OK": {
+      "ALL": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_ENABLE_REFERER": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "SHOW_SERVER_IP_DATA": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEBUG_TRACE": {
+      "_G": [
+        [
+          "1"
+        ]
+      ]
+    },
+    "G_HTTP_BODY_CHECKSUM_HEADER": {
+      "ALL": [
+        [
+          "0",
+          "0",
+          "0",
+          "X-Payload-Confirmation",
+          "{",
+          "}"
+        ]
+      ]
+    },
+    "G_SCRIPT_RUNLOGIC": {
+      "_G": [
+        []
+      ]
+    },
+    "SCHEDULE_BY": {
+      "_G": [
+        [
+          "SCENARIO"
+        ]
+      ]
+    },
+    "G_SERVER_HOST": {
+      "ALL": [],
+      "Group_1": []
+    },
+    "CAV_EPOCH_YEAR": {
+      "_G": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "STYPE": {
+      "_G": [
+        [
+          "FIX_CONCURRENT_USERS"
+        ]
+      ]
+    },
+    "SGRP": {
+      "_G": [
+        [
+          "Group_1",
+          "NA",
+          "NA",
+          "Internet",
+          "0",
+          "samples/HTTP/.CavGenericAPIDebug_Group_1",
+          "1",
+          "",
+          ""
+        ]
+      ]
+    },
+    "SRC_PORT_MODE": {
+      "_G": [
+        [
+          "0",
+          "1000",
+          "0"
+        ]
+      ]
+    },
+    "G_CONTINUE_ON_PAGE_ERROR": {
+      "ALL": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "NUM_NVM": {
+      "_G": [
+        [
+          "1",
+          "CPU",
+          "25",
+          "64"
+        ]
+      ]
+    },
+    "ENABLE_FCS_SETTINGS": {
+      "_G": [
+        [
+          "0",
+          "8"
+        ]
+      ]
+    },
+    "PROF_PCT_MODE": {
+      "_G": [
+        [
+          "NUM"
+        ]
+      ]
+    },
+    "TAGS": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION": {
+      "_G": [
+        []
+      ]
+    },
+    "G_URL": {},
+    "G_NEW_USER_ON_SESSION": {
+      "ALL": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_DISABLE_HOST_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_OVERRIDE_RECORDED_THINK_TIME": {
+      "ALL": [
+        [
+          "ALL",
+          "1"
+        ]
+      ]
+    },
+    "SHOW_GROUP_DATA": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SAVE_LOCATION_HDR_ON_ALL_RSP_CODE": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_DATADIR": {
+      "ALL": [
+        [
+          "0",
+          "NA"
+        ]
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
+    "CHECK_PROFILE_OVERALL": {
+      "_G": [
+        []
+      ]
+    },
+    "NH_SCENARIO": {
+      "_G": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "PROGRESS_MSECS": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SESSION_PACING": {
+      "ALL": [
+        [
+          "2",
+          "0",
+          "50000"
+        ]
+      ]
+    },
+    "NS_GENERATOR_MODE": {
+      "_G": [
+        [
+          ""
+        ]
+      ]
+    },
+    "FAVORITE": {
+      "_G": [
+        [
+          "NA"
+        ]
+      ]
+    },
+    "RUNTIME_USER_SESSION_PCT": {
+      "_G": [
+        []
+      ]
+    },
+    "G_MAX_URL_RETRIES": {
+      "ALL": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "JAVA_SCRIPT_RUNTIME_MEM": {
+      "_G": [
+        [
+          "0",
+          "8",
+          "4"
+        ]
+      ]
+    },
+    "SCHEDULE_TYPE": {
+      "_G": [
+        [
+          "SIMPLE"
+        ]
+      ]
+    },
+    "ENABLE_NC_TCPDUMP": {
+      "_G": [
+        []
+      ]
+    },
+    "GEN_LOCATION_MODE": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_DISABLE_UA_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "DEFAULT_SERVER_LOCATION": {
+      "_G": [
+        [
+          "SanFrancisco"
+        ]
+      ]
+    },
+    "G_SHOW_RUNTIME_RUNLOGIC_PROGRESS": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_SESSION_RETRY": {
+      "ALL": [
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "CHECK_PROFILE_PERIODIC": {
+      "_G": [
+        []
+      ]
+    },
+    "DISABLE_SCRIPT_COPY_TO_TR": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "VUSER_THREAD_POOL": {
+      "_G": [
+        [
+          "100",
+          "10",
+          "1000",
+          "512"
+        ]
+      ]
+    },
+    "G_SEND_NS_TX_HTTP_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "OPTIMIZE_ETHER_FLOW": {
+      "_G": [
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "G_VUSER_TRACE": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "SAVE_NVM_FILE_PARAM_VAL": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_TRACING_LIMIT": {
+      "ALL": [
+        [
+          "1024",
+          "10240",
+          "10240",
+          "1048576"
+        ]
+      ]
+    },
+    "G_LOGGING": {
+      "ALL": [
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "REPORT_MAIL_SETTING": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_STATIC_HOST": {
+      "ALL": [
+        []
+      ],
+      "Group_1": [
+        []
+      ]
+    },
+    "ENABLE_PAGE_BASED_STATS": {
+      "_G": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "G_DISABLE_ACCEPT_ENC_HEADER": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    },
+    "WORK_MEM_SETTING": {
+      "_G": [
+        [
+          "10.0",
+          "8192"
+        ]
+      ]
+    },
+    "G_USE_RECORDED_HOST_IN_HOST_HDR": {
+      "ALL": [
+        [
+          "0"
+        ]
+      ]
+    }
+  },
+  "scripts": {
+    "Group_1": {
+      "headers": {},
+      "scriptMode": "visual",
+      "runlogic": [
+        {
+          "isDefault": true,
+          "system": true,
+          "name": "runlogic"
+        }
+      ],
+      "type": "API",
+      "assertionsV2": [],
+      "flows": {
+        "Flow_1": {
+          "enable": true,
+          "requests": [
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_2xxStatus.text",
+              "label": "CavGenericAPI_2xxStatus",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&Status=200"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_Request_1.text",
+              "label": "Request_1",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_3xxStatus.text",
+              "label": "CavGenericAPI_3xxStatus",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&Status=302"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_Body.text",
+              "label": "CavGenericAPI_Body",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&BODY=thisIsGenericUrlBody"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_1SecSvcTime.text",
+              "label": "CavGenericAPI_1SecSvcTime",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=1000"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_SmallRespSize.text",
+              "label": "CavGenericAPI_SmallRespSize",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&RespSize=128"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_MediumRespSize.text",
+              "label": "CavGenericAPI_MediumRespSize",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&RespSize=10000"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_LargeRespSize.text",
+              "label": "CavGenericAPI_LargeRespSize",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&RespSize=100000"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_301Status_Location.text",
+              "label": "CavGenericAPI_301Status_Location",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&Status=301&Location=/tours/index.html"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_Header.text",
+              "label": "CavGenericAPI_Header",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&BODY=thisIsGenericUrlBody&Hdr1=MyHdr:GenericTest"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_4xxStatus.text",
+              "label": "CavGenericAPI_4xxStatus",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&Status=400"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_5xxStatus.text",
+              "label": "CavGenericAPI_5xxStatus",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&Status=500"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_CavGenericAPI_PostBody.json",
+              "label": "CavGenericAPI_PostBody",
+              "url": "{baseURL}/url_service/url_test.xml?SvcTime=10&RespSameAsReq=Y"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": ""
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": ""
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
+            }
+          ],
+          "steps": [],
+          "order": 0
+        }
+      },
+      "scriptType": "c",
+      "assertions": [],
+      "parameters": {
+        "scratch": [
+          {
+            "parameter-name": "baseURL",
+            "defaultValue": "http://127.0.0.1",
+            "retainValue": "false",
+            "regStrLine": "nsl_decl_var(baseURL,DefaultValue=\"http://127.0.0.1\",RETAINPREVALUE=\"NO\");"
+          }
+        ]
+      },
+      "genCapacity": 0,
+      "order": 0
+    }
+  },
+  "lastModifedTime": "20/02/2026 11:08:07",
+  "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
+}

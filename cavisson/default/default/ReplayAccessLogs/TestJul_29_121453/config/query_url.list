@@ -1,0 +1,16 @@
+/fineract-provider/api/v1/savingsaccounts/1?command=approve
+/fineract-provider/api/v1/savingsaccounts/1?command=activate
+/fineract-provider/api/v1/savingsaccounts/1?command=approve
+/fineract-provider/api/v1/savingsaccounts/1?command=activate
+/fineract-provider/api/v1/savingsaccounts/1?command=approve
+/fineract-provider/api/v1/savingsaccounts/1?command=activate
+/fineract-provider/api/v1/savingsaccounts/2/transactions?command=deposit
+/fineract-provider/api/v1/savingsaccounts/2/transactions?command=deposit
+/fineract-provider/api/v1/savingsaccounts/2/transactions?command=deposit
+/fineract-provider/api/v1/savingsaccounts/2?command=approve
+/fineract-provider/api/v1/savingsaccounts/2?command=approve
+/fineract-provider/api/v1/savingsaccounts/2?command=activate
+/fineract-provider/api/v1/savingsaccounts/2?command=approve
+/fineract-provider/api/v1/savingsaccounts/2?command=activate
+/fineract-provider/api/v1/savingsaccounts/2?command=approve
+/fineract-provider/api/v1/savingsaccounts/2?command=activate

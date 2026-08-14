@@ -1,0 +1,8 @@
+{
+    "id": 123,
+    "petId": 456,
+    "quantity": 1,
+    "shipDate": "{DT_CurDate}",
+    "status": "placed",
+    "complete": false
+}
