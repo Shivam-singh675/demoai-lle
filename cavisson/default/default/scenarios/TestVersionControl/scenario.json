@@ -21,6 +21,17 @@
     }
   ],
   "scenario": {
+    "G_DATADIR": {
+      "ALL": [
+        []
+      ],
+      "Group_1": [
+        [
+          "0",
+          "NA"
+        ]
+      ]
+    },
     "SGRP": {
       "_G": [
         [
@@ -47,11 +58,41 @@
       "_G": [
         [
           "ALL",
+          "Start",
+          "START",
+          "IMMEDIATELY"
+        ],
+        [
+          "ALL",
+          "RampUp",
+          "RAMP_UP",
+          "ALL",
+          "RATE",
+          "120",
+          "M",
+          "LINEARLY"
+        ],
+        [
+          "ALL",
+          "Stabilize",
+          "STABILIZATION",
+          "TIME",
+          "0"
+        ],
+        [
+          "ALL",
           "Duration",
           "DURATION",
           "SESSIONS",
           "1",
           "1"
+        ],
+        [
+          "ALL",
+          "RampDown",
+          "RAMP_DOWN",
+          "ALL",
+          "IMMEDIATELY"
         ]
       ]
     },
@@ -135,19 +176,82 @@
               "bodyFile": "Group_1_Flow_1_Request_1.text",
               "label": "Request_1",
               "url": ""
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": "",
+                "language": "c"
+              },
+              "condition": [],
+              "method": "POST",
+              "thinkTime": "",
+              "preRequest": {
+                "inline": "",
+                "language": "c"
+              },
+              "inlineRequests": [],
+              "enable": true,
+              "bodyFile": "Group_1_Flow_1_index_1.json",
+              "label": "index_1",
+              "url": "https://www.example.com"
+            },
+            {
+              "headers": {},
+              "postResponse": {
+                "inline": "",
+                "language": "c"
+              },
+              "condition": [],
+              "method": "GET",
+              "thinkTime": "0",
+              "preRequest": {
+                "inline": "",
+                "language": "c"
+              },
+              "inlineRequests": [],
+              "bodyFile": "Group_1_Flow_1_.text",
+              "label": "",
+              "url": ""
             }
           ],
           "steps": [
             {
-              "condition": [],
-              "thinkTime": 0,
+              "realBrowserOptionData": "",
+              "description": "",
+              "tabIndex": 0,
+              "clickCoordinates": "",
+              "ntlmAuthCredential": "",
+              "type": "go",
+              "title": "",
+              "continueOnError": false,
+              "content": "",
+              "timeout": 0,
+              "navigation": false,
+              "iframeXpathData": "",
               "stepName": "Step_1",
               "enable": true,
-              "_originalStepName": "Step_1",
-              "label": "Go",
+              "imageFile": "",
+              "waitElementTimeout": 0,
               "assertions": [],
-              "type": "go",
-              "url": ""
+              "id": "",
+              "direction": "up",
+              "headers": "",
+              "userAction": "change",
+              "distancePct": 0,
+              "optional": false,
+              "label": "Go",
+              "eventType": "",
+              "steps": 0,
+              "url": "",
+              "idClassStr": "",
+              "condition": [],
+              "thinkTime": 0,
+              "_originalStepName": "Step_1",
+              "scrollY": 0,
+              "elementType": "TEXT",
+              "scrollX": 0,
+              "ordinal": ""
             }
           ],
           "order": 0
@@ -161,6 +265,6 @@
       "order": 0
     }
   },
-  "lastModifedTime": "18/08/2026 07:48:31",
+  "lastModifedTime": "18/08/2026 07:49:27",
   "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p <project>/<sub-project>/<scenario_name> -u <username> -s <work space> (e.g admin/system or <username>/<profile>)"
 }
