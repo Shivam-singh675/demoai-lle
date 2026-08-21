@@ -6,8 +6,8 @@ nsl_search_var(authKey, PAGE=Login, LB/IC="\"base64EncodedAuthenticationKey\":\"
 nsl_search_var(clientIdParam, PAGE=CreateCustomer, LB/IC="\"clientId\":", RB/IC=",", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE="YES", EncodeMode=All);
 nsl_search_var(savingsIdParam, PAGE=CreateSavingAccount, LB/IC="\"savingsId\":", RB/IC=",", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE="NO", EncodeMode=All);
 nsl_search_var(approveOnDateFormatParam, PAGE=ApproveSavingAccount, LB/IC="\"dateFormat\":\"", RB/IC="\"", LBMATCH=FIRST, ORD=1, SaveLen=0, ActionOnNotFound=Error, Search=Body, RETAINPREVALUE="NO", EncodeMode=All);
-nsl_static_var(reliefFundClientIdParam1:1,reliefFundSavingsIdParam1:2, File=relief_account_details.csv, Refresh=SESSION, Mode=SEQUENTIAL, EncodeMode=All);
 nsl_static_var(reliefFundClientIdParam:1,reliefFundSavingsIdParam:2, File=relief_account_details_entries_G2.csv, Refresh=SESSION, Mode=SEQUENTIAL, EncodeMode=All);
+nsl_static_var(reliefFundClientIdParam1:1,reliefFundSavingsIdParam1:2, File=relief_account_details.csv, Refresh=SESSION, Mode=SEQUENTIAL, EncodeMode=All);
 nsl_json_var(base64EncodedAuthenticationKeyParam, PAGE=Authenticate___Login, OBJECT_PATH="root.root.base64EncodedAuthenticationKey", ORD=1, SaveOffset=0, RETAINPREVALUE="YES", EncodeMode=All);
 nsl_decl_var(path,DefaultValue="string",RETAINPREVALUE="NO");
 nsl_decl_var(organisationCreditBureauId,DefaultValue="4678",RETAINPREVALUE="NO");

@@ -24,6 +24,7 @@ typedef void FlowReturn;
 // Start - List of used flows in the runlogic
 extern FlowReturn Login();
 extern FlowReturn CreateCustomer();
+extern FlowReturn CreateSavingsProduct();
 extern FlowReturn CreateSavingsAccounts();
 extern FlowReturn DepositMoney();
 extern FlowReturn CheckBalance();
@@ -48,23 +49,26 @@ void runlogic()
         NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CreateCustomer");
         UPDATE_USER_FLOW_COUNT(3)
         CreateCustomer();
-        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CreateSavingsAccounts");
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CreateSavingsProduct");
         UPDATE_USER_FLOW_COUNT(5)
+        CreateSavingsProduct();
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CreateSavingsAccounts");
+        UPDATE_USER_FLOW_COUNT(7)
         CreateSavingsAccounts();
         NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - DepositMoney");
-        UPDATE_USER_FLOW_COUNT(9)
+        UPDATE_USER_FLOW_COUNT(11)
         DepositMoney();
         NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CheckBalance");
-        UPDATE_USER_FLOW_COUNT(11)
+        UPDATE_USER_FLOW_COUNT(13)
         CheckBalance();
         NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - TransferMoney");
-        UPDATE_USER_FLOW_COUNT(13)
+        UPDATE_USER_FLOW_COUNT(15)
         TransferMoney();
         NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - TransferMoney_M_1");
-        UPDATE_USER_FLOW_COUNT(15)
+        UPDATE_USER_FLOW_COUNT(17)
         TransferMoney_M_1();
         NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CheckBalanceafter");
-        UPDATE_USER_FLOW_COUNT(17)
+        UPDATE_USER_FLOW_COUNT(19)
         CheckBalanceafter();
     }
 
