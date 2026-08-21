@@ -1,0 +1,19 @@
+{
+  "officeId": 1,
+  "firstname": "Customer",
+  "lastname": "one",
+  "legalFormId": 1,
+  "active": true,
+  "activationDate": "{currentDate}",
+  "dateFormat": "MM/dd/yyyy",
+  "locale": "en"
+}
+
+
+
+
+
+
+
+
+

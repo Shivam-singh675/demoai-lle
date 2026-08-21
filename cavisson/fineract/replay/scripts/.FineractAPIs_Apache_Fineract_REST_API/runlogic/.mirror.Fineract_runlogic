@@ -1,0 +1,112 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ns_string.h"
+#ifdef ENABLE_RUNLOGIC_PROGRESS
+  #define UPDATE_USER_FLOW_COUNT(count) update_user_flow_count(count);
+#else
+  #define UPDATE_USER_FLOW_COUNT(count)
+#endif
+
+
+extern int init_script();
+extern int exit_script();
+
+typedef void FlowReturn;
+
+// Note: Following extern declaration is used to find the list of used flows. Do not delete/edit it
+// Start - List of used flows in the runlogic
+extern FlowReturn Login();
+extern FlowReturn CreateCustomer();
+extern FlowReturn CreateSavingsAccounts();
+extern FlowReturn DepositMoney();
+extern FlowReturn CheckBalance();
+extern FlowReturn TransferMoney();
+extern FlowReturn TransferMoney_M_1();
+extern FlowReturn CheckBalanceafter();
+// End - List of used flows in the runlogic
+
+
+void Fineract_runlogic()
+{
+    NSDL2_RUNLOGIC(NULL, NULL, "Executing init_script()");
+
+    init_script();
+
+    NSDL2_RUNLOGIC(NULL, NULL, "Executing sequence block - Start");
+    {
+        UPDATE_USER_FLOW_COUNT(0)
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - Login");
+        UPDATE_USER_FLOW_COUNT(1)
+        Login();
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CreateCustomer");
+        UPDATE_USER_FLOW_COUNT(3)
+        CreateCustomer();
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CreateSavingsAccounts");
+        UPDATE_USER_FLOW_COUNT(5)
+        CreateSavingsAccounts();
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - DepositMoney");
+        UPDATE_USER_FLOW_COUNT(9)
+        DepositMoney();
+
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing percent block - node_1");
+        {
+            UPDATE_USER_FLOW_COUNT(11)
+            int node_1percent = ns_get_random_number_int(1, 10000);
+
+            NSDL2_RUNLOGIC(NULL, NULL, "Percentage random number for block - node_1 = %d", node_1percent);
+
+            if(node_1percent <= 8000)
+            {
+
+                NSDL2_RUNLOGIC(NULL, NULL, "Executing sequence block - seq_2 (pct value = 80.0%)");
+                {
+                    UPDATE_USER_FLOW_COUNT(12)
+                    NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CheckBalance");
+                    UPDATE_USER_FLOW_COUNT(13)
+                    CheckBalance();
+                }
+            }
+            else if(node_1percent <= 10000)
+            {
+
+                NSDL2_RUNLOGIC(NULL, NULL, "Executing percent block - node_19 (pct value = 20.0%)");
+                {
+                    UPDATE_USER_FLOW_COUNT(15)
+                    int node_19percent = ns_get_random_number_int(1, 10000);
+
+                    NSDL2_RUNLOGIC(NULL, NULL, "Percentage random number for block - node_19 = %d", node_19percent);
+
+                    if(node_19percent <= 8000)
+                    {
+
+                        NSDL2_RUNLOGIC(NULL, NULL, "Executing sequence block - seq_20 (pct value = 80.0%)");
+                        {
+                            UPDATE_USER_FLOW_COUNT(16)
+                            NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - TransferMoney");
+                            UPDATE_USER_FLOW_COUNT(17)
+                            TransferMoney();
+                        }
+                    }
+                    else if(node_19percent <= 10000)
+                    {
+
+                        NSDL2_RUNLOGIC(NULL, NULL, "Executing sequence block - seq_24 (pct value = 20.0%)");
+                        {
+                            UPDATE_USER_FLOW_COUNT(19)
+                            NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - TransferMoney_M_1");
+                            UPDATE_USER_FLOW_COUNT(20)
+                            TransferMoney_M_1();
+                        }
+                    }
+                }
+            }
+        }
+        NSDL2_RUNLOGIC(NULL, NULL, "Executing flow - CheckBalanceafter");
+        UPDATE_USER_FLOW_COUNT(22)
+        CheckBalanceafter();
+    }
+
+    NSDL2_RUNLOGIC(NULL, NULL, "Executing ns_exit_session()");
+    ns_exit_session();
+}

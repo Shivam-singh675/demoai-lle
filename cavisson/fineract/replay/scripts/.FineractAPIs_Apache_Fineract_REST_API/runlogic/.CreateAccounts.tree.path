@@ -1,0 +1,11 @@
+0:Start
+1:Start|Login
+2:Start|Login|Login
+3:Start|CreateCustomer
+4:Start|CreateCustomer|CreateCustomer
+5:Start|CreateSavingsAccounts
+6:Start|CreateSavingsAccounts|ActivateSavingAccount
+7:Start|CreateSavingsAccounts|ApproveSavingAccount
+8:Start|CreateSavingsAccounts|CreateSavingAccount
+9:Start|DepositMoney
+10:Start|DepositMoney|DepositMoney
