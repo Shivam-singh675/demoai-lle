@@ -1,0 +1,15 @@
+{
+  "fromOfficeId": 1,
+  "fromClientId": 1,
+  "fromAccountType": 2,
+  "fromAccountId": 1,
+  "toOfficeId": 1,
+  "toClientId": 2,
+  "toAccountType": 2,
+  "toAccountId": 2,
+  "transferDate": "27 July 2026",
+  "transferAmount": 100.00,
+  "transferDescription": "Disaster Relief Donation",
+  "dateFormat": "dd MMMM yyyy",
+  "locale": "en"
+}
